@@ -4,6 +4,6 @@ package uhx.sys;
  * ...
  * @author Skial Bainn
  */
-@:enum abstract HtmlEntity(Int) from Int to Int {
+@:enum abstract HtmlEntity(Array<Int>) from Array<Int> to Array<Int> {
 	$values
 }
