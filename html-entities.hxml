@@ -1,0 +1,4 @@
+-lib cmd
+-cp src
+-neko bin/html-entities.n
+-main Main
