@@ -1,4 +1,4 @@
--lib cmd
+-lib seri
 -cp src
 -neko bin/html-entities.n
 -main Main
