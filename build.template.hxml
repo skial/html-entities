@@ -1,0 +1,3 @@
+-cp src
+-lib seri
+--macro uhx.sys.html.entities.Build.template()
