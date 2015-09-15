@@ -1,6 +1,7 @@
 package uhx.sys;
 
 import uhx.sys.seri.CodePoint;
+import unifill.CodePointIter;
 import unifill.InternalEncoding;
 
 /**
@@ -16,6 +17,10 @@ import unifill.InternalEncoding;
 	
 	@:from public static inline function fromCodePoints(codepoints:Array<CodePoint>):Array<Int> {
 		return [for (codepoint in codepoints) codepoint.toInt()];
+	}
+	
+	@:from public static inline function fromString(value:String):Array<Int> {
+		return Helper.fromHtml( value );
 	}
 	
 	@:to public inline function toCodePoints():Array<CodePoint> {
@@ -40,9 +45,16 @@ import unifill.InternalEncoding;
 
 private class Helper {
 	
+	public static function fromHtml(value:String):Array<Int> {
+		return switch(value) {
+			$fromCases
+			case _: [for (codepoint in new CodePointIter( value )) codepoint.toInt()];
+		}
+	}
+	
 	public static function toHtml(codepoints:Array<Int>):String {
 		return switch (codepoints) {
-			$cases
+			$toCases
 			case _: InternalEncoding.fromCodePoints( codepoints );
 		}
 	}
