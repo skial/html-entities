@@ -29,12 +29,16 @@ class Build {
 			var data:DynamicAccess<JsonData> = Json.parse( json.getContent() );
 			var names = uhx.sys.seri.Build.alphaSort( [for (key in data.keys()) key.substring(1, key.length - 1)], true );
 			var fields = [for (name in names) {
-				trace( '&$name;' );
 				var pair = data.get( '&$name;' );
 				'var $name = ' + pair.codepoints + ';';
 			}];
 			
+			var cases = [for (name in names) {
+				'case ' + data.get( '&$name;' ).codepoints + ': "&$name;";';
+			}];
+			
 			template = template.replace( "$values", fields.join('\n\t') );
+			template = template.replace( "$cases", cases.join('\n\t\t\t') );
 			
 			var output = '${Sys.getCwd()}/src/uhx/sys/HtmlEntity.hx'.normalize();
 			output.saveContent( template );
