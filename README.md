@@ -18,3 +18,7 @@ To use `html-entities`, you will need to install the following libraries.
 5. html-entities - `haxelib git html-entities https://github.com/skial/html-entities master src`
 
 [l1]: https://html.spec.whatwg.org/multipage/entities.json
+[klas]: https://github.com/skial/klas
+[cmd]: https://github.com/skial/cmd
+[seri]: https://github.com/skial/seri
+[unifill]: https://github.com/mandel59/unifill
