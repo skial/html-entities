@@ -3,6 +3,11 @@ package uhx.sys.html.entities;
 import haxe.Json;
 import haxe.DynamicAccess;
 import uhx.sys.seri.CodePoint;
+import uhx.sys.seri.Build.characters;
+import uhx.sys.seri.Build.maxCharacters;
+import uhx.sys.seri.Build.pretty;
+import uhx.sys.seri.Build.quoted;
+import uhx.sys.seri.Build.alphaSort;
 
 using StringTools;
 using sys.io.File;
@@ -21,27 +26,43 @@ typedef JsonData = {
 class Build {
 	
 	@:access(uhx.sys.seri.Build) public static function template() {
-		var template = '${Sys.getCwd()}/template/HtmlEntity.hx'.normalize();
+		var htmlentity = '${Sys.getCwd()}/template/HtmlEntity.hx'.normalize();
+		var htmlentities = '${Sys.getCwd()}/template/HtmlEntities.hx'.normalize();
 		var json = '${Sys.getCwd()}/resources/entities.json'.normalize();
 		
-		if (template.exists() && json.exists()) {
-			template = template.getContent();
+		if (htmlentity.exists() && htmlentities.exists() && json.exists()) {
+			htmlentity = htmlentity.getContent();
+			htmlentities = htmlentities.getContent();
 			var data:DynamicAccess<JsonData> = Json.parse( json.getContent() );
-			var names = uhx.sys.seri.Build.alphaSort( [for (key in data.keys()) key.substring(1, key.length - 1)], true );
+			var names = alphaSort( [for (key in data.keys()) key.substring(1, key.length - 1)], true );
 			var fields = [for (name in names) {
 				var pair = data.get( '&$name;' );
 				'var $name = ' + pair.codepoints + ';';
 			}];
 			
-			var cases = [for (name in names) {
+			var toCases = [for (name in names) {
 				'case ' + data.get( '&$name;' ).codepoints + ': "&$name;";';
 			}];
 			
-			template = template.replace( "$values", fields.join('\n\t') );
-			template = template.replace( "$cases", cases.join('\n\t\t\t') );
+			var fromCases = [for (name in names) {
+				'case "&$name;": ' + data.get( '&$name;' ).codepoints + ';';
+			}];
+			
+			htmlentity = htmlentity.replace( "$values", fields.join('\n\t') );
+			htmlentity = htmlentity.replace( "$toCases", toCases.join('\n\t\t\t') );
+			htmlentity = htmlentity.replace( "$fromCases", fromCases.join('\n\t\t\t') );
+			
+			characters = 0;
+			htmlentities = htmlentities.replace( "$names", names.map( quoted ).map( pretty ).join(', ').replace('\n\t\t,', ',\n\t\t') );
+			
+			characters = 0;
+			htmlentities = htmlentities.replace( "$values", [for (name in names) data.get('&$name;').codepoints.toString()].map( pretty ).join(', ').replace('\n\t\t,', ',\n\t\t') );
 			
 			var output = '${Sys.getCwd()}/src/uhx/sys/HtmlEntity.hx'.normalize();
-			output.saveContent( template );
+			output.saveContent( htmlentity );
+			
+			output = '${Sys.getCwd()}/src/uhx/sys/HtmlEntities.hx'.normalize();
+			output.saveContent( htmlentities );
 		}
 		
 		// Something needs to be returned.
