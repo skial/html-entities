@@ -17,15 +17,21 @@ To use `html-entities`, you will need to install the following libraries.
 
 1. html-entities - `haxelib git html-entities https://github.com/skial/html-entities master src`
 	
-Once you have installed `html-entities`, in your project `.hxml` file, add `-lib html-entities`.
+Once you have installed `html-entities`, in your `.hxml` file, add `-lib html-entities`.
 	
 ## Usage
 
 You have two files to work with, `uhx.sys.HtmlEntity` and `uhx.sys.HtmlEntities`.
 
-`HtmlEntity` provides an enum listing all the HTML entity names. The _single_
-difference you will find is the entity `&in;` is referenced as `In`, because `in` is
-a Haxe keyword. All other entity names are available in the same case.
+#### [`HtmlEntity`][l2]
+
+`HtmlEntity` provides an enum listing all the HTML entity names from [`entities.json`][l4].
+The _single_ difference you will find is the entity `&in;`, which is referenced as `In`. 
+This is because `in` is a Haxe keyword. 
+
+All other entity names are available in the their original case.
+
+#### [`HtmlEntities`][l3]
 
 `HtmlEntities` has four static variables:
 	
@@ -41,6 +47,10 @@ the same codepoints.
 same Array `index` with the oposite Array.
 
 [l1]: https://html.spec.whatwg.org/multipage/entities.json
+[l2]: https://github.com/skial/html-entities/blob/UpdateReadme/src/uhx/sys/HtmlEntity.hx
+[l3]: https://github.com/skial/html-entities/blob/UpdateReadme/src/uhx/sys/HtmlEntities.hx
+[l4]: https://github.com/skial/html-entities/blob/UpdateReadme/resources/entities.json
+	
 [klas]: https://github.com/skial/klas
 [cmd]: https://github.com/skial/cmd
 [seri]: https://github.com/skial/seri
