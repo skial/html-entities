@@ -25,29 +25,15 @@ typedef JsonData = {
  */
 class Build {
 	
-	private static var keywordsFix = ['in' => 'In'];
-	private static var keywordsUnfix = ['In' => 'in'];
+	private static var keywords = ['in' => 'In'];
 	private static var types = ['Int', 'Map', 'Lambda'];
 	
 	private static function fix(value:String):String {
-		return if (keywordsFix.exists( value )) {
-			keywordsFix.get( value );
+		return if (keywords.exists( value )) {
+			keywords.get( value );
 			
 		} else if (types.indexOf( value ) > -1) {
 			'HtmlEntity.$value';
-			
-		} else {
-			value;
-			
-		}
-	}
-	
-	private static function unfix(value:String):String {
-		return if (keywordsUnfix.exists( value )) {
-			keywordsUnfix.get( value );
-			
-		} else if (value.startsWith( 'HtmlEntity.' )) {
-			value.substring(11);
 			
 		} else {
 			value;
@@ -67,7 +53,7 @@ class Build {
 			var names = alphaSort( [for (key in data.keys()) key.substring(1, key.length - 1)], true );
 			var fields = [for (name in names) {
 				var pair = data.get( '&$name;' );
-				var id = keywordsFix.exists( name ) ? keywordsFix.get( name ) : name;
+				var id = keywords.exists( name ) ? keywords.get( name ) : name;
 				'public var $id = "$name";';
 			}];
 			
@@ -88,7 +74,7 @@ class Build {
 			}
 			
 			var entityMap = [for (name in names) {
-				'"$name" => ' + data.get( '&$name;' ).codepoints;
+				'${fix(name)} => ' + data.get( '&$name;' ).codepoints;
 			}];
 			
 			var codepointMap = [for (key in valueMap.keys()) {
