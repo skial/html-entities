@@ -43,8 +43,8 @@ entities codepoints.
 accepts an Array of codepoints as the `key` and returns all the entity names that share
 the same codepoints.
 
-`HtmlEntities.names` and `HtmlEntities.values` are equal length, with each value having the
-same Array `index` with the oposite Array.
+`HtmlEntities.names` and `HtmlEntities.values` are of equal length, with the `index` of a value
+in one Array, corrosponding to its matching data in the other Array.
 
 [l1]: https://html.spec.whatwg.org/multipage/entities.json
 [l2]: https://github.com/skial/html-entities/blob/UpdateReadme/src/uhx/sys/HtmlEntity.hx
