@@ -1,7 +1,6 @@
 package uhx.sys;
 
 import uhx.sys.seri.CodePoint;
-import unifill.CodePointIter;
 import unifill.InternalEncoding;
 
 /**
