@@ -47,9 +47,9 @@ the same codepoints.
 in one Array, corrosponding to its matching data in the other Array.
 
 [l1]: https://html.spec.whatwg.org/multipage/entities.json
-[l2]: https://github.com/skial/html-entities/blob/UpdateReadme/src/uhx/sys/HtmlEntity.hx
-[l3]: https://github.com/skial/html-entities/blob/UpdateReadme/src/uhx/sys/HtmlEntities.hx
-[l4]: https://github.com/skial/html-entities/blob/UpdateReadme/resources/entities.json
+[l2]: https://github.com/skial/html-entities/blob/master/src/uhx/sys/HtmlEntity.hx
+[l3]: https://github.com/skial/html-entities/blob/master/src/uhx/sys/HtmlEntities.hx
+[l4]: https://github.com/skial/html-entities/blob/master/resources/entities.json
 	
 [klas]: https://github.com/skial/klas
 [cmd]: https://github.com/skial/cmd
