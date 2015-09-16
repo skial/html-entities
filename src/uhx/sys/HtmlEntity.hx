@@ -1,7 +1,6 @@
 package uhx.sys;
 
 import uhx.sys.seri.CodePoint;
-import unifill.CodePointIter;
 import unifill.InternalEncoding;
 
 /**
@@ -11,14 +10,16 @@ import unifill.InternalEncoding;
  */
 @:forward @:enum abstract HtmlEntity(String) from String to String {
 	
-	public inline function toHtmlEntity():String {
-		return '&$this;';
+	public inline function encode(?useNames:Bool = false):String {
+		return if (useNames && HtmlEntities.entityMap.exists( this )) { 
+			'&$this;';
+			
+		} else {
+			[for (codepoint in HtmlEntities.entityMap.get( this )) StringTools.hex(codepoint)]
+				.map( function(s) return '&#x$s;').join('');
+			
+		}
 	}
-	
-	/**
-	 * The following values are built from the
-	 * file `entities.json` found in the `resources` folder.
-	 */
 	
 	public var aacute = "aacute";
 	public var Aacute = "Aacute";
