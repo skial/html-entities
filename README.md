@@ -15,7 +15,11 @@ To use `html-entities`, you will need to install the following libraries.
 
 ## Installation
 
-1. html-entities - `haxelib git html-entities https://github.com/skial/html-entities master src`
+Via [haxelib]:
+
+```
+haxelib git html-entities https://github.com/skial/html-entities master src
+```
 	
 Once you have installed `html-entities`, in your `.hxml` file, add `-lib html-entities`.
 	
@@ -55,3 +59,4 @@ in one Array, corrosponding to its matching data in the other Array.
 [cmd]: https://github.com/skial/cmd
 [seri]: https://github.com/skial/seri
 [unifill]: https://github.com/mandel59/unifill
+[haxelib]: http://lib.haxe.org/
