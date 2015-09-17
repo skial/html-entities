@@ -1,8 +1,5 @@
 package uhx.sys;
 
-import uhx.sys.seri.CodePoint;
-import unifill.InternalEncoding;
-
 /**
  * ...
  * @author Skial Bainn
