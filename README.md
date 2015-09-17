@@ -39,11 +39,11 @@ All other entity names are available in the their original case.
 
 `HtmlEntities` has four static variables:
 	
-1. `HtmlEntities.names`: This is an `Array<String>` of all the HTML entity names.
-2. `HtmlEntities.values`: This is an `Array<Array<Int>>` of all the HTML entity codepoints.
-3. `HtmlEntities.entityMap`: This provides a `StringMap<Array<Int>>` for easier access to an
+1. `HtmlEntities.names`: An `Array<String>` of all the HTML entity names.
+2. `HtmlEntities.values`: An `Array<Array<Int>>` of all the HTML entity codepoints.
+3. `HtmlEntities.entityMap`: A `StringMap<Array<Int>>` for easier access to an
 entities codepoints.
-4. `HtmlEntities.codepointMap`: This provides a `Map<Array<Int>, Array<String>>` which
+4. `HtmlEntities.codepointMap`: A `Map<Array<Int>, Array<String>>` which
 accepts an Array of codepoints as the `key` and returns all the entity names that share
 the same codepoints.
 
