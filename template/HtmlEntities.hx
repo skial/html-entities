@@ -9,7 +9,7 @@ import uhx.sys.HtmlEntity;
  */
 class HtmlEntities {
 
-	public static var names:Array<String> = [
+	public static var names:Array<HtmlEntity> = [
 		$names
 	];
 	
@@ -21,7 +21,7 @@ class HtmlEntities {
 		$entityMap
 	];
 	
-	public static var codepointMap:Map<Array<Int>, Array<String>> = [
+	public static var codepointMap:Map<Array<Int>, Array<HtmlEntity>> = [
 		$codepointMap
 	];
 	

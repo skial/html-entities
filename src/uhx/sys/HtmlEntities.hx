@@ -9,7 +9,7 @@ import uhx.sys.HtmlEntity;
  */
 class HtmlEntities {
 
-	public static var names:Array<String> = [
+	public static var names:Array<HtmlEntity> = [
 		aacute, Aacute, abreve, Abreve, ac, acd, acE, Acirc, acirc, acute, Acy, acy, aelig, AElig, af, Afr, afr, agrave,
 		 Agrave, alefsym, aleph, alpha, Alpha, amacr, Amacr, amalg, AMP, amp, And, and, andand, andd, andslope, andv,
 		 ang, ange, angle, angmsd, angmsdaa, angmsdab, angmsdac, angmsdad, angmsdae, angmsdaf, angmsdag, angmsdah,
@@ -793,7 +793,7 @@ class HtmlEntities {
 		
 	];
 	
-	public static var codepointMap:Map<Array<Int>, Array<String>> = [
+	public static var codepointMap:Map<Array<Int>, Array<HtmlEntity>> = [
 		[8226] => [bull,bullet], [236] => [igrave], [8249] => [lsaquo], [313] => [Lacute], [9794] => [male],
 		 [10952] => [supsim], [8645] => [udarr,UpArrowDownArrow], [8858] => [circledcirc,ocir],
 		 [36] => [dollar], [9839] => [sharp], [172] => [not], [8517] => [CapitalDifferentialD,DD],
