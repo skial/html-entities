@@ -21,7 +21,7 @@ class HtmlEntities {
 		$entityMap
 	];
 	
-	public static var codepointMap:Map<Array<Int>, Array<HtmlEntity>> = [
+	public static var codepointMap:StringMap<Array<HtmlEntity>> = [
 		$codepointMap
 	];
 	
