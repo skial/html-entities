@@ -78,7 +78,7 @@ class Build {
 			}];
 			
 			var codepointMap = [for (key in valueMap.keys()) {
-				'[$key] => ' + valueMap.get( key );
+				'"[$key]" => ' + valueMap.get( key );
 			}];
 			
 			htmlentity = htmlentity.replace( "$values", fields.join('\n\t') );

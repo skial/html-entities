@@ -43,9 +43,9 @@ All other entity names are available in the their original case.
 2. `HtmlEntities.values`: An `Array<Array<Int>>` of all the HTML entity codepoints.
 3. `HtmlEntities.entityMap`: A `StringMap<Array<Int>>` for easier access to an
 entities codepoints.
-4. `HtmlEntities.codepointMap`: A `Map<Array<Int>, Array<String>>` which
-accepts an Array of codepoints as the `key` and returns all the entity names that share
-the same codepoints.
+4. `HtmlEntities.codepointMap`: A `StringMap<Array<String>>` which
+accepts a String representation of an Array of codepoints as the `key` and returns all the 
+entity names that share the same codepoints.
 
 `HtmlEntities.names` and `HtmlEntities.values` are of equal length, with the `index` of a value
 in one Array, corrosponding to its matching data in the other Array.
