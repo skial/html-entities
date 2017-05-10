@@ -1,4 +1,18 @@
 -lib seri
+
 -cp src
--neko bin/html-entities.n
+-cp tests
+
+-dce full
+
+-D analyzer-optimize
+
 -main Main
+
+--each
+
+-neko bin/html-entities.n
+
+--next 
+
+-js bin/html-entities.js

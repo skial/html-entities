@@ -1,0 +1,7 @@
+{
+    "haxe.displayConfigurations": [
+        ["html-entities.hxml"],
+        ["build.template.hxml"]
+    ],
+    "editor.minimap.enabled": true
+}
