@@ -4,15 +4,18 @@
 -cp tests
 
 -dce full
-
 -D analyzer-optimize
 
 -main Main
 
 --each
 
--neko bin/html-entities.n
+-neko bin/he.n
 
 --next 
 
--js bin/html-entities.js
+-js bin/he.js
+
+--next
+
+-hl bin/he.hl

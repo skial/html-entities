@@ -2,7 +2,7 @@
   "name": "html-entities",
   "license": "MIT",
   "classPath": "src",
-  "tags": ["uhu", "uhx", "unicode", "information", "codepoint", "html", "entities"],
+  "tags": ["unicode", "information", "codepoint", "html", "entities"],
   "description": "Turn HTML entities into unicode codepoints.",
   "contributors": ["skial"],
   "releasenote": "Initial Release",
@@ -10,6 +10,6 @@
   "url": "https://github.com/skial/html-entities",
   "dependencies": {
     "seri":"",
-	  "unifill":""
+    "unifill":""
   }
 }
