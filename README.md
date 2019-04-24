@@ -4,6 +4,10 @@ An abstract enum providing all known Html Entities for
 autocompletion, returning an array of codepoints, built from
 the [whatwg `entities.json`][l1] file.
 
+## Installation
+
+`lix install gh:skial/html-entities`
+
 ## Example
 
 ```Haxe
