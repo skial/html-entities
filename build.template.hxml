@@ -1,3 +1,10 @@
--cp src
 -lib seri
---macro uhx.sys.html.entities.Build.template()
+
+-cp src
+
+-debug
+-dce full
+-D eval-stack
+-D analyzer-optimize
+
+--macro uhx.sys.html.internal.Build.extract()
