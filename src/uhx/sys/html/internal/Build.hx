@@ -34,20 +34,6 @@ typedef TemplateCtx = JsonData & {
 @:nullSafety(Strict) class Build {
 	
 	private static var keywords = ['in' => 'In'];
-	private static var types = ['Int', 'Map', 'Lambda'];
-	
-	private static function fix(value:String):String {
-		return if (keywords.exists( value )) {
-			keywords.get( value );
-			
-		} else if (types.indexOf( value ) > -1) {
-			'HtmlEntity.$value';
-			
-		} else {
-			value;
-			
-		}
-	}
 	
 	public static function extract() {
 		var cwd = Sys.getCwd();
