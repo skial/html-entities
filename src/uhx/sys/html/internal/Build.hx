@@ -1,10 +1,10 @@
 package uhx.sys.html.internal;
 
+import haxe.Utf8;
 import haxe.Json;
 import haxe.Template;
 import haxe.ds.ArraySort;
 import haxe.DynamicAccess;
-import uhx.sys.seri.CodePoint;
 import uhx.sys.seri.builder.Extract;
 
 using StringTools;

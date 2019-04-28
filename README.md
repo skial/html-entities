@@ -11,17 +11,25 @@ the [whatwg `entities.json`][l1] file.
 ## Example
 
 ```Haxe
-package ;
-
 import uhx.sys.HtmlEntity;
 
 class Main {
 
     public static function main() {
         var raw:HtmlEntity = Aacute;
-        var codepoints:Array<Int> = raw;
+        var codepoints:Array<Int> = Aacute;
         trace( raw );   // &Aacute;
         trace( codepoints );    // [193]
+        trace( HtmlEntity.exists('quote') );    // false
+        trace( HtmlEntity.exists('&csup;') );   // true
+        var value:String = "csup";
+        codepoints = csup;
+        trace( 
+            HtmlEntity.exists( '&' + value + ';' ), // true
+            value, // csup
+            '\u2AD0', // ⫐
+            unifill.InternalEncoding.fromCodePoints(codepoints) // ⫐
+        );
     }
 
 }
