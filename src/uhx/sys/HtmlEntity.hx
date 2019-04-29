@@ -39,11 +39,7 @@ enum abstract HtmlEntity(String) {
     public var amp = "&amp;";
     public var ast = "&ast;";
     public var acE = "&acE;";
-    public var And = "&And;";
     public var apE = "&apE;";
-    public var Afr = "&Afr;";
-    public var Acy = "&Acy;";
-    public var AMP = "&AMP;";
     public var andd = "&andd;";
     public var ange = "&ange;";
     public var apid = "&apid;";
@@ -52,9 +48,6 @@ enum abstract HtmlEntity(String) {
     public var andv = "&andv;";
     public var auml = "&auml;";
     public var apos = "&apos;";
-    public var Aopf = "&Aopf;";
-    public var Ascr = "&Ascr;";
-    public var Auml = "&Auml;";
     public var amalg = "&amalg;";
     public var acirc = "&acirc;";
     public var aelig = "&aelig;";
@@ -67,14 +60,8 @@ enum abstract HtmlEntity(String) {
     public var aogon = "&aogon;";
     public var angrt = "&angrt;";
     public var angst = "&angst;";
-    public var Acirc = "&Acirc;";
     public var awint = "&awint;";
-    public var Amacr = "&Amacr;";
-    public var Alpha = "&Alpha;";
     public var asymp = "&asymp;";
-    public var Aring = "&Aring;";
-    public var Aogon = "&Aogon;";
-    public var AElig = "&AElig;";
     public var andand = "&andand;";
     public var apacir = "&apacir;";
     public var atilde = "&atilde;";
@@ -83,12 +70,7 @@ enum abstract HtmlEntity(String) {
     public var agrave = "&agrave;";
     public var angmsd = "&angmsd;";
     public var angsph = "&angsph;";
-    public var Aacute = "&Aacute;";
-    public var Atilde = "&Atilde;";
-    public var Abreve = "&Abreve;";
-    public var Agrave = "&Agrave;";
     public var approx = "&approx;";
-    public var Assign = "&Assign;";
     public var alefsym = "&alefsym;";
     public var angrtvb = "&angrtvb;";
     public var angzarr = "&angzarr;";
@@ -105,13 +87,10 @@ enum abstract HtmlEntity(String) {
     public var angrtvbd = "&angrtvbd;";
     public var awconint = "&awconint;";
     public var approxeq = "&approxeq;";
-    public var ApplyFunction = "&ApplyFunction;";
     public var bne = "&bne;";
     public var bfr = "&bfr;";
     public var bcy = "&bcy;";
     public var bot = "&bot;";
-    public var Bfr = "&Bfr;";
-    public var Bcy = "&Bcy;";
     public var beta = "&beta;";
     public var bbrk = "&bbrk;";
     public var beth = "&beth;";
@@ -123,11 +102,7 @@ enum abstract HtmlEntity(String) {
     public var boxh = "&boxh;";
     public var bnot = "&bnot;";
     public var bump = "&bump;";
-    public var Beta = "&Beta;";
     public var boxv = "&boxv;";
-    public var Bopf = "&Bopf;";
-    public var Bscr = "&Bscr;";
-    public var Barv = "&Barv;";
     public var boxH = "&boxH;";
     public var bNot = "&bNot;";
     public var boxV = "&boxV;";
@@ -153,7 +128,6 @@ enum abstract HtmlEntity(String) {
     public var boxvl = "&boxvl;";
     public var boxur = "&boxur;";
     public var boxvr = "&boxvr;";
-    public var Breve = "&Breve;";
     public var boxHd = "&boxHd;";
     public var boxhD = "&boxhD;";
     public var boxDl = "&boxDl;";
@@ -197,15 +171,12 @@ enum abstract HtmlEntity(String) {
     public var bernou = "&bernou;";
     public var boxbox = "&boxbox;";
     public var bottom = "&bottom;";
-    public var Barwed = "&Barwed;";
-    public var Bumpeq = "&Bumpeq;";
     public var bigcirc = "&bigcirc;";
     public var because = "&because;";
     public var backsim = "&backsim;";
     public var bigodot = "&bigodot;";
     public var between = "&between;";
     public var bigstar = "&bigstar;";
-    public var Because = "&Because;";
     public var bnequiv = "&bnequiv;";
     public var bemptyv = "&bemptyv;";
     public var boxplus = "&boxplus;";
@@ -222,8 +193,6 @@ enum abstract HtmlEntity(String) {
     public var backprime = "&backprime;";
     public var backsimeq = "&backsimeq;";
     public var bigotimes = "&bigotimes;";
-    public var Backslash = "&Backslash;";
-    public var Bernoullis = "&Bernoullis;";
     public var backepsilon = "&backepsilon;";
     public var blacksquare = "&blacksquare;";
     public var blacklozenge = "&blacklozenge;";
@@ -238,10 +207,6 @@ enum abstract HtmlEntity(String) {
     public var cfr = "&cfr;";
     public var cir = "&cir;";
     public var cup = "&cup;";
-    public var Cap = "&Cap;";
-    public var Chi = "&Chi;";
-    public var Cfr = "&Cfr;";
-    public var Cup = "&Cup;";
     public var circ = "&circ;";
     public var cire = "&cire;";
     public var caps = "&caps;";
@@ -257,11 +222,6 @@ enum abstract HtmlEntity(String) {
     public var csup = "&csup;";
     public var cups = "&cups;";
     public var cirE = "&cirE;";
-    public var Copf = "&Copf;";
-    public var Cdot = "&Cdot;";
-    public var Cscr = "&Cscr;";
-    public var CHcy = "&CHcy;";
-    public var COPY = "&COPY;";
     public var check = "&check;";
     public var cedil = "&cedil;";
     public var ccirc = "&ccirc;";
@@ -280,12 +240,9 @@ enum abstract HtmlEntity(String) {
     public var ctdot = "&ctdot;";
     public var cuepr = "&cuepr;";
     public var csupe = "&csupe;";
-    public var Ccirc = "&Ccirc;";
     public var cwint = "&cwint;";
     public var cupor = "&cupor;";
     public var cross = "&cross;";
-    public var Colon = "&Colon;";
-    public var Cross = "&Cross;";
     public var ccedil = "&ccedil;";
     public var capand = "&capand;";
     public var capcap = "&capcap;";
@@ -299,7 +256,6 @@ enum abstract HtmlEntity(String) {
     public var colone = "&colone;";
     public var commat = "&commat;";
     public var compfn = "&compfn;";
-    public var Ccedil = "&Ccedil;";
     public var coprod = "&coprod;";
     public var cularr = "&cularr;";
     public var conint = "&conint;";
@@ -307,15 +263,9 @@ enum abstract HtmlEntity(String) {
     public var curren = "&curren;";
     public var curarr = "&curarr;";
     public var cupcup = "&cupcup;";
-    public var Cacute = "&Cacute;";
-    public var Ccaron = "&Ccaron;";
     public var cylcty = "&cylcty;";
-    public var Colone = "&Colone;";
     public var copysr = "&copysr;";
-    public var Conint = "&Conint;";
-    public var CupCap = "&CupCap;";
     public var cudarrl = "&cudarrl;";
-    public var Cedilla = "&Cedilla;";
     public var congdot = "&congdot;";
     public var cirscir = "&cirscir;";
     public var coloneq = "&coloneq;";
@@ -324,8 +274,6 @@ enum abstract HtmlEntity(String) {
     public var curarrm = "&curarrm;";
     public var ccupssm = "&ccupssm;";
     public var cemptyv = "&cemptyv;";
-    public var Cconint = "&Cconint;";
-    public var Cayleys = "&Cayleys;";
     public var cupbrcap = "&cupbrcap;";
     public var capbrcup = "&capbrcup;";
     public var cirfnint = "&cirfnint;";
@@ -337,42 +285,24 @@ enum abstract HtmlEntity(String) {
     public var checkmark = "&checkmark;";
     public var centerdot = "&centerdot;";
     public var complexes = "&complexes;";
-    public var Coproduct = "&Coproduct;";
-    public var Congruent = "&Congruent;";
-    public var CircleDot = "&CircleDot;";
-    public var CenterDot = "&CenterDot;";
     public var circledast = "&circledast;";
     public var complement = "&complement;";
     public var curlywedge = "&curlywedge;";
-    public var CirclePlus = "&CirclePlus;";
     public var circleddash = "&circleddash;";
     public var circledcirc = "&circledcirc;";
     public var curlyeqprec = "&curlyeqprec;";
     public var curlyeqsucc = "&curlyeqsucc;";
-    public var CircleTimes = "&CircleTimes;";
-    public var CircleMinus = "&CircleMinus;";
     public var curvearrowleft = "&curvearrowleft;";
     public var circlearrowleft = "&circlearrowleft;";
     public var curvearrowright = "&curvearrowright;";
-    public var ContourIntegral = "&ContourIntegral;";
-    public var CloseCurlyQuote = "&CloseCurlyQuote;";
     public var circlearrowright = "&circlearrowright;";
-    public var CapitalDifferentialD = "&CapitalDifferentialD;";
-    public var CloseCurlyDoubleQuote = "&CloseCurlyDoubleQuote;";
-    public var ClockwiseContourIntegral = "&ClockwiseContourIntegral;";
-    public var CounterClockwiseContourIntegral = "&CounterClockwiseContourIntegral;";
     public var dd = "&dd;";
-    public var DD = "&DD;";
     public var deg = "&deg;";
     public var die = "&die;";
     public var dfr = "&dfr;";
     public var dcy = "&dcy;";
     public var div = "&div;";
     public var dot = "&dot;";
-    public var Del = "&Del;";
-    public var Dfr = "&Dfr;";
-    public var Dcy = "&Dcy;";
-    public var Dot = "&Dot;";
     public var diam = "&diam;";
     public var dash = "&dash;";
     public var darr = "&darr;";
@@ -385,12 +315,6 @@ enum abstract HtmlEntity(String) {
     public var dzcy = "&dzcy;";
     public var dHar = "&dHar;";
     public var dArr = "&dArr;";
-    public var Darr = "&Darr;";
-    public var Dopf = "&Dopf;";
-    public var Dscr = "&Dscr;";
-    public var DJcy = "&DJcy;";
-    public var DScy = "&DScy;";
-    public var DZcy = "&DZcy;";
     public var dblac = "&dblac;";
     public var delta = "&delta;";
     public var dharl = "&dharl;";
@@ -404,8 +328,6 @@ enum abstract HtmlEntity(String) {
     public var doteq = "&doteq;";
     public var duarr = "&duarr;";
     public var dtdot = "&dtdot;";
-    public var Delta = "&Delta;";
-    public var Dashv = "&Dashv;";
     public var dagger = "&dagger;";
     public var daleth = "&daleth;";
     public var divide = "&divide;";
@@ -416,69 +338,28 @@ enum abstract HtmlEntity(String) {
     public var dlcrop = "&dlcrop;";
     public var drcorn = "&drcorn;";
     public var drcrop = "&drcrop;";
-    public var Dagger = "&Dagger;";
     public var dstrok = "&dstrok;";
-    public var Dcaron = "&Dcaron;";
     public var divonx = "&divonx;";
-    public var Dstrok = "&Dstrok;";
-    public var DotDot = "&DotDot;";
     public var ddagger = "&ddagger;";
     public var digamma = "&digamma;";
     public var diamond = "&diamond;";
     public var dwangle = "&dwangle;";
     public var dbkarow = "&dbkarow;";
     public var ddotseq = "&ddotseq;";
-    public var Diamond = "&Diamond;";
     public var demptyv = "&demptyv;";
     public var dotplus = "&dotplus;";
-    public var DownTee = "&DownTee;";
     public var drbkarow = "&drbkarow;";
     public var doteqdot = "&doteqdot;";
     public var dzigrarr = "&dzigrarr;";
     public var dotminus = "&dotminus;";
-    public var DDotrahd = "&DDotrahd;";
-    public var DotEqual = "&DotEqual;";
     public var dotsquare = "&dotsquare;";
     public var downarrow = "&downarrow;";
-    public var DoubleDot = "&DoubleDot;";
-    public var Downarrow = "&Downarrow;";
-    public var DownBreve = "&DownBreve;";
-    public var DownArrow = "&DownArrow;";
     public var diamondsuit = "&diamondsuit;";
-    public var DownArrowBar = "&DownArrowBar;";
-    public var DownTeeArrow = "&DownTeeArrow;";
     public var divideontimes = "&divideontimes;";
-    public var DifferentialD = "&DifferentialD;";
-    public var DoubleLeftTee = "&DoubleLeftTee;";
-    public var DoubleUpArrow = "&DoubleUpArrow;";
     public var doublebarwedge = "&doublebarwedge;";
-    public var DiacriticalDot = "&DiacriticalDot;";
     public var downdownarrows = "&downdownarrows;";
-    public var DoubleRightTee = "&DoubleRightTee;";
-    public var DownLeftVector = "&DownLeftVector;";
     public var downharpoonleft = "&downharpoonleft;";
-    public var DoubleLeftArrow = "&DoubleLeftArrow;";
-    public var DoubleDownArrow = "&DoubleDownArrow;";
-    public var DownRightVector = "&DownRightVector;";
-    public var DiacriticalAcute = "&DiacriticalAcute;";
-    public var DiacriticalTilde = "&DiacriticalTilde;";
     public var downharpoonright = "&downharpoonright;";
-    public var DiacriticalGrave = "&DiacriticalGrave;";
-    public var DoubleRightArrow = "&DoubleRightArrow;";
-    public var DownArrowUpArrow = "&DownArrowUpArrow;";
-    public var DoubleVerticalBar = "&DoubleVerticalBar;";
-    public var DownLeftVectorBar = "&DownLeftVectorBar;";
-    public var DownLeftTeeVector = "&DownLeftTeeVector;";
-    public var DoubleUpDownArrow = "&DoubleUpDownArrow;";
-    public var DownRightVectorBar = "&DownRightVectorBar;";
-    public var DownRightTeeVector = "&DownRightTeeVector;";
-    public var DoubleLongLeftArrow = "&DoubleLongLeftArrow;";
-    public var DownLeftRightVector = "&DownLeftRightVector;";
-    public var DoubleLeftRightArrow = "&DoubleLeftRightArrow;";
-    public var DoubleLongRightArrow = "&DoubleLongRightArrow;";
-    public var DoubleContourIntegral = "&DoubleContourIntegral;";
-    public var DiacriticalDoubleAcute = "&DiacriticalDoubleAcute;";
-    public var DoubleLongLeftRightArrow = "&DoubleLongLeftRightArrow;";
     public var ee = "&ee;";
     public var eg = "&eg;";
     public var el = "&el;";
@@ -490,11 +371,6 @@ enum abstract HtmlEntity(String) {
     public var ecy = "&ecy;";
     public var eth = "&eth;";
     public var els = "&els;";
-    public var Eta = "&Eta;";
-    public var Efr = "&Efr;";
-    public var Ecy = "&Ecy;";
-    public var ENG = "&ENG;";
-    public var ETH = "&ETH;";
     public var ecir = "&ecir;";
     public var epar = "&epar;";
     public var eopf = "&eopf;";
@@ -507,28 +383,19 @@ enum abstract HtmlEntity(String) {
     public var emsp = "&emsp;";
     public var ensp = "&ensp;";
     public var euro = "&euro;";
-    public var Eopf = "&Eopf;";
-    public var Edot = "&Edot;";
     public var eDot = "&eDot;";
-    public var Escr = "&Escr;";
-    public var Esim = "&Esim;";
-    public var Euml = "&Euml;";
     public var ecirc = "&ecirc;";
     public var emacr = "&emacr;";
     public var eogon = "&eogon;";
     public var erarr = "&erarr;";
     public var esdot = "&esdot;";
     public var eqsim = "&eqsim;";
-    public var Ecirc = "&Ecirc;";
     public var epsiv = "&epsiv;";
-    public var Emacr = "&Emacr;";
     public var eplus = "&eplus;";
     public var equiv = "&equiv;";
     public var exist = "&exist;";
     public var empty = "&empty;";
     public var efDot = "&efDot;";
-    public var Equal = "&Equal;";
-    public var Eogon = "&Eogon;";
     public var erDot = "&erDot;";
     public var eDDot = "&eDDot;";
     public var emsp13 = "&emsp13;";
@@ -544,39 +411,24 @@ enum abstract HtmlEntity(String) {
     public var elsdot = "&elsdot;";
     public var equals = "&equals;";
     public var equest = "&equest;";
-    public var Eacute = "&Eacute;";
-    public var Ecaron = "&Ecaron;";
-    public var Egrave = "&Egrave;";
     public var emptyv = "&emptyv;";
-    public var Exists = "&Exists;";
     public var eqcolon = "&eqcolon;";
     public var epsilon = "&epsilon;";
-    public var Element = "&Element;";
-    public var Epsilon = "&Epsilon;";
     public var equivDD = "&equivDD;";
     public var elinters = "&elinters;";
     public var eqvparsl = "&eqvparsl;";
     public var emptyset = "&emptyset;";
     public var eqslantgtr = "&eqslantgtr;";
-    public var EqualTilde = "&EqualTilde;";
     public var expectation = "&expectation;";
     public var eqslantless = "&eqslantless;";
-    public var Equilibrium = "&Equilibrium;";
     public var exponentiale = "&exponentiale;";
-    public var ExponentialE = "&ExponentialE;";
-    public var EmptySmallSquare = "&EmptySmallSquare;";
-    public var EmptyVerySmallSquare = "&EmptyVerySmallSquare;";
     public var ffr = "&ffr;";
     public var fcy = "&fcy;";
-    public var Ffr = "&Ffr;";
-    public var Fcy = "&Fcy;";
     public var flat = "&flat;";
     public var fnof = "&fnof;";
     public var fopf = "&fopf;";
     public var fscr = "&fscr;";
     public var fork = "&fork;";
-    public var Fopf = "&Fopf;";
-    public var Fscr = "&Fscr;";
     public var fflig = "&fflig;";
     public var filig = "&filig;";
     public var fjlig = "&fjlig;";
@@ -604,20 +456,13 @@ enum abstract HtmlEntity(String) {
     public var ffilig = "&ffilig;";
     public var ffllig = "&ffllig;";
     public var forall = "&forall;";
-    public var ForAll = "&ForAll;";
     public var fpartint = "&fpartint;";
-    public var Fouriertrf = "&Fouriertrf;";
     public var fallingdotseq = "&fallingdotseq;";
-    public var FilledSmallSquare = "&FilledSmallSquare;";
-    public var FilledVerySmallSquare = "&FilledVerySmallSquare;";
     public var ge = "&ge;";
     public var gg = "&gg;";
     public var gl = "&gl;";
     public var gt = "&gt;";
     public var gE = "&gE;";
-    public var Gg = "&Gg;";
-    public var Gt = "&Gt;";
-    public var GT = "&GT;";
     public var gla = "&gla;";
     public var ggg = "&ggg;";
     public var gel = "&gel;";
@@ -631,8 +476,6 @@ enum abstract HtmlEntity(String) {
     public var gEl = "&gEl;";
     public var glE = "&glE;";
     public var gnE = "&gnE;";
-    public var Gfr = "&Gfr;";
-    public var Gcy = "&Gcy;";
     public var gtcc = "&gtcc;";
     public var gnap = "&gnap;";
     public var gneq = "&gneq;";
@@ -643,11 +486,7 @@ enum abstract HtmlEntity(String) {
     public var gdot = "&gdot;";
     public var gscr = "&gscr;";
     public var gsim = "&gsim;";
-    public var Gopf = "&Gopf;";
-    public var Gdot = "&Gdot;";
-    public var Gscr = "&Gscr;";
     public var gvnE = "&gvnE;";
-    public var GJcy = "&GJcy;";
     public var gamma = "&gamma;";
     public var gescc = "&gescc;";
     public var gcirc = "&gcirc;";
@@ -659,19 +498,14 @@ enum abstract HtmlEntity(String) {
     public var gsiml = "&gsiml;";
     public var gnsim = "&gnsim;";
     public var gtdot = "&gtdot;";
-    public var Gamma = "&Gamma;";
-    public var Gcirc = "&Gcirc;";
     public var gammad = "&gammad;";
     public var gacute = "&gacute;";
     public var gbreve = "&gbreve;";
     public var gesles = "&gesles;";
     public var gesdot = "&gesdot;";
-    public var Gammad = "&Gammad;";
-    public var Gcedil = "&Gcedil;";
     public var gtrarr = "&gtrarr;";
     public var gtrdot = "&gtrdot;";
     public var gtrsim = "&gtrsim;";
-    public var Gbreve = "&Gbreve;";
     public var gtlPar = "&gtlPar;";
     public var gesdoto = "&gesdoto;";
     public var gtrless = "&gtrless;";
@@ -683,29 +517,16 @@ enum abstract HtmlEntity(String) {
     public var gvertneqq = "&gvertneqq;";
     public var gtrapprox = "&gtrapprox;";
     public var gtreqqless = "&gtreqqless;";
-    public var GreaterLess = "&GreaterLess;";
-    public var GreaterTilde = "&GreaterTilde;";
-    public var GreaterEqual = "&GreaterEqual;";
-    public var GreaterGreater = "&GreaterGreater;";
-    public var GreaterFullEqual = "&GreaterFullEqual;";
-    public var GreaterEqualLess = "&GreaterEqualLess;";
-    public var GreaterSlantEqual = "&GreaterSlantEqual;";
     public var hfr = "&hfr;";
-    public var Hat = "&Hat;";
-    public var Hfr = "&Hfr;";
     public var half = "&half;";
     public var hbar = "&hbar;";
     public var harr = "&harr;";
     public var hopf = "&hopf;";
     public var hscr = "&hscr;";
     public var hArr = "&hArr;";
-    public var Hopf = "&Hopf;";
-    public var Hscr = "&Hscr;";
     public var hcirc = "&hcirc;";
-    public var Hacek = "&Hacek;";
     public var hoarr = "&hoarr;";
     public var harrw = "&harrw;";
-    public var Hcirc = "&Hcirc;";
     public var hardcy = "&hardcy;";
     public var hellip = "&hellip;";
     public var horbar = "&horbar;";
@@ -718,30 +539,20 @@ enum abstract HtmlEntity(String) {
     public var hybull = "&hybull;";
     public var homtht = "&homtht;";
     public var hstrok = "&hstrok;";
-    public var Hstrok = "&Hstrok;";
-    public var HARDcy = "&HARDcy;";
     public var harrcir = "&harrcir;";
     public var hksearow = "&hksearow;";
     public var hkswarow = "&hkswarow;";
     public var heartsuit = "&heartsuit;";
-    public var HumpEqual = "&HumpEqual;";
-    public var HilbertSpace = "&HilbertSpace;";
-    public var HumpDownHump = "&HumpDownHump;";
     public var hookleftarrow = "&hookleftarrow;";
     public var hookrightarrow = "&hookrightarrow;";
-    public var HorizontalLine = "&HorizontalLine;";
     public var ic = "&ic;";
     public var ii = "&ii;";
     public var In = "&in;";
     public var it = "&it;";
-    public var Im = "&Im;";
     public var iff = "&iff;";
     public var ifr = "&ifr;";
     public var icy = "&icy;";
     public var int = "&int;";
-    public var Ifr = "&Ifr;";
-    public var Icy = "&Icy;";
-    public var Int = "&Int;";
     public var iecy = "&iecy;";
     public var imof = "&imof;";
     public var iota = "&iota;";
@@ -750,13 +561,6 @@ enum abstract HtmlEntity(String) {
     public var isin = "&isin;";
     public var iocy = "&iocy;";
     public var iuml = "&iuml;";
-    public var Iota = "&Iota;";
-    public var Iopf = "&Iopf;";
-    public var Idot = "&Idot;";
-    public var Iscr = "&Iscr;";
-    public var Iuml = "&Iuml;";
-    public var IEcy = "&IEcy;";
-    public var IOcy = "&IOcy;";
     public var image = "&image;";
     public var icirc = "&icirc;";
     public var imacr = "&imacr;";
@@ -772,12 +576,7 @@ enum abstract HtmlEntity(String) {
     public var iukcy = "&iukcy;";
     public var isins = "&isins;";
     public var isinv = "&isinv;";
-    public var Icirc = "&Icirc;";
-    public var Imacr = "&Imacr;";
     public var isinE = "&isinE;";
-    public var Iogon = "&Iogon;";
-    public var Iukcy = "&Iukcy;";
-    public var IJlig = "&IJlig;";
     public var incare = "&incare;";
     public var intcal = "&intcal;";
     public var iacute = "&iacute;";
@@ -786,66 +585,39 @@ enum abstract HtmlEntity(String) {
     public var igrave = "&igrave;";
     public var iiiint = "&iiiint;";
     public var inodot = "&inodot;";
-    public var Itilde = "&Itilde;";
     public var iquest = "&iquest;";
-    public var Iacute = "&Iacute;";
     public var isinsv = "&isinsv;";
-    public var Igrave = "&Igrave;";
     public var isindot = "&isindot;";
     public var intprod = "&intprod;";
-    public var Implies = "&Implies;";
     public var imagline = "&imagline;";
     public var intercal = "&intercal;";
     public var imagpart = "&imagpart;";
     public var infintie = "&infintie;";
     public var intlarhk = "&intlarhk;";
     public var integers = "&integers;";
-    public var Integral = "&Integral;";
-    public var ImaginaryI = "&ImaginaryI;";
-    public var Intersection = "&Intersection;";
-    public var InvisibleComma = "&InvisibleComma;";
-    public var InvisibleTimes = "&InvisibleTimes;";
     public var jfr = "&jfr;";
     public var jcy = "&jcy;";
-    public var Jfr = "&Jfr;";
-    public var Jcy = "&Jcy;";
     public var jopf = "&jopf;";
     public var jscr = "&jscr;";
-    public var Jopf = "&Jopf;";
-    public var Jscr = "&Jscr;";
     public var jcirc = "&jcirc;";
     public var jmath = "&jmath;";
     public var jukcy = "&jukcy;";
-    public var Jcirc = "&Jcirc;";
-    public var Jukcy = "&Jukcy;";
     public var jsercy = "&jsercy;";
-    public var Jsercy = "&Jsercy;";
     public var kfr = "&kfr;";
     public var kcy = "&kcy;";
-    public var Kfr = "&Kfr;";
-    public var Kcy = "&Kcy;";
     public var khcy = "&khcy;";
     public var kopf = "&kopf;";
     public var kjcy = "&kjcy;";
     public var kscr = "&kscr;";
-    public var Kopf = "&Kopf;";
-    public var Kscr = "&Kscr;";
-    public var KHcy = "&KHcy;";
-    public var KJcy = "&KJcy;";
     public var kappa = "&kappa;";
-    public var Kappa = "&Kappa;";
     public var kcedil = "&kcedil;";
     public var kgreen = "&kgreen;";
     public var kappav = "&kappav;";
-    public var Kcedil = "&Kcedil;";
     public var le = "&le;";
     public var lg = "&lg;";
     public var ll = "&ll;";
     public var lt = "&lt;";
     public var lE = "&lE;";
-    public var Ll = "&Ll;";
-    public var Lt = "&Lt;";
-    public var LT = "&LT;";
     public var leg = "&leg;";
     public var lap = "&lap;";
     public var lne = "&lne;";
@@ -860,9 +632,6 @@ enum abstract HtmlEntity(String) {
     public var lEg = "&lEg;";
     public var lgE = "&lgE;";
     public var lnE = "&lnE;";
-    public var Lfr = "&Lfr;";
-    public var Lsh = "&Lsh;";
-    public var Lcy = "&Lcy;";
     public var ldca = "&ldca;";
     public var lang = "&lang;";
     public var late = "&late;";
@@ -882,14 +651,9 @@ enum abstract HtmlEntity(String) {
     public var lsim = "&lsim;";
     public var ltri = "&ltri;";
     public var lozf = "&lozf;";
-    public var Lang = "&Lang;";
     public var lHar = "&lHar;";
-    public var Larr = "&Larr;";
     public var lArr = "&lArr;";
-    public var Lopf = "&Lopf;";
-    public var Lscr = "&Lscr;";
     public var lvnE = "&lvnE;";
-    public var LJcy = "&LJcy;";
     public var langd = "&langd;";
     public var lceil = "&lceil;";
     public var lescc = "&lescc;";
@@ -934,7 +698,6 @@ enum abstract HtmlEntity(String) {
     public var lrhard = "&lrhard;";
     public var lacute = "&lacute;";
     public var lcaron = "&lcaron;";
-    public var Lambda = "&Lambda;";
     public var lesges = "&lesges;";
     public var lthree = "&lthree;";
     public var larrhk = "&larrhk;";
@@ -946,7 +709,6 @@ enum abstract HtmlEntity(String) {
     public var lesdot = "&lesdot;";
     public var larrlp = "&larrlp;";
     public var larrpl = "&larrpl;";
-    public var Lcedil = "&Lcedil;";
     public var lfloor = "&lfloor;";
     public var ltimes = "&ltimes;";
     public var lparlt = "&lparlt;";
@@ -956,15 +718,11 @@ enum abstract HtmlEntity(String) {
     public var ldquor = "&ldquor;";
     public var lAtail = "&lAtail;";
     public var lowast = "&lowast;";
-    public var Lacute = "&Lacute;";
-    public var Lcaron = "&Lcaron;";
     public var lstrok = "&lstrok;";
     public var loplus = "&loplus;";
     public var lmoust = "&lmoust;";
     public var lsquor = "&lsquor;";
-    public var Lmidot = "&Lmidot;";
     public var ltrPar = "&ltrPar;";
-    public var Lstrok = "&Lstrok;";
     public var ldrdhar = "&ldrdhar;";
     public var larrbfs = "&larrbfs;";
     public var lbrksld = "&lbrksld;";
@@ -978,7 +736,6 @@ enum abstract HtmlEntity(String) {
     public var luruhar = "&luruhar;";
     public var lessgtr = "&lessgtr;";
     public var ltquest = "&ltquest;";
-    public var LeftTee = "&LeftTee;";
     public var llcorner = "&llcorner;";
     public var leqslant = "&leqslant;";
     public var lurdshar = "&lurdshar;";
@@ -987,79 +744,34 @@ enum abstract HtmlEntity(String) {
     public var lesdotor = "&lesdotor;";
     public var laemptyv = "&laemptyv;";
     public var lnapprox = "&lnapprox;";
-    public var LessLess = "&LessLess;";
     public var leftarrow = "&leftarrow;";
     public var lesseqgtr = "&lesseqgtr;";
     public var lvertneqq = "&lvertneqq;";
-    public var Leftarrow = "&Leftarrow;";
-    public var LessTilde = "&LessTilde;";
-    public var LeftFloor = "&LeftFloor;";
-    public var LeftArrow = "&LeftArrow;";
     public var lmoustache = "&lmoustache;";
-    public var Laplacetrf = "&Laplacetrf;";
     public var longmapsto = "&longmapsto;";
     public var lesseqqgtr = "&lesseqqgtr;";
     public var lessapprox = "&lessapprox;";
-    public var Lleftarrow = "&Lleftarrow;";
-    public var LeftVector = "&LeftVector;";
-    public var LeftCeiling = "&LeftCeiling;";
-    public var LessGreater = "&LessGreater;";
-    public var LeftTriangle = "&LeftTriangle;";
-    public var LeftArrowBar = "&LeftArrowBar;";
-    public var LeftTeeArrow = "&LeftTeeArrow;";
-    public var LeftUpVector = "&LeftUpVector;";
     public var leftarrowtail = "&leftarrowtail;";
     public var longleftarrow = "&longleftarrow;";
     public var leftharpoonup = "&leftharpoonup;";
     public var looparrowleft = "&looparrowleft;";
-    public var Longleftarrow = "&Longleftarrow;";
-    public var LeftVectorBar = "&LeftVectorBar;";
-    public var LeftTeeVector = "&LeftTeeVector;";
-    public var LessFullEqual = "&LessFullEqual;";
-    public var LongLeftArrow = "&LongLeftArrow;";
     public var leftthreetimes = "&leftthreetimes;";
     public var leftleftarrows = "&leftleftarrows;";
     public var leftrightarrow = "&leftrightarrow;";
     public var longrightarrow = "&longrightarrow;";
     public var looparrowright = "&looparrowright;";
-    public var Leftrightarrow = "&Leftrightarrow;";
-    public var Longrightarrow = "&Longrightarrow;";
-    public var LessSlantEqual = "&LessSlantEqual;";
-    public var LeftRightArrow = "&LeftRightArrow;";
-    public var LeftDownVector = "&LeftDownVector;";
-    public var LongRightArrow = "&LongRightArrow;";
-    public var LowerLeftArrow = "&LowerLeftArrow;";
     public var leftharpoondown = "&leftharpoondown;";
     public var leftrightarrows = "&leftrightarrows;";
-    public var LeftTriangleBar = "&LeftTriangleBar;";
-    public var LeftRightVector = "&LeftRightVector;";
-    public var LowerRightArrow = "&LowerRightArrow;";
-    public var LeftUpVectorBar = "&LeftUpVectorBar;";
-    public var LeftUpTeeVector = "&LeftUpTeeVector;";
-    public var LeftAngleBracket = "&LeftAngleBracket;";
-    public var LessEqualGreater = "&LessEqualGreater;";
-    public var LeftUpDownVector = "&LeftUpDownVector;";
     public var leftrightharpoons = "&leftrightharpoons;";
-    public var LeftDoubleBracket = "&LeftDoubleBracket;";
-    public var LeftTriangleEqual = "&LeftTriangleEqual;";
-    public var LeftDownVectorBar = "&LeftDownVectorBar;";
-    public var LeftDownTeeVector = "&LeftDownTeeVector;";
     public var longleftrightarrow = "&longleftrightarrow;";
-    public var Longleftrightarrow = "&Longleftrightarrow;";
-    public var LongLeftRightArrow = "&LongLeftRightArrow;";
     public var leftrightsquigarrow = "&leftrightsquigarrow;";
-    public var LeftArrowRightArrow = "&LeftArrowRightArrow;";
     public var mp = "&mp;";
     public var mu = "&mu;";
-    public var Mu = "&Mu;";
     public var mid = "&mid;";
     public var map = "&map;";
     public var mho = "&mho;";
     public var mfr = "&mfr;";
     public var mcy = "&mcy;";
-    public var Map = "&Map;";
-    public var Mfr = "&Mfr;";
-    public var Mcy = "&Mcy;";
     public var male = "&male;";
     public var macr = "&macr;";
     public var mlcp = "&mlcp;";
@@ -1067,8 +779,6 @@ enum abstract HtmlEntity(String) {
     public var mldr = "&mldr;";
     public var mopf = "&mopf;";
     public var mscr = "&mscr;";
-    public var Mopf = "&Mopf;";
-    public var Mscr = "&Mscr;";
     public var mdash = "&mdash;";
     public var micro = "&micro;";
     public var mumap = "&mumap;";
@@ -1089,16 +799,12 @@ enum abstract HtmlEntity(String) {
     public var minusdu = "&minusdu;";
     public var multimap = "&multimap;";
     public var mapstoup = "&mapstoup;";
-    public var Mellintrf = "&Mellintrf;";
-    public var MinusPlus = "&MinusPlus;";
     public var mapstoleft = "&mapstoleft;";
     public var mapstodown = "&mapstodown;";
-    public var MediumSpace = "&MediumSpace;";
     public var measuredangle = "&measuredangle;";
     public var ne = "&ne;";
     public var ni = "&ni;";
     public var nu = "&nu;";
-    public var Nu = "&Nu;";
     public var nge = "&nge;";
     public var nap = "&nap;";
     public var nle = "&nle;";
@@ -1116,11 +822,8 @@ enum abstract HtmlEntity(String) {
     public var nGg = "&nGg;";
     public var nlE = "&nlE;";
     public var nLl = "&nLl;";
-    public var Nfr = "&Nfr;";
     public var nGt = "&nGt;";
-    public var Ncy = "&Ncy;";
     public var nLt = "&nLt;";
-    public var Not = "&Not;";
     public var ncap = "&ncap;";
     public var nang = "&nang;";
     public var nmid = "&nmid;";
@@ -1150,11 +853,8 @@ enum abstract HtmlEntity(String) {
     public var nvlt = "&nvlt;";
     public var napE = "&napE;";
     public var nsup = "&nsup;";
-    public var Nopf = "&Nopf;";
-    public var Nscr = "&Nscr;";
     public var nGtv = "&nGtv;";
     public var nLtv = "&nLtv;";
-    public var NJcy = "&NJcy;";
     public var nabla = "&nabla;";
     public var napid = "&napid;";
     public var ndash = "&ndash;";
@@ -1211,16 +911,12 @@ enum abstract HtmlEntity(String) {
     public var nsimeq = "&nsimeq;";
     public var nprcue = "&nprcue;";
     public var nltrie = "&nltrie;";
-    public var Ncedil = "&Ncedil;";
     public var nparsl = "&nparsl;";
     public var nrtrie = "&nrtrie;";
     public var numero = "&numero;";
     public var nequiv = "&nequiv;";
     public var nexist = "&nexist;";
     public var nrarrw = "&nrarrw;";
-    public var Nacute = "&Nacute;";
-    public var Ntilde = "&Ntilde;";
-    public var Ncaron = "&Ncaron;";
     public var nvDash = "&nvDash;";
     public var nVdash = "&nVdash;";
     public var notinE = "&notinE;";
@@ -1249,90 +945,29 @@ enum abstract HtmlEntity(String) {
     public var nsqsupe = "&nsqsupe;";
     public var nwarrow = "&nwarrow;";
     public var nsupset = "&nsupset;";
-    public var NoBreak = "&NoBreak;";
-    public var NewLine = "&NewLine;";
-    public var NotLess = "&NotLess;";
     public var ncongdot = "&ncongdot;";
     public var naturals = "&naturals;";
     public var notindot = "&notindot;";
-    public var NotTilde = "&NotTilde;";
-    public var NotEqual = "&NotEqual;";
     public var nparallel = "&nparallel;";
     public var ngeqslant = "&ngeqslant;";
     public var nleqslant = "&nleqslant;";
     public var nshortmid = "&nshortmid;";
     public var nsubseteq = "&nsubseteq;";
     public var nsupseteq = "&nsupseteq;";
-    public var NotSubset = "&NotSubset;";
-    public var NotCupCap = "&NotCupCap;";
-    public var NotExists = "&NotExists;";
     public var nleftarrow = "&nleftarrow;";
     public var nsubseteqq = "&nsubseteqq;";
     public var nsupseteqq = "&nsupseteqq;";
     public var nLeftarrow = "&nLeftarrow;";
-    public var NotGreater = "&NotGreater;";
-    public var NotElement = "&NotElement;";
     public var nrightarrow = "&nrightarrow;";
     public var nRightarrow = "&nRightarrow;";
-    public var NotPrecedes = "&NotPrecedes;";
-    public var NotSucceeds = "&NotSucceeds;";
-    public var NotSuperset = "&NotSuperset;";
-    public var NotLessLess = "&NotLessLess;";
-    public var NotCongruent = "&NotCongruent;";
-    public var NotLessTilde = "&NotLessTilde;";
-    public var NotLessEqual = "&NotLessEqual;";
-    public var NotHumpEqual = "&NotHumpEqual;";
     public var ntriangleleft = "&ntriangleleft;";
-    public var NotTildeTilde = "&NotTildeTilde;";
-    public var NotEqualTilde = "&NotEqualTilde;";
-    public var NotTildeEqual = "&NotTildeEqual;";
     public var ntriangleright = "&ntriangleright;";
     public var nshortparallel = "&nshortparallel;";
-    public var NotVerticalBar = "&NotVerticalBar;";
-    public var NestedLessLess = "&NestedLessLess;";
-    public var NotGreaterLess = "&NotGreaterLess;";
-    public var NotLessGreater = "&NotLessGreater;";
-    public var NotSubsetEqual = "&NotSubsetEqual;";
     public var ntrianglelefteq = "&ntrianglelefteq;";
     public var nleftrightarrow = "&nleftrightarrow;";
     public var nLeftrightarrow = "&nLeftrightarrow;";
-    public var NotGreaterTilde = "&NotGreaterTilde;";
-    public var NotLeftTriangle = "&NotLeftTriangle;";
-    public var NotGreaterEqual = "&NotGreaterEqual;";
-    public var NotSquareSubset = "&NotSquareSubset;";
-    public var NotHumpDownHump = "&NotHumpDownHump;";
     public var ntrianglerighteq = "&ntrianglerighteq;";
-    public var NonBreakingSpace = "&NonBreakingSpace;";
-    public var NotSucceedsTilde = "&NotSucceedsTilde;";
-    public var NotPrecedesEqual = "&NotPrecedesEqual;";
-    public var NotSucceedsEqual = "&NotSucceedsEqual;";
-    public var NotRightTriangle = "&NotRightTriangle;";
-    public var NotSupersetEqual = "&NotSupersetEqual;";
-    public var NegativeThinSpace = "&NegativeThinSpace;";
-    public var NotGreaterGreater = "&NotGreaterGreater;";
-    public var NotReverseElement = "&NotReverseElement;";
-    public var NotTildeFullEqual = "&NotTildeFullEqual;";
-    public var NotSquareSuperset = "&NotSquareSuperset;";
-    public var NotLessSlantEqual = "&NotLessSlantEqual;";
-    public var NotNestedLessLess = "&NotNestedLessLess;";
-    public var NegativeThickSpace = "&NegativeThickSpace;";
-    public var NotLeftTriangleBar = "&NotLeftTriangleBar;";
-    public var NegativeMediumSpace = "&NegativeMediumSpace;";
-    public var NotRightTriangleBar = "&NotRightTriangleBar;";
-    public var NotGreaterFullEqual = "&NotGreaterFullEqual;";
-    public var NestedGreaterGreater = "&NestedGreaterGreater;";
-    public var NotDoubleVerticalBar = "&NotDoubleVerticalBar;";
-    public var NotLeftTriangleEqual = "&NotLeftTriangleEqual;";
-    public var NotGreaterSlantEqual = "&NotGreaterSlantEqual;";
-    public var NotSquareSubsetEqual = "&NotSquareSubsetEqual;";
-    public var NotPrecedesSlantEqual = "&NotPrecedesSlantEqual;";
-    public var NegativeVeryThinSpace = "&NegativeVeryThinSpace;";
-    public var NotSucceedsSlantEqual = "&NotSucceedsSlantEqual;";
-    public var NotRightTriangleEqual = "&NotRightTriangleEqual;";
-    public var NotSquareSupersetEqual = "&NotSquareSupersetEqual;";
-    public var NotNestedGreaterGreater = "&NotNestedGreaterGreater;";
     public var or = "&or;";
-    public var Or = "&Or;";
     public var oS = "&oS;";
     public var ohm = "&ohm;";
     public var ord = "&ord;";
@@ -1341,8 +976,6 @@ enum abstract HtmlEntity(String) {
     public var ocy = "&ocy;";
     public var olt = "&olt;";
     public var orv = "&orv;";
-    public var Ofr = "&Ofr;";
-    public var Ocy = "&Ocy;";
     public var omid = "&omid;";
     public var ordf = "&ordf;";
     public var ocir = "&ocir;";
@@ -1358,9 +991,6 @@ enum abstract HtmlEntity(String) {
     public var ouml = "&ouml;";
     public var osol = "&osol;";
     public var oror = "&oror;";
-    public var Oopf = "&Oopf;";
-    public var Oscr = "&Oscr;";
-    public var Ouml = "&Ouml;";
     public var omega = "&omega;";
     public var ohbar = "&ohbar;";
     public var odash = "&odash;";
@@ -1375,43 +1005,24 @@ enum abstract HtmlEntity(String) {
     public var olarr = "&olarr;";
     public var operp = "&operp;";
     public var orarr = "&orarr;";
-    public var Omega = "&Omega;";
-    public var Ocirc = "&Ocirc;";
-    public var Omacr = "&Omacr;";
     public var oplus = "&oplus;";
-    public var OElig = "&OElig;";
     public var odblac = "&odblac;";
     public var otilde = "&otilde;";
     public var oacute = "&oacute;";
     public var ograve = "&ograve;";
     public var odsold = "&odsold;";
-    public var Odblac = "&Odblac;";
     public var origof = "&origof;";
     public var oslash = "&oslash;";
     public var otimes = "&otimes;";
     public var ominus = "&ominus;";
-    public var Oacute = "&Oacute;";
-    public var Otilde = "&Otilde;";
-    public var Ograve = "&Ograve;";
-    public var Oslash = "&Oslash;";
-    public var Otimes = "&Otimes;";
     public var orderof = "&orderof;";
     public var omicron = "&omicron;";
     public var orslope = "&orslope;";
     public var olcross = "&olcross;";
-    public var Omicron = "&Omicron;";
-    public var OverBar = "&OverBar;";
     public var otimesas = "&otimesas;";
-    public var OverBrace = "&OverBrace;";
-    public var OverBracket = "&OverBracket;";
-    public var OpenCurlyQuote = "&OpenCurlyQuote;";
-    public var OverParenthesis = "&OverParenthesis;";
-    public var OpenCurlyDoubleQuote = "&OpenCurlyDoubleQuote;";
     public var pi = "&pi;";
     public var pm = "&pm;";
     public var pr = "&pr;";
-    public var Pi = "&Pi;";
-    public var Pr = "&Pr;";
     public var phi = "&phi;";
     public var par = "&par;";
     public var pre = "&pre;";
@@ -1419,11 +1030,7 @@ enum abstract HtmlEntity(String) {
     public var psi = "&psi;";
     public var pcy = "&pcy;";
     public var piv = "&piv;";
-    public var Phi = "&Phi;";
     public var prE = "&prE;";
-    public var Pfr = "&Pfr;";
-    public var Psi = "&Psi;";
-    public var Pcy = "&Pcy;";
     public var para = "&para;";
     public var prec = "&prec;";
     public var prap = "&prap;";
@@ -1435,9 +1042,7 @@ enum abstract HtmlEntity(String) {
     public var pscr = "&pscr;";
     public var prop = "&prop;";
     public var plus = "&plus;";
-    public var Popf = "&Popf;";
     public var prnE = "&prnE;";
-    public var Pscr = "&Pscr;";
     public var phone = "&phone;";
     public var prime = "&prime;";
     public var prcue = "&prcue;";
@@ -1447,7 +1052,6 @@ enum abstract HtmlEntity(String) {
     public var plusb = "&plusb;";
     public var pluse = "&pluse;";
     public var prsim = "&prsim;";
-    public var Prime = "&Prime;";
     public var planck = "&planck;";
     public var preceq = "&preceq;";
     public var period = "&period;";
@@ -1470,55 +1074,35 @@ enum abstract HtmlEntity(String) {
     public var pluscir = "&pluscir;";
     public var plussim = "&plussim;";
     public var plustwo = "&plustwo;";
-    public var Product = "&Product;";
     public var parallel = "&parallel;";
     public var profalar = "&profalar;";
     public var precneqq = "&precneqq;";
     public var profline = "&profline;";
     public var precnsim = "&precnsim;";
     public var plusacir = "&plusacir;";
-    public var Precedes = "&Precedes;";
     public var pointint = "&pointint;";
     public var profsurf = "&profsurf;";
-    public var PartialD = "&PartialD;";
     public var pitchfork = "&pitchfork;";
-    public var PlusMinus = "&PlusMinus;";
     public var precapprox = "&precapprox;";
-    public var Proportion = "&Proportion;";
     public var preccurlyeq = "&preccurlyeq;";
     public var precnapprox = "&precnapprox;";
-    public var Proportional = "&Proportional;";
-    public var Poincareplane = "&Poincareplane;";
-    public var PrecedesTilde = "&PrecedesTilde;";
-    public var PrecedesEqual = "&PrecedesEqual;";
-    public var PrecedesSlantEqual = "&PrecedesSlantEqual;";
     public var qfr = "&qfr;";
-    public var Qfr = "&Qfr;";
     public var qopf = "&qopf;";
     public var qscr = "&qscr;";
     public var qint = "&qint;";
     public var quot = "&quot;";
-    public var Qopf = "&Qopf;";
-    public var Qscr = "&Qscr;";
-    public var QUOT = "&QUOT;";
     public var quest = "&quest;";
     public var qprime = "&qprime;";
     public var quatint = "&quatint;";
     public var questeq = "&questeq;";
     public var quaternions = "&quaternions;";
     public var rx = "&rx;";
-    public var Re = "&Re;";
     public var reg = "&reg;";
     public var rho = "&rho;";
     public var rfr = "&rfr;";
     public var rlm = "&rlm;";
     public var rsh = "&rsh;";
     public var rcy = "&rcy;";
-    public var Rho = "&Rho;";
-    public var Rfr = "&Rfr;";
-    public var Rsh = "&Rsh;";
-    public var Rcy = "&Rcy;";
-    public var REG = "&REG;";
     public var rdca = "&rdca;";
     public var race = "&race;";
     public var real = "&real;";
@@ -1534,12 +1118,8 @@ enum abstract HtmlEntity(String) {
     public var rscr = "&rscr;";
     public var rhov = "&rhov;";
     public var rtri = "&rtri;";
-    public var Rang = "&Rang;";
     public var rHar = "&rHar;";
-    public var Rarr = "&Rarr;";
-    public var Ropf = "&Ropf;";
     public var rArr = "&rArr;";
-    public var Rscr = "&Rscr;";
     public var radic = "&radic;";
     public var rangd = "&rangd;";
     public var range = "&range;";
@@ -1569,7 +1149,6 @@ enum abstract HtmlEntity(String) {
     public var rAarr = "&rAarr;";
     public var rBarr = "&rBarr;";
     public var rsquo = "&rsquo;";
-    public var RBarr = "&RBarr;";
     public var rbrace = "&rbrace;";
     public var rcedil = "&rcedil;";
     public var rbrack = "&rbrack;";
@@ -1585,7 +1164,6 @@ enum abstract HtmlEntity(String) {
     public var rfisht = "&rfisht;";
     public var rpargt = "&rpargt;";
     public var rarrpl = "&rarrpl;";
-    public var Rcedil = "&Rcedil;";
     public var rarrlp = "&rarrlp;";
     public var rfloor = "&rfloor;";
     public var rtimes = "&rtimes;";
@@ -1593,12 +1171,9 @@ enum abstract HtmlEntity(String) {
     public var rsaquo = "&rsaquo;";
     public var rdquor = "&rdquor;";
     public var rAtail = "&rAtail;";
-    public var Racute = "&Racute;";
     public var roplus = "&roplus;";
-    public var Rcaron = "&Rcaron;";
     public var rmoust = "&rmoust;";
     public var rsquor = "&rsquor;";
-    public var Rarrtl = "&Rarrtl;";
     public var realine = "&realine;";
     public var rdldhar = "&rdldhar;";
     public var rarrbfs = "&rarrbfs;";
@@ -1611,49 +1186,19 @@ enum abstract HtmlEntity(String) {
     public var raemptyv = "&raemptyv;";
     public var rppolint = "&rppolint;";
     public var rtriltri = "&rtriltri;";
-    public var RightTee = "&RightTee;";
     public var rationals = "&rationals;";
     public var rmoustache = "&rmoustache;";
     public var rightarrow = "&rightarrow;";
-    public var Rightarrow = "&Rightarrow;";
-    public var RightFloor = "&RightFloor;";
-    public var RightArrow = "&RightArrow;";
-    public var RuleDelayed = "&RuleDelayed;";
-    public var Rrightarrow = "&Rrightarrow;";
-    public var RightVector = "&RightVector;";
     public var risingdotseq = "&risingdotseq;";
-    public var RightCeiling = "&RightCeiling;";
-    public var RoundImplies = "&RoundImplies;";
-    public var RightTriangle = "&RightTriangle;";
-    public var RightArrowBar = "&RightArrowBar;";
-    public var RightTeeArrow = "&RightTeeArrow;";
-    public var RightUpVector = "&RightUpVector;";
     public var rightarrowtail = "&rightarrowtail;";
     public var rightharpoonup = "&rightharpoonup;";
-    public var ReverseElement = "&ReverseElement;";
-    public var RightVectorBar = "&RightVectorBar;";
-    public var RightTeeVector = "&RightTeeVector;";
     public var rightthreetimes = "&rightthreetimes;";
     public var rightleftarrows = "&rightleftarrows;";
     public var rightsquigarrow = "&rightsquigarrow;";
-    public var RightDownVector = "&RightDownVector;";
     public var rightharpoondown = "&rightharpoondown;";
     public var rightrightarrows = "&rightrightarrows;";
-    public var RightTriangleBar = "&RightTriangleBar;";
-    public var RightUpVectorBar = "&RightUpVectorBar;";
-    public var RightUpTeeVector = "&RightUpTeeVector;";
     public var rightleftharpoons = "&rightleftharpoons;";
-    public var RightAngleBracket = "&RightAngleBracket;";
-    public var RightUpDownVector = "&RightUpDownVector;";
-    public var RightDoubleBracket = "&RightDoubleBracket;";
-    public var ReverseEquilibrium = "&ReverseEquilibrium;";
-    public var RightTriangleEqual = "&RightTriangleEqual;";
-    public var RightDownVectorBar = "&RightDownVectorBar;";
-    public var RightDownTeeVector = "&RightDownTeeVector;";
-    public var RightArrowLeftArrow = "&RightArrowLeftArrow;";
-    public var ReverseUpEquilibrium = "&ReverseUpEquilibrium;";
     public var sc = "&sc;";
-    public var Sc = "&Sc;";
     public var sce = "&sce;";
     public var sim = "&sim;";
     public var sub = "&sub;";
@@ -1666,11 +1211,6 @@ enum abstract HtmlEntity(String) {
     public var sup = "&sup;";
     public var squ = "&squ;";
     public var scE = "&scE;";
-    public var Sub = "&Sub;";
-    public var Sfr = "&Sfr;";
-    public var Scy = "&Scy;";
-    public var Sum = "&Sum;";
-    public var Sup = "&Sup;";
     public var scap = "&scap;";
     public var sup1 = "&sup1;";
     public var sup2 = "&sup2;";
@@ -1697,12 +1237,7 @@ enum abstract HtmlEntity(String) {
     public var sext = "&sext;";
     public var scnE = "&scnE;";
     public var subE = "&subE;";
-    public var Sopf = "&Sopf;";
-    public var Star = "&Star;";
-    public var Sscr = "&Sscr;";
     public var supE = "&supE;";
-    public var Sqrt = "&Sqrt;";
-    public var SHcy = "&SHcy;";
     public var sigma = "&sigma;";
     public var sccue = "&sccue;";
     public var scirc = "&scirc;";
@@ -1728,8 +1263,6 @@ enum abstract HtmlEntity(String) {
     public var sqcup = "&sqcup;";
     public var sqsub = "&sqsub;";
     public var swarr = "&swarr;";
-    public var Sigma = "&Sigma;";
-    public var Scirc = "&Scirc;";
     public var simgE = "&simgE;";
     public var strns = "&strns;";
     public var simlE = "&simlE;";
@@ -1760,7 +1293,6 @@ enum abstract HtmlEntity(String) {
     public var sqsube = "&sqsube;";
     public var subsim = "&subsim;";
     public var sstarf = "&sstarf;";
-    public var Scedil = "&Scedil;";
     public var subsub = "&subsub;";
     public var seswar = "&seswar;";
     public var subset = "&subset;";
@@ -1775,14 +1307,7 @@ enum abstract HtmlEntity(String) {
     public var supsub = "&supsub;";
     public var subsup = "&subsup;";
     public var supset = "&supset;";
-    public var Sacute = "&Sacute;";
-    public var Scaron = "&Scaron;";
     public var supsup = "&supsup;";
-    public var Square = "&Square;";
-    public var Subset = "&Subset;";
-    public var Supset = "&Supset;";
-    public var SHCHcy = "&SHCHcy;";
-    public var SOFTcy = "&SOFTcy;";
     public var subedot = "&subedot;";
     public var succsim = "&succsim;";
     public var simrarr = "&simrarr;";
@@ -1805,13 +1330,10 @@ enum abstract HtmlEntity(String) {
     public var shortmid = "&shortmid;";
     public var subseteq = "&subseteq;";
     public var scpolint = "&scpolint;";
-    public var Succeeds = "&Succeeds;";
     public var setminus = "&setminus;";
     public var supseteq = "&supseteq;";
     public var sqsubset = "&sqsubset;";
     public var sqsupset = "&sqsupset;";
-    public var Superset = "&Superset;";
-    public var SuchThat = "&SuchThat;";
     public var spadesuit = "&spadesuit;";
     public var subsetneq = "&subsetneq;";
     public var subseteqq = "&subseteqq;";
@@ -1825,33 +1347,13 @@ enum abstract HtmlEntity(String) {
     public var straightphi = "&straightphi;";
     public var succcurlyeq = "&succcurlyeq;";
     public var succnapprox = "&succnapprox;";
-    public var SmallCircle = "&SmallCircle;";
-    public var SubsetEqual = "&SubsetEqual;";
-    public var SquareUnion = "&SquareUnion;";
-    public var SquareSubset = "&SquareSubset;";
-    public var ShortUpArrow = "&ShortUpArrow;";
     public var shortparallel = "&shortparallel;";
     public var smallsetminus = "&smallsetminus;";
-    public var SucceedsTilde = "&SucceedsTilde;";
-    public var SucceedsEqual = "&SucceedsEqual;";
-    public var SupersetEqual = "&SupersetEqual;";
-    public var SquareSuperset = "&SquareSuperset;";
-    public var ShortLeftArrow = "&ShortLeftArrow;";
-    public var ShortDownArrow = "&ShortDownArrow;";
     public var straightepsilon = "&straightepsilon;";
-    public var ShortRightArrow = "&ShortRightArrow;";
-    public var SquareSubsetEqual = "&SquareSubsetEqual;";
-    public var SquareIntersection = "&SquareIntersection;";
-    public var SucceedsSlantEqual = "&SucceedsSlantEqual;";
-    public var SquareSupersetEqual = "&SquareSupersetEqual;";
     public var tau = "&tau;";
     public var tfr = "&tfr;";
     public var tcy = "&tcy;";
     public var top = "&top;";
-    public var Tab = "&Tab;";
-    public var Tau = "&Tau;";
-    public var Tfr = "&Tfr;";
-    public var Tcy = "&Tcy;";
     public var toea = "&toea;";
     public var tbrk = "&tbrk;";
     public var trie = "&trie;";
@@ -1861,9 +1363,6 @@ enum abstract HtmlEntity(String) {
     public var tscr = "&tscr;";
     public var tint = "&tint;";
     public var tscy = "&tscy;";
-    public var Topf = "&Topf;";
-    public var Tscr = "&Tscr;";
-    public var TScy = "&TScy;";
     public var trade = "&trade;";
     public var tilde = "&tilde;";
     public var theta = "&theta;";
@@ -1872,12 +1371,7 @@ enum abstract HtmlEntity(String) {
     public var trisb = "&trisb;";
     public var thorn = "&thorn;";
     public var tshcy = "&tshcy;";
-    public var Tilde = "&Tilde;";
-    public var Theta = "&Theta;";
     public var twixt = "&twixt;";
-    public var TSHcy = "&TSHcy;";
-    public var TRADE = "&TRADE;";
-    public var THORN = "&THORN;";
     public var there4 = "&there4;";
     public var tcedil = "&tcedil;";
     public var telrec = "&telrec;";
@@ -1889,13 +1383,10 @@ enum abstract HtmlEntity(String) {
     public var thksim = "&thksim;";
     public var tprime = "&tprime;";
     public var topcir = "&topcir;";
-    public var Tcedil = "&Tcedil;";
     public var thinsp = "&thinsp;";
     public var tridot = "&tridot;";
     public var topbot = "&topbot;";
-    public var Tcaron = "&Tcaron;";
     public var tstrok = "&tstrok;";
-    public var Tstrok = "&Tstrok;";
     public var tritime = "&tritime;";
     public var topfork = "&topfork;";
     public var triplus = "&triplus;";
@@ -1907,26 +1398,17 @@ enum abstract HtmlEntity(String) {
     public var trpezium = "&trpezium;";
     public var therefore = "&therefore;";
     public var triangleq = "&triangleq;";
-    public var Therefore = "&Therefore;";
-    public var ThinSpace = "&ThinSpace;";
-    public var TripleDot = "&TripleDot;";
-    public var ThickSpace = "&ThickSpace;";
-    public var TildeTilde = "&TildeTilde;";
-    public var TildeEqual = "&TildeEqual;";
     public var thickapprox = "&thickapprox;";
     public var triangleleft = "&triangleleft;";
     public var triangledown = "&triangledown;";
     public var triangleright = "&triangleright;";
     public var trianglelefteq = "&trianglelefteq;";
-    public var TildeFullEqual = "&TildeFullEqual;";
     public var trianglerighteq = "&trianglerighteq;";
     public var twoheadleftarrow = "&twoheadleftarrow;";
     public var twoheadrightarrow = "&twoheadrightarrow;";
     public var ufr = "&ufr;";
     public var uml = "&uml;";
     public var ucy = "&ucy;";
-    public var Ufr = "&Ufr;";
-    public var Ucy = "&Ucy;";
     public var uopf = "&uopf;";
     public var uarr = "&uarr;";
     public var uscr = "&uscr;";
@@ -1934,12 +1416,7 @@ enum abstract HtmlEntity(String) {
     public var uuml = "&uuml;";
     public var utri = "&utri;";
     public var uHar = "&uHar;";
-    public var Uopf = "&Uopf;";
     public var uArr = "&uArr;";
-    public var Uarr = "&Uarr;";
-    public var Uscr = "&Uscr;";
-    public var Upsi = "&Upsi;";
-    public var Uuml = "&Uuml;";
     public var udhar = "&udhar;";
     public var uhblk = "&uhblk;";
     public var ucirc = "&ucirc;";
@@ -1955,84 +1432,46 @@ enum abstract HtmlEntity(String) {
     public var uuarr = "&uuarr;";
     public var utdot = "&utdot;";
     public var ultri = "&ultri;";
-    public var Ucirc = "&Ucirc;";
     public var urtri = "&urtri;";
-    public var Umacr = "&Umacr;";
     public var uplus = "&uplus;";
-    public var Uring = "&Uring;";
-    public var Ubrcy = "&Ubrcy;";
-    public var Uogon = "&Uogon;";
-    public var Union = "&Union;";
-    public var UpTee = "&UpTee;";
     public var udblac = "&udblac;";
     public var utilde = "&utilde;";
     public var uacute = "&uacute;";
     public var ubreve = "&ubreve;";
     public var ugrave = "&ugrave;";
-    public var Udblac = "&Udblac;";
     public var ufisht = "&ufisht;";
     public var ulcorn = "&ulcorn;";
     public var ulcrop = "&ulcrop;";
     public var urcorn = "&urcorn;";
     public var urcrop = "&urcrop;";
-    public var Uacute = "&Uacute;";
-    public var Utilde = "&Utilde;";
-    public var Ubreve = "&Ubreve;";
-    public var Ugrave = "&Ugrave;";
     public var uwangle = "&uwangle;";
     public var upsilon = "&upsilon;";
     public var uparrow = "&uparrow;";
-    public var Upsilon = "&Upsilon;";
-    public var Uparrow = "&Uparrow;";
-    public var UpArrow = "&UpArrow;";
     public var ulcorner = "&ulcorner;";
     public var urcorner = "&urcorner;";
-    public var Uarrocir = "&Uarrocir;";
-    public var UnderBar = "&UnderBar;";
-    public var UnionPlus = "&UnionPlus;";
-    public var UnderBrace = "&UnderBrace;";
     public var upuparrows = "&upuparrows;";
-    public var UpArrowBar = "&UpArrowBar;";
-    public var UpTeeArrow = "&UpTeeArrow;";
     public var updownarrow = "&updownarrow;";
-    public var Updownarrow = "&Updownarrow;";
-    public var UpDownArrow = "&UpDownArrow;";
-    public var UnderBracket = "&UnderBracket;";
     public var upharpoonleft = "&upharpoonleft;";
-    public var UpEquilibrium = "&UpEquilibrium;";
     public var upharpoonright = "&upharpoonright;";
-    public var UpperLeftArrow = "&UpperLeftArrow;";
-    public var UpperRightArrow = "&UpperRightArrow;";
-    public var UnderParenthesis = "&UnderParenthesis;";
-    public var UpArrowDownArrow = "&UpArrowDownArrow;";
     public var vee = "&vee;";
     public var vfr = "&vfr;";
     public var vcy = "&vcy;";
-    public var Vee = "&Vee;";
-    public var Vfr = "&Vfr;";
-    public var Vcy = "&Vcy;";
     public var vopf = "&vopf;";
     public var varr = "&varr;";
     public var vscr = "&vscr;";
     public var vert = "&vert;";
-    public var Vbar = "&Vbar;";
     public var vBar = "&vBar;";
-    public var Vopf = "&Vopf;";
     public var vArr = "&vArr;";
-    public var Vscr = "&Vscr;";
-    public var Vert = "&Vert;";
     public var veeeq = "&veeeq;";
     public var vdash = "&vdash;";
     public var varpi = "&varpi;";
     public var vnsub = "&vnsub;";
     public var vltri = "&vltri;";
     public var vDash = "&vDash;";
-    public var Vdash = "&Vdash;";
     public var vprop = "&vprop;";
     public var vrtri = "&vrtri;";
     public var vnsup = "&vnsup;";
     public var vBarv = "&vBarv;";
-    public var VDash = "&VDash;";
     public var veebar = "&veebar;";
     public var verbar = "&verbar;";
     public var varphi = "&varphi;";
@@ -2041,9 +1480,6 @@ enum abstract HtmlEntity(String) {
     public var vangrt = "&vangrt;";
     public var vsubne = "&vsubne;";
     public var vsupne = "&vsupne;";
-    public var Vdashl = "&Vdashl;";
-    public var Verbar = "&Verbar;";
-    public var Vvdash = "&Vvdash;";
     public var vsubnE = "&vsubnE;";
     public var vsupnE = "&vsupnE;";
     public var vzigzag = "&vzigzag;";
@@ -2053,37 +1489,25 @@ enum abstract HtmlEntity(String) {
     public var varpropto = "&varpropto;";
     public var varnothing = "&varnothing;";
     public var varepsilon = "&varepsilon;";
-    public var VerticalBar = "&VerticalBar;";
     public var varsubsetneq = "&varsubsetneq;";
     public var varsupsetneq = "&varsupsetneq;";
-    public var VerticalLine = "&VerticalLine;";
     public var varsubsetneqq = "&varsubsetneqq;";
     public var varsupsetneqq = "&varsupsetneqq;";
-    public var VerticalTilde = "&VerticalTilde;";
-    public var VeryThinSpace = "&VeryThinSpace;";
     public var vartriangleleft = "&vartriangleleft;";
     public var vartriangleright = "&vartriangleright;";
-    public var VerticalSeparator = "&VerticalSeparator;";
     public var wp = "&wp;";
     public var wr = "&wr;";
     public var wfr = "&wfr;";
-    public var Wfr = "&Wfr;";
     public var wopf = "&wopf;";
     public var wscr = "&wscr;";
-    public var Wopf = "&Wopf;";
-    public var Wscr = "&Wscr;";
     public var wedge = "&wedge;";
     public var wcirc = "&wcirc;";
-    public var Wedge = "&Wedge;";
-    public var Wcirc = "&Wcirc;";
     public var wedbar = "&wedbar;";
     public var wedgeq = "&wedgeq;";
     public var wreath = "&wreath;";
     public var weierp = "&weierp;";
     public var xi = "&xi;";
-    public var Xi = "&Xi;";
     public var xfr = "&xfr;";
-    public var Xfr = "&Xfr;";
     public var xcap = "&xcap;";
     public var xmap = "&xmap;";
     public var xvee = "&xvee;";
@@ -2091,8 +1515,6 @@ enum abstract HtmlEntity(String) {
     public var xcup = "&xcup;";
     public var xscr = "&xscr;";
     public var xnis = "&xnis;";
-    public var Xopf = "&Xopf;";
-    public var Xscr = "&Xscr;";
     public var xcirc = "&xcirc;";
     public var xharr = "&xharr;";
     public var xlarr = "&xlarr;";
@@ -2111,46 +1533,624 @@ enum abstract HtmlEntity(String) {
     public var yen = "&yen;";
     public var yfr = "&yfr;";
     public var ycy = "&ycy;";
-    public var Yfr = "&Yfr;";
-    public var Ycy = "&Ycy;";
     public var yacy = "&yacy;";
     public var yopf = "&yopf;";
     public var yicy = "&yicy;";
     public var yscr = "&yscr;";
     public var yuml = "&yuml;";
     public var yucy = "&yucy;";
-    public var Yopf = "&Yopf;";
-    public var Yscr = "&Yscr;";
-    public var Yuml = "&Yuml;";
-    public var YAcy = "&YAcy;";
-    public var YIcy = "&YIcy;";
-    public var YUcy = "&YUcy;";
     public var ycirc = "&ycirc;";
-    public var Ycirc = "&Ycirc;";
     public var yacute = "&yacute;";
-    public var Yacute = "&Yacute;";
     public var zfr = "&zfr;";
     public var zcy = "&zcy;";
     public var zwj = "&zwj;";
-    public var Zfr = "&Zfr;";
-    public var Zcy = "&Zcy;";
     public var zeta = "&zeta;";
     public var zhcy = "&zhcy;";
     public var zopf = "&zopf;";
     public var zdot = "&zdot;";
     public var zscr = "&zscr;";
     public var zwnj = "&zwnj;";
+    public var zacute = "&zacute;";
+    public var zcaron = "&zcaron;";
+    public var zeetrf = "&zeetrf;";
+    public var zigrarr = "&zigrarr;";
+    public var And = "&And;";
+    public var Afr = "&Afr;";
+    public var Acy = "&Acy;";
+    public var AMP = "&AMP;";
+    public var Aopf = "&Aopf;";
+    public var Ascr = "&Ascr;";
+    public var Auml = "&Auml;";
+    public var Acirc = "&Acirc;";
+    public var Amacr = "&Amacr;";
+    public var Alpha = "&Alpha;";
+    public var Aring = "&Aring;";
+    public var Aogon = "&Aogon;";
+    public var AElig = "&AElig;";
+    public var Aacute = "&Aacute;";
+    public var Atilde = "&Atilde;";
+    public var Abreve = "&Abreve;";
+    public var Agrave = "&Agrave;";
+    public var Assign = "&Assign;";
+    public var ApplyFunction = "&ApplyFunction;";
+    public var Bfr = "&Bfr;";
+    public var Bcy = "&Bcy;";
+    public var Beta = "&Beta;";
+    public var Bopf = "&Bopf;";
+    public var Bscr = "&Bscr;";
+    public var Barv = "&Barv;";
+    public var Breve = "&Breve;";
+    public var Barwed = "&Barwed;";
+    public var Bumpeq = "&Bumpeq;";
+    public var Because = "&Because;";
+    public var Backslash = "&Backslash;";
+    public var Bernoullis = "&Bernoullis;";
+    public var Cap = "&Cap;";
+    public var Chi = "&Chi;";
+    public var Cfr = "&Cfr;";
+    public var Cup = "&Cup;";
+    public var Copf = "&Copf;";
+    public var Cdot = "&Cdot;";
+    public var Cscr = "&Cscr;";
+    public var CHcy = "&CHcy;";
+    public var COPY = "&COPY;";
+    public var Ccirc = "&Ccirc;";
+    public var Colon = "&Colon;";
+    public var Cross = "&Cross;";
+    public var Ccedil = "&Ccedil;";
+    public var Cacute = "&Cacute;";
+    public var Ccaron = "&Ccaron;";
+    public var Colone = "&Colone;";
+    public var Conint = "&Conint;";
+    public var CupCap = "&CupCap;";
+    public var Cedilla = "&Cedilla;";
+    public var Cconint = "&Cconint;";
+    public var Cayleys = "&Cayleys;";
+    public var Coproduct = "&Coproduct;";
+    public var Congruent = "&Congruent;";
+    public var CircleDot = "&CircleDot;";
+    public var CenterDot = "&CenterDot;";
+    public var CirclePlus = "&CirclePlus;";
+    public var CircleTimes = "&CircleTimes;";
+    public var CircleMinus = "&CircleMinus;";
+    public var ContourIntegral = "&ContourIntegral;";
+    public var CloseCurlyQuote = "&CloseCurlyQuote;";
+    public var CapitalDifferentialD = "&CapitalDifferentialD;";
+    public var CloseCurlyDoubleQuote = "&CloseCurlyDoubleQuote;";
+    public var ClockwiseContourIntegral = "&ClockwiseContourIntegral;";
+    public var CounterClockwiseContourIntegral = "&CounterClockwiseContourIntegral;";
+    public var DD = "&DD;";
+    public var Del = "&Del;";
+    public var Dfr = "&Dfr;";
+    public var Dcy = "&Dcy;";
+    public var Dot = "&Dot;";
+    public var Darr = "&Darr;";
+    public var Dopf = "&Dopf;";
+    public var Dscr = "&Dscr;";
+    public var DJcy = "&DJcy;";
+    public var DScy = "&DScy;";
+    public var DZcy = "&DZcy;";
+    public var Delta = "&Delta;";
+    public var Dashv = "&Dashv;";
+    public var Dagger = "&Dagger;";
+    public var Dcaron = "&Dcaron;";
+    public var Dstrok = "&Dstrok;";
+    public var DotDot = "&DotDot;";
+    public var Diamond = "&Diamond;";
+    public var DownTee = "&DownTee;";
+    public var DDotrahd = "&DDotrahd;";
+    public var DotEqual = "&DotEqual;";
+    public var DoubleDot = "&DoubleDot;";
+    public var Downarrow = "&Downarrow;";
+    public var DownBreve = "&DownBreve;";
+    public var DownArrow = "&DownArrow;";
+    public var DownArrowBar = "&DownArrowBar;";
+    public var DownTeeArrow = "&DownTeeArrow;";
+    public var DifferentialD = "&DifferentialD;";
+    public var DoubleLeftTee = "&DoubleLeftTee;";
+    public var DoubleUpArrow = "&DoubleUpArrow;";
+    public var DiacriticalDot = "&DiacriticalDot;";
+    public var DoubleRightTee = "&DoubleRightTee;";
+    public var DownLeftVector = "&DownLeftVector;";
+    public var DoubleLeftArrow = "&DoubleLeftArrow;";
+    public var DoubleDownArrow = "&DoubleDownArrow;";
+    public var DownRightVector = "&DownRightVector;";
+    public var DiacriticalAcute = "&DiacriticalAcute;";
+    public var DiacriticalTilde = "&DiacriticalTilde;";
+    public var DiacriticalGrave = "&DiacriticalGrave;";
+    public var DoubleRightArrow = "&DoubleRightArrow;";
+    public var DownArrowUpArrow = "&DownArrowUpArrow;";
+    public var DoubleVerticalBar = "&DoubleVerticalBar;";
+    public var DownLeftVectorBar = "&DownLeftVectorBar;";
+    public var DownLeftTeeVector = "&DownLeftTeeVector;";
+    public var DoubleUpDownArrow = "&DoubleUpDownArrow;";
+    public var DownRightVectorBar = "&DownRightVectorBar;";
+    public var DownRightTeeVector = "&DownRightTeeVector;";
+    public var DoubleLongLeftArrow = "&DoubleLongLeftArrow;";
+    public var DownLeftRightVector = "&DownLeftRightVector;";
+    public var DoubleLeftRightArrow = "&DoubleLeftRightArrow;";
+    public var DoubleLongRightArrow = "&DoubleLongRightArrow;";
+    public var DoubleContourIntegral = "&DoubleContourIntegral;";
+    public var DiacriticalDoubleAcute = "&DiacriticalDoubleAcute;";
+    public var DoubleLongLeftRightArrow = "&DoubleLongLeftRightArrow;";
+    public var Eta = "&Eta;";
+    public var Efr = "&Efr;";
+    public var Ecy = "&Ecy;";
+    public var ENG = "&ENG;";
+    public var ETH = "&ETH;";
+    public var Eopf = "&Eopf;";
+    public var Edot = "&Edot;";
+    public var Escr = "&Escr;";
+    public var Esim = "&Esim;";
+    public var Euml = "&Euml;";
+    public var Ecirc = "&Ecirc;";
+    public var Emacr = "&Emacr;";
+    public var Equal = "&Equal;";
+    public var Eogon = "&Eogon;";
+    public var Eacute = "&Eacute;";
+    public var Ecaron = "&Ecaron;";
+    public var Egrave = "&Egrave;";
+    public var Exists = "&Exists;";
+    public var Element = "&Element;";
+    public var Epsilon = "&Epsilon;";
+    public var EqualTilde = "&EqualTilde;";
+    public var Equilibrium = "&Equilibrium;";
+    public var ExponentialE = "&ExponentialE;";
+    public var EmptySmallSquare = "&EmptySmallSquare;";
+    public var EmptyVerySmallSquare = "&EmptyVerySmallSquare;";
+    public var Ffr = "&Ffr;";
+    public var Fcy = "&Fcy;";
+    public var Fopf = "&Fopf;";
+    public var Fscr = "&Fscr;";
+    public var ForAll = "&ForAll;";
+    public var Fouriertrf = "&Fouriertrf;";
+    public var FilledSmallSquare = "&FilledSmallSquare;";
+    public var FilledVerySmallSquare = "&FilledVerySmallSquare;";
+    public var Gg = "&Gg;";
+    public var Gt = "&Gt;";
+    public var GT = "&GT;";
+    public var Gfr = "&Gfr;";
+    public var Gcy = "&Gcy;";
+    public var Gopf = "&Gopf;";
+    public var Gdot = "&Gdot;";
+    public var Gscr = "&Gscr;";
+    public var GJcy = "&GJcy;";
+    public var Gamma = "&Gamma;";
+    public var Gcirc = "&Gcirc;";
+    public var Gammad = "&Gammad;";
+    public var Gcedil = "&Gcedil;";
+    public var Gbreve = "&Gbreve;";
+    public var GreaterLess = "&GreaterLess;";
+    public var GreaterTilde = "&GreaterTilde;";
+    public var GreaterEqual = "&GreaterEqual;";
+    public var GreaterGreater = "&GreaterGreater;";
+    public var GreaterFullEqual = "&GreaterFullEqual;";
+    public var GreaterEqualLess = "&GreaterEqualLess;";
+    public var GreaterSlantEqual = "&GreaterSlantEqual;";
+    public var Hat = "&Hat;";
+    public var Hfr = "&Hfr;";
+    public var Hopf = "&Hopf;";
+    public var Hscr = "&Hscr;";
+    public var Hacek = "&Hacek;";
+    public var Hcirc = "&Hcirc;";
+    public var Hstrok = "&Hstrok;";
+    public var HARDcy = "&HARDcy;";
+    public var HumpEqual = "&HumpEqual;";
+    public var HilbertSpace = "&HilbertSpace;";
+    public var HumpDownHump = "&HumpDownHump;";
+    public var HorizontalLine = "&HorizontalLine;";
+    public var Im = "&Im;";
+    public var Ifr = "&Ifr;";
+    public var Icy = "&Icy;";
+    public var Int = "&Int;";
+    public var Iota = "&Iota;";
+    public var Iopf = "&Iopf;";
+    public var Idot = "&Idot;";
+    public var Iscr = "&Iscr;";
+    public var Iuml = "&Iuml;";
+    public var IEcy = "&IEcy;";
+    public var IOcy = "&IOcy;";
+    public var Icirc = "&Icirc;";
+    public var Imacr = "&Imacr;";
+    public var Iogon = "&Iogon;";
+    public var Iukcy = "&Iukcy;";
+    public var IJlig = "&IJlig;";
+    public var Itilde = "&Itilde;";
+    public var Iacute = "&Iacute;";
+    public var Igrave = "&Igrave;";
+    public var Implies = "&Implies;";
+    public var Integral = "&Integral;";
+    public var ImaginaryI = "&ImaginaryI;";
+    public var Intersection = "&Intersection;";
+    public var InvisibleComma = "&InvisibleComma;";
+    public var InvisibleTimes = "&InvisibleTimes;";
+    public var Jfr = "&Jfr;";
+    public var Jcy = "&Jcy;";
+    public var Jopf = "&Jopf;";
+    public var Jscr = "&Jscr;";
+    public var Jcirc = "&Jcirc;";
+    public var Jukcy = "&Jukcy;";
+    public var Jsercy = "&Jsercy;";
+    public var Kfr = "&Kfr;";
+    public var Kcy = "&Kcy;";
+    public var Kopf = "&Kopf;";
+    public var Kscr = "&Kscr;";
+    public var KHcy = "&KHcy;";
+    public var KJcy = "&KJcy;";
+    public var Kappa = "&Kappa;";
+    public var Kcedil = "&Kcedil;";
+    public var Ll = "&Ll;";
+    public var Lt = "&Lt;";
+    public var LT = "&LT;";
+    public var Lfr = "&Lfr;";
+    public var Lsh = "&Lsh;";
+    public var Lcy = "&Lcy;";
+    public var Lang = "&Lang;";
+    public var Larr = "&Larr;";
+    public var Lopf = "&Lopf;";
+    public var Lscr = "&Lscr;";
+    public var LJcy = "&LJcy;";
+    public var Lambda = "&Lambda;";
+    public var Lcedil = "&Lcedil;";
+    public var Lacute = "&Lacute;";
+    public var Lcaron = "&Lcaron;";
+    public var Lmidot = "&Lmidot;";
+    public var Lstrok = "&Lstrok;";
+    public var LeftTee = "&LeftTee;";
+    public var LessLess = "&LessLess;";
+    public var Leftarrow = "&Leftarrow;";
+    public var LessTilde = "&LessTilde;";
+    public var LeftFloor = "&LeftFloor;";
+    public var LeftArrow = "&LeftArrow;";
+    public var Laplacetrf = "&Laplacetrf;";
+    public var Lleftarrow = "&Lleftarrow;";
+    public var LeftVector = "&LeftVector;";
+    public var LeftCeiling = "&LeftCeiling;";
+    public var LessGreater = "&LessGreater;";
+    public var LeftTriangle = "&LeftTriangle;";
+    public var LeftArrowBar = "&LeftArrowBar;";
+    public var LeftTeeArrow = "&LeftTeeArrow;";
+    public var LeftUpVector = "&LeftUpVector;";
+    public var Longleftarrow = "&Longleftarrow;";
+    public var LeftVectorBar = "&LeftVectorBar;";
+    public var LeftTeeVector = "&LeftTeeVector;";
+    public var LessFullEqual = "&LessFullEqual;";
+    public var LongLeftArrow = "&LongLeftArrow;";
+    public var Leftrightarrow = "&Leftrightarrow;";
+    public var Longrightarrow = "&Longrightarrow;";
+    public var LessSlantEqual = "&LessSlantEqual;";
+    public var LeftRightArrow = "&LeftRightArrow;";
+    public var LeftDownVector = "&LeftDownVector;";
+    public var LongRightArrow = "&LongRightArrow;";
+    public var LowerLeftArrow = "&LowerLeftArrow;";
+    public var LeftTriangleBar = "&LeftTriangleBar;";
+    public var LeftRightVector = "&LeftRightVector;";
+    public var LowerRightArrow = "&LowerRightArrow;";
+    public var LeftUpVectorBar = "&LeftUpVectorBar;";
+    public var LeftUpTeeVector = "&LeftUpTeeVector;";
+    public var LeftAngleBracket = "&LeftAngleBracket;";
+    public var LessEqualGreater = "&LessEqualGreater;";
+    public var LeftUpDownVector = "&LeftUpDownVector;";
+    public var LeftDoubleBracket = "&LeftDoubleBracket;";
+    public var LeftTriangleEqual = "&LeftTriangleEqual;";
+    public var LeftDownVectorBar = "&LeftDownVectorBar;";
+    public var LeftDownTeeVector = "&LeftDownTeeVector;";
+    public var Longleftrightarrow = "&Longleftrightarrow;";
+    public var LongLeftRightArrow = "&LongLeftRightArrow;";
+    public var LeftArrowRightArrow = "&LeftArrowRightArrow;";
+    public var Mu = "&Mu;";
+    public var Map = "&Map;";
+    public var Mfr = "&Mfr;";
+    public var Mcy = "&Mcy;";
+    public var Mopf = "&Mopf;";
+    public var Mscr = "&Mscr;";
+    public var Mellintrf = "&Mellintrf;";
+    public var MinusPlus = "&MinusPlus;";
+    public var MediumSpace = "&MediumSpace;";
+    public var Nu = "&Nu;";
+    public var Nfr = "&Nfr;";
+    public var Ncy = "&Ncy;";
+    public var Not = "&Not;";
+    public var Nopf = "&Nopf;";
+    public var Nscr = "&Nscr;";
+    public var NJcy = "&NJcy;";
+    public var Ncedil = "&Ncedil;";
+    public var Nacute = "&Nacute;";
+    public var Ntilde = "&Ntilde;";
+    public var Ncaron = "&Ncaron;";
+    public var NoBreak = "&NoBreak;";
+    public var NewLine = "&NewLine;";
+    public var NotLess = "&NotLess;";
+    public var NotTilde = "&NotTilde;";
+    public var NotEqual = "&NotEqual;";
+    public var NotSubset = "&NotSubset;";
+    public var NotCupCap = "&NotCupCap;";
+    public var NotExists = "&NotExists;";
+    public var NotGreater = "&NotGreater;";
+    public var NotElement = "&NotElement;";
+    public var NotPrecedes = "&NotPrecedes;";
+    public var NotSucceeds = "&NotSucceeds;";
+    public var NotSuperset = "&NotSuperset;";
+    public var NotLessLess = "&NotLessLess;";
+    public var NotCongruent = "&NotCongruent;";
+    public var NotLessTilde = "&NotLessTilde;";
+    public var NotLessEqual = "&NotLessEqual;";
+    public var NotHumpEqual = "&NotHumpEqual;";
+    public var NotTildeTilde = "&NotTildeTilde;";
+    public var NotEqualTilde = "&NotEqualTilde;";
+    public var NotTildeEqual = "&NotTildeEqual;";
+    public var NotVerticalBar = "&NotVerticalBar;";
+    public var NestedLessLess = "&NestedLessLess;";
+    public var NotGreaterLess = "&NotGreaterLess;";
+    public var NotLessGreater = "&NotLessGreater;";
+    public var NotSubsetEqual = "&NotSubsetEqual;";
+    public var NotGreaterTilde = "&NotGreaterTilde;";
+    public var NotLeftTriangle = "&NotLeftTriangle;";
+    public var NotGreaterEqual = "&NotGreaterEqual;";
+    public var NotSquareSubset = "&NotSquareSubset;";
+    public var NotHumpDownHump = "&NotHumpDownHump;";
+    public var NonBreakingSpace = "&NonBreakingSpace;";
+    public var NotSucceedsTilde = "&NotSucceedsTilde;";
+    public var NotPrecedesEqual = "&NotPrecedesEqual;";
+    public var NotSucceedsEqual = "&NotSucceedsEqual;";
+    public var NotRightTriangle = "&NotRightTriangle;";
+    public var NotSupersetEqual = "&NotSupersetEqual;";
+    public var NegativeThinSpace = "&NegativeThinSpace;";
+    public var NotGreaterGreater = "&NotGreaterGreater;";
+    public var NotReverseElement = "&NotReverseElement;";
+    public var NotTildeFullEqual = "&NotTildeFullEqual;";
+    public var NotSquareSuperset = "&NotSquareSuperset;";
+    public var NotLessSlantEqual = "&NotLessSlantEqual;";
+    public var NotNestedLessLess = "&NotNestedLessLess;";
+    public var NegativeThickSpace = "&NegativeThickSpace;";
+    public var NotLeftTriangleBar = "&NotLeftTriangleBar;";
+    public var NegativeMediumSpace = "&NegativeMediumSpace;";
+    public var NotRightTriangleBar = "&NotRightTriangleBar;";
+    public var NotGreaterFullEqual = "&NotGreaterFullEqual;";
+    public var NestedGreaterGreater = "&NestedGreaterGreater;";
+    public var NotDoubleVerticalBar = "&NotDoubleVerticalBar;";
+    public var NotLeftTriangleEqual = "&NotLeftTriangleEqual;";
+    public var NotGreaterSlantEqual = "&NotGreaterSlantEqual;";
+    public var NotSquareSubsetEqual = "&NotSquareSubsetEqual;";
+    public var NotPrecedesSlantEqual = "&NotPrecedesSlantEqual;";
+    public var NegativeVeryThinSpace = "&NegativeVeryThinSpace;";
+    public var NotSucceedsSlantEqual = "&NotSucceedsSlantEqual;";
+    public var NotRightTriangleEqual = "&NotRightTriangleEqual;";
+    public var NotSquareSupersetEqual = "&NotSquareSupersetEqual;";
+    public var NotNestedGreaterGreater = "&NotNestedGreaterGreater;";
+    public var Or = "&Or;";
+    public var Ofr = "&Ofr;";
+    public var Ocy = "&Ocy;";
+    public var Oopf = "&Oopf;";
+    public var Oscr = "&Oscr;";
+    public var Ouml = "&Ouml;";
+    public var Omega = "&Omega;";
+    public var Ocirc = "&Ocirc;";
+    public var Omacr = "&Omacr;";
+    public var OElig = "&OElig;";
+    public var Odblac = "&Odblac;";
+    public var Oacute = "&Oacute;";
+    public var Otilde = "&Otilde;";
+    public var Ograve = "&Ograve;";
+    public var Oslash = "&Oslash;";
+    public var Otimes = "&Otimes;";
+    public var Omicron = "&Omicron;";
+    public var OverBar = "&OverBar;";
+    public var OverBrace = "&OverBrace;";
+    public var OverBracket = "&OverBracket;";
+    public var OpenCurlyQuote = "&OpenCurlyQuote;";
+    public var OverParenthesis = "&OverParenthesis;";
+    public var OpenCurlyDoubleQuote = "&OpenCurlyDoubleQuote;";
+    public var Pi = "&Pi;";
+    public var Pr = "&Pr;";
+    public var Phi = "&Phi;";
+    public var Pfr = "&Pfr;";
+    public var Psi = "&Psi;";
+    public var Pcy = "&Pcy;";
+    public var Popf = "&Popf;";
+    public var Pscr = "&Pscr;";
+    public var Prime = "&Prime;";
+    public var Product = "&Product;";
+    public var Precedes = "&Precedes;";
+    public var PartialD = "&PartialD;";
+    public var PlusMinus = "&PlusMinus;";
+    public var Proportion = "&Proportion;";
+    public var Proportional = "&Proportional;";
+    public var Poincareplane = "&Poincareplane;";
+    public var PrecedesTilde = "&PrecedesTilde;";
+    public var PrecedesEqual = "&PrecedesEqual;";
+    public var PrecedesSlantEqual = "&PrecedesSlantEqual;";
+    public var Qfr = "&Qfr;";
+    public var Qopf = "&Qopf;";
+    public var Qscr = "&Qscr;";
+    public var QUOT = "&QUOT;";
+    public var Re = "&Re;";
+    public var Rho = "&Rho;";
+    public var Rfr = "&Rfr;";
+    public var Rsh = "&Rsh;";
+    public var Rcy = "&Rcy;";
+    public var REG = "&REG;";
+    public var Rang = "&Rang;";
+    public var Rarr = "&Rarr;";
+    public var Ropf = "&Ropf;";
+    public var Rscr = "&Rscr;";
+    public var RBarr = "&RBarr;";
+    public var Rcedil = "&Rcedil;";
+    public var Racute = "&Racute;";
+    public var Rcaron = "&Rcaron;";
+    public var Rarrtl = "&Rarrtl;";
+    public var RightTee = "&RightTee;";
+    public var Rightarrow = "&Rightarrow;";
+    public var RightFloor = "&RightFloor;";
+    public var RightArrow = "&RightArrow;";
+    public var RuleDelayed = "&RuleDelayed;";
+    public var Rrightarrow = "&Rrightarrow;";
+    public var RightVector = "&RightVector;";
+    public var RightCeiling = "&RightCeiling;";
+    public var RoundImplies = "&RoundImplies;";
+    public var RightTriangle = "&RightTriangle;";
+    public var RightArrowBar = "&RightArrowBar;";
+    public var RightTeeArrow = "&RightTeeArrow;";
+    public var RightUpVector = "&RightUpVector;";
+    public var ReverseElement = "&ReverseElement;";
+    public var RightVectorBar = "&RightVectorBar;";
+    public var RightTeeVector = "&RightTeeVector;";
+    public var RightDownVector = "&RightDownVector;";
+    public var RightTriangleBar = "&RightTriangleBar;";
+    public var RightUpVectorBar = "&RightUpVectorBar;";
+    public var RightUpTeeVector = "&RightUpTeeVector;";
+    public var RightAngleBracket = "&RightAngleBracket;";
+    public var RightUpDownVector = "&RightUpDownVector;";
+    public var RightDoubleBracket = "&RightDoubleBracket;";
+    public var ReverseEquilibrium = "&ReverseEquilibrium;";
+    public var RightTriangleEqual = "&RightTriangleEqual;";
+    public var RightDownVectorBar = "&RightDownVectorBar;";
+    public var RightDownTeeVector = "&RightDownTeeVector;";
+    public var RightArrowLeftArrow = "&RightArrowLeftArrow;";
+    public var ReverseUpEquilibrium = "&ReverseUpEquilibrium;";
+    public var Sc = "&Sc;";
+    public var Sub = "&Sub;";
+    public var Sfr = "&Sfr;";
+    public var Scy = "&Scy;";
+    public var Sum = "&Sum;";
+    public var Sup = "&Sup;";
+    public var Sopf = "&Sopf;";
+    public var Star = "&Star;";
+    public var Sscr = "&Sscr;";
+    public var Sqrt = "&Sqrt;";
+    public var SHcy = "&SHcy;";
+    public var Sigma = "&Sigma;";
+    public var Scirc = "&Scirc;";
+    public var Scedil = "&Scedil;";
+    public var Sacute = "&Sacute;";
+    public var Scaron = "&Scaron;";
+    public var Square = "&Square;";
+    public var Subset = "&Subset;";
+    public var Supset = "&Supset;";
+    public var SHCHcy = "&SHCHcy;";
+    public var SOFTcy = "&SOFTcy;";
+    public var Succeeds = "&Succeeds;";
+    public var Superset = "&Superset;";
+    public var SuchThat = "&SuchThat;";
+    public var SmallCircle = "&SmallCircle;";
+    public var SubsetEqual = "&SubsetEqual;";
+    public var SquareUnion = "&SquareUnion;";
+    public var SquareSubset = "&SquareSubset;";
+    public var ShortUpArrow = "&ShortUpArrow;";
+    public var SucceedsTilde = "&SucceedsTilde;";
+    public var SucceedsEqual = "&SucceedsEqual;";
+    public var SupersetEqual = "&SupersetEqual;";
+    public var SquareSuperset = "&SquareSuperset;";
+    public var ShortLeftArrow = "&ShortLeftArrow;";
+    public var ShortDownArrow = "&ShortDownArrow;";
+    public var ShortRightArrow = "&ShortRightArrow;";
+    public var SquareSubsetEqual = "&SquareSubsetEqual;";
+    public var SquareIntersection = "&SquareIntersection;";
+    public var SucceedsSlantEqual = "&SucceedsSlantEqual;";
+    public var SquareSupersetEqual = "&SquareSupersetEqual;";
+    public var Tab = "&Tab;";
+    public var Tau = "&Tau;";
+    public var Tfr = "&Tfr;";
+    public var Tcy = "&Tcy;";
+    public var Topf = "&Topf;";
+    public var Tscr = "&Tscr;";
+    public var TScy = "&TScy;";
+    public var Tilde = "&Tilde;";
+    public var Theta = "&Theta;";
+    public var TSHcy = "&TSHcy;";
+    public var TRADE = "&TRADE;";
+    public var THORN = "&THORN;";
+    public var Tcedil = "&Tcedil;";
+    public var Tcaron = "&Tcaron;";
+    public var Tstrok = "&Tstrok;";
+    public var Therefore = "&Therefore;";
+    public var ThinSpace = "&ThinSpace;";
+    public var TripleDot = "&TripleDot;";
+    public var ThickSpace = "&ThickSpace;";
+    public var TildeTilde = "&TildeTilde;";
+    public var TildeEqual = "&TildeEqual;";
+    public var TildeFullEqual = "&TildeFullEqual;";
+    public var Ufr = "&Ufr;";
+    public var Ucy = "&Ucy;";
+    public var Uopf = "&Uopf;";
+    public var Uarr = "&Uarr;";
+    public var Uscr = "&Uscr;";
+    public var Upsi = "&Upsi;";
+    public var Uuml = "&Uuml;";
+    public var Ucirc = "&Ucirc;";
+    public var Umacr = "&Umacr;";
+    public var Uring = "&Uring;";
+    public var Ubrcy = "&Ubrcy;";
+    public var Uogon = "&Uogon;";
+    public var Union = "&Union;";
+    public var UpTee = "&UpTee;";
+    public var Udblac = "&Udblac;";
+    public var Uacute = "&Uacute;";
+    public var Utilde = "&Utilde;";
+    public var Ubreve = "&Ubreve;";
+    public var Ugrave = "&Ugrave;";
+    public var Upsilon = "&Upsilon;";
+    public var Uparrow = "&Uparrow;";
+    public var UpArrow = "&UpArrow;";
+    public var Uarrocir = "&Uarrocir;";
+    public var UnderBar = "&UnderBar;";
+    public var UnionPlus = "&UnionPlus;";
+    public var UnderBrace = "&UnderBrace;";
+    public var UpArrowBar = "&UpArrowBar;";
+    public var UpTeeArrow = "&UpTeeArrow;";
+    public var Updownarrow = "&Updownarrow;";
+    public var UpDownArrow = "&UpDownArrow;";
+    public var UnderBracket = "&UnderBracket;";
+    public var UpEquilibrium = "&UpEquilibrium;";
+    public var UpperLeftArrow = "&UpperLeftArrow;";
+    public var UpperRightArrow = "&UpperRightArrow;";
+    public var UnderParenthesis = "&UnderParenthesis;";
+    public var UpArrowDownArrow = "&UpArrowDownArrow;";
+    public var Vee = "&Vee;";
+    public var Vfr = "&Vfr;";
+    public var Vcy = "&Vcy;";
+    public var Vbar = "&Vbar;";
+    public var Vopf = "&Vopf;";
+    public var Vscr = "&Vscr;";
+    public var Vert = "&Vert;";
+    public var Vdash = "&Vdash;";
+    public var VDash = "&VDash;";
+    public var Vdashl = "&Vdashl;";
+    public var Verbar = "&Verbar;";
+    public var Vvdash = "&Vvdash;";
+    public var VerticalBar = "&VerticalBar;";
+    public var VerticalLine = "&VerticalLine;";
+    public var VerticalTilde = "&VerticalTilde;";
+    public var VeryThinSpace = "&VeryThinSpace;";
+    public var VerticalSeparator = "&VerticalSeparator;";
+    public var Wfr = "&Wfr;";
+    public var Wopf = "&Wopf;";
+    public var Wscr = "&Wscr;";
+    public var Wedge = "&Wedge;";
+    public var Wcirc = "&Wcirc;";
+    public var Xi = "&Xi;";
+    public var Xfr = "&Xfr;";
+    public var Xopf = "&Xopf;";
+    public var Xscr = "&Xscr;";
+    public var Yfr = "&Yfr;";
+    public var Ycy = "&Ycy;";
+    public var Yopf = "&Yopf;";
+    public var Yscr = "&Yscr;";
+    public var Yuml = "&Yuml;";
+    public var YAcy = "&YAcy;";
+    public var YIcy = "&YIcy;";
+    public var YUcy = "&YUcy;";
+    public var Ycirc = "&Ycirc;";
+    public var Yacute = "&Yacute;";
+    public var Zfr = "&Zfr;";
+    public var Zcy = "&Zcy;";
     public var Zeta = "&Zeta;";
     public var Zopf = "&Zopf;";
     public var Zdot = "&Zdot;";
     public var Zscr = "&Zscr;";
     public var ZHcy = "&ZHcy;";
-    public var zacute = "&zacute;";
-    public var zcaron = "&zcaron;";
-    public var zeetrf = "&zeetrf;";
     public var Zacute = "&Zacute;";
     public var Zcaron = "&Zcaron;";
-    public var zigrarr = "&zigrarr;";
     public var ZeroWidthSpace = "&ZeroWidthSpace;";
     
 
@@ -2167,11 +2167,7 @@ enum abstract HtmlEntity(String) {
         amp,
         ast,
         acE,
-        And,
         apE,
-        Afr,
-        Acy,
-        AMP,
         andd,
         ange,
         apid,
@@ -2180,9 +2176,6 @@ enum abstract HtmlEntity(String) {
         andv,
         auml,
         apos,
-        Aopf,
-        Ascr,
-        Auml,
         amalg,
         acirc,
         aelig,
@@ -2195,14 +2188,8 @@ enum abstract HtmlEntity(String) {
         aogon,
         angrt,
         angst,
-        Acirc,
         awint,
-        Amacr,
-        Alpha,
         asymp,
-        Aring,
-        Aogon,
-        AElig,
         andand,
         apacir,
         atilde,
@@ -2211,12 +2198,7 @@ enum abstract HtmlEntity(String) {
         agrave,
         angmsd,
         angsph,
-        Aacute,
-        Atilde,
-        Abreve,
-        Agrave,
         approx,
-        Assign,
         alefsym,
         angrtvb,
         angzarr,
@@ -2233,13 +2215,10 @@ enum abstract HtmlEntity(String) {
         angrtvbd,
         awconint,
         approxeq,
-        ApplyFunction,
         bne,
         bfr,
         bcy,
         bot,
-        Bfr,
-        Bcy,
         beta,
         bbrk,
         beth,
@@ -2251,11 +2230,7 @@ enum abstract HtmlEntity(String) {
         boxh,
         bnot,
         bump,
-        Beta,
         boxv,
-        Bopf,
-        Bscr,
-        Barv,
         boxH,
         bNot,
         boxV,
@@ -2281,7 +2256,6 @@ enum abstract HtmlEntity(String) {
         boxvl,
         boxur,
         boxvr,
-        Breve,
         boxHd,
         boxhD,
         boxDl,
@@ -2325,15 +2299,12 @@ enum abstract HtmlEntity(String) {
         bernou,
         boxbox,
         bottom,
-        Barwed,
-        Bumpeq,
         bigcirc,
         because,
         backsim,
         bigodot,
         between,
         bigstar,
-        Because,
         bnequiv,
         bemptyv,
         boxplus,
@@ -2350,8 +2321,6 @@ enum abstract HtmlEntity(String) {
         backprime,
         backsimeq,
         bigotimes,
-        Backslash,
-        Bernoullis,
         backepsilon,
         blacksquare,
         blacklozenge,
@@ -2366,10 +2335,6 @@ enum abstract HtmlEntity(String) {
         cfr,
         cir,
         cup,
-        Cap,
-        Chi,
-        Cfr,
-        Cup,
         circ,
         cire,
         caps,
@@ -2385,11 +2350,6 @@ enum abstract HtmlEntity(String) {
         csup,
         cups,
         cirE,
-        Copf,
-        Cdot,
-        Cscr,
-        CHcy,
-        COPY,
         check,
         cedil,
         ccirc,
@@ -2408,12 +2368,9 @@ enum abstract HtmlEntity(String) {
         ctdot,
         cuepr,
         csupe,
-        Ccirc,
         cwint,
         cupor,
         cross,
-        Colon,
-        Cross,
         ccedil,
         capand,
         capcap,
@@ -2427,7 +2384,6 @@ enum abstract HtmlEntity(String) {
         colone,
         commat,
         compfn,
-        Ccedil,
         coprod,
         cularr,
         conint,
@@ -2435,15 +2391,9 @@ enum abstract HtmlEntity(String) {
         curren,
         curarr,
         cupcup,
-        Cacute,
-        Ccaron,
         cylcty,
-        Colone,
         copysr,
-        Conint,
-        CupCap,
         cudarrl,
-        Cedilla,
         congdot,
         cirscir,
         coloneq,
@@ -2452,8 +2402,6 @@ enum abstract HtmlEntity(String) {
         curarrm,
         ccupssm,
         cemptyv,
-        Cconint,
-        Cayleys,
         cupbrcap,
         capbrcup,
         cirfnint,
@@ -2465,42 +2413,24 @@ enum abstract HtmlEntity(String) {
         checkmark,
         centerdot,
         complexes,
-        Coproduct,
-        Congruent,
-        CircleDot,
-        CenterDot,
         circledast,
         complement,
         curlywedge,
-        CirclePlus,
         circleddash,
         circledcirc,
         curlyeqprec,
         curlyeqsucc,
-        CircleTimes,
-        CircleMinus,
         curvearrowleft,
         circlearrowleft,
         curvearrowright,
-        ContourIntegral,
-        CloseCurlyQuote,
         circlearrowright,
-        CapitalDifferentialD,
-        CloseCurlyDoubleQuote,
-        ClockwiseContourIntegral,
-        CounterClockwiseContourIntegral,
         dd,
-        DD,
         deg,
         die,
         dfr,
         dcy,
         div,
         dot,
-        Del,
-        Dfr,
-        Dcy,
-        Dot,
         diam,
         dash,
         darr,
@@ -2513,12 +2443,6 @@ enum abstract HtmlEntity(String) {
         dzcy,
         dHar,
         dArr,
-        Darr,
-        Dopf,
-        Dscr,
-        DJcy,
-        DScy,
-        DZcy,
         dblac,
         delta,
         dharl,
@@ -2532,8 +2456,6 @@ enum abstract HtmlEntity(String) {
         doteq,
         duarr,
         dtdot,
-        Delta,
-        Dashv,
         dagger,
         daleth,
         divide,
@@ -2544,69 +2466,28 @@ enum abstract HtmlEntity(String) {
         dlcrop,
         drcorn,
         drcrop,
-        Dagger,
         dstrok,
-        Dcaron,
         divonx,
-        Dstrok,
-        DotDot,
         ddagger,
         digamma,
         diamond,
         dwangle,
         dbkarow,
         ddotseq,
-        Diamond,
         demptyv,
         dotplus,
-        DownTee,
         drbkarow,
         doteqdot,
         dzigrarr,
         dotminus,
-        DDotrahd,
-        DotEqual,
         dotsquare,
         downarrow,
-        DoubleDot,
-        Downarrow,
-        DownBreve,
-        DownArrow,
         diamondsuit,
-        DownArrowBar,
-        DownTeeArrow,
         divideontimes,
-        DifferentialD,
-        DoubleLeftTee,
-        DoubleUpArrow,
         doublebarwedge,
-        DiacriticalDot,
         downdownarrows,
-        DoubleRightTee,
-        DownLeftVector,
         downharpoonleft,
-        DoubleLeftArrow,
-        DoubleDownArrow,
-        DownRightVector,
-        DiacriticalAcute,
-        DiacriticalTilde,
         downharpoonright,
-        DiacriticalGrave,
-        DoubleRightArrow,
-        DownArrowUpArrow,
-        DoubleVerticalBar,
-        DownLeftVectorBar,
-        DownLeftTeeVector,
-        DoubleUpDownArrow,
-        DownRightVectorBar,
-        DownRightTeeVector,
-        DoubleLongLeftArrow,
-        DownLeftRightVector,
-        DoubleLeftRightArrow,
-        DoubleLongRightArrow,
-        DoubleContourIntegral,
-        DiacriticalDoubleAcute,
-        DoubleLongLeftRightArrow,
         ee,
         eg,
         el,
@@ -2618,11 +2499,6 @@ enum abstract HtmlEntity(String) {
         ecy,
         eth,
         els,
-        Eta,
-        Efr,
-        Ecy,
-        ENG,
-        ETH,
         ecir,
         epar,
         eopf,
@@ -2635,28 +2511,19 @@ enum abstract HtmlEntity(String) {
         emsp,
         ensp,
         euro,
-        Eopf,
-        Edot,
         eDot,
-        Escr,
-        Esim,
-        Euml,
         ecirc,
         emacr,
         eogon,
         erarr,
         esdot,
         eqsim,
-        Ecirc,
         epsiv,
-        Emacr,
         eplus,
         equiv,
         exist,
         empty,
         efDot,
-        Equal,
-        Eogon,
         erDot,
         eDDot,
         emsp13,
@@ -2672,39 +2539,24 @@ enum abstract HtmlEntity(String) {
         elsdot,
         equals,
         equest,
-        Eacute,
-        Ecaron,
-        Egrave,
         emptyv,
-        Exists,
         eqcolon,
         epsilon,
-        Element,
-        Epsilon,
         equivDD,
         elinters,
         eqvparsl,
         emptyset,
         eqslantgtr,
-        EqualTilde,
         expectation,
         eqslantless,
-        Equilibrium,
         exponentiale,
-        ExponentialE,
-        EmptySmallSquare,
-        EmptyVerySmallSquare,
         ffr,
         fcy,
-        Ffr,
-        Fcy,
         flat,
         fnof,
         fopf,
         fscr,
         fork,
-        Fopf,
-        Fscr,
         fflig,
         filig,
         fjlig,
@@ -2732,20 +2584,13 @@ enum abstract HtmlEntity(String) {
         ffilig,
         ffllig,
         forall,
-        ForAll,
         fpartint,
-        Fouriertrf,
         fallingdotseq,
-        FilledSmallSquare,
-        FilledVerySmallSquare,
         ge,
         gg,
         gl,
         gt,
         gE,
-        Gg,
-        Gt,
-        GT,
         gla,
         ggg,
         gel,
@@ -2759,8 +2604,6 @@ enum abstract HtmlEntity(String) {
         gEl,
         glE,
         gnE,
-        Gfr,
-        Gcy,
         gtcc,
         gnap,
         gneq,
@@ -2771,11 +2614,7 @@ enum abstract HtmlEntity(String) {
         gdot,
         gscr,
         gsim,
-        Gopf,
-        Gdot,
-        Gscr,
         gvnE,
-        GJcy,
         gamma,
         gescc,
         gcirc,
@@ -2787,19 +2626,14 @@ enum abstract HtmlEntity(String) {
         gsiml,
         gnsim,
         gtdot,
-        Gamma,
-        Gcirc,
         gammad,
         gacute,
         gbreve,
         gesles,
         gesdot,
-        Gammad,
-        Gcedil,
         gtrarr,
         gtrdot,
         gtrsim,
-        Gbreve,
         gtlPar,
         gesdoto,
         gtrless,
@@ -2811,29 +2645,16 @@ enum abstract HtmlEntity(String) {
         gvertneqq,
         gtrapprox,
         gtreqqless,
-        GreaterLess,
-        GreaterTilde,
-        GreaterEqual,
-        GreaterGreater,
-        GreaterFullEqual,
-        GreaterEqualLess,
-        GreaterSlantEqual,
         hfr,
-        Hat,
-        Hfr,
         half,
         hbar,
         harr,
         hopf,
         hscr,
         hArr,
-        Hopf,
-        Hscr,
         hcirc,
-        Hacek,
         hoarr,
         harrw,
-        Hcirc,
         hardcy,
         hellip,
         horbar,
@@ -2846,30 +2667,20 @@ enum abstract HtmlEntity(String) {
         hybull,
         homtht,
         hstrok,
-        Hstrok,
-        HARDcy,
         harrcir,
         hksearow,
         hkswarow,
         heartsuit,
-        HumpEqual,
-        HilbertSpace,
-        HumpDownHump,
         hookleftarrow,
         hookrightarrow,
-        HorizontalLine,
         ic,
         ii,
         In,
         it,
-        Im,
         iff,
         ifr,
         icy,
         int,
-        Ifr,
-        Icy,
-        Int,
         iecy,
         imof,
         iota,
@@ -2878,13 +2689,6 @@ enum abstract HtmlEntity(String) {
         isin,
         iocy,
         iuml,
-        Iota,
-        Iopf,
-        Idot,
-        Iscr,
-        Iuml,
-        IEcy,
-        IOcy,
         image,
         icirc,
         imacr,
@@ -2900,12 +2704,7 @@ enum abstract HtmlEntity(String) {
         iukcy,
         isins,
         isinv,
-        Icirc,
-        Imacr,
         isinE,
-        Iogon,
-        Iukcy,
-        IJlig,
         incare,
         intcal,
         iacute,
@@ -2914,66 +2713,39 @@ enum abstract HtmlEntity(String) {
         igrave,
         iiiint,
         inodot,
-        Itilde,
         iquest,
-        Iacute,
         isinsv,
-        Igrave,
         isindot,
         intprod,
-        Implies,
         imagline,
         intercal,
         imagpart,
         infintie,
         intlarhk,
         integers,
-        Integral,
-        ImaginaryI,
-        Intersection,
-        InvisibleComma,
-        InvisibleTimes,
         jfr,
         jcy,
-        Jfr,
-        Jcy,
         jopf,
         jscr,
-        Jopf,
-        Jscr,
         jcirc,
         jmath,
         jukcy,
-        Jcirc,
-        Jukcy,
         jsercy,
-        Jsercy,
         kfr,
         kcy,
-        Kfr,
-        Kcy,
         khcy,
         kopf,
         kjcy,
         kscr,
-        Kopf,
-        Kscr,
-        KHcy,
-        KJcy,
         kappa,
-        Kappa,
         kcedil,
         kgreen,
         kappav,
-        Kcedil,
         le,
         lg,
         ll,
         lt,
         lE,
-        Ll,
-        Lt,
-        LT,
         leg,
         lap,
         lne,
@@ -2988,9 +2760,6 @@ enum abstract HtmlEntity(String) {
         lEg,
         lgE,
         lnE,
-        Lfr,
-        Lsh,
-        Lcy,
         ldca,
         lang,
         late,
@@ -3010,14 +2779,9 @@ enum abstract HtmlEntity(String) {
         lsim,
         ltri,
         lozf,
-        Lang,
         lHar,
-        Larr,
         lArr,
-        Lopf,
-        Lscr,
         lvnE,
-        LJcy,
         langd,
         lceil,
         lescc,
@@ -3062,7 +2826,6 @@ enum abstract HtmlEntity(String) {
         lrhard,
         lacute,
         lcaron,
-        Lambda,
         lesges,
         lthree,
         larrhk,
@@ -3074,7 +2837,6 @@ enum abstract HtmlEntity(String) {
         lesdot,
         larrlp,
         larrpl,
-        Lcedil,
         lfloor,
         ltimes,
         lparlt,
@@ -3084,15 +2846,11 @@ enum abstract HtmlEntity(String) {
         ldquor,
         lAtail,
         lowast,
-        Lacute,
-        Lcaron,
         lstrok,
         loplus,
         lmoust,
         lsquor,
-        Lmidot,
         ltrPar,
-        Lstrok,
         ldrdhar,
         larrbfs,
         lbrksld,
@@ -3106,7 +2864,6 @@ enum abstract HtmlEntity(String) {
         luruhar,
         lessgtr,
         ltquest,
-        LeftTee,
         llcorner,
         leqslant,
         lurdshar,
@@ -3115,79 +2872,34 @@ enum abstract HtmlEntity(String) {
         lesdotor,
         laemptyv,
         lnapprox,
-        LessLess,
         leftarrow,
         lesseqgtr,
         lvertneqq,
-        Leftarrow,
-        LessTilde,
-        LeftFloor,
-        LeftArrow,
         lmoustache,
-        Laplacetrf,
         longmapsto,
         lesseqqgtr,
         lessapprox,
-        Lleftarrow,
-        LeftVector,
-        LeftCeiling,
-        LessGreater,
-        LeftTriangle,
-        LeftArrowBar,
-        LeftTeeArrow,
-        LeftUpVector,
         leftarrowtail,
         longleftarrow,
         leftharpoonup,
         looparrowleft,
-        Longleftarrow,
-        LeftVectorBar,
-        LeftTeeVector,
-        LessFullEqual,
-        LongLeftArrow,
         leftthreetimes,
         leftleftarrows,
         leftrightarrow,
         longrightarrow,
         looparrowright,
-        Leftrightarrow,
-        Longrightarrow,
-        LessSlantEqual,
-        LeftRightArrow,
-        LeftDownVector,
-        LongRightArrow,
-        LowerLeftArrow,
         leftharpoondown,
         leftrightarrows,
-        LeftTriangleBar,
-        LeftRightVector,
-        LowerRightArrow,
-        LeftUpVectorBar,
-        LeftUpTeeVector,
-        LeftAngleBracket,
-        LessEqualGreater,
-        LeftUpDownVector,
         leftrightharpoons,
-        LeftDoubleBracket,
-        LeftTriangleEqual,
-        LeftDownVectorBar,
-        LeftDownTeeVector,
         longleftrightarrow,
-        Longleftrightarrow,
-        LongLeftRightArrow,
         leftrightsquigarrow,
-        LeftArrowRightArrow,
         mp,
         mu,
-        Mu,
         mid,
         map,
         mho,
         mfr,
         mcy,
-        Map,
-        Mfr,
-        Mcy,
         male,
         macr,
         mlcp,
@@ -3195,8 +2907,6 @@ enum abstract HtmlEntity(String) {
         mldr,
         mopf,
         mscr,
-        Mopf,
-        Mscr,
         mdash,
         micro,
         mumap,
@@ -3217,16 +2927,12 @@ enum abstract HtmlEntity(String) {
         minusdu,
         multimap,
         mapstoup,
-        Mellintrf,
-        MinusPlus,
         mapstoleft,
         mapstodown,
-        MediumSpace,
         measuredangle,
         ne,
         ni,
         nu,
-        Nu,
         nge,
         nap,
         nle,
@@ -3244,11 +2950,8 @@ enum abstract HtmlEntity(String) {
         nGg,
         nlE,
         nLl,
-        Nfr,
         nGt,
-        Ncy,
         nLt,
-        Not,
         ncap,
         nang,
         nmid,
@@ -3278,11 +2981,8 @@ enum abstract HtmlEntity(String) {
         nvlt,
         napE,
         nsup,
-        Nopf,
-        Nscr,
         nGtv,
         nLtv,
-        NJcy,
         nabla,
         napid,
         ndash,
@@ -3339,16 +3039,12 @@ enum abstract HtmlEntity(String) {
         nsimeq,
         nprcue,
         nltrie,
-        Ncedil,
         nparsl,
         nrtrie,
         numero,
         nequiv,
         nexist,
         nrarrw,
-        Nacute,
-        Ntilde,
-        Ncaron,
         nvDash,
         nVdash,
         notinE,
@@ -3377,90 +3073,29 @@ enum abstract HtmlEntity(String) {
         nsqsupe,
         nwarrow,
         nsupset,
-        NoBreak,
-        NewLine,
-        NotLess,
         ncongdot,
         naturals,
         notindot,
-        NotTilde,
-        NotEqual,
         nparallel,
         ngeqslant,
         nleqslant,
         nshortmid,
         nsubseteq,
         nsupseteq,
-        NotSubset,
-        NotCupCap,
-        NotExists,
         nleftarrow,
         nsubseteqq,
         nsupseteqq,
         nLeftarrow,
-        NotGreater,
-        NotElement,
         nrightarrow,
         nRightarrow,
-        NotPrecedes,
-        NotSucceeds,
-        NotSuperset,
-        NotLessLess,
-        NotCongruent,
-        NotLessTilde,
-        NotLessEqual,
-        NotHumpEqual,
         ntriangleleft,
-        NotTildeTilde,
-        NotEqualTilde,
-        NotTildeEqual,
         ntriangleright,
         nshortparallel,
-        NotVerticalBar,
-        NestedLessLess,
-        NotGreaterLess,
-        NotLessGreater,
-        NotSubsetEqual,
         ntrianglelefteq,
         nleftrightarrow,
         nLeftrightarrow,
-        NotGreaterTilde,
-        NotLeftTriangle,
-        NotGreaterEqual,
-        NotSquareSubset,
-        NotHumpDownHump,
         ntrianglerighteq,
-        NonBreakingSpace,
-        NotSucceedsTilde,
-        NotPrecedesEqual,
-        NotSucceedsEqual,
-        NotRightTriangle,
-        NotSupersetEqual,
-        NegativeThinSpace,
-        NotGreaterGreater,
-        NotReverseElement,
-        NotTildeFullEqual,
-        NotSquareSuperset,
-        NotLessSlantEqual,
-        NotNestedLessLess,
-        NegativeThickSpace,
-        NotLeftTriangleBar,
-        NegativeMediumSpace,
-        NotRightTriangleBar,
-        NotGreaterFullEqual,
-        NestedGreaterGreater,
-        NotDoubleVerticalBar,
-        NotLeftTriangleEqual,
-        NotGreaterSlantEqual,
-        NotSquareSubsetEqual,
-        NotPrecedesSlantEqual,
-        NegativeVeryThinSpace,
-        NotSucceedsSlantEqual,
-        NotRightTriangleEqual,
-        NotSquareSupersetEqual,
-        NotNestedGreaterGreater,
         or,
-        Or,
         oS,
         ohm,
         ord,
@@ -3469,8 +3104,6 @@ enum abstract HtmlEntity(String) {
         ocy,
         olt,
         orv,
-        Ofr,
-        Ocy,
         omid,
         ordf,
         ocir,
@@ -3486,9 +3119,6 @@ enum abstract HtmlEntity(String) {
         ouml,
         osol,
         oror,
-        Oopf,
-        Oscr,
-        Ouml,
         omega,
         ohbar,
         odash,
@@ -3503,43 +3133,24 @@ enum abstract HtmlEntity(String) {
         olarr,
         operp,
         orarr,
-        Omega,
-        Ocirc,
-        Omacr,
         oplus,
-        OElig,
         odblac,
         otilde,
         oacute,
         ograve,
         odsold,
-        Odblac,
         origof,
         oslash,
         otimes,
         ominus,
-        Oacute,
-        Otilde,
-        Ograve,
-        Oslash,
-        Otimes,
         orderof,
         omicron,
         orslope,
         olcross,
-        Omicron,
-        OverBar,
         otimesas,
-        OverBrace,
-        OverBracket,
-        OpenCurlyQuote,
-        OverParenthesis,
-        OpenCurlyDoubleQuote,
         pi,
         pm,
         pr,
-        Pi,
-        Pr,
         phi,
         par,
         pre,
@@ -3547,11 +3158,7 @@ enum abstract HtmlEntity(String) {
         psi,
         pcy,
         piv,
-        Phi,
         prE,
-        Pfr,
-        Psi,
-        Pcy,
         para,
         prec,
         prap,
@@ -3563,9 +3170,7 @@ enum abstract HtmlEntity(String) {
         pscr,
         prop,
         plus,
-        Popf,
         prnE,
-        Pscr,
         phone,
         prime,
         prcue,
@@ -3575,7 +3180,6 @@ enum abstract HtmlEntity(String) {
         plusb,
         pluse,
         prsim,
-        Prime,
         planck,
         preceq,
         period,
@@ -3598,55 +3202,35 @@ enum abstract HtmlEntity(String) {
         pluscir,
         plussim,
         plustwo,
-        Product,
         parallel,
         profalar,
         precneqq,
         profline,
         precnsim,
         plusacir,
-        Precedes,
         pointint,
         profsurf,
-        PartialD,
         pitchfork,
-        PlusMinus,
         precapprox,
-        Proportion,
         preccurlyeq,
         precnapprox,
-        Proportional,
-        Poincareplane,
-        PrecedesTilde,
-        PrecedesEqual,
-        PrecedesSlantEqual,
         qfr,
-        Qfr,
         qopf,
         qscr,
         qint,
         quot,
-        Qopf,
-        Qscr,
-        QUOT,
         quest,
         qprime,
         quatint,
         questeq,
         quaternions,
         rx,
-        Re,
         reg,
         rho,
         rfr,
         rlm,
         rsh,
         rcy,
-        Rho,
-        Rfr,
-        Rsh,
-        Rcy,
-        REG,
         rdca,
         race,
         real,
@@ -3662,12 +3246,8 @@ enum abstract HtmlEntity(String) {
         rscr,
         rhov,
         rtri,
-        Rang,
         rHar,
-        Rarr,
-        Ropf,
         rArr,
-        Rscr,
         radic,
         rangd,
         range,
@@ -3697,7 +3277,6 @@ enum abstract HtmlEntity(String) {
         rAarr,
         rBarr,
         rsquo,
-        RBarr,
         rbrace,
         rcedil,
         rbrack,
@@ -3713,7 +3292,6 @@ enum abstract HtmlEntity(String) {
         rfisht,
         rpargt,
         rarrpl,
-        Rcedil,
         rarrlp,
         rfloor,
         rtimes,
@@ -3721,12 +3299,9 @@ enum abstract HtmlEntity(String) {
         rsaquo,
         rdquor,
         rAtail,
-        Racute,
         roplus,
-        Rcaron,
         rmoust,
         rsquor,
-        Rarrtl,
         realine,
         rdldhar,
         rarrbfs,
@@ -3739,49 +3314,19 @@ enum abstract HtmlEntity(String) {
         raemptyv,
         rppolint,
         rtriltri,
-        RightTee,
         rationals,
         rmoustache,
         rightarrow,
-        Rightarrow,
-        RightFloor,
-        RightArrow,
-        RuleDelayed,
-        Rrightarrow,
-        RightVector,
         risingdotseq,
-        RightCeiling,
-        RoundImplies,
-        RightTriangle,
-        RightArrowBar,
-        RightTeeArrow,
-        RightUpVector,
         rightarrowtail,
         rightharpoonup,
-        ReverseElement,
-        RightVectorBar,
-        RightTeeVector,
         rightthreetimes,
         rightleftarrows,
         rightsquigarrow,
-        RightDownVector,
         rightharpoondown,
         rightrightarrows,
-        RightTriangleBar,
-        RightUpVectorBar,
-        RightUpTeeVector,
         rightleftharpoons,
-        RightAngleBracket,
-        RightUpDownVector,
-        RightDoubleBracket,
-        ReverseEquilibrium,
-        RightTriangleEqual,
-        RightDownVectorBar,
-        RightDownTeeVector,
-        RightArrowLeftArrow,
-        ReverseUpEquilibrium,
         sc,
-        Sc,
         sce,
         sim,
         sub,
@@ -3794,11 +3339,6 @@ enum abstract HtmlEntity(String) {
         sup,
         squ,
         scE,
-        Sub,
-        Sfr,
-        Scy,
-        Sum,
-        Sup,
         scap,
         sup1,
         sup2,
@@ -3825,12 +3365,7 @@ enum abstract HtmlEntity(String) {
         sext,
         scnE,
         subE,
-        Sopf,
-        Star,
-        Sscr,
         supE,
-        Sqrt,
-        SHcy,
         sigma,
         sccue,
         scirc,
@@ -3856,8 +3391,6 @@ enum abstract HtmlEntity(String) {
         sqcup,
         sqsub,
         swarr,
-        Sigma,
-        Scirc,
         simgE,
         strns,
         simlE,
@@ -3888,7 +3421,6 @@ enum abstract HtmlEntity(String) {
         sqsube,
         subsim,
         sstarf,
-        Scedil,
         subsub,
         seswar,
         subset,
@@ -3903,14 +3435,7 @@ enum abstract HtmlEntity(String) {
         supsub,
         subsup,
         supset,
-        Sacute,
-        Scaron,
         supsup,
-        Square,
-        Subset,
-        Supset,
-        SHCHcy,
-        SOFTcy,
         subedot,
         succsim,
         simrarr,
@@ -3933,13 +3458,10 @@ enum abstract HtmlEntity(String) {
         shortmid,
         subseteq,
         scpolint,
-        Succeeds,
         setminus,
         supseteq,
         sqsubset,
         sqsupset,
-        Superset,
-        SuchThat,
         spadesuit,
         subsetneq,
         subseteqq,
@@ -3953,33 +3475,13 @@ enum abstract HtmlEntity(String) {
         straightphi,
         succcurlyeq,
         succnapprox,
-        SmallCircle,
-        SubsetEqual,
-        SquareUnion,
-        SquareSubset,
-        ShortUpArrow,
         shortparallel,
         smallsetminus,
-        SucceedsTilde,
-        SucceedsEqual,
-        SupersetEqual,
-        SquareSuperset,
-        ShortLeftArrow,
-        ShortDownArrow,
         straightepsilon,
-        ShortRightArrow,
-        SquareSubsetEqual,
-        SquareIntersection,
-        SucceedsSlantEqual,
-        SquareSupersetEqual,
         tau,
         tfr,
         tcy,
         top,
-        Tab,
-        Tau,
-        Tfr,
-        Tcy,
         toea,
         tbrk,
         trie,
@@ -3989,9 +3491,6 @@ enum abstract HtmlEntity(String) {
         tscr,
         tint,
         tscy,
-        Topf,
-        Tscr,
-        TScy,
         trade,
         tilde,
         theta,
@@ -4000,12 +3499,7 @@ enum abstract HtmlEntity(String) {
         trisb,
         thorn,
         tshcy,
-        Tilde,
-        Theta,
         twixt,
-        TSHcy,
-        TRADE,
-        THORN,
         there4,
         tcedil,
         telrec,
@@ -4017,13 +3511,10 @@ enum abstract HtmlEntity(String) {
         thksim,
         tprime,
         topcir,
-        Tcedil,
         thinsp,
         tridot,
         topbot,
-        Tcaron,
         tstrok,
-        Tstrok,
         tritime,
         topfork,
         triplus,
@@ -4035,26 +3526,17 @@ enum abstract HtmlEntity(String) {
         trpezium,
         therefore,
         triangleq,
-        Therefore,
-        ThinSpace,
-        TripleDot,
-        ThickSpace,
-        TildeTilde,
-        TildeEqual,
         thickapprox,
         triangleleft,
         triangledown,
         triangleright,
         trianglelefteq,
-        TildeFullEqual,
         trianglerighteq,
         twoheadleftarrow,
         twoheadrightarrow,
         ufr,
         uml,
         ucy,
-        Ufr,
-        Ucy,
         uopf,
         uarr,
         uscr,
@@ -4062,12 +3544,7 @@ enum abstract HtmlEntity(String) {
         uuml,
         utri,
         uHar,
-        Uopf,
         uArr,
-        Uarr,
-        Uscr,
-        Upsi,
-        Uuml,
         udhar,
         uhblk,
         ucirc,
@@ -4083,84 +3560,46 @@ enum abstract HtmlEntity(String) {
         uuarr,
         utdot,
         ultri,
-        Ucirc,
         urtri,
-        Umacr,
         uplus,
-        Uring,
-        Ubrcy,
-        Uogon,
-        Union,
-        UpTee,
         udblac,
         utilde,
         uacute,
         ubreve,
         ugrave,
-        Udblac,
         ufisht,
         ulcorn,
         ulcrop,
         urcorn,
         urcrop,
-        Uacute,
-        Utilde,
-        Ubreve,
-        Ugrave,
         uwangle,
         upsilon,
         uparrow,
-        Upsilon,
-        Uparrow,
-        UpArrow,
         ulcorner,
         urcorner,
-        Uarrocir,
-        UnderBar,
-        UnionPlus,
-        UnderBrace,
         upuparrows,
-        UpArrowBar,
-        UpTeeArrow,
         updownarrow,
-        Updownarrow,
-        UpDownArrow,
-        UnderBracket,
         upharpoonleft,
-        UpEquilibrium,
         upharpoonright,
-        UpperLeftArrow,
-        UpperRightArrow,
-        UnderParenthesis,
-        UpArrowDownArrow,
         vee,
         vfr,
         vcy,
-        Vee,
-        Vfr,
-        Vcy,
         vopf,
         varr,
         vscr,
         vert,
-        Vbar,
         vBar,
-        Vopf,
         vArr,
-        Vscr,
-        Vert,
         veeeq,
         vdash,
         varpi,
         vnsub,
         vltri,
         vDash,
-        Vdash,
         vprop,
         vrtri,
         vnsup,
         vBarv,
-        VDash,
         veebar,
         verbar,
         varphi,
@@ -4169,9 +3608,6 @@ enum abstract HtmlEntity(String) {
         vangrt,
         vsubne,
         vsupne,
-        Vdashl,
-        Verbar,
-        Vvdash,
         vsubnE,
         vsupnE,
         vzigzag,
@@ -4181,37 +3617,25 @@ enum abstract HtmlEntity(String) {
         varpropto,
         varnothing,
         varepsilon,
-        VerticalBar,
         varsubsetneq,
         varsupsetneq,
-        VerticalLine,
         varsubsetneqq,
         varsupsetneqq,
-        VerticalTilde,
-        VeryThinSpace,
         vartriangleleft,
         vartriangleright,
-        VerticalSeparator,
         wp,
         wr,
         wfr,
-        Wfr,
         wopf,
         wscr,
-        Wopf,
-        Wscr,
         wedge,
         wcirc,
-        Wedge,
-        Wcirc,
         wedbar,
         wedgeq,
         wreath,
         weierp,
         xi,
-        Xi,
         xfr,
-        Xfr,
         xcap,
         xmap,
         xvee,
@@ -4219,8 +3643,6 @@ enum abstract HtmlEntity(String) {
         xcup,
         xscr,
         xnis,
-        Xopf,
-        Xscr,
         xcirc,
         xharr,
         xlarr,
@@ -4239,46 +3661,624 @@ enum abstract HtmlEntity(String) {
         yen,
         yfr,
         ycy,
-        Yfr,
-        Ycy,
         yacy,
         yopf,
         yicy,
         yscr,
         yuml,
         yucy,
-        Yopf,
-        Yscr,
-        Yuml,
-        YAcy,
-        YIcy,
-        YUcy,
         ycirc,
-        Ycirc,
         yacute,
-        Yacute,
         zfr,
         zcy,
         zwj,
-        Zfr,
-        Zcy,
         zeta,
         zhcy,
         zopf,
         zdot,
         zscr,
         zwnj,
+        zacute,
+        zcaron,
+        zeetrf,
+        zigrarr,
+        And,
+        Afr,
+        Acy,
+        AMP,
+        Aopf,
+        Ascr,
+        Auml,
+        Acirc,
+        Amacr,
+        Alpha,
+        Aring,
+        Aogon,
+        AElig,
+        Aacute,
+        Atilde,
+        Abreve,
+        Agrave,
+        Assign,
+        ApplyFunction,
+        Bfr,
+        Bcy,
+        Beta,
+        Bopf,
+        Bscr,
+        Barv,
+        Breve,
+        Barwed,
+        Bumpeq,
+        Because,
+        Backslash,
+        Bernoullis,
+        Cap,
+        Chi,
+        Cfr,
+        Cup,
+        Copf,
+        Cdot,
+        Cscr,
+        CHcy,
+        COPY,
+        Ccirc,
+        Colon,
+        Cross,
+        Ccedil,
+        Cacute,
+        Ccaron,
+        Colone,
+        Conint,
+        CupCap,
+        Cedilla,
+        Cconint,
+        Cayleys,
+        Coproduct,
+        Congruent,
+        CircleDot,
+        CenterDot,
+        CirclePlus,
+        CircleTimes,
+        CircleMinus,
+        ContourIntegral,
+        CloseCurlyQuote,
+        CapitalDifferentialD,
+        CloseCurlyDoubleQuote,
+        ClockwiseContourIntegral,
+        CounterClockwiseContourIntegral,
+        DD,
+        Del,
+        Dfr,
+        Dcy,
+        Dot,
+        Darr,
+        Dopf,
+        Dscr,
+        DJcy,
+        DScy,
+        DZcy,
+        Delta,
+        Dashv,
+        Dagger,
+        Dcaron,
+        Dstrok,
+        DotDot,
+        Diamond,
+        DownTee,
+        DDotrahd,
+        DotEqual,
+        DoubleDot,
+        Downarrow,
+        DownBreve,
+        DownArrow,
+        DownArrowBar,
+        DownTeeArrow,
+        DifferentialD,
+        DoubleLeftTee,
+        DoubleUpArrow,
+        DiacriticalDot,
+        DoubleRightTee,
+        DownLeftVector,
+        DoubleLeftArrow,
+        DoubleDownArrow,
+        DownRightVector,
+        DiacriticalAcute,
+        DiacriticalTilde,
+        DiacriticalGrave,
+        DoubleRightArrow,
+        DownArrowUpArrow,
+        DoubleVerticalBar,
+        DownLeftVectorBar,
+        DownLeftTeeVector,
+        DoubleUpDownArrow,
+        DownRightVectorBar,
+        DownRightTeeVector,
+        DoubleLongLeftArrow,
+        DownLeftRightVector,
+        DoubleLeftRightArrow,
+        DoubleLongRightArrow,
+        DoubleContourIntegral,
+        DiacriticalDoubleAcute,
+        DoubleLongLeftRightArrow,
+        Eta,
+        Efr,
+        Ecy,
+        ENG,
+        ETH,
+        Eopf,
+        Edot,
+        Escr,
+        Esim,
+        Euml,
+        Ecirc,
+        Emacr,
+        Equal,
+        Eogon,
+        Eacute,
+        Ecaron,
+        Egrave,
+        Exists,
+        Element,
+        Epsilon,
+        EqualTilde,
+        Equilibrium,
+        ExponentialE,
+        EmptySmallSquare,
+        EmptyVerySmallSquare,
+        Ffr,
+        Fcy,
+        Fopf,
+        Fscr,
+        ForAll,
+        Fouriertrf,
+        FilledSmallSquare,
+        FilledVerySmallSquare,
+        Gg,
+        Gt,
+        GT,
+        Gfr,
+        Gcy,
+        Gopf,
+        Gdot,
+        Gscr,
+        GJcy,
+        Gamma,
+        Gcirc,
+        Gammad,
+        Gcedil,
+        Gbreve,
+        GreaterLess,
+        GreaterTilde,
+        GreaterEqual,
+        GreaterGreater,
+        GreaterFullEqual,
+        GreaterEqualLess,
+        GreaterSlantEqual,
+        Hat,
+        Hfr,
+        Hopf,
+        Hscr,
+        Hacek,
+        Hcirc,
+        Hstrok,
+        HARDcy,
+        HumpEqual,
+        HilbertSpace,
+        HumpDownHump,
+        HorizontalLine,
+        Im,
+        Ifr,
+        Icy,
+        Int,
+        Iota,
+        Iopf,
+        Idot,
+        Iscr,
+        Iuml,
+        IEcy,
+        IOcy,
+        Icirc,
+        Imacr,
+        Iogon,
+        Iukcy,
+        IJlig,
+        Itilde,
+        Iacute,
+        Igrave,
+        Implies,
+        Integral,
+        ImaginaryI,
+        Intersection,
+        InvisibleComma,
+        InvisibleTimes,
+        Jfr,
+        Jcy,
+        Jopf,
+        Jscr,
+        Jcirc,
+        Jukcy,
+        Jsercy,
+        Kfr,
+        Kcy,
+        Kopf,
+        Kscr,
+        KHcy,
+        KJcy,
+        Kappa,
+        Kcedil,
+        Ll,
+        Lt,
+        LT,
+        Lfr,
+        Lsh,
+        Lcy,
+        Lang,
+        Larr,
+        Lopf,
+        Lscr,
+        LJcy,
+        Lambda,
+        Lcedil,
+        Lacute,
+        Lcaron,
+        Lmidot,
+        Lstrok,
+        LeftTee,
+        LessLess,
+        Leftarrow,
+        LessTilde,
+        LeftFloor,
+        LeftArrow,
+        Laplacetrf,
+        Lleftarrow,
+        LeftVector,
+        LeftCeiling,
+        LessGreater,
+        LeftTriangle,
+        LeftArrowBar,
+        LeftTeeArrow,
+        LeftUpVector,
+        Longleftarrow,
+        LeftVectorBar,
+        LeftTeeVector,
+        LessFullEqual,
+        LongLeftArrow,
+        Leftrightarrow,
+        Longrightarrow,
+        LessSlantEqual,
+        LeftRightArrow,
+        LeftDownVector,
+        LongRightArrow,
+        LowerLeftArrow,
+        LeftTriangleBar,
+        LeftRightVector,
+        LowerRightArrow,
+        LeftUpVectorBar,
+        LeftUpTeeVector,
+        LeftAngleBracket,
+        LessEqualGreater,
+        LeftUpDownVector,
+        LeftDoubleBracket,
+        LeftTriangleEqual,
+        LeftDownVectorBar,
+        LeftDownTeeVector,
+        Longleftrightarrow,
+        LongLeftRightArrow,
+        LeftArrowRightArrow,
+        Mu,
+        Map,
+        Mfr,
+        Mcy,
+        Mopf,
+        Mscr,
+        Mellintrf,
+        MinusPlus,
+        MediumSpace,
+        Nu,
+        Nfr,
+        Ncy,
+        Not,
+        Nopf,
+        Nscr,
+        NJcy,
+        Ncedil,
+        Nacute,
+        Ntilde,
+        Ncaron,
+        NoBreak,
+        NewLine,
+        NotLess,
+        NotTilde,
+        NotEqual,
+        NotSubset,
+        NotCupCap,
+        NotExists,
+        NotGreater,
+        NotElement,
+        NotPrecedes,
+        NotSucceeds,
+        NotSuperset,
+        NotLessLess,
+        NotCongruent,
+        NotLessTilde,
+        NotLessEqual,
+        NotHumpEqual,
+        NotTildeTilde,
+        NotEqualTilde,
+        NotTildeEqual,
+        NotVerticalBar,
+        NestedLessLess,
+        NotGreaterLess,
+        NotLessGreater,
+        NotSubsetEqual,
+        NotGreaterTilde,
+        NotLeftTriangle,
+        NotGreaterEqual,
+        NotSquareSubset,
+        NotHumpDownHump,
+        NonBreakingSpace,
+        NotSucceedsTilde,
+        NotPrecedesEqual,
+        NotSucceedsEqual,
+        NotRightTriangle,
+        NotSupersetEqual,
+        NegativeThinSpace,
+        NotGreaterGreater,
+        NotReverseElement,
+        NotTildeFullEqual,
+        NotSquareSuperset,
+        NotLessSlantEqual,
+        NotNestedLessLess,
+        NegativeThickSpace,
+        NotLeftTriangleBar,
+        NegativeMediumSpace,
+        NotRightTriangleBar,
+        NotGreaterFullEqual,
+        NestedGreaterGreater,
+        NotDoubleVerticalBar,
+        NotLeftTriangleEqual,
+        NotGreaterSlantEqual,
+        NotSquareSubsetEqual,
+        NotPrecedesSlantEqual,
+        NegativeVeryThinSpace,
+        NotSucceedsSlantEqual,
+        NotRightTriangleEqual,
+        NotSquareSupersetEqual,
+        NotNestedGreaterGreater,
+        Or,
+        Ofr,
+        Ocy,
+        Oopf,
+        Oscr,
+        Ouml,
+        Omega,
+        Ocirc,
+        Omacr,
+        OElig,
+        Odblac,
+        Oacute,
+        Otilde,
+        Ograve,
+        Oslash,
+        Otimes,
+        Omicron,
+        OverBar,
+        OverBrace,
+        OverBracket,
+        OpenCurlyQuote,
+        OverParenthesis,
+        OpenCurlyDoubleQuote,
+        Pi,
+        Pr,
+        Phi,
+        Pfr,
+        Psi,
+        Pcy,
+        Popf,
+        Pscr,
+        Prime,
+        Product,
+        Precedes,
+        PartialD,
+        PlusMinus,
+        Proportion,
+        Proportional,
+        Poincareplane,
+        PrecedesTilde,
+        PrecedesEqual,
+        PrecedesSlantEqual,
+        Qfr,
+        Qopf,
+        Qscr,
+        QUOT,
+        Re,
+        Rho,
+        Rfr,
+        Rsh,
+        Rcy,
+        REG,
+        Rang,
+        Rarr,
+        Ropf,
+        Rscr,
+        RBarr,
+        Rcedil,
+        Racute,
+        Rcaron,
+        Rarrtl,
+        RightTee,
+        Rightarrow,
+        RightFloor,
+        RightArrow,
+        RuleDelayed,
+        Rrightarrow,
+        RightVector,
+        RightCeiling,
+        RoundImplies,
+        RightTriangle,
+        RightArrowBar,
+        RightTeeArrow,
+        RightUpVector,
+        ReverseElement,
+        RightVectorBar,
+        RightTeeVector,
+        RightDownVector,
+        RightTriangleBar,
+        RightUpVectorBar,
+        RightUpTeeVector,
+        RightAngleBracket,
+        RightUpDownVector,
+        RightDoubleBracket,
+        ReverseEquilibrium,
+        RightTriangleEqual,
+        RightDownVectorBar,
+        RightDownTeeVector,
+        RightArrowLeftArrow,
+        ReverseUpEquilibrium,
+        Sc,
+        Sub,
+        Sfr,
+        Scy,
+        Sum,
+        Sup,
+        Sopf,
+        Star,
+        Sscr,
+        Sqrt,
+        SHcy,
+        Sigma,
+        Scirc,
+        Scedil,
+        Sacute,
+        Scaron,
+        Square,
+        Subset,
+        Supset,
+        SHCHcy,
+        SOFTcy,
+        Succeeds,
+        Superset,
+        SuchThat,
+        SmallCircle,
+        SubsetEqual,
+        SquareUnion,
+        SquareSubset,
+        ShortUpArrow,
+        SucceedsTilde,
+        SucceedsEqual,
+        SupersetEqual,
+        SquareSuperset,
+        ShortLeftArrow,
+        ShortDownArrow,
+        ShortRightArrow,
+        SquareSubsetEqual,
+        SquareIntersection,
+        SucceedsSlantEqual,
+        SquareSupersetEqual,
+        Tab,
+        Tau,
+        Tfr,
+        Tcy,
+        Topf,
+        Tscr,
+        TScy,
+        Tilde,
+        Theta,
+        TSHcy,
+        TRADE,
+        THORN,
+        Tcedil,
+        Tcaron,
+        Tstrok,
+        Therefore,
+        ThinSpace,
+        TripleDot,
+        ThickSpace,
+        TildeTilde,
+        TildeEqual,
+        TildeFullEqual,
+        Ufr,
+        Ucy,
+        Uopf,
+        Uarr,
+        Uscr,
+        Upsi,
+        Uuml,
+        Ucirc,
+        Umacr,
+        Uring,
+        Ubrcy,
+        Uogon,
+        Union,
+        UpTee,
+        Udblac,
+        Uacute,
+        Utilde,
+        Ubreve,
+        Ugrave,
+        Upsilon,
+        Uparrow,
+        UpArrow,
+        Uarrocir,
+        UnderBar,
+        UnionPlus,
+        UnderBrace,
+        UpArrowBar,
+        UpTeeArrow,
+        Updownarrow,
+        UpDownArrow,
+        UnderBracket,
+        UpEquilibrium,
+        UpperLeftArrow,
+        UpperRightArrow,
+        UnderParenthesis,
+        UpArrowDownArrow,
+        Vee,
+        Vfr,
+        Vcy,
+        Vbar,
+        Vopf,
+        Vscr,
+        Vert,
+        Vdash,
+        VDash,
+        Vdashl,
+        Verbar,
+        Vvdash,
+        VerticalBar,
+        VerticalLine,
+        VerticalTilde,
+        VeryThinSpace,
+        VerticalSeparator,
+        Wfr,
+        Wopf,
+        Wscr,
+        Wedge,
+        Wcirc,
+        Xi,
+        Xfr,
+        Xopf,
+        Xscr,
+        Yfr,
+        Ycy,
+        Yopf,
+        Yscr,
+        Yuml,
+        YAcy,
+        YIcy,
+        YUcy,
+        Ycirc,
+        Yacute,
+        Zfr,
+        Zcy,
         Zeta,
         Zopf,
         Zdot,
         Zscr,
         ZHcy,
-        zacute,
-        zcaron,
-        zeetrf,
         Zacute,
         Zcaron,
-        zigrarr,
         ZeroWidthSpace,
         
     ];
@@ -4297,11 +4297,7 @@ enum abstract HtmlEntity(String) {
             case amp: [38];
             case ast: [42];
             case acE: [8766,819];
-            case And: [10835];
             case apE: [10864];
-            case Afr: [120068];
-            case Acy: [1040];
-            case AMP: [38];
             case andd: [10844];
             case ange: [10660];
             case apid: [8779];
@@ -4310,9 +4306,6 @@ enum abstract HtmlEntity(String) {
             case andv: [10842];
             case auml: [228];
             case apos: [39];
-            case Aopf: [120120];
-            case Ascr: [119964];
-            case Auml: [196];
             case amalg: [10815];
             case acirc: [226];
             case aelig: [230];
@@ -4325,14 +4318,8 @@ enum abstract HtmlEntity(String) {
             case aogon: [261];
             case angrt: [8735];
             case angst: [197];
-            case Acirc: [194];
             case awint: [10769];
-            case Amacr: [256];
-            case Alpha: [913];
             case asymp: [8776];
-            case Aring: [197];
-            case Aogon: [260];
-            case AElig: [198];
             case andand: [10837];
             case apacir: [10863];
             case atilde: [227];
@@ -4341,12 +4328,7 @@ enum abstract HtmlEntity(String) {
             case agrave: [224];
             case angmsd: [8737];
             case angsph: [8738];
-            case Aacute: [193];
-            case Atilde: [195];
-            case Abreve: [258];
-            case Agrave: [192];
             case approx: [8776];
-            case Assign: [8788];
             case alefsym: [8501];
             case angrtvb: [8894];
             case angzarr: [9084];
@@ -4363,13 +4345,10 @@ enum abstract HtmlEntity(String) {
             case angrtvbd: [10653];
             case awconint: [8755];
             case approxeq: [8778];
-            case ApplyFunction: [8289];
             case bne: [61,8421];
             case bfr: [120095];
             case bcy: [1073];
             case bot: [8869];
-            case Bfr: [120069];
-            case Bcy: [1041];
             case beta: [946];
             case bbrk: [9141];
             case beth: [8502];
@@ -4381,11 +4360,7 @@ enum abstract HtmlEntity(String) {
             case boxh: [9472];
             case bnot: [8976];
             case bump: [8782];
-            case Beta: [914];
             case boxv: [9474];
-            case Bopf: [120121];
-            case Bscr: [8492];
-            case Barv: [10983];
             case boxH: [9552];
             case bNot: [10989];
             case boxV: [9553];
@@ -4411,7 +4386,6 @@ enum abstract HtmlEntity(String) {
             case boxvl: [9508];
             case boxur: [9492];
             case boxvr: [9500];
-            case Breve: [728];
             case boxHd: [9572];
             case boxhD: [9573];
             case boxDl: [9558];
@@ -4455,15 +4429,12 @@ enum abstract HtmlEntity(String) {
             case bernou: [8492];
             case boxbox: [10697];
             case bottom: [8869];
-            case Barwed: [8966];
-            case Bumpeq: [8782];
             case bigcirc: [9711];
             case because: [8757];
             case backsim: [8765];
             case bigodot: [10752];
             case between: [8812];
             case bigstar: [9733];
-            case Because: [8757];
             case bnequiv: [8801,8421];
             case bemptyv: [10672];
             case boxplus: [8862];
@@ -4480,8 +4451,6 @@ enum abstract HtmlEntity(String) {
             case backprime: [8245];
             case backsimeq: [8909];
             case bigotimes: [10754];
-            case Backslash: [8726];
-            case Bernoullis: [8492];
             case backepsilon: [1014];
             case blacksquare: [9642];
             case blacklozenge: [10731];
@@ -4496,10 +4465,6 @@ enum abstract HtmlEntity(String) {
             case cfr: [120096];
             case cir: [9675];
             case cup: [8746];
-            case Cap: [8914];
-            case Chi: [935];
-            case Cfr: [8493];
-            case Cup: [8915];
             case circ: [710];
             case cire: [8791];
             case caps: [8745,65024];
@@ -4515,11 +4480,6 @@ enum abstract HtmlEntity(String) {
             case csup: [10960];
             case cups: [8746,65024];
             case cirE: [10691];
-            case Copf: [8450];
-            case Cdot: [266];
-            case Cscr: [119966];
-            case CHcy: [1063];
-            case COPY: [169];
             case check: [10003];
             case cedil: [184];
             case ccirc: [265];
@@ -4538,12 +4498,9 @@ enum abstract HtmlEntity(String) {
             case ctdot: [8943];
             case cuepr: [8926];
             case csupe: [10962];
-            case Ccirc: [264];
             case cwint: [8753];
             case cupor: [10821];
             case cross: [10007];
-            case Colon: [8759];
-            case Cross: [10799];
             case ccedil: [231];
             case capand: [10820];
             case capcap: [10827];
@@ -4557,7 +4514,6 @@ enum abstract HtmlEntity(String) {
             case colone: [8788];
             case commat: [64];
             case compfn: [8728];
-            case Ccedil: [199];
             case coprod: [8720];
             case cularr: [8630];
             case conint: [8750];
@@ -4565,15 +4521,9 @@ enum abstract HtmlEntity(String) {
             case curren: [164];
             case curarr: [8631];
             case cupcup: [10826];
-            case Cacute: [262];
-            case Ccaron: [268];
             case cylcty: [9005];
-            case Colone: [10868];
             case copysr: [8471];
-            case Conint: [8751];
-            case CupCap: [8781];
             case cudarrl: [10552];
-            case Cedilla: [184];
             case congdot: [10861];
             case cirscir: [10690];
             case coloneq: [8788];
@@ -4582,8 +4532,6 @@ enum abstract HtmlEntity(String) {
             case curarrm: [10556];
             case ccupssm: [10832];
             case cemptyv: [10674];
-            case Cconint: [8752];
-            case Cayleys: [8493];
             case cupbrcap: [10824];
             case capbrcup: [10825];
             case cirfnint: [10768];
@@ -4595,42 +4543,24 @@ enum abstract HtmlEntity(String) {
             case checkmark: [10003];
             case centerdot: [183];
             case complexes: [8450];
-            case Coproduct: [8720];
-            case Congruent: [8801];
-            case CircleDot: [8857];
-            case CenterDot: [183];
             case circledast: [8859];
             case complement: [8705];
             case curlywedge: [8911];
-            case CirclePlus: [8853];
             case circleddash: [8861];
             case circledcirc: [8858];
             case curlyeqprec: [8926];
             case curlyeqsucc: [8927];
-            case CircleTimes: [8855];
-            case CircleMinus: [8854];
             case curvearrowleft: [8630];
             case circlearrowleft: [8634];
             case curvearrowright: [8631];
-            case ContourIntegral: [8750];
-            case CloseCurlyQuote: [8217];
             case circlearrowright: [8635];
-            case CapitalDifferentialD: [8517];
-            case CloseCurlyDoubleQuote: [8221];
-            case ClockwiseContourIntegral: [8754];
-            case CounterClockwiseContourIntegral: [8755];
             case dd: [8518];
-            case DD: [8517];
             case deg: [176];
             case die: [168];
             case dfr: [120097];
             case dcy: [1076];
             case div: [247];
             case dot: [729];
-            case Del: [8711];
-            case Dfr: [120071];
-            case Dcy: [1044];
-            case Dot: [168];
             case diam: [8900];
             case dash: [8208];
             case darr: [8595];
@@ -4643,12 +4573,6 @@ enum abstract HtmlEntity(String) {
             case dzcy: [1119];
             case dHar: [10597];
             case dArr: [8659];
-            case Darr: [8609];
-            case Dopf: [120123];
-            case Dscr: [119967];
-            case DJcy: [1026];
-            case DScy: [1029];
-            case DZcy: [1039];
             case dblac: [733];
             case delta: [948];
             case dharl: [8643];
@@ -4662,8 +4586,6 @@ enum abstract HtmlEntity(String) {
             case doteq: [8784];
             case duarr: [8693];
             case dtdot: [8945];
-            case Delta: [916];
-            case Dashv: [10980];
             case dagger: [8224];
             case daleth: [8504];
             case divide: [247];
@@ -4674,69 +4596,28 @@ enum abstract HtmlEntity(String) {
             case dlcrop: [8973];
             case drcorn: [8991];
             case drcrop: [8972];
-            case Dagger: [8225];
             case dstrok: [273];
-            case Dcaron: [270];
             case divonx: [8903];
-            case Dstrok: [272];
-            case DotDot: [8412];
             case ddagger: [8225];
             case digamma: [989];
             case diamond: [8900];
             case dwangle: [10662];
             case dbkarow: [10511];
             case ddotseq: [10871];
-            case Diamond: [8900];
             case demptyv: [10673];
             case dotplus: [8724];
-            case DownTee: [8868];
             case drbkarow: [10512];
             case doteqdot: [8785];
             case dzigrarr: [10239];
             case dotminus: [8760];
-            case DDotrahd: [10513];
-            case DotEqual: [8784];
             case dotsquare: [8865];
             case downarrow: [8595];
-            case DoubleDot: [168];
-            case Downarrow: [8659];
-            case DownBreve: [785];
-            case DownArrow: [8595];
             case diamondsuit: [9830];
-            case DownArrowBar: [10515];
-            case DownTeeArrow: [8615];
             case divideontimes: [8903];
-            case DifferentialD: [8518];
-            case DoubleLeftTee: [10980];
-            case DoubleUpArrow: [8657];
             case doublebarwedge: [8966];
-            case DiacriticalDot: [729];
             case downdownarrows: [8650];
-            case DoubleRightTee: [8872];
-            case DownLeftVector: [8637];
             case downharpoonleft: [8643];
-            case DoubleLeftArrow: [8656];
-            case DoubleDownArrow: [8659];
-            case DownRightVector: [8641];
-            case DiacriticalAcute: [180];
-            case DiacriticalTilde: [732];
             case downharpoonright: [8642];
-            case DiacriticalGrave: [96];
-            case DoubleRightArrow: [8658];
-            case DownArrowUpArrow: [8693];
-            case DoubleVerticalBar: [8741];
-            case DownLeftVectorBar: [10582];
-            case DownLeftTeeVector: [10590];
-            case DoubleUpDownArrow: [8661];
-            case DownRightVectorBar: [10583];
-            case DownRightTeeVector: [10591];
-            case DoubleLongLeftArrow: [10232];
-            case DownLeftRightVector: [10576];
-            case DoubleLeftRightArrow: [8660];
-            case DoubleLongRightArrow: [10233];
-            case DoubleContourIntegral: [8751];
-            case DiacriticalDoubleAcute: [733];
-            case DoubleLongLeftRightArrow: [10234];
             case ee: [8519];
             case eg: [10906];
             case el: [10905];
@@ -4748,11 +4629,6 @@ enum abstract HtmlEntity(String) {
             case ecy: [1101];
             case eth: [240];
             case els: [10901];
-            case Eta: [919];
-            case Efr: [120072];
-            case Ecy: [1069];
-            case ENG: [330];
-            case ETH: [208];
             case ecir: [8790];
             case epar: [8917];
             case eopf: [120150];
@@ -4765,28 +4641,19 @@ enum abstract HtmlEntity(String) {
             case emsp: [8195];
             case ensp: [8194];
             case euro: [8364];
-            case Eopf: [120124];
-            case Edot: [278];
             case eDot: [8785];
-            case Escr: [8496];
-            case Esim: [10867];
-            case Euml: [203];
             case ecirc: [234];
             case emacr: [275];
             case eogon: [281];
             case erarr: [10609];
             case esdot: [8784];
             case eqsim: [8770];
-            case Ecirc: [202];
             case epsiv: [1013];
-            case Emacr: [274];
             case eplus: [10865];
             case equiv: [8801];
             case exist: [8707];
             case empty: [8709];
             case efDot: [8786];
-            case Equal: [10869];
-            case Eogon: [280];
             case erDot: [8787];
             case eDDot: [10871];
             case emsp13: [8196];
@@ -4802,39 +4669,24 @@ enum abstract HtmlEntity(String) {
             case elsdot: [10903];
             case equals: [61];
             case equest: [8799];
-            case Eacute: [201];
-            case Ecaron: [282];
-            case Egrave: [200];
             case emptyv: [8709];
-            case Exists: [8707];
             case eqcolon: [8789];
             case epsilon: [949];
-            case Element: [8712];
-            case Epsilon: [917];
             case equivDD: [10872];
             case elinters: [9191];
             case eqvparsl: [10725];
             case emptyset: [8709];
             case eqslantgtr: [10902];
-            case EqualTilde: [8770];
             case expectation: [8496];
             case eqslantless: [10901];
-            case Equilibrium: [8652];
             case exponentiale: [8519];
-            case ExponentialE: [8519];
-            case EmptySmallSquare: [9723];
-            case EmptyVerySmallSquare: [9643];
             case ffr: [120099];
             case fcy: [1092];
-            case Ffr: [120073];
-            case Fcy: [1060];
             case flat: [9837];
             case fnof: [402];
             case fopf: [120151];
             case fscr: [119995];
             case fork: [8916];
-            case Fopf: [120125];
-            case Fscr: [8497];
             case fflig: [64256];
             case filig: [64257];
             case fjlig: [102,106];
@@ -4862,20 +4714,13 @@ enum abstract HtmlEntity(String) {
             case ffilig: [64259];
             case ffllig: [64260];
             case forall: [8704];
-            case ForAll: [8704];
             case fpartint: [10765];
-            case Fouriertrf: [8497];
             case fallingdotseq: [8786];
-            case FilledSmallSquare: [9724];
-            case FilledVerySmallSquare: [9642];
             case ge: [8805];
             case gg: [8811];
             case gl: [8823];
             case gt: [62];
             case gE: [8807];
-            case Gg: [8921];
-            case Gt: [8811];
-            case GT: [62];
             case gla: [10917];
             case ggg: [8921];
             case gel: [8923];
@@ -4889,8 +4734,6 @@ enum abstract HtmlEntity(String) {
             case gEl: [10892];
             case glE: [10898];
             case gnE: [8809];
-            case Gfr: [120074];
-            case Gcy: [1043];
             case gtcc: [10919];
             case gnap: [10890];
             case gneq: [10888];
@@ -4901,11 +4744,7 @@ enum abstract HtmlEntity(String) {
             case gdot: [289];
             case gscr: [8458];
             case gsim: [8819];
-            case Gopf: [120126];
-            case Gdot: [288];
-            case Gscr: [119970];
             case gvnE: [8809,65024];
-            case GJcy: [1027];
             case gamma: [947];
             case gescc: [10921];
             case gcirc: [285];
@@ -4917,19 +4756,14 @@ enum abstract HtmlEntity(String) {
             case gsiml: [10896];
             case gnsim: [8935];
             case gtdot: [8919];
-            case Gamma: [915];
-            case Gcirc: [284];
             case gammad: [989];
             case gacute: [501];
             case gbreve: [287];
             case gesles: [10900];
             case gesdot: [10880];
-            case Gammad: [988];
-            case Gcedil: [290];
             case gtrarr: [10616];
             case gtrdot: [8919];
             case gtrsim: [8819];
-            case Gbreve: [286];
             case gtlPar: [10645];
             case gesdoto: [10882];
             case gtrless: [8823];
@@ -4941,29 +4775,16 @@ enum abstract HtmlEntity(String) {
             case gvertneqq: [8809,65024];
             case gtrapprox: [10886];
             case gtreqqless: [10892];
-            case GreaterLess: [8823];
-            case GreaterTilde: [8819];
-            case GreaterEqual: [8805];
-            case GreaterGreater: [10914];
-            case GreaterFullEqual: [8807];
-            case GreaterEqualLess: [8923];
-            case GreaterSlantEqual: [10878];
             case hfr: [120101];
-            case Hat: [94];
-            case Hfr: [8460];
             case half: [189];
             case hbar: [8463];
             case harr: [8596];
             case hopf: [120153];
             case hscr: [119997];
             case hArr: [8660];
-            case Hopf: [8461];
-            case Hscr: [8459];
             case hcirc: [293];
-            case Hacek: [711];
             case hoarr: [8703];
             case harrw: [8621];
-            case Hcirc: [292];
             case hardcy: [1098];
             case hellip: [8230];
             case horbar: [8213];
@@ -4976,30 +4797,20 @@ enum abstract HtmlEntity(String) {
             case hybull: [8259];
             case homtht: [8763];
             case hstrok: [295];
-            case Hstrok: [294];
-            case HARDcy: [1066];
             case harrcir: [10568];
             case hksearow: [10533];
             case hkswarow: [10534];
             case heartsuit: [9829];
-            case HumpEqual: [8783];
-            case HilbertSpace: [8459];
-            case HumpDownHump: [8782];
             case hookleftarrow: [8617];
             case hookrightarrow: [8618];
-            case HorizontalLine: [9472];
             case ic: [8291];
             case ii: [8520];
             case In: [8712];
             case it: [8290];
-            case Im: [8465];
             case iff: [8660];
             case ifr: [120102];
             case icy: [1080];
             case int: [8747];
-            case Ifr: [8465];
-            case Icy: [1048];
-            case Int: [8748];
             case iecy: [1077];
             case imof: [8887];
             case iota: [953];
@@ -5008,13 +4819,6 @@ enum abstract HtmlEntity(String) {
             case isin: [8712];
             case iocy: [1105];
             case iuml: [239];
-            case Iota: [921];
-            case Iopf: [120128];
-            case Idot: [304];
-            case Iscr: [8464];
-            case Iuml: [207];
-            case IEcy: [1045];
-            case IOcy: [1025];
             case image: [8465];
             case icirc: [238];
             case imacr: [299];
@@ -5030,12 +4834,7 @@ enum abstract HtmlEntity(String) {
             case iukcy: [1110];
             case isins: [8948];
             case isinv: [8712];
-            case Icirc: [206];
-            case Imacr: [298];
             case isinE: [8953];
-            case Iogon: [302];
-            case Iukcy: [1030];
-            case IJlig: [306];
             case incare: [8453];
             case intcal: [8890];
             case iacute: [237];
@@ -5044,66 +4843,39 @@ enum abstract HtmlEntity(String) {
             case igrave: [236];
             case iiiint: [10764];
             case inodot: [305];
-            case Itilde: [296];
             case iquest: [191];
-            case Iacute: [205];
             case isinsv: [8947];
-            case Igrave: [204];
             case isindot: [8949];
             case intprod: [10812];
-            case Implies: [8658];
             case imagline: [8464];
             case intercal: [8890];
             case imagpart: [8465];
             case infintie: [10717];
             case intlarhk: [10775];
             case integers: [8484];
-            case Integral: [8747];
-            case ImaginaryI: [8520];
-            case Intersection: [8898];
-            case InvisibleComma: [8291];
-            case InvisibleTimes: [8290];
             case jfr: [120103];
             case jcy: [1081];
-            case Jfr: [120077];
-            case Jcy: [1049];
             case jopf: [120155];
             case jscr: [119999];
-            case Jopf: [120129];
-            case Jscr: [119973];
             case jcirc: [309];
             case jmath: [567];
             case jukcy: [1108];
-            case Jcirc: [308];
-            case Jukcy: [1028];
             case jsercy: [1112];
-            case Jsercy: [1032];
             case kfr: [120104];
             case kcy: [1082];
-            case Kfr: [120078];
-            case Kcy: [1050];
             case khcy: [1093];
             case kopf: [120156];
             case kjcy: [1116];
             case kscr: [120000];
-            case Kopf: [120130];
-            case Kscr: [119974];
-            case KHcy: [1061];
-            case KJcy: [1036];
             case kappa: [954];
-            case Kappa: [922];
             case kcedil: [311];
             case kgreen: [312];
             case kappav: [1008];
-            case Kcedil: [310];
             case le: [8804];
             case lg: [8822];
             case ll: [8810];
             case lt: [60];
             case lE: [8806];
-            case Ll: [8920];
-            case Lt: [8810];
-            case LT: [60];
             case leg: [8922];
             case lap: [10885];
             case lne: [10887];
@@ -5118,9 +4890,6 @@ enum abstract HtmlEntity(String) {
             case lEg: [10891];
             case lgE: [10897];
             case lnE: [8808];
-            case Lfr: [120079];
-            case Lsh: [8624];
-            case Lcy: [1051];
             case ldca: [10550];
             case lang: [10216];
             case late: [10925];
@@ -5140,14 +4909,9 @@ enum abstract HtmlEntity(String) {
             case lsim: [8818];
             case ltri: [9667];
             case lozf: [10731];
-            case Lang: [10218];
             case lHar: [10594];
-            case Larr: [8606];
             case lArr: [8656];
-            case Lopf: [120131];
-            case Lscr: [8466];
             case lvnE: [8808,65024];
-            case LJcy: [1033];
             case langd: [10641];
             case lceil: [8968];
             case lescc: [10920];
@@ -5192,7 +4956,6 @@ enum abstract HtmlEntity(String) {
             case lrhard: [10605];
             case lacute: [314];
             case lcaron: [318];
-            case Lambda: [923];
             case lesges: [10899];
             case lthree: [8907];
             case larrhk: [8617];
@@ -5204,7 +4967,6 @@ enum abstract HtmlEntity(String) {
             case lesdot: [10879];
             case larrlp: [8619];
             case larrpl: [10553];
-            case Lcedil: [315];
             case lfloor: [8970];
             case ltimes: [8905];
             case lparlt: [10643];
@@ -5214,15 +4976,11 @@ enum abstract HtmlEntity(String) {
             case ldquor: [8222];
             case lAtail: [10523];
             case lowast: [8727];
-            case Lacute: [313];
-            case Lcaron: [317];
             case lstrok: [322];
             case loplus: [10797];
             case lmoust: [9136];
             case lsquor: [8218];
-            case Lmidot: [319];
             case ltrPar: [10646];
-            case Lstrok: [321];
             case ldrdhar: [10599];
             case larrbfs: [10527];
             case lbrksld: [10639];
@@ -5236,7 +4994,6 @@ enum abstract HtmlEntity(String) {
             case luruhar: [10598];
             case lessgtr: [8822];
             case ltquest: [10875];
-            case LeftTee: [8867];
             case llcorner: [8990];
             case leqslant: [10877];
             case lurdshar: [10570];
@@ -5245,79 +5002,34 @@ enum abstract HtmlEntity(String) {
             case lesdotor: [10883];
             case laemptyv: [10676];
             case lnapprox: [10889];
-            case LessLess: [10913];
             case leftarrow: [8592];
             case lesseqgtr: [8922];
             case lvertneqq: [8808,65024];
-            case Leftarrow: [8656];
-            case LessTilde: [8818];
-            case LeftFloor: [8970];
-            case LeftArrow: [8592];
             case lmoustache: [9136];
-            case Laplacetrf: [8466];
             case longmapsto: [10236];
             case lesseqqgtr: [10891];
             case lessapprox: [10885];
-            case Lleftarrow: [8666];
-            case LeftVector: [8636];
-            case LeftCeiling: [8968];
-            case LessGreater: [8822];
-            case LeftTriangle: [8882];
-            case LeftArrowBar: [8676];
-            case LeftTeeArrow: [8612];
-            case LeftUpVector: [8639];
             case leftarrowtail: [8610];
             case longleftarrow: [10229];
             case leftharpoonup: [8636];
             case looparrowleft: [8619];
-            case Longleftarrow: [10232];
-            case LeftVectorBar: [10578];
-            case LeftTeeVector: [10586];
-            case LessFullEqual: [8806];
-            case LongLeftArrow: [10229];
             case leftthreetimes: [8907];
             case leftleftarrows: [8647];
             case leftrightarrow: [8596];
             case longrightarrow: [10230];
             case looparrowright: [8620];
-            case Leftrightarrow: [8660];
-            case Longrightarrow: [10233];
-            case LessSlantEqual: [10877];
-            case LeftRightArrow: [8596];
-            case LeftDownVector: [8643];
-            case LongRightArrow: [10230];
-            case LowerLeftArrow: [8601];
             case leftharpoondown: [8637];
             case leftrightarrows: [8646];
-            case LeftTriangleBar: [10703];
-            case LeftRightVector: [10574];
-            case LowerRightArrow: [8600];
-            case LeftUpVectorBar: [10584];
-            case LeftUpTeeVector: [10592];
-            case LeftAngleBracket: [10216];
-            case LessEqualGreater: [8922];
-            case LeftUpDownVector: [10577];
             case leftrightharpoons: [8651];
-            case LeftDoubleBracket: [10214];
-            case LeftTriangleEqual: [8884];
-            case LeftDownVectorBar: [10585];
-            case LeftDownTeeVector: [10593];
             case longleftrightarrow: [10231];
-            case Longleftrightarrow: [10234];
-            case LongLeftRightArrow: [10231];
             case leftrightsquigarrow: [8621];
-            case LeftArrowRightArrow: [8646];
             case mp: [8723];
             case mu: [956];
-            case Mu: [924];
             case mid: [8739];
             case map: [8614];
             case mho: [8487];
             case mfr: [120106];
             case mcy: [1084];
-            case Map: [10501];
-            case Mfr: [120080];
-            case Mcy: [1052];
             case male: [9794];
             case macr: [175];
             case mlcp: [10971];
@@ -5325,8 +5037,6 @@ enum abstract HtmlEntity(String) {
             case mldr: [8230];
             case mopf: [120158];
             case mscr: [120002];
-            case Mopf: [120132];
-            case Mscr: [8499];
             case mdash: [8212];
             case micro: [181];
             case mumap: [8888];
@@ -5347,16 +5057,12 @@ enum abstract HtmlEntity(String) {
             case minusdu: [10794];
             case multimap: [8888];
             case mapstoup: [8613];
-            case Mellintrf: [8499];
-            case MinusPlus: [8723];
             case mapstoleft: [8612];
             case mapstodown: [8615];
-            case MediumSpace: [8287];
             case measuredangle: [8737];
             case ne: [8800];
             case ni: [8715];
             case nu: [957];
-            case Nu: [925];
             case nge: [8817];
             case nap: [8777];
             case nle: [8816];
@@ -5374,11 +5080,8 @@ enum abstract HtmlEntity(String) {
             case nGg: [8921,824];
             case nlE: [8806,824];
             case nLl: [8920,824];
-            case Nfr: [120081];
             case nGt: [8811,8402];
-            case Ncy: [1053];
             case nLt: [8810,8402];
-            case Not: [10988];
             case ncap: [10819];
             case nang: [8736,8402];
             case nmid: [8740];
@@ -5408,11 +5111,8 @@ enum abstract HtmlEntity(String) {
             case nvlt: [60,8402];
             case napE: [10864,824];
             case nsup: [8837];
-            case Nopf: [8469];
-            case Nscr: [119977];
             case nGtv: [8811,824];
             case nLtv: [8810,824];
-            case NJcy: [1034];
             case nabla: [8711];
             case napid: [8779,824];
             case ndash: [8211];
@@ -5469,16 +5169,12 @@ enum abstract HtmlEntity(String) {
             case nsimeq: [8772];
             case nprcue: [8928];
             case nltrie: [8940];
-            case Ncedil: [325];
             case nparsl: [11005,8421];
             case nrtrie: [8941];
             case numero: [8470];
             case nequiv: [8802];
             case nexist: [8708];
             case nrarrw: [8605,824];
-            case Nacute: [323];
-            case Ntilde: [209];
-            case Ncaron: [327];
             case nvDash: [8877];
             case nVdash: [8878];
             case notinE: [8953,824];
@@ -5507,90 +5203,29 @@ enum abstract HtmlEntity(String) {
             case nsqsupe: [8931];
             case nwarrow: [8598];
             case nsupset: [8835,8402];
-            case NoBreak: [8288];
-            case NewLine: [10];
-            case NotLess: [8814];
             case ncongdot: [10861,824];
             case naturals: [8469];
             case notindot: [8949,824];
-            case NotTilde: [8769];
-            case NotEqual: [8800];
             case nparallel: [8742];
             case ngeqslant: [10878,824];
             case nleqslant: [10877,824];
             case nshortmid: [8740];
             case nsubseteq: [8840];
             case nsupseteq: [8841];
-            case NotSubset: [8834,8402];
-            case NotCupCap: [8813];
-            case NotExists: [8708];
             case nleftarrow: [8602];
             case nsubseteqq: [10949,824];
             case nsupseteqq: [10950,824];
             case nLeftarrow: [8653];
-            case NotGreater: [8815];
-            case NotElement: [8713];
             case nrightarrow: [8603];
             case nRightarrow: [8655];
-            case NotPrecedes: [8832];
-            case NotSucceeds: [8833];
-            case NotSuperset: [8835,8402];
-            case NotLessLess: [8810,824];
-            case NotCongruent: [8802];
-            case NotLessTilde: [8820];
-            case NotLessEqual: [8816];
-            case NotHumpEqual: [8783,824];
             case ntriangleleft: [8938];
-            case NotTildeTilde: [8777];
-            case NotEqualTilde: [8770,824];
-            case NotTildeEqual: [8772];
             case ntriangleright: [8939];
             case nshortparallel: [8742];
-            case NotVerticalBar: [8740];
-            case NestedLessLess: [8810];
-            case NotGreaterLess: [8825];
-            case NotLessGreater: [8824];
-            case NotSubsetEqual: [8840];
             case ntrianglelefteq: [8940];
             case nleftrightarrow: [8622];
             case nLeftrightarrow: [8654];
-            case NotGreaterTilde: [8821];
-            case NotLeftTriangle: [8938];
-            case NotGreaterEqual: [8817];
-            case NotSquareSubset: [8847,824];
-            case NotHumpDownHump: [8782,824];
             case ntrianglerighteq: [8941];
-            case NonBreakingSpace: [160];
-            case NotSucceedsTilde: [8831,824];
-            case NotPrecedesEqual: [10927,824];
-            case NotSucceedsEqual: [10928,824];
-            case NotRightTriangle: [8939];
-            case NotSupersetEqual: [8841];
-            case NegativeThinSpace: [8203];
-            case NotGreaterGreater: [8811,824];
-            case NotReverseElement: [8716];
-            case NotTildeFullEqual: [8775];
-            case NotSquareSuperset: [8848,824];
-            case NotLessSlantEqual: [10877,824];
-            case NotNestedLessLess: [10913,824];
-            case NegativeThickSpace: [8203];
-            case NotLeftTriangleBar: [10703,824];
-            case NegativeMediumSpace: [8203];
-            case NotRightTriangleBar: [10704,824];
-            case NotGreaterFullEqual: [8807,824];
-            case NestedGreaterGreater: [8811];
-            case NotDoubleVerticalBar: [8742];
-            case NotLeftTriangleEqual: [8940];
-            case NotGreaterSlantEqual: [10878,824];
-            case NotSquareSubsetEqual: [8930];
-            case NotPrecedesSlantEqual: [8928];
-            case NegativeVeryThinSpace: [8203];
-            case NotSucceedsSlantEqual: [8929];
-            case NotRightTriangleEqual: [8941];
-            case NotSquareSupersetEqual: [8931];
-            case NotNestedGreaterGreater: [10914,824];
             case or: [8744];
-            case Or: [10836];
             case oS: [9416];
             case ohm: [937];
             case ord: [10845];
@@ -5599,8 +5234,6 @@ enum abstract HtmlEntity(String) {
             case ocy: [1086];
             case olt: [10688];
             case orv: [10843];
-            case Ofr: [120082];
-            case Ocy: [1054];
             case omid: [10678];
             case ordf: [170];
             case ocir: [8858];
@@ -5616,9 +5249,6 @@ enum abstract HtmlEntity(String) {
             case ouml: [246];
             case osol: [8856];
             case oror: [10838];
-            case Oopf: [120134];
-            case Oscr: [119978];
-            case Ouml: [214];
             case omega: [969];
             case ohbar: [10677];
             case odash: [8861];
@@ -5633,43 +5263,24 @@ enum abstract HtmlEntity(String) {
             case olarr: [8634];
             case operp: [10681];
             case orarr: [8635];
-            case Omega: [937];
-            case Ocirc: [212];
-            case Omacr: [332];
             case oplus: [8853];
-            case OElig: [338];
             case odblac: [337];
             case otilde: [245];
             case oacute: [243];
             case ograve: [242];
             case odsold: [10684];
-            case Odblac: [336];
             case origof: [8886];
             case oslash: [248];
             case otimes: [8855];
             case ominus: [8854];
-            case Oacute: [211];
-            case Otilde: [213];
-            case Ograve: [210];
-            case Oslash: [216];
-            case Otimes: [10807];
             case orderof: [8500];
             case omicron: [959];
             case orslope: [10839];
             case olcross: [10683];
-            case Omicron: [927];
-            case OverBar: [8254];
             case otimesas: [10806];
-            case OverBrace: [9182];
-            case OverBracket: [9140];
-            case OpenCurlyQuote: [8216];
-            case OverParenthesis: [9180];
-            case OpenCurlyDoubleQuote: [8220];
             case pi: [960];
             case pm: [177];
             case pr: [8826];
-            case Pi: [928];
-            case Pr: [10939];
             case phi: [966];
             case par: [8741];
             case pre: [10927];
@@ -5677,11 +5288,7 @@ enum abstract HtmlEntity(String) {
             case psi: [968];
             case pcy: [1087];
             case piv: [982];
-            case Phi: [934];
             case prE: [10931];
-            case Pfr: [120083];
-            case Psi: [936];
-            case Pcy: [1055];
             case para: [182];
             case prec: [8826];
             case prap: [10935];
@@ -5693,9 +5300,7 @@ enum abstract HtmlEntity(String) {
             case pscr: [120005];
             case prop: [8733];
             case plus: [43];
-            case Popf: [8473];
             case prnE: [10933];
-            case Pscr: [119979];
             case phone: [9742];
             case prime: [8242];
             case prcue: [8828];
@@ -5705,7 +5310,6 @@ enum abstract HtmlEntity(String) {
             case plusb: [8862];
             case pluse: [10866];
             case prsim: [8830];
-            case Prime: [8243];
             case planck: [8463];
             case preceq: [10927];
             case period: [46];
@@ -5728,55 +5332,35 @@ enum abstract HtmlEntity(String) {
             case pluscir: [10786];
             case plussim: [10790];
             case plustwo: [10791];
-            case Product: [8719];
             case parallel: [8741];
             case profalar: [9006];
             case precneqq: [10933];
             case profline: [8978];
             case precnsim: [8936];
             case plusacir: [10787];
-            case Precedes: [8826];
             case pointint: [10773];
             case profsurf: [8979];
-            case PartialD: [8706];
             case pitchfork: [8916];
-            case PlusMinus: [177];
             case precapprox: [10935];
-            case Proportion: [8759];
             case preccurlyeq: [8828];
             case precnapprox: [10937];
-            case Proportional: [8733];
-            case Poincareplane: [8460];
-            case PrecedesTilde: [8830];
-            case PrecedesEqual: [10927];
-            case PrecedesSlantEqual: [8828];
             case qfr: [120110];
-            case Qfr: [120084];
             case qopf: [120162];
             case qscr: [120006];
             case qint: [10764];
             case quot: [34];
-            case Qopf: [8474];
-            case Qscr: [119980];
-            case QUOT: [34];
             case quest: [63];
             case qprime: [8279];
             case quatint: [10774];
             case questeq: [8799];
             case quaternions: [8461];
             case rx: [8478];
-            case Re: [8476];
             case reg: [174];
             case rho: [961];
             case rfr: [120111];
             case rlm: [8207];
             case rsh: [8625];
             case rcy: [1088];
-            case Rho: [929];
-            case Rfr: [8476];
-            case Rsh: [8625];
-            case Rcy: [1056];
-            case REG: [174];
             case rdca: [10551];
             case race: [8765,817];
             case real: [8476];
@@ -5792,12 +5376,8 @@ enum abstract HtmlEntity(String) {
             case rscr: [120007];
             case rhov: [1009];
             case rtri: [9657];
-            case Rang: [10219];
             case rHar: [10596];
-            case Rarr: [8608];
-            case Ropf: [8477];
             case rArr: [8658];
-            case Rscr: [8475];
             case radic: [8730];
             case rangd: [10642];
             case range: [10661];
@@ -5827,7 +5407,6 @@ enum abstract HtmlEntity(String) {
             case rAarr: [8667];
             case rBarr: [10511];
             case rsquo: [8217];
-            case RBarr: [10512];
             case rbrace: [125];
             case rcedil: [343];
             case rbrack: [93];
@@ -5843,7 +5422,6 @@ enum abstract HtmlEntity(String) {
             case rfisht: [10621];
             case rpargt: [10644];
             case rarrpl: [10565];
-            case Rcedil: [342];
             case rarrlp: [8620];
             case rfloor: [8971];
             case rtimes: [8906];
@@ -5851,12 +5429,9 @@ enum abstract HtmlEntity(String) {
             case rsaquo: [8250];
             case rdquor: [8221];
             case rAtail: [10524];
-            case Racute: [340];
             case roplus: [10798];
-            case Rcaron: [344];
             case rmoust: [9137];
             case rsquor: [8217];
-            case Rarrtl: [10518];
             case realine: [8475];
             case rdldhar: [10601];
             case rarrbfs: [10528];
@@ -5869,49 +5444,19 @@ enum abstract HtmlEntity(String) {
             case raemptyv: [10675];
             case rppolint: [10770];
             case rtriltri: [10702];
-            case RightTee: [8866];
             case rationals: [8474];
             case rmoustache: [9137];
             case rightarrow: [8594];
-            case Rightarrow: [8658];
-            case RightFloor: [8971];
-            case RightArrow: [8594];
-            case RuleDelayed: [10740];
-            case Rrightarrow: [8667];
-            case RightVector: [8640];
             case risingdotseq: [8787];
-            case RightCeiling: [8969];
-            case RoundImplies: [10608];
-            case RightTriangle: [8883];
-            case RightArrowBar: [8677];
-            case RightTeeArrow: [8614];
-            case RightUpVector: [8638];
             case rightarrowtail: [8611];
             case rightharpoonup: [8640];
-            case ReverseElement: [8715];
-            case RightVectorBar: [10579];
-            case RightTeeVector: [10587];
             case rightthreetimes: [8908];
             case rightleftarrows: [8644];
             case rightsquigarrow: [8605];
-            case RightDownVector: [8642];
             case rightharpoondown: [8641];
             case rightrightarrows: [8649];
-            case RightTriangleBar: [10704];
-            case RightUpVectorBar: [10580];
-            case RightUpTeeVector: [10588];
             case rightleftharpoons: [8652];
-            case RightAngleBracket: [10217];
-            case RightUpDownVector: [10575];
-            case RightDoubleBracket: [10215];
-            case ReverseEquilibrium: [8651];
-            case RightTriangleEqual: [8885];
-            case RightDownVectorBar: [10581];
-            case RightDownTeeVector: [10589];
-            case RightArrowLeftArrow: [8644];
-            case ReverseUpEquilibrium: [10607];
             case sc: [8827];
-            case Sc: [10940];
             case sce: [10928];
             case sim: [8764];
             case sub: [8834];
@@ -5924,11 +5469,6 @@ enum abstract HtmlEntity(String) {
             case sup: [8835];
             case squ: [9633];
             case scE: [10932];
-            case Sub: [8912];
-            case Sfr: [120086];
-            case Scy: [1057];
-            case Sum: [8721];
-            case Sup: [8913];
             case scap: [10936];
             case sup1: [185];
             case sup2: [178];
@@ -5955,12 +5495,7 @@ enum abstract HtmlEntity(String) {
             case sext: [10038];
             case scnE: [10934];
             case subE: [10949];
-            case Sopf: [120138];
-            case Star: [8902];
-            case Sscr: [119982];
             case supE: [10950];
-            case Sqrt: [8730];
-            case SHcy: [1064];
             case sigma: [963];
             case sccue: [8829];
             case scirc: [349];
@@ -5986,8 +5521,6 @@ enum abstract HtmlEntity(String) {
             case sqcup: [8852];
             case sqsub: [8847];
             case swarr: [8601];
-            case Sigma: [931];
-            case Scirc: [348];
             case simgE: [10912];
             case strns: [175];
             case simlE: [10911];
@@ -6018,7 +5551,6 @@ enum abstract HtmlEntity(String) {
             case sqsube: [8849];
             case subsim: [10951];
             case sstarf: [8902];
-            case Scedil: [350];
             case subsub: [10965];
             case seswar: [10537];
             case subset: [8834];
@@ -6033,14 +5565,7 @@ enum abstract HtmlEntity(String) {
             case supsub: [10964];
             case subsup: [10963];
             case supset: [8835];
-            case Sacute: [346];
-            case Scaron: [352];
             case supsup: [10966];
-            case Square: [9633];
-            case Subset: [8912];
-            case Supset: [8913];
-            case SHCHcy: [1065];
-            case SOFTcy: [1068];
             case subedot: [10947];
             case succsim: [8831];
             case simrarr: [10610];
@@ -6063,13 +5588,10 @@ enum abstract HtmlEntity(String) {
             case shortmid: [8739];
             case subseteq: [8838];
             case scpolint: [10771];
-            case Succeeds: [8827];
             case setminus: [8726];
             case supseteq: [8839];
             case sqsubset: [8847];
             case sqsupset: [8848];
-            case Superset: [8835];
-            case SuchThat: [8715];
             case spadesuit: [9824];
             case subsetneq: [8842];
             case subseteqq: [10949];
@@ -6083,33 +5605,13 @@ enum abstract HtmlEntity(String) {
             case straightphi: [981];
             case succcurlyeq: [8829];
             case succnapprox: [10938];
-            case SmallCircle: [8728];
-            case SubsetEqual: [8838];
-            case SquareUnion: [8852];
-            case SquareSubset: [8847];
-            case ShortUpArrow: [8593];
             case shortparallel: [8741];
             case smallsetminus: [8726];
-            case SucceedsTilde: [8831];
-            case SucceedsEqual: [10928];
-            case SupersetEqual: [8839];
-            case SquareSuperset: [8848];
-            case ShortLeftArrow: [8592];
-            case ShortDownArrow: [8595];
             case straightepsilon: [1013];
-            case ShortRightArrow: [8594];
-            case SquareSubsetEqual: [8849];
-            case SquareIntersection: [8851];
-            case SucceedsSlantEqual: [8829];
-            case SquareSupersetEqual: [8850];
             case tau: [964];
             case tfr: [120113];
             case tcy: [1090];
             case top: [8868];
-            case Tab: [9];
-            case Tau: [932];
-            case Tfr: [120087];
-            case Tcy: [1058];
             case toea: [10536];
             case tbrk: [9140];
             case trie: [8796];
@@ -6119,9 +5621,6 @@ enum abstract HtmlEntity(String) {
             case tscr: [120009];
             case tint: [8749];
             case tscy: [1094];
-            case Topf: [120139];
-            case Tscr: [119983];
-            case TScy: [1062];
             case trade: [8482];
             case tilde: [732];
             case theta: [952];
@@ -6130,12 +5629,7 @@ enum abstract HtmlEntity(String) {
             case trisb: [10701];
             case thorn: [254];
             case tshcy: [1115];
-            case Tilde: [8764];
-            case Theta: [920];
             case twixt: [8812];
-            case TSHcy: [1035];
-            case TRADE: [8482];
-            case THORN: [222];
             case there4: [8756];
             case tcedil: [355];
             case telrec: [8981];
@@ -6147,13 +5641,10 @@ enum abstract HtmlEntity(String) {
             case thksim: [8764];
             case tprime: [8244];
             case topcir: [10993];
-            case Tcedil: [354];
             case thinsp: [8201];
             case tridot: [9708];
             case topbot: [9014];
-            case Tcaron: [356];
             case tstrok: [359];
-            case Tstrok: [358];
             case tritime: [10811];
             case topfork: [10970];
             case triplus: [10809];
@@ -6165,26 +5656,17 @@ enum abstract HtmlEntity(String) {
             case trpezium: [9186];
             case therefore: [8756];
             case triangleq: [8796];
-            case Therefore: [8756];
-            case ThinSpace: [8201];
-            case TripleDot: [8411];
-            case ThickSpace: [8287,8202];
-            case TildeTilde: [8776];
-            case TildeEqual: [8771];
             case thickapprox: [8776];
             case triangleleft: [9667];
             case triangledown: [9663];
             case triangleright: [9657];
             case trianglelefteq: [8884];
-            case TildeFullEqual: [8773];
             case trianglerighteq: [8885];
             case twoheadleftarrow: [8606];
             case twoheadrightarrow: [8608];
             case ufr: [120114];
             case uml: [168];
             case ucy: [1091];
-            case Ufr: [120088];
-            case Ucy: [1059];
             case uopf: [120166];
             case uarr: [8593];
             case uscr: [120010];
@@ -6192,12 +5674,7 @@ enum abstract HtmlEntity(String) {
             case uuml: [252];
             case utri: [9653];
             case uHar: [10595];
-            case Uopf: [120140];
             case uArr: [8657];
-            case Uarr: [8607];
-            case Uscr: [119984];
-            case Upsi: [978];
-            case Uuml: [220];
             case udhar: [10606];
             case uhblk: [9600];
             case ucirc: [251];
@@ -6213,84 +5690,46 @@ enum abstract HtmlEntity(String) {
             case uuarr: [8648];
             case utdot: [8944];
             case ultri: [9720];
-            case Ucirc: [219];
             case urtri: [9721];
-            case Umacr: [362];
             case uplus: [8846];
-            case Uring: [366];
-            case Ubrcy: [1038];
-            case Uogon: [370];
-            case Union: [8899];
-            case UpTee: [8869];
             case udblac: [369];
             case utilde: [361];
             case uacute: [250];
             case ubreve: [365];
             case ugrave: [249];
-            case Udblac: [368];
             case ufisht: [10622];
             case ulcorn: [8988];
             case ulcrop: [8975];
             case urcorn: [8989];
             case urcrop: [8974];
-            case Uacute: [218];
-            case Utilde: [360];
-            case Ubreve: [364];
-            case Ugrave: [217];
             case uwangle: [10663];
             case upsilon: [965];
             case uparrow: [8593];
-            case Upsilon: [933];
-            case Uparrow: [8657];
-            case UpArrow: [8593];
             case ulcorner: [8988];
             case urcorner: [8989];
-            case Uarrocir: [10569];
-            case UnderBar: [95];
-            case UnionPlus: [8846];
-            case UnderBrace: [9183];
             case upuparrows: [8648];
-            case UpArrowBar: [10514];
-            case UpTeeArrow: [8613];
             case updownarrow: [8597];
-            case Updownarrow: [8661];
-            case UpDownArrow: [8597];
-            case UnderBracket: [9141];
             case upharpoonleft: [8639];
-            case UpEquilibrium: [10606];
             case upharpoonright: [8638];
-            case UpperLeftArrow: [8598];
-            case UpperRightArrow: [8599];
-            case UnderParenthesis: [9181];
-            case UpArrowDownArrow: [8645];
             case vee: [8744];
             case vfr: [120115];
             case vcy: [1074];
-            case Vee: [8897];
-            case Vfr: [120089];
-            case Vcy: [1042];
             case vopf: [120167];
             case varr: [8597];
             case vscr: [120011];
             case vert: [124];
-            case Vbar: [10987];
             case vBar: [10984];
-            case Vopf: [120141];
             case vArr: [8661];
-            case Vscr: [119985];
-            case Vert: [8214];
             case veeeq: [8794];
             case vdash: [8866];
             case varpi: [982];
             case vnsub: [8834,8402];
             case vltri: [8882];
             case vDash: [8872];
-            case Vdash: [8873];
             case vprop: [8733];
             case vrtri: [8883];
             case vnsup: [8835,8402];
             case vBarv: [10985];
-            case VDash: [8875];
             case veebar: [8891];
             case verbar: [124];
             case varphi: [981];
@@ -6299,9 +5738,6 @@ enum abstract HtmlEntity(String) {
             case vangrt: [10652];
             case vsubne: [8842,65024];
             case vsupne: [8843,65024];
-            case Vdashl: [10982];
-            case Verbar: [8214];
-            case Vvdash: [8874];
             case vsubnE: [10955,65024];
             case vsupnE: [10956,65024];
             case vzigzag: [10650];
@@ -6311,37 +5747,25 @@ enum abstract HtmlEntity(String) {
             case varpropto: [8733];
             case varnothing: [8709];
             case varepsilon: [1013];
-            case VerticalBar: [8739];
             case varsubsetneq: [8842,65024];
             case varsupsetneq: [8843,65024];
-            case VerticalLine: [124];
             case varsubsetneqq: [10955,65024];
             case varsupsetneqq: [10956,65024];
-            case VerticalTilde: [8768];
-            case VeryThinSpace: [8202];
             case vartriangleleft: [8882];
             case vartriangleright: [8883];
-            case VerticalSeparator: [10072];
             case wp: [8472];
             case wr: [8768];
             case wfr: [120116];
-            case Wfr: [120090];
             case wopf: [120168];
             case wscr: [120012];
-            case Wopf: [120142];
-            case Wscr: [119986];
             case wedge: [8743];
             case wcirc: [373];
-            case Wedge: [8896];
-            case Wcirc: [372];
             case wedbar: [10847];
             case wedgeq: [8793];
             case wreath: [8768];
             case weierp: [8472];
             case xi: [958];
-            case Xi: [926];
             case xfr: [120117];
-            case Xfr: [120091];
             case xcap: [8898];
             case xmap: [10236];
             case xvee: [8897];
@@ -6349,8 +5773,6 @@ enum abstract HtmlEntity(String) {
             case xcup: [8899];
             case xscr: [120013];
             case xnis: [8955];
-            case Xopf: [120143];
-            case Xscr: [119987];
             case xcirc: [9711];
             case xharr: [10231];
             case xlarr: [10229];
@@ -6369,46 +5791,624 @@ enum abstract HtmlEntity(String) {
             case yen: [165];
             case yfr: [120118];
             case ycy: [1099];
-            case Yfr: [120092];
-            case Ycy: [1067];
             case yacy: [1103];
             case yopf: [120170];
             case yicy: [1111];
             case yscr: [120014];
             case yuml: [255];
             case yucy: [1102];
-            case Yopf: [120144];
-            case Yscr: [119988];
-            case Yuml: [376];
-            case YAcy: [1071];
-            case YIcy: [1031];
-            case YUcy: [1070];
             case ycirc: [375];
-            case Ycirc: [374];
             case yacute: [253];
-            case Yacute: [221];
             case zfr: [120119];
             case zcy: [1079];
             case zwj: [8205];
-            case Zfr: [8488];
-            case Zcy: [1047];
             case zeta: [950];
             case zhcy: [1078];
             case zopf: [120171];
             case zdot: [380];
             case zscr: [120015];
             case zwnj: [8204];
+            case zacute: [378];
+            case zcaron: [382];
+            case zeetrf: [8488];
+            case zigrarr: [8669];
+            case And: [10835];
+            case Afr: [120068];
+            case Acy: [1040];
+            case AMP: [38];
+            case Aopf: [120120];
+            case Ascr: [119964];
+            case Auml: [196];
+            case Acirc: [194];
+            case Amacr: [256];
+            case Alpha: [913];
+            case Aring: [197];
+            case Aogon: [260];
+            case AElig: [198];
+            case Aacute: [193];
+            case Atilde: [195];
+            case Abreve: [258];
+            case Agrave: [192];
+            case Assign: [8788];
+            case ApplyFunction: [8289];
+            case Bfr: [120069];
+            case Bcy: [1041];
+            case Beta: [914];
+            case Bopf: [120121];
+            case Bscr: [8492];
+            case Barv: [10983];
+            case Breve: [728];
+            case Barwed: [8966];
+            case Bumpeq: [8782];
+            case Because: [8757];
+            case Backslash: [8726];
+            case Bernoullis: [8492];
+            case Cap: [8914];
+            case Chi: [935];
+            case Cfr: [8493];
+            case Cup: [8915];
+            case Copf: [8450];
+            case Cdot: [266];
+            case Cscr: [119966];
+            case CHcy: [1063];
+            case COPY: [169];
+            case Ccirc: [264];
+            case Colon: [8759];
+            case Cross: [10799];
+            case Ccedil: [199];
+            case Cacute: [262];
+            case Ccaron: [268];
+            case Colone: [10868];
+            case Conint: [8751];
+            case CupCap: [8781];
+            case Cedilla: [184];
+            case Cconint: [8752];
+            case Cayleys: [8493];
+            case Coproduct: [8720];
+            case Congruent: [8801];
+            case CircleDot: [8857];
+            case CenterDot: [183];
+            case CirclePlus: [8853];
+            case CircleTimes: [8855];
+            case CircleMinus: [8854];
+            case ContourIntegral: [8750];
+            case CloseCurlyQuote: [8217];
+            case CapitalDifferentialD: [8517];
+            case CloseCurlyDoubleQuote: [8221];
+            case ClockwiseContourIntegral: [8754];
+            case CounterClockwiseContourIntegral: [8755];
+            case DD: [8517];
+            case Del: [8711];
+            case Dfr: [120071];
+            case Dcy: [1044];
+            case Dot: [168];
+            case Darr: [8609];
+            case Dopf: [120123];
+            case Dscr: [119967];
+            case DJcy: [1026];
+            case DScy: [1029];
+            case DZcy: [1039];
+            case Delta: [916];
+            case Dashv: [10980];
+            case Dagger: [8225];
+            case Dcaron: [270];
+            case Dstrok: [272];
+            case DotDot: [8412];
+            case Diamond: [8900];
+            case DownTee: [8868];
+            case DDotrahd: [10513];
+            case DotEqual: [8784];
+            case DoubleDot: [168];
+            case Downarrow: [8659];
+            case DownBreve: [785];
+            case DownArrow: [8595];
+            case DownArrowBar: [10515];
+            case DownTeeArrow: [8615];
+            case DifferentialD: [8518];
+            case DoubleLeftTee: [10980];
+            case DoubleUpArrow: [8657];
+            case DiacriticalDot: [729];
+            case DoubleRightTee: [8872];
+            case DownLeftVector: [8637];
+            case DoubleLeftArrow: [8656];
+            case DoubleDownArrow: [8659];
+            case DownRightVector: [8641];
+            case DiacriticalAcute: [180];
+            case DiacriticalTilde: [732];
+            case DiacriticalGrave: [96];
+            case DoubleRightArrow: [8658];
+            case DownArrowUpArrow: [8693];
+            case DoubleVerticalBar: [8741];
+            case DownLeftVectorBar: [10582];
+            case DownLeftTeeVector: [10590];
+            case DoubleUpDownArrow: [8661];
+            case DownRightVectorBar: [10583];
+            case DownRightTeeVector: [10591];
+            case DoubleLongLeftArrow: [10232];
+            case DownLeftRightVector: [10576];
+            case DoubleLeftRightArrow: [8660];
+            case DoubleLongRightArrow: [10233];
+            case DoubleContourIntegral: [8751];
+            case DiacriticalDoubleAcute: [733];
+            case DoubleLongLeftRightArrow: [10234];
+            case Eta: [919];
+            case Efr: [120072];
+            case Ecy: [1069];
+            case ENG: [330];
+            case ETH: [208];
+            case Eopf: [120124];
+            case Edot: [278];
+            case Escr: [8496];
+            case Esim: [10867];
+            case Euml: [203];
+            case Ecirc: [202];
+            case Emacr: [274];
+            case Equal: [10869];
+            case Eogon: [280];
+            case Eacute: [201];
+            case Ecaron: [282];
+            case Egrave: [200];
+            case Exists: [8707];
+            case Element: [8712];
+            case Epsilon: [917];
+            case EqualTilde: [8770];
+            case Equilibrium: [8652];
+            case ExponentialE: [8519];
+            case EmptySmallSquare: [9723];
+            case EmptyVerySmallSquare: [9643];
+            case Ffr: [120073];
+            case Fcy: [1060];
+            case Fopf: [120125];
+            case Fscr: [8497];
+            case ForAll: [8704];
+            case Fouriertrf: [8497];
+            case FilledSmallSquare: [9724];
+            case FilledVerySmallSquare: [9642];
+            case Gg: [8921];
+            case Gt: [8811];
+            case GT: [62];
+            case Gfr: [120074];
+            case Gcy: [1043];
+            case Gopf: [120126];
+            case Gdot: [288];
+            case Gscr: [119970];
+            case GJcy: [1027];
+            case Gamma: [915];
+            case Gcirc: [284];
+            case Gammad: [988];
+            case Gcedil: [290];
+            case Gbreve: [286];
+            case GreaterLess: [8823];
+            case GreaterTilde: [8819];
+            case GreaterEqual: [8805];
+            case GreaterGreater: [10914];
+            case GreaterFullEqual: [8807];
+            case GreaterEqualLess: [8923];
+            case GreaterSlantEqual: [10878];
+            case Hat: [94];
+            case Hfr: [8460];
+            case Hopf: [8461];
+            case Hscr: [8459];
+            case Hacek: [711];
+            case Hcirc: [292];
+            case Hstrok: [294];
+            case HARDcy: [1066];
+            case HumpEqual: [8783];
+            case HilbertSpace: [8459];
+            case HumpDownHump: [8782];
+            case HorizontalLine: [9472];
+            case Im: [8465];
+            case Ifr: [8465];
+            case Icy: [1048];
+            case Int: [8748];
+            case Iota: [921];
+            case Iopf: [120128];
+            case Idot: [304];
+            case Iscr: [8464];
+            case Iuml: [207];
+            case IEcy: [1045];
+            case IOcy: [1025];
+            case Icirc: [206];
+            case Imacr: [298];
+            case Iogon: [302];
+            case Iukcy: [1030];
+            case IJlig: [306];
+            case Itilde: [296];
+            case Iacute: [205];
+            case Igrave: [204];
+            case Implies: [8658];
+            case Integral: [8747];
+            case ImaginaryI: [8520];
+            case Intersection: [8898];
+            case InvisibleComma: [8291];
+            case InvisibleTimes: [8290];
+            case Jfr: [120077];
+            case Jcy: [1049];
+            case Jopf: [120129];
+            case Jscr: [119973];
+            case Jcirc: [308];
+            case Jukcy: [1028];
+            case Jsercy: [1032];
+            case Kfr: [120078];
+            case Kcy: [1050];
+            case Kopf: [120130];
+            case Kscr: [119974];
+            case KHcy: [1061];
+            case KJcy: [1036];
+            case Kappa: [922];
+            case Kcedil: [310];
+            case Ll: [8920];
+            case Lt: [8810];
+            case LT: [60];
+            case Lfr: [120079];
+            case Lsh: [8624];
+            case Lcy: [1051];
+            case Lang: [10218];
+            case Larr: [8606];
+            case Lopf: [120131];
+            case Lscr: [8466];
+            case LJcy: [1033];
+            case Lambda: [923];
+            case Lcedil: [315];
+            case Lacute: [313];
+            case Lcaron: [317];
+            case Lmidot: [319];
+            case Lstrok: [321];
+            case LeftTee: [8867];
+            case LessLess: [10913];
+            case Leftarrow: [8656];
+            case LessTilde: [8818];
+            case LeftFloor: [8970];
+            case LeftArrow: [8592];
+            case Laplacetrf: [8466];
+            case Lleftarrow: [8666];
+            case LeftVector: [8636];
+            case LeftCeiling: [8968];
+            case LessGreater: [8822];
+            case LeftTriangle: [8882];
+            case LeftArrowBar: [8676];
+            case LeftTeeArrow: [8612];
+            case LeftUpVector: [8639];
+            case Longleftarrow: [10232];
+            case LeftVectorBar: [10578];
+            case LeftTeeVector: [10586];
+            case LessFullEqual: [8806];
+            case LongLeftArrow: [10229];
+            case Leftrightarrow: [8660];
+            case Longrightarrow: [10233];
+            case LessSlantEqual: [10877];
+            case LeftRightArrow: [8596];
+            case LeftDownVector: [8643];
+            case LongRightArrow: [10230];
+            case LowerLeftArrow: [8601];
+            case LeftTriangleBar: [10703];
+            case LeftRightVector: [10574];
+            case LowerRightArrow: [8600];
+            case LeftUpVectorBar: [10584];
+            case LeftUpTeeVector: [10592];
+            case LeftAngleBracket: [10216];
+            case LessEqualGreater: [8922];
+            case LeftUpDownVector: [10577];
+            case LeftDoubleBracket: [10214];
+            case LeftTriangleEqual: [8884];
+            case LeftDownVectorBar: [10585];
+            case LeftDownTeeVector: [10593];
+            case Longleftrightarrow: [10234];
+            case LongLeftRightArrow: [10231];
+            case LeftArrowRightArrow: [8646];
+            case Mu: [924];
+            case Map: [10501];
+            case Mfr: [120080];
+            case Mcy: [1052];
+            case Mopf: [120132];
+            case Mscr: [8499];
+            case Mellintrf: [8499];
+            case MinusPlus: [8723];
+            case MediumSpace: [8287];
+            case Nu: [925];
+            case Nfr: [120081];
+            case Ncy: [1053];
+            case Not: [10988];
+            case Nopf: [8469];
+            case Nscr: [119977];
+            case NJcy: [1034];
+            case Ncedil: [325];
+            case Nacute: [323];
+            case Ntilde: [209];
+            case Ncaron: [327];
+            case NoBreak: [8288];
+            case NewLine: [10];
+            case NotLess: [8814];
+            case NotTilde: [8769];
+            case NotEqual: [8800];
+            case NotSubset: [8834,8402];
+            case NotCupCap: [8813];
+            case NotExists: [8708];
+            case NotGreater: [8815];
+            case NotElement: [8713];
+            case NotPrecedes: [8832];
+            case NotSucceeds: [8833];
+            case NotSuperset: [8835,8402];
+            case NotLessLess: [8810,824];
+            case NotCongruent: [8802];
+            case NotLessTilde: [8820];
+            case NotLessEqual: [8816];
+            case NotHumpEqual: [8783,824];
+            case NotTildeTilde: [8777];
+            case NotEqualTilde: [8770,824];
+            case NotTildeEqual: [8772];
+            case NotVerticalBar: [8740];
+            case NestedLessLess: [8810];
+            case NotGreaterLess: [8825];
+            case NotLessGreater: [8824];
+            case NotSubsetEqual: [8840];
+            case NotGreaterTilde: [8821];
+            case NotLeftTriangle: [8938];
+            case NotGreaterEqual: [8817];
+            case NotSquareSubset: [8847,824];
+            case NotHumpDownHump: [8782,824];
+            case NonBreakingSpace: [160];
+            case NotSucceedsTilde: [8831,824];
+            case NotPrecedesEqual: [10927,824];
+            case NotSucceedsEqual: [10928,824];
+            case NotRightTriangle: [8939];
+            case NotSupersetEqual: [8841];
+            case NegativeThinSpace: [8203];
+            case NotGreaterGreater: [8811,824];
+            case NotReverseElement: [8716];
+            case NotTildeFullEqual: [8775];
+            case NotSquareSuperset: [8848,824];
+            case NotLessSlantEqual: [10877,824];
+            case NotNestedLessLess: [10913,824];
+            case NegativeThickSpace: [8203];
+            case NotLeftTriangleBar: [10703,824];
+            case NegativeMediumSpace: [8203];
+            case NotRightTriangleBar: [10704,824];
+            case NotGreaterFullEqual: [8807,824];
+            case NestedGreaterGreater: [8811];
+            case NotDoubleVerticalBar: [8742];
+            case NotLeftTriangleEqual: [8940];
+            case NotGreaterSlantEqual: [10878,824];
+            case NotSquareSubsetEqual: [8930];
+            case NotPrecedesSlantEqual: [8928];
+            case NegativeVeryThinSpace: [8203];
+            case NotSucceedsSlantEqual: [8929];
+            case NotRightTriangleEqual: [8941];
+            case NotSquareSupersetEqual: [8931];
+            case NotNestedGreaterGreater: [10914,824];
+            case Or: [10836];
+            case Ofr: [120082];
+            case Ocy: [1054];
+            case Oopf: [120134];
+            case Oscr: [119978];
+            case Ouml: [214];
+            case Omega: [937];
+            case Ocirc: [212];
+            case Omacr: [332];
+            case OElig: [338];
+            case Odblac: [336];
+            case Oacute: [211];
+            case Otilde: [213];
+            case Ograve: [210];
+            case Oslash: [216];
+            case Otimes: [10807];
+            case Omicron: [927];
+            case OverBar: [8254];
+            case OverBrace: [9182];
+            case OverBracket: [9140];
+            case OpenCurlyQuote: [8216];
+            case OverParenthesis: [9180];
+            case OpenCurlyDoubleQuote: [8220];
+            case Pi: [928];
+            case Pr: [10939];
+            case Phi: [934];
+            case Pfr: [120083];
+            case Psi: [936];
+            case Pcy: [1055];
+            case Popf: [8473];
+            case Pscr: [119979];
+            case Prime: [8243];
+            case Product: [8719];
+            case Precedes: [8826];
+            case PartialD: [8706];
+            case PlusMinus: [177];
+            case Proportion: [8759];
+            case Proportional: [8733];
+            case Poincareplane: [8460];
+            case PrecedesTilde: [8830];
+            case PrecedesEqual: [10927];
+            case PrecedesSlantEqual: [8828];
+            case Qfr: [120084];
+            case Qopf: [8474];
+            case Qscr: [119980];
+            case QUOT: [34];
+            case Re: [8476];
+            case Rho: [929];
+            case Rfr: [8476];
+            case Rsh: [8625];
+            case Rcy: [1056];
+            case REG: [174];
+            case Rang: [10219];
+            case Rarr: [8608];
+            case Ropf: [8477];
+            case Rscr: [8475];
+            case RBarr: [10512];
+            case Rcedil: [342];
+            case Racute: [340];
+            case Rcaron: [344];
+            case Rarrtl: [10518];
+            case RightTee: [8866];
+            case Rightarrow: [8658];
+            case RightFloor: [8971];
+            case RightArrow: [8594];
+            case RuleDelayed: [10740];
+            case Rrightarrow: [8667];
+            case RightVector: [8640];
+            case RightCeiling: [8969];
+            case RoundImplies: [10608];
+            case RightTriangle: [8883];
+            case RightArrowBar: [8677];
+            case RightTeeArrow: [8614];
+            case RightUpVector: [8638];
+            case ReverseElement: [8715];
+            case RightVectorBar: [10579];
+            case RightTeeVector: [10587];
+            case RightDownVector: [8642];
+            case RightTriangleBar: [10704];
+            case RightUpVectorBar: [10580];
+            case RightUpTeeVector: [10588];
+            case RightAngleBracket: [10217];
+            case RightUpDownVector: [10575];
+            case RightDoubleBracket: [10215];
+            case ReverseEquilibrium: [8651];
+            case RightTriangleEqual: [8885];
+            case RightDownVectorBar: [10581];
+            case RightDownTeeVector: [10589];
+            case RightArrowLeftArrow: [8644];
+            case ReverseUpEquilibrium: [10607];
+            case Sc: [10940];
+            case Sub: [8912];
+            case Sfr: [120086];
+            case Scy: [1057];
+            case Sum: [8721];
+            case Sup: [8913];
+            case Sopf: [120138];
+            case Star: [8902];
+            case Sscr: [119982];
+            case Sqrt: [8730];
+            case SHcy: [1064];
+            case Sigma: [931];
+            case Scirc: [348];
+            case Scedil: [350];
+            case Sacute: [346];
+            case Scaron: [352];
+            case Square: [9633];
+            case Subset: [8912];
+            case Supset: [8913];
+            case SHCHcy: [1065];
+            case SOFTcy: [1068];
+            case Succeeds: [8827];
+            case Superset: [8835];
+            case SuchThat: [8715];
+            case SmallCircle: [8728];
+            case SubsetEqual: [8838];
+            case SquareUnion: [8852];
+            case SquareSubset: [8847];
+            case ShortUpArrow: [8593];
+            case SucceedsTilde: [8831];
+            case SucceedsEqual: [10928];
+            case SupersetEqual: [8839];
+            case SquareSuperset: [8848];
+            case ShortLeftArrow: [8592];
+            case ShortDownArrow: [8595];
+            case ShortRightArrow: [8594];
+            case SquareSubsetEqual: [8849];
+            case SquareIntersection: [8851];
+            case SucceedsSlantEqual: [8829];
+            case SquareSupersetEqual: [8850];
+            case Tab: [9];
+            case Tau: [932];
+            case Tfr: [120087];
+            case Tcy: [1058];
+            case Topf: [120139];
+            case Tscr: [119983];
+            case TScy: [1062];
+            case Tilde: [8764];
+            case Theta: [920];
+            case TSHcy: [1035];
+            case TRADE: [8482];
+            case THORN: [222];
+            case Tcedil: [354];
+            case Tcaron: [356];
+            case Tstrok: [358];
+            case Therefore: [8756];
+            case ThinSpace: [8201];
+            case TripleDot: [8411];
+            case ThickSpace: [8287,8202];
+            case TildeTilde: [8776];
+            case TildeEqual: [8771];
+            case TildeFullEqual: [8773];
+            case Ufr: [120088];
+            case Ucy: [1059];
+            case Uopf: [120140];
+            case Uarr: [8607];
+            case Uscr: [119984];
+            case Upsi: [978];
+            case Uuml: [220];
+            case Ucirc: [219];
+            case Umacr: [362];
+            case Uring: [366];
+            case Ubrcy: [1038];
+            case Uogon: [370];
+            case Union: [8899];
+            case UpTee: [8869];
+            case Udblac: [368];
+            case Uacute: [218];
+            case Utilde: [360];
+            case Ubreve: [364];
+            case Ugrave: [217];
+            case Upsilon: [933];
+            case Uparrow: [8657];
+            case UpArrow: [8593];
+            case Uarrocir: [10569];
+            case UnderBar: [95];
+            case UnionPlus: [8846];
+            case UnderBrace: [9183];
+            case UpArrowBar: [10514];
+            case UpTeeArrow: [8613];
+            case Updownarrow: [8661];
+            case UpDownArrow: [8597];
+            case UnderBracket: [9141];
+            case UpEquilibrium: [10606];
+            case UpperLeftArrow: [8598];
+            case UpperRightArrow: [8599];
+            case UnderParenthesis: [9181];
+            case UpArrowDownArrow: [8645];
+            case Vee: [8897];
+            case Vfr: [120089];
+            case Vcy: [1042];
+            case Vbar: [10987];
+            case Vopf: [120141];
+            case Vscr: [119985];
+            case Vert: [8214];
+            case Vdash: [8873];
+            case VDash: [8875];
+            case Vdashl: [10982];
+            case Verbar: [8214];
+            case Vvdash: [8874];
+            case VerticalBar: [8739];
+            case VerticalLine: [124];
+            case VerticalTilde: [8768];
+            case VeryThinSpace: [8202];
+            case VerticalSeparator: [10072];
+            case Wfr: [120090];
+            case Wopf: [120142];
+            case Wscr: [119986];
+            case Wedge: [8896];
+            case Wcirc: [372];
+            case Xi: [926];
+            case Xfr: [120091];
+            case Xopf: [120143];
+            case Xscr: [119987];
+            case Yfr: [120092];
+            case Ycy: [1067];
+            case Yopf: [120144];
+            case Yscr: [119988];
+            case Yuml: [376];
+            case YAcy: [1071];
+            case YIcy: [1031];
+            case YUcy: [1070];
+            case Ycirc: [374];
+            case Yacute: [221];
+            case Zfr: [8488];
+            case Zcy: [1047];
             case Zeta: [918];
             case Zopf: [8484];
             case Zdot: [379];
             case Zscr: [119989];
             case ZHcy: [1046];
-            case zacute: [378];
-            case zcaron: [382];
-            case zeetrf: [8488];
             case Zacute: [377];
             case Zcaron: [381];
-            case zigrarr: [8669];
             case ZeroWidthSpace: [8203];
             case _: [];
         }

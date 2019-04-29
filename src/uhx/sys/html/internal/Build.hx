@@ -80,10 +80,16 @@ typedef TemplateCtx = JsonData & {
         var aCode = a.charCodeAt(0);
         var bCode = b.charCodeAt(0);
         
-		if (aCode >= 'a'.code && aCode <= 'z'.code) aCode -= 32;
-		if (bCode >= 'a'.code && bCode <= 'z'.code) bCode -= 32;
-		if (aCode >= 'A'.code && aCode <= 'Z'.code) aCode += 32;
-		if (bCode >= 'A'.code && bCode <= 'Z'.code) bCode += 32;
+		if (aCode >= 'a'.code && aCode <= 'z'.code) {
+			aCode -= 32;
+		} else if (aCode >= 'A'.code && aCode <= 'Z'.code) {
+			aCode += 32;
+		}
+		if (bCode >= 'a'.code && bCode <= 'z'.code) {
+			bCode -= 32;
+		} else if (bCode >= 'A'.code && bCode <= 'Z'.code) {
+			bCode += 32;
+		}
 
         return if (aCode == bCode) {
 			if (a.length > b.length) {
