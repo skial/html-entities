@@ -5,8 +5,8 @@ import haxe.Json;
 import haxe.Template;
 import haxe.ds.ArraySort;
 import haxe.DynamicAccess;
-import uhx.sys.seri.builder.Extract;
 
+using Lambda;
 using StringTools;
 using sys.io.File;
 using haxe.io.Path;
@@ -44,7 +44,7 @@ typedef TemplateCtx = JsonData & {
 			var data:DynamicAccess<JsonData> = Json.parse( json.getContent() );
 			var names = [for (key in data.keys()) key.substring(1, key.length - 1)];
 
-			ArraySort.sort( names, @:privateAccess Extract.alphaSort );
+			ArraySort.sort( names, alphaSort );
 
 			var fields:Array<TemplateCtx> = [for (name in names) {
 				var value = '&${name};';
@@ -74,6 +74,63 @@ typedef TemplateCtx = JsonData & {
 			
 		}
 
+	}
+
+	private static function alphaSort(a:String, b:String) {
+        var aCode = a.charCodeAt(0);
+        var bCode = b.charCodeAt(0);
+        
+		if (aCode >= 'a'.code && aCode <= 'z'.code) aCode -= 32;
+		if (bCode >= 'a'.code && bCode <= 'z'.code) bCode -= 32;
+		if (aCode >= 'A'.code && aCode <= 'Z'.code) aCode += 32;
+		if (bCode >= 'A'.code && bCode <= 'Z'.code) bCode += 32;
+
+        return if (aCode == bCode) {
+			if (a.length > b.length) {
+				1;
+
+			} else if (a.length < b.length) {
+				-1;
+
+			} else if (a.length > 1 && b.length > 1) {
+				var _a = totalValue(a);
+				var _b = totalValue(b);
+
+				if (_a == _b) {
+					0;
+				} else if (_a > _b) {
+					1;
+				} else {
+					-1;
+				}
+                
+            } else {
+                0;
+
+            }
+
+        } else if (aCode > bCode) {
+            1;
+
+        } else {
+            -1;
+
+        }
+
+    }
+
+	private static function totalValue(value:String):Int {
+		return value
+			.split('')
+			.map( s -> s.charCodeAt(0) )
+			.map( i -> if (i >= 'a'.code && i <= 'z'.code) {
+				i-= 32;
+			} else if (i >= 'A'.code && i <= 'Z'.code) {
+				i+= 32;
+			} else {
+				i;
+			} )
+			.fold( (v, c)-> c+=v, 0 );
 	}
 	
 }

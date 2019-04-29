@@ -27,6389 +27,6389 @@ enum abstract HtmlEntity(String) {
         return macro HtmlEntity.all().indexOf(cast $name) > -1;
     }
 
-    public var AElig = "&AElig;";
-    public var AMP = "&AMP;";
-    public var Aacute = "&Aacute;";
-    public var Abreve = "&Abreve;";
-    public var Acirc = "&Acirc;";
-    public var Acy = "&Acy;";
-    public var Afr = "&Afr;";
-    public var Agrave = "&Agrave;";
-    public var Alpha = "&Alpha;";
-    public var Amacr = "&Amacr;";
+    public var ac = "&ac;";
+    public var af = "&af;";
+    public var ap = "&ap;";
+    public var acd = "&acd;";
+    public var and = "&and;";
+    public var ang = "&ang;";
+    public var ape = "&ape;";
+    public var afr = "&afr;";
+    public var acy = "&acy;";
+    public var amp = "&amp;";
+    public var ast = "&ast;";
+    public var acE = "&acE;";
     public var And = "&And;";
-    public var Aogon = "&Aogon;";
+    public var apE = "&apE;";
+    public var Afr = "&Afr;";
+    public var Acy = "&Acy;";
+    public var AMP = "&AMP;";
+    public var andd = "&andd;";
+    public var ange = "&ange;";
+    public var apid = "&apid;";
+    public var aopf = "&aopf;";
+    public var ascr = "&ascr;";
+    public var andv = "&andv;";
+    public var auml = "&auml;";
+    public var apos = "&apos;";
     public var Aopf = "&Aopf;";
-    public var ApplyFunction = "&ApplyFunction;";
-    public var Aring = "&Aring;";
     public var Ascr = "&Ascr;";
-    public var Assign = "&Assign;";
-    public var Atilde = "&Atilde;";
     public var Auml = "&Auml;";
-    public var Backslash = "&Backslash;";
-    public var Barv = "&Barv;";
-    public var Barwed = "&Barwed;";
-    public var Bcy = "&Bcy;";
-    public var Because = "&Because;";
-    public var Bernoullis = "&Bernoullis;";
-    public var Beta = "&Beta;";
-    public var Bfr = "&Bfr;";
-    public var Bopf = "&Bopf;";
-    public var Breve = "&Breve;";
-    public var Bscr = "&Bscr;";
-    public var Bumpeq = "&Bumpeq;";
-    public var CHcy = "&CHcy;";
-    public var COPY = "&COPY;";
-    public var Cacute = "&Cacute;";
-    public var Cap = "&Cap;";
-    public var CapitalDifferentialD = "&CapitalDifferentialD;";
-    public var Cayleys = "&Cayleys;";
-    public var Ccaron = "&Ccaron;";
-    public var Ccedil = "&Ccedil;";
-    public var Ccirc = "&Ccirc;";
-    public var Cconint = "&Cconint;";
-    public var Cdot = "&Cdot;";
-    public var Cedilla = "&Cedilla;";
-    public var CenterDot = "&CenterDot;";
-    public var Cfr = "&Cfr;";
-    public var Chi = "&Chi;";
-    public var CircleDot = "&CircleDot;";
-    public var CircleMinus = "&CircleMinus;";
-    public var CirclePlus = "&CirclePlus;";
-    public var CircleTimes = "&CircleTimes;";
-    public var ClockwiseContourIntegral = "&ClockwiseContourIntegral;";
-    public var CloseCurlyDoubleQuote = "&CloseCurlyDoubleQuote;";
-    public var CloseCurlyQuote = "&CloseCurlyQuote;";
-    public var Colone = "&Colone;";
-    public var Colon = "&Colon;";
-    public var Congruent = "&Congruent;";
-    public var Conint = "&Conint;";
-    public var ContourIntegral = "&ContourIntegral;";
-    public var Copf = "&Copf;";
-    public var Coproduct = "&Coproduct;";
-    public var CounterClockwiseContourIntegral = "&CounterClockwiseContourIntegral;";
-    public var Cross = "&Cross;";
-    public var Cscr = "&Cscr;";
-    public var Cup = "&Cup;";
-    public var CupCap = "&CupCap;";
-    public var DDotrahd = "&DDotrahd;";
-    public var DD = "&DD;";
-    public var DJcy = "&DJcy;";
-    public var DScy = "&DScy;";
-    public var DZcy = "&DZcy;";
-    public var Dagger = "&Dagger;";
-    public var Darr = "&Darr;";
-    public var Dashv = "&Dashv;";
-    public var Dcaron = "&Dcaron;";
-    public var Dcy = "&Dcy;";
-    public var Delta = "&Delta;";
-    public var Del = "&Del;";
-    public var Dfr = "&Dfr;";
-    public var DiacriticalAcute = "&DiacriticalAcute;";
-    public var DiacriticalDot = "&DiacriticalDot;";
-    public var DiacriticalDoubleAcute = "&DiacriticalDoubleAcute;";
-    public var DiacriticalGrave = "&DiacriticalGrave;";
-    public var DiacriticalTilde = "&DiacriticalTilde;";
-    public var Diamond = "&Diamond;";
-    public var DifferentialD = "&DifferentialD;";
-    public var Dopf = "&Dopf;";
-    public var Dot = "&Dot;";
-    public var DotDot = "&DotDot;";
-    public var DotEqual = "&DotEqual;";
-    public var DoubleContourIntegral = "&DoubleContourIntegral;";
-    public var DoubleDot = "&DoubleDot;";
-    public var DoubleDownArrow = "&DoubleDownArrow;";
-    public var DoubleLeftArrow = "&DoubleLeftArrow;";
-    public var DoubleLeftRightArrow = "&DoubleLeftRightArrow;";
-    public var DoubleLeftTee = "&DoubleLeftTee;";
-    public var DoubleLongLeftArrow = "&DoubleLongLeftArrow;";
-    public var DoubleLongLeftRightArrow = "&DoubleLongLeftRightArrow;";
-    public var DoubleLongRightArrow = "&DoubleLongRightArrow;";
-    public var DoubleRightArrow = "&DoubleRightArrow;";
-    public var DoubleRightTee = "&DoubleRightTee;";
-    public var DoubleUpArrow = "&DoubleUpArrow;";
-    public var DoubleUpDownArrow = "&DoubleUpDownArrow;";
-    public var DoubleVerticalBar = "&DoubleVerticalBar;";
-    public var DownArrowBar = "&DownArrowBar;";
-    public var DownArrowUpArrow = "&DownArrowUpArrow;";
-    public var DownArrow = "&DownArrow;";
-    public var DownBreve = "&DownBreve;";
-    public var DownLeftRightVector = "&DownLeftRightVector;";
-    public var DownLeftTeeVector = "&DownLeftTeeVector;";
-    public var DownLeftVector = "&DownLeftVector;";
-    public var DownLeftVectorBar = "&DownLeftVectorBar;";
-    public var DownRightTeeVector = "&DownRightTeeVector;";
-    public var DownRightVectorBar = "&DownRightVectorBar;";
-    public var DownRightVector = "&DownRightVector;";
-    public var DownTeeArrow = "&DownTeeArrow;";
-    public var DownTee = "&DownTee;";
-    public var Downarrow = "&Downarrow;";
-    public var Dscr = "&Dscr;";
-    public var Dstrok = "&Dstrok;";
-    public var ENG = "&ENG;";
-    public var ETH = "&ETH;";
-    public var Eacute = "&Eacute;";
-    public var Ecaron = "&Ecaron;";
-    public var Ecirc = "&Ecirc;";
-    public var Ecy = "&Ecy;";
-    public var Edot = "&Edot;";
-    public var Efr = "&Efr;";
-    public var Egrave = "&Egrave;";
-    public var Element = "&Element;";
-    public var Emacr = "&Emacr;";
-    public var EmptySmallSquare = "&EmptySmallSquare;";
-    public var EmptyVerySmallSquare = "&EmptyVerySmallSquare;";
-    public var Eogon = "&Eogon;";
-    public var Eopf = "&Eopf;";
-    public var Epsilon = "&Epsilon;";
-    public var Equal = "&Equal;";
-    public var EqualTilde = "&EqualTilde;";
-    public var Equilibrium = "&Equilibrium;";
-    public var Escr = "&Escr;";
-    public var Esim = "&Esim;";
-    public var Eta = "&Eta;";
-    public var Euml = "&Euml;";
-    public var Exists = "&Exists;";
-    public var ExponentialE = "&ExponentialE;";
-    public var Fcy = "&Fcy;";
-    public var Ffr = "&Ffr;";
-    public var FilledSmallSquare = "&FilledSmallSquare;";
-    public var FilledVerySmallSquare = "&FilledVerySmallSquare;";
-    public var Fopf = "&Fopf;";
-    public var ForAll = "&ForAll;";
-    public var Fouriertrf = "&Fouriertrf;";
-    public var Fscr = "&Fscr;";
-    public var GJcy = "&GJcy;";
-    public var GT = "&GT;";
-    public var Gamma = "&Gamma;";
-    public var Gammad = "&Gammad;";
-    public var Gbreve = "&Gbreve;";
-    public var Gcedil = "&Gcedil;";
-    public var Gcirc = "&Gcirc;";
-    public var Gcy = "&Gcy;";
-    public var Gdot = "&Gdot;";
-    public var Gfr = "&Gfr;";
-    public var Gg = "&Gg;";
-    public var Gopf = "&Gopf;";
-    public var GreaterEqualLess = "&GreaterEqualLess;";
-    public var GreaterEqual = "&GreaterEqual;";
-    public var GreaterFullEqual = "&GreaterFullEqual;";
-    public var GreaterGreater = "&GreaterGreater;";
-    public var GreaterLess = "&GreaterLess;";
-    public var GreaterSlantEqual = "&GreaterSlantEqual;";
-    public var GreaterTilde = "&GreaterTilde;";
-    public var Gscr = "&Gscr;";
-    public var Gt = "&Gt;";
-    public var HARDcy = "&HARDcy;";
-    public var Hacek = "&Hacek;";
-    public var Hat = "&Hat;";
-    public var Hcirc = "&Hcirc;";
-    public var Hfr = "&Hfr;";
-    public var HilbertSpace = "&HilbertSpace;";
-    public var Hopf = "&Hopf;";
-    public var HorizontalLine = "&HorizontalLine;";
-    public var Hscr = "&Hscr;";
-    public var Hstrok = "&Hstrok;";
-    public var HumpDownHump = "&HumpDownHump;";
-    public var HumpEqual = "&HumpEqual;";
-    public var IEcy = "&IEcy;";
-    public var IJlig = "&IJlig;";
-    public var IOcy = "&IOcy;";
-    public var Iacute = "&Iacute;";
-    public var Icirc = "&Icirc;";
-    public var Icy = "&Icy;";
-    public var Idot = "&Idot;";
-    public var Ifr = "&Ifr;";
-    public var Igrave = "&Igrave;";
-    public var Imacr = "&Imacr;";
-    public var ImaginaryI = "&ImaginaryI;";
-    public var Implies = "&Implies;";
-    public var Im = "&Im;";
-    public var Integral = "&Integral;";
-    public var Intersection = "&Intersection;";
-    public var Int = "&Int;";
-    public var InvisibleComma = "&InvisibleComma;";
-    public var InvisibleTimes = "&InvisibleTimes;";
-    public var Iogon = "&Iogon;";
-    public var Iopf = "&Iopf;";
-    public var Iota = "&Iota;";
-    public var Iscr = "&Iscr;";
-    public var Itilde = "&Itilde;";
-    public var Iukcy = "&Iukcy;";
-    public var Iuml = "&Iuml;";
-    public var Jcirc = "&Jcirc;";
-    public var Jcy = "&Jcy;";
-    public var Jfr = "&Jfr;";
-    public var Jopf = "&Jopf;";
-    public var Jscr = "&Jscr;";
-    public var Jsercy = "&Jsercy;";
-    public var Jukcy = "&Jukcy;";
-    public var KHcy = "&KHcy;";
-    public var KJcy = "&KJcy;";
-    public var Kappa = "&Kappa;";
-    public var Kcedil = "&Kcedil;";
-    public var Kcy = "&Kcy;";
-    public var Kfr = "&Kfr;";
-    public var Kopf = "&Kopf;";
-    public var Kscr = "&Kscr;";
-    public var LJcy = "&LJcy;";
-    public var LT = "&LT;";
-    public var Lacute = "&Lacute;";
-    public var Lambda = "&Lambda;";
-    public var Lang = "&Lang;";
-    public var Laplacetrf = "&Laplacetrf;";
-    public var Larr = "&Larr;";
-    public var Lcaron = "&Lcaron;";
-    public var Lcedil = "&Lcedil;";
-    public var Lcy = "&Lcy;";
-    public var LeftAngleBracket = "&LeftAngleBracket;";
-    public var LeftArrow = "&LeftArrow;";
-    public var LeftArrowBar = "&LeftArrowBar;";
-    public var LeftArrowRightArrow = "&LeftArrowRightArrow;";
-    public var LeftCeiling = "&LeftCeiling;";
-    public var LeftDoubleBracket = "&LeftDoubleBracket;";
-    public var LeftDownTeeVector = "&LeftDownTeeVector;";
-    public var LeftDownVectorBar = "&LeftDownVectorBar;";
-    public var LeftDownVector = "&LeftDownVector;";
-    public var LeftFloor = "&LeftFloor;";
-    public var LeftRightArrow = "&LeftRightArrow;";
-    public var LeftRightVector = "&LeftRightVector;";
-    public var LeftTee = "&LeftTee;";
-    public var LeftTeeArrow = "&LeftTeeArrow;";
-    public var LeftTeeVector = "&LeftTeeVector;";
-    public var LeftTriangleEqual = "&LeftTriangleEqual;";
-    public var LeftTriangle = "&LeftTriangle;";
-    public var LeftTriangleBar = "&LeftTriangleBar;";
-    public var LeftUpDownVector = "&LeftUpDownVector;";
-    public var LeftUpTeeVector = "&LeftUpTeeVector;";
-    public var LeftUpVectorBar = "&LeftUpVectorBar;";
-    public var LeftUpVector = "&LeftUpVector;";
-    public var LeftVector = "&LeftVector;";
-    public var LeftVectorBar = "&LeftVectorBar;";
-    public var Leftarrow = "&Leftarrow;";
-    public var Leftrightarrow = "&Leftrightarrow;";
-    public var LessEqualGreater = "&LessEqualGreater;";
-    public var LessFullEqual = "&LessFullEqual;";
-    public var LessGreater = "&LessGreater;";
-    public var LessLess = "&LessLess;";
-    public var LessSlantEqual = "&LessSlantEqual;";
-    public var LessTilde = "&LessTilde;";
-    public var Lfr = "&Lfr;";
-    public var Ll = "&Ll;";
-    public var Lleftarrow = "&Lleftarrow;";
-    public var Lmidot = "&Lmidot;";
-    public var LongLeftArrow = "&LongLeftArrow;";
-    public var LongLeftRightArrow = "&LongLeftRightArrow;";
-    public var LongRightArrow = "&LongRightArrow;";
-    public var Longleftarrow = "&Longleftarrow;";
-    public var Longleftrightarrow = "&Longleftrightarrow;";
-    public var Longrightarrow = "&Longrightarrow;";
-    public var Lopf = "&Lopf;";
-    public var LowerLeftArrow = "&LowerLeftArrow;";
-    public var LowerRightArrow = "&LowerRightArrow;";
-    public var Lscr = "&Lscr;";
-    public var Lsh = "&Lsh;";
-    public var Lstrok = "&Lstrok;";
-    public var Lt = "&Lt;";
-    public var Map = "&Map;";
-    public var Mcy = "&Mcy;";
-    public var MediumSpace = "&MediumSpace;";
-    public var Mellintrf = "&Mellintrf;";
-    public var Mfr = "&Mfr;";
-    public var MinusPlus = "&MinusPlus;";
-    public var Mopf = "&Mopf;";
-    public var Mscr = "&Mscr;";
-    public var Mu = "&Mu;";
-    public var NJcy = "&NJcy;";
-    public var Nacute = "&Nacute;";
-    public var Ncaron = "&Ncaron;";
-    public var Ncedil = "&Ncedil;";
-    public var Ncy = "&Ncy;";
-    public var NegativeMediumSpace = "&NegativeMediumSpace;";
-    public var NegativeThickSpace = "&NegativeThickSpace;";
-    public var NegativeThinSpace = "&NegativeThinSpace;";
-    public var NegativeVeryThinSpace = "&NegativeVeryThinSpace;";
-    public var NestedGreaterGreater = "&NestedGreaterGreater;";
-    public var NestedLessLess = "&NestedLessLess;";
-    public var NewLine = "&NewLine;";
-    public var Nfr = "&Nfr;";
-    public var NoBreak = "&NoBreak;";
-    public var NonBreakingSpace = "&NonBreakingSpace;";
-    public var Nopf = "&Nopf;";
-    public var NotCongruent = "&NotCongruent;";
-    public var NotCupCap = "&NotCupCap;";
-    public var NotDoubleVerticalBar = "&NotDoubleVerticalBar;";
-    public var NotElement = "&NotElement;";
-    public var NotEqual = "&NotEqual;";
-    public var NotEqualTilde = "&NotEqualTilde;";
-    public var NotExists = "&NotExists;";
-    public var NotGreaterEqual = "&NotGreaterEqual;";
-    public var NotGreaterLess = "&NotGreaterLess;";
-    public var NotGreaterSlantEqual = "&NotGreaterSlantEqual;";
-    public var NotGreater = "&NotGreater;";
-    public var NotGreaterFullEqual = "&NotGreaterFullEqual;";
-    public var NotGreaterGreater = "&NotGreaterGreater;";
-    public var NotGreaterTilde = "&NotGreaterTilde;";
-    public var NotHumpDownHump = "&NotHumpDownHump;";
-    public var NotHumpEqual = "&NotHumpEqual;";
-    public var NotLeftTriangle = "&NotLeftTriangle;";
-    public var NotLeftTriangleBar = "&NotLeftTriangleBar;";
-    public var NotLeftTriangleEqual = "&NotLeftTriangleEqual;";
-    public var NotLess = "&NotLess;";
-    public var NotLessEqual = "&NotLessEqual;";
-    public var NotLessGreater = "&NotLessGreater;";
-    public var NotLessLess = "&NotLessLess;";
-    public var NotLessSlantEqual = "&NotLessSlantEqual;";
-    public var NotLessTilde = "&NotLessTilde;";
-    public var NotNestedGreaterGreater = "&NotNestedGreaterGreater;";
-    public var NotNestedLessLess = "&NotNestedLessLess;";
-    public var NotPrecedes = "&NotPrecedes;";
-    public var NotPrecedesEqual = "&NotPrecedesEqual;";
-    public var NotPrecedesSlantEqual = "&NotPrecedesSlantEqual;";
-    public var NotReverseElement = "&NotReverseElement;";
-    public var NotRightTriangle = "&NotRightTriangle;";
-    public var NotRightTriangleBar = "&NotRightTriangleBar;";
-    public var NotRightTriangleEqual = "&NotRightTriangleEqual;";
-    public var NotSquareSubset = "&NotSquareSubset;";
-    public var NotSquareSubsetEqual = "&NotSquareSubsetEqual;";
-    public var NotSquareSupersetEqual = "&NotSquareSupersetEqual;";
-    public var NotSquareSuperset = "&NotSquareSuperset;";
-    public var NotSubsetEqual = "&NotSubsetEqual;";
-    public var NotSubset = "&NotSubset;";
-    public var NotSucceeds = "&NotSucceeds;";
-    public var NotSucceedsEqual = "&NotSucceedsEqual;";
-    public var NotSucceedsSlantEqual = "&NotSucceedsSlantEqual;";
-    public var NotSucceedsTilde = "&NotSucceedsTilde;";
-    public var NotSuperset = "&NotSuperset;";
-    public var NotSupersetEqual = "&NotSupersetEqual;";
-    public var NotTildeTilde = "&NotTildeTilde;";
-    public var NotTilde = "&NotTilde;";
-    public var NotTildeEqual = "&NotTildeEqual;";
-    public var NotVerticalBar = "&NotVerticalBar;";
-    public var Not = "&Not;";
-    public var NotTildeFullEqual = "&NotTildeFullEqual;";
-    public var Nscr = "&Nscr;";
-    public var Ntilde = "&Ntilde;";
-    public var Nu = "&Nu;";
-    public var OElig = "&OElig;";
-    public var Oacute = "&Oacute;";
-    public var Ocirc = "&Ocirc;";
-    public var Ocy = "&Ocy;";
-    public var Odblac = "&Odblac;";
-    public var Ofr = "&Ofr;";
-    public var Ograve = "&Ograve;";
-    public var Omacr = "&Omacr;";
-    public var Omega = "&Omega;";
-    public var Omicron = "&Omicron;";
-    public var Oopf = "&Oopf;";
-    public var OpenCurlyDoubleQuote = "&OpenCurlyDoubleQuote;";
-    public var OpenCurlyQuote = "&OpenCurlyQuote;";
-    public var Or = "&Or;";
-    public var Oscr = "&Oscr;";
-    public var Oslash = "&Oslash;";
-    public var Otilde = "&Otilde;";
-    public var Otimes = "&Otimes;";
-    public var Ouml = "&Ouml;";
-    public var OverBar = "&OverBar;";
-    public var OverBrace = "&OverBrace;";
-    public var OverBracket = "&OverBracket;";
-    public var OverParenthesis = "&OverParenthesis;";
-    public var PartialD = "&PartialD;";
-    public var Pcy = "&Pcy;";
-    public var Pfr = "&Pfr;";
-    public var Phi = "&Phi;";
-    public var Pi = "&Pi;";
-    public var PlusMinus = "&PlusMinus;";
-    public var Poincareplane = "&Poincareplane;";
-    public var Popf = "&Popf;";
-    public var PrecedesEqual = "&PrecedesEqual;";
-    public var PrecedesSlantEqual = "&PrecedesSlantEqual;";
-    public var Precedes = "&Precedes;";
-    public var PrecedesTilde = "&PrecedesTilde;";
-    public var Prime = "&Prime;";
-    public var Proportion = "&Proportion;";
-    public var Pr = "&Pr;";
-    public var Product = "&Product;";
-    public var Proportional = "&Proportional;";
-    public var Pscr = "&Pscr;";
-    public var Psi = "&Psi;";
-    public var QUOT = "&QUOT;";
-    public var Qfr = "&Qfr;";
-    public var Qopf = "&Qopf;";
-    public var Qscr = "&Qscr;";
-    public var RBarr = "&RBarr;";
-    public var REG = "&REG;";
-    public var Racute = "&Racute;";
-    public var Rang = "&Rang;";
-    public var Rarr = "&Rarr;";
-    public var Rarrtl = "&Rarrtl;";
-    public var Rcaron = "&Rcaron;";
-    public var Rcedil = "&Rcedil;";
-    public var Rcy = "&Rcy;";
-    public var Re = "&Re;";
-    public var ReverseElement = "&ReverseElement;";
-    public var ReverseEquilibrium = "&ReverseEquilibrium;";
-    public var ReverseUpEquilibrium = "&ReverseUpEquilibrium;";
-    public var Rfr = "&Rfr;";
-    public var Rho = "&Rho;";
-    public var RightAngleBracket = "&RightAngleBracket;";
-    public var RightArrowBar = "&RightArrowBar;";
-    public var RightArrowLeftArrow = "&RightArrowLeftArrow;";
-    public var RightArrow = "&RightArrow;";
-    public var RightCeiling = "&RightCeiling;";
-    public var RightDoubleBracket = "&RightDoubleBracket;";
-    public var RightDownTeeVector = "&RightDownTeeVector;";
-    public var RightDownVector = "&RightDownVector;";
-    public var RightDownVectorBar = "&RightDownVectorBar;";
-    public var RightFloor = "&RightFloor;";
-    public var RightTeeArrow = "&RightTeeArrow;";
-    public var RightTeeVector = "&RightTeeVector;";
-    public var RightTee = "&RightTee;";
-    public var RightTriangle = "&RightTriangle;";
-    public var RightTriangleBar = "&RightTriangleBar;";
-    public var RightTriangleEqual = "&RightTriangleEqual;";
-    public var RightUpDownVector = "&RightUpDownVector;";
-    public var RightUpTeeVector = "&RightUpTeeVector;";
-    public var RightUpVector = "&RightUpVector;";
-    public var RightUpVectorBar = "&RightUpVectorBar;";
-    public var RightVectorBar = "&RightVectorBar;";
-    public var RightVector = "&RightVector;";
-    public var Rightarrow = "&Rightarrow;";
-    public var Ropf = "&Ropf;";
-    public var RoundImplies = "&RoundImplies;";
-    public var Rrightarrow = "&Rrightarrow;";
-    public var Rscr = "&Rscr;";
-    public var Rsh = "&Rsh;";
-    public var RuleDelayed = "&RuleDelayed;";
-    public var SHCHcy = "&SHCHcy;";
-    public var SHcy = "&SHcy;";
-    public var SOFTcy = "&SOFTcy;";
-    public var Sacute = "&Sacute;";
-    public var Scaron = "&Scaron;";
-    public var Scedil = "&Scedil;";
-    public var Sc = "&Sc;";
-    public var Scirc = "&Scirc;";
-    public var Scy = "&Scy;";
-    public var Sfr = "&Sfr;";
-    public var ShortDownArrow = "&ShortDownArrow;";
-    public var ShortLeftArrow = "&ShortLeftArrow;";
-    public var ShortRightArrow = "&ShortRightArrow;";
-    public var ShortUpArrow = "&ShortUpArrow;";
-    public var Sigma = "&Sigma;";
-    public var SmallCircle = "&SmallCircle;";
-    public var Sopf = "&Sopf;";
-    public var Sqrt = "&Sqrt;";
-    public var SquareIntersection = "&SquareIntersection;";
-    public var SquareSubsetEqual = "&SquareSubsetEqual;";
-    public var Square = "&Square;";
-    public var SquareSubset = "&SquareSubset;";
-    public var SquareSupersetEqual = "&SquareSupersetEqual;";
-    public var SquareSuperset = "&SquareSuperset;";
-    public var SquareUnion = "&SquareUnion;";
-    public var Sscr = "&Sscr;";
-    public var Star = "&Star;";
-    public var SubsetEqual = "&SubsetEqual;";
-    public var Sub = "&Sub;";
-    public var Subset = "&Subset;";
-    public var SucceedsEqual = "&SucceedsEqual;";
-    public var SucceedsSlantEqual = "&SucceedsSlantEqual;";
-    public var SucceedsTilde = "&SucceedsTilde;";
-    public var Succeeds = "&Succeeds;";
-    public var SuchThat = "&SuchThat;";
-    public var Sum = "&Sum;";
-    public var SupersetEqual = "&SupersetEqual;";
-    public var Sup = "&Sup;";
-    public var Superset = "&Superset;";
-    public var Supset = "&Supset;";
-    public var THORN = "&THORN;";
-    public var TRADE = "&TRADE;";
-    public var TSHcy = "&TSHcy;";
-    public var TScy = "&TScy;";
-    public var Tab = "&Tab;";
-    public var Tau = "&Tau;";
-    public var Tcaron = "&Tcaron;";
-    public var Tcedil = "&Tcedil;";
-    public var Tcy = "&Tcy;";
-    public var Tfr = "&Tfr;";
-    public var Therefore = "&Therefore;";
-    public var Theta = "&Theta;";
-    public var ThickSpace = "&ThickSpace;";
-    public var ThinSpace = "&ThinSpace;";
-    public var TildeEqual = "&TildeEqual;";
-    public var TildeFullEqual = "&TildeFullEqual;";
-    public var Tilde = "&Tilde;";
-    public var TildeTilde = "&TildeTilde;";
-    public var Topf = "&Topf;";
-    public var TripleDot = "&TripleDot;";
-    public var Tscr = "&Tscr;";
-    public var Tstrok = "&Tstrok;";
-    public var Uacute = "&Uacute;";
-    public var Uarrocir = "&Uarrocir;";
-    public var Uarr = "&Uarr;";
-    public var Ubrcy = "&Ubrcy;";
-    public var Ubreve = "&Ubreve;";
-    public var Ucirc = "&Ucirc;";
-    public var Ucy = "&Ucy;";
-    public var Udblac = "&Udblac;";
-    public var Ufr = "&Ufr;";
-    public var Ugrave = "&Ugrave;";
-    public var Umacr = "&Umacr;";
-    public var UnderBar = "&UnderBar;";
-    public var UnderBrace = "&UnderBrace;";
-    public var UnderBracket = "&UnderBracket;";
-    public var UnderParenthesis = "&UnderParenthesis;";
-    public var Union = "&Union;";
-    public var UnionPlus = "&UnionPlus;";
-    public var Uogon = "&Uogon;";
-    public var Uopf = "&Uopf;";
-    public var UpArrow = "&UpArrow;";
-    public var UpArrowBar = "&UpArrowBar;";
-    public var UpArrowDownArrow = "&UpArrowDownArrow;";
-    public var UpDownArrow = "&UpDownArrow;";
-    public var UpEquilibrium = "&UpEquilibrium;";
-    public var UpTee = "&UpTee;";
-    public var UpTeeArrow = "&UpTeeArrow;";
-    public var Uparrow = "&Uparrow;";
-    public var Updownarrow = "&Updownarrow;";
-    public var UpperLeftArrow = "&UpperLeftArrow;";
-    public var UpperRightArrow = "&UpperRightArrow;";
-    public var Upsilon = "&Upsilon;";
-    public var Upsi = "&Upsi;";
-    public var Uring = "&Uring;";
-    public var Uscr = "&Uscr;";
-    public var Utilde = "&Utilde;";
-    public var Uuml = "&Uuml;";
-    public var VDash = "&VDash;";
-    public var Vbar = "&Vbar;";
-    public var Vcy = "&Vcy;";
-    public var Vdashl = "&Vdashl;";
-    public var Vdash = "&Vdash;";
-    public var Vee = "&Vee;";
-    public var Verbar = "&Verbar;";
-    public var VerticalBar = "&VerticalBar;";
-    public var VerticalLine = "&VerticalLine;";
-    public var VerticalSeparator = "&VerticalSeparator;";
-    public var Vert = "&Vert;";
-    public var VerticalTilde = "&VerticalTilde;";
-    public var VeryThinSpace = "&VeryThinSpace;";
-    public var Vfr = "&Vfr;";
-    public var Vopf = "&Vopf;";
-    public var Vscr = "&Vscr;";
-    public var Vvdash = "&Vvdash;";
-    public var Wcirc = "&Wcirc;";
-    public var Wedge = "&Wedge;";
-    public var Wfr = "&Wfr;";
-    public var Wopf = "&Wopf;";
-    public var Wscr = "&Wscr;";
-    public var Xfr = "&Xfr;";
-    public var Xi = "&Xi;";
-    public var Xopf = "&Xopf;";
-    public var Xscr = "&Xscr;";
-    public var YAcy = "&YAcy;";
-    public var YIcy = "&YIcy;";
-    public var YUcy = "&YUcy;";
-    public var Yacute = "&Yacute;";
-    public var Ycirc = "&Ycirc;";
-    public var Ycy = "&Ycy;";
-    public var Yfr = "&Yfr;";
-    public var Yopf = "&Yopf;";
-    public var Yscr = "&Yscr;";
-    public var Yuml = "&Yuml;";
-    public var ZHcy = "&ZHcy;";
-    public var Zacute = "&Zacute;";
-    public var Zcaron = "&Zcaron;";
-    public var Zcy = "&Zcy;";
-    public var Zdot = "&Zdot;";
-    public var ZeroWidthSpace = "&ZeroWidthSpace;";
-    public var Zeta = "&Zeta;";
-    public var Zfr = "&Zfr;";
-    public var Zopf = "&Zopf;";
-    public var Zscr = "&Zscr;";
+    public var amalg = "&amalg;";
+    public var acirc = "&acirc;";
+    public var aelig = "&aelig;";
+    public var amacr = "&amacr;";
+    public var alpha = "&alpha;";
+    public var angle = "&angle;";
+    public var aleph = "&aleph;";
+    public var aring = "&aring;";
+    public var acute = "&acute;";
+    public var aogon = "&aogon;";
+    public var angrt = "&angrt;";
+    public var angst = "&angst;";
+    public var Acirc = "&Acirc;";
+    public var awint = "&awint;";
+    public var Amacr = "&Amacr;";
+    public var Alpha = "&Alpha;";
+    public var asymp = "&asymp;";
+    public var Aring = "&Aring;";
+    public var Aogon = "&Aogon;";
+    public var AElig = "&AElig;";
+    public var andand = "&andand;";
+    public var apacir = "&apacir;";
+    public var atilde = "&atilde;";
     public var aacute = "&aacute;";
     public var abreve = "&abreve;";
-    public var ac = "&ac;";
-    public var acE = "&acE;";
-    public var acd = "&acd;";
-    public var acirc = "&acirc;";
-    public var acute = "&acute;";
-    public var acy = "&acy;";
-    public var aelig = "&aelig;";
-    public var afr = "&afr;";
-    public var af = "&af;";
     public var agrave = "&agrave;";
-    public var alefsym = "&alefsym;";
-    public var aleph = "&aleph;";
-    public var alpha = "&alpha;";
-    public var amacr = "&amacr;";
-    public var amalg = "&amalg;";
-    public var amp = "&amp;";
-    public var and = "&and;";
-    public var andand = "&andand;";
-    public var andd = "&andd;";
-    public var andslope = "&andslope;";
-    public var andv = "&andv;";
-    public var ange = "&ange;";
-    public var angle = "&angle;";
-    public var angmsdab = "&angmsdab;";
+    public var angmsd = "&angmsd;";
     public var angsph = "&angsph;";
-    public var ang = "&ang;";
+    public var Aacute = "&Aacute;";
+    public var Atilde = "&Atilde;";
+    public var Abreve = "&Abreve;";
+    public var Agrave = "&Agrave;";
+    public var approx = "&approx;";
+    public var Assign = "&Assign;";
+    public var alefsym = "&alefsym;";
+    public var angrtvb = "&angrtvb;";
+    public var angzarr = "&angzarr;";
+    public var asympeq = "&asympeq;";
     public var angmsdaa = "&angmsdaa;";
+    public var angmsdab = "&angmsdab;";
     public var angmsdac = "&angmsdac;";
     public var angmsdad = "&angmsdad;";
-    public var angmsd = "&angmsd;";
     public var angmsdae = "&angmsdae;";
     public var angmsdaf = "&angmsdaf;";
     public var angmsdag = "&angmsdag;";
     public var angmsdah = "&angmsdah;";
+    public var andslope = "&andslope;";
     public var angrtvbd = "&angrtvbd;";
-    public var angrtvb = "&angrtvb;";
-    public var angrt = "&angrt;";
-    public var angst = "&angst;";
-    public var angzarr = "&angzarr;";
-    public var aogon = "&aogon;";
-    public var aopf = "&aopf;";
-    public var ap = "&ap;";
-    public var apE = "&apE;";
-    public var apacir = "&apacir;";
-    public var ape = "&ape;";
-    public var apid = "&apid;";
-    public var apos = "&apos;";
-    public var approxeq = "&approxeq;";
-    public var approx = "&approx;";
-    public var aring = "&aring;";
-    public var ascr = "&ascr;";
-    public var ast = "&ast;";
-    public var asymp = "&asymp;";
-    public var asympeq = "&asympeq;";
-    public var atilde = "&atilde;";
-    public var auml = "&auml;";
     public var awconint = "&awconint;";
-    public var awint = "&awint;";
-    public var bNot = "&bNot;";
-    public var backcong = "&backcong;";
-    public var backepsilon = "&backepsilon;";
-    public var backprime = "&backprime;";
-    public var backsim = "&backsim;";
-    public var backsimeq = "&backsimeq;";
-    public var barvee = "&barvee;";
-    public var barwedge = "&barwedge;";
-    public var barwed = "&barwed;";
-    public var bbrktbrk = "&bbrktbrk;";
-    public var bbrk = "&bbrk;";
-    public var bcong = "&bcong;";
-    public var bcy = "&bcy;";
-    public var bdquo = "&bdquo;";
-    public var because = "&because;";
-    public var becaus = "&becaus;";
-    public var bemptyv = "&bemptyv;";
-    public var bepsi = "&bepsi;";
-    public var bernou = "&bernou;";
-    public var beta = "&beta;";
-    public var beth = "&beth;";
-    public var between = "&between;";
+    public var approxeq = "&approxeq;";
+    public var ApplyFunction = "&ApplyFunction;";
+    public var bne = "&bne;";
     public var bfr = "&bfr;";
-    public var bigcap = "&bigcap;";
-    public var bigcirc = "&bigcirc;";
-    public var bigcup = "&bigcup;";
-    public var bigodot = "&bigodot;";
-    public var bigoplus = "&bigoplus;";
-    public var bigotimes = "&bigotimes;";
-    public var bigsqcup = "&bigsqcup;";
-    public var bigstar = "&bigstar;";
-    public var bigtriangledown = "&bigtriangledown;";
-    public var bigtriangleup = "&bigtriangleup;";
-    public var biguplus = "&biguplus;";
-    public var bigvee = "&bigvee;";
-    public var bigwedge = "&bigwedge;";
-    public var bkarow = "&bkarow;";
-    public var blacklozenge = "&blacklozenge;";
-    public var blacksquare = "&blacksquare;";
-    public var blacktriangle = "&blacktriangle;";
-    public var blacktriangledown = "&blacktriangledown;";
-    public var blacktriangleleft = "&blacktriangleleft;";
-    public var blacktriangleright = "&blacktriangleright;";
-    public var blank = "&blank;";
+    public var bcy = "&bcy;";
+    public var bot = "&bot;";
+    public var Bfr = "&Bfr;";
+    public var Bcy = "&Bcy;";
+    public var beta = "&beta;";
+    public var bbrk = "&bbrk;";
+    public var beth = "&beth;";
+    public var bopf = "&bopf;";
+    public var bscr = "&bscr;";
+    public var bsim = "&bsim;";
+    public var bull = "&bull;";
+    public var bsol = "&bsol;";
+    public var boxh = "&boxh;";
+    public var bnot = "&bnot;";
+    public var bump = "&bump;";
+    public var Beta = "&Beta;";
+    public var boxv = "&boxv;";
+    public var Bopf = "&Bopf;";
+    public var Bscr = "&Bscr;";
+    public var Barv = "&Barv;";
+    public var boxH = "&boxH;";
+    public var bNot = "&bNot;";
+    public var boxV = "&boxV;";
     public var blk12 = "&blk12;";
     public var blk14 = "&blk14;";
     public var blk34 = "&blk34;";
+    public var blank = "&blank;";
+    public var bcong = "&bcong;";
     public var block = "&block;";
-    public var bnequiv = "&bnequiv;";
-    public var bne = "&bne;";
-    public var bnot = "&bnot;";
-    public var bopf = "&bopf;";
-    public var bot = "&bot;";
-    public var bottom = "&bottom;";
-    public var bowtie = "&bowtie;";
-    public var boxDL = "&boxDL;";
-    public var boxDR = "&boxDR;";
-    public var boxDl = "&boxDl;";
-    public var boxDr = "&boxDr;";
-    public var boxHD = "&boxHD;";
-    public var boxHU = "&boxHU;";
+    public var bsime = "&bsime;";
+    public var bsemi = "&bsemi;";
+    public var bsolb = "&bsolb;";
+    public var bepsi = "&bepsi;";
+    public var breve = "&breve;";
+    public var boxhd = "&boxhd;";
+    public var boxdl = "&boxdl;";
+    public var bumpe = "&bumpe;";
+    public var bdquo = "&bdquo;";
+    public var boxdr = "&boxdr;";
+    public var boxhu = "&boxhu;";
+    public var boxvh = "&boxvh;";
+    public var boxul = "&boxul;";
+    public var boxvl = "&boxvl;";
+    public var boxur = "&boxur;";
+    public var boxvr = "&boxvr;";
+    public var Breve = "&Breve;";
     public var boxHd = "&boxHd;";
-    public var boxHu = "&boxHu;";
-    public var boxH = "&boxH;";
-    public var boxUL = "&boxUL;";
-    public var boxUR = "&boxUR;";
-    public var boxUl = "&boxUl;";
-    public var boxUr = "&boxUr;";
-    public var boxVH = "&boxVH;";
-    public var boxVL = "&boxVL;";
-    public var boxVl = "&boxVl;";
-    public var boxV = "&boxV;";
-    public var boxVR = "&boxVR;";
-    public var boxVh = "&boxVh;";
-    public var boxVr = "&boxVr;";
-    public var boxbox = "&boxbox;";
+    public var boxhD = "&boxhD;";
+    public var boxDl = "&boxDl;";
+    public var bumpE = "&bumpE;";
     public var boxdL = "&boxdL;";
     public var boxdR = "&boxdR;";
-    public var boxdl = "&boxdl;";
-    public var boxdr = "&boxdr;";
-    public var boxhD = "&boxhD;";
+    public var boxDr = "&boxDr;";
+    public var boxHu = "&boxHu;";
     public var boxhU = "&boxhU;";
-    public var boxhu = "&boxhu;";
-    public var boxh = "&boxh;";
-    public var boxhd = "&boxhd;";
-    public var boxminus = "&boxminus;";
-    public var boxplus = "&boxplus;";
-    public var boxtimes = "&boxtimes;";
-    public var boxuL = "&boxuL;";
-    public var boxuR = "&boxuR;";
-    public var boxul = "&boxul;";
-    public var boxur = "&boxur;";
     public var boxvH = "&boxvH;";
+    public var boxVh = "&boxVh;";
+    public var boxUl = "&boxUl;";
+    public var boxuL = "&boxuL;";
+    public var boxVl = "&boxVl;";
     public var boxvL = "&boxvL;";
+    public var boxuR = "&boxuR;";
+    public var boxUr = "&boxUr;";
+    public var boxVr = "&boxVr;";
     public var boxvR = "&boxvR;";
-    public var boxvh = "&boxvh;";
-    public var boxvl = "&boxvl;";
-    public var boxvr = "&boxvr;";
-    public var boxv = "&boxv;";
-    public var bprime = "&bprime;";
-    public var breve = "&breve;";
+    public var boxHD = "&boxHD;";
+    public var boxDL = "&boxDL;";
+    public var boxDR = "&boxDR;";
+    public var boxHU = "&boxHU;";
+    public var boxVH = "&boxVH;";
+    public var boxUL = "&boxUL;";
+    public var boxVL = "&boxVL;";
+    public var boxUR = "&boxUR;";
+    public var boxVR = "&boxVR;";
+    public var bigcap = "&bigcap;";
+    public var bigvee = "&bigvee;";
+    public var becaus = "&becaus;";
+    public var barvee = "&barvee;";
+    public var barwed = "&barwed;";
+    public var bigcup = "&bigcup;";
     public var brvbar = "&brvbar;";
-    public var bscr = "&bscr;";
-    public var bsemi = "&bsemi;";
-    public var bsime = "&bsime;";
-    public var bsim = "&bsim;";
-    public var bsol = "&bsol;";
-    public var bsolb = "&bsolb;";
-    public var bsolhsub = "&bsolhsub;";
-    public var bull = "&bull;";
+    public var bprime = "&bprime;";
+    public var bkarow = "&bkarow;";
     public var bullet = "&bullet;";
-    public var bumpE = "&bumpE;";
+    public var bowtie = "&bowtie;";
     public var bumpeq = "&bumpeq;";
-    public var bump = "&bump;";
-    public var bumpe = "&bumpe;";
-    public var cacute = "&cacute;";
-    public var capcup = "&capcup;";
+    public var bernou = "&bernou;";
+    public var boxbox = "&boxbox;";
+    public var bottom = "&bottom;";
+    public var Barwed = "&Barwed;";
+    public var Bumpeq = "&Bumpeq;";
+    public var bigcirc = "&bigcirc;";
+    public var because = "&because;";
+    public var backsim = "&backsim;";
+    public var bigodot = "&bigodot;";
+    public var between = "&between;";
+    public var bigstar = "&bigstar;";
+    public var Because = "&Because;";
+    public var bnequiv = "&bnequiv;";
+    public var bemptyv = "&bemptyv;";
+    public var boxplus = "&boxplus;";
+    public var backcong = "&backcong;";
+    public var bigwedge = "&bigwedge;";
+    public var barwedge = "&barwedge;";
+    public var bbrktbrk = "&bbrktbrk;";
+    public var bigsqcup = "&bigsqcup;";
+    public var bsolhsub = "&bsolhsub;";
+    public var bigoplus = "&bigoplus;";
+    public var biguplus = "&biguplus;";
+    public var boxtimes = "&boxtimes;";
+    public var boxminus = "&boxminus;";
+    public var backprime = "&backprime;";
+    public var backsimeq = "&backsimeq;";
+    public var bigotimes = "&bigotimes;";
+    public var Backslash = "&Backslash;";
+    public var Bernoullis = "&Bernoullis;";
+    public var backepsilon = "&backepsilon;";
+    public var blacksquare = "&blacksquare;";
+    public var blacklozenge = "&blacklozenge;";
+    public var blacktriangle = "&blacktriangle;";
+    public var bigtriangleup = "&bigtriangleup;";
+    public var bigtriangledown = "&bigtriangledown;";
+    public var blacktriangleleft = "&blacktriangleleft;";
+    public var blacktriangledown = "&blacktriangledown;";
+    public var blacktriangleright = "&blacktriangleright;";
     public var cap = "&cap;";
-    public var capand = "&capand;";
-    public var capbrcup = "&capbrcup;";
-    public var capcap = "&capcap;";
-    public var capdot = "&capdot;";
-    public var caps = "&caps;";
-    public var caret = "&caret;";
-    public var caron = "&caron;";
-    public var ccaps = "&ccaps;";
-    public var ccaron = "&ccaron;";
-    public var ccedil = "&ccedil;";
-    public var ccirc = "&ccirc;";
-    public var ccups = "&ccups;";
-    public var ccupssm = "&ccupssm;";
-    public var cdot = "&cdot;";
-    public var cedil = "&cedil;";
-    public var cemptyv = "&cemptyv;";
-    public var centerdot = "&centerdot;";
-    public var cent = "&cent;";
-    public var cfr = "&cfr;";
-    public var chcy = "&chcy;";
-    public var checkmark = "&checkmark;";
-    public var check = "&check;";
     public var chi = "&chi;";
-    public var cirE = "&cirE;";
-    public var circlearrowright = "&circlearrowright;";
-    public var circledR = "&circledR;";
-    public var circledS = "&circledS;";
-    public var circ = "&circ;";
-    public var circledast = "&circledast;";
-    public var circledcirc = "&circledcirc;";
-    public var circleddash = "&circleddash;";
-    public var cirmid = "&cirmid;";
-    public var cirscir = "&cirscir;";
+    public var cfr = "&cfr;";
     public var cir = "&cir;";
-    public var circeq = "&circeq;";
-    public var circlearrowleft = "&circlearrowleft;";
+    public var cup = "&cup;";
+    public var Cap = "&Cap;";
+    public var Chi = "&Chi;";
+    public var Cfr = "&Cfr;";
+    public var Cup = "&Cup;";
+    public var circ = "&circ;";
     public var cire = "&cire;";
-    public var cirfnint = "&cirfnint;";
-    public var clubs = "&clubs;";
-    public var clubsuit = "&clubsuit;";
-    public var colone = "&colone;";
-    public var coloneq = "&coloneq;";
-    public var colon = "&colon;";
-    public var commat = "&commat;";
-    public var comma = "&comma;";
-    public var comp = "&comp;";
-    public var compfn = "&compfn;";
-    public var complement = "&complement;";
-    public var complexes = "&complexes;";
+    public var caps = "&caps;";
     public var cong = "&cong;";
-    public var congdot = "&congdot;";
-    public var conint = "&conint;";
+    public var chcy = "&chcy;";
     public var copf = "&copf;";
-    public var coprod = "&coprod;";
-    public var copy = "&copy;";
-    public var copysr = "&copysr;";
-    public var crarr = "&crarr;";
-    public var cross = "&cross;";
+    public var cdot = "&cdot;";
+    public var cent = "&cent;";
     public var cscr = "&cscr;";
     public var csub = "&csub;";
-    public var csube = "&csube;";
+    public var comp = "&comp;";
+    public var copy = "&copy;";
     public var csup = "&csup;";
-    public var csupe = "&csupe;";
-    public var ctdot = "&ctdot;";
-    public var cudarrl = "&cudarrl;";
-    public var cudarrr = "&cudarrr;";
-    public var cuepr = "&cuepr;";
-    public var cuesc = "&cuesc;";
-    public var cularr = "&cularr;";
-    public var cularrp = "&cularrp;";
-    public var cupbrcap = "&cupbrcap;";
-    public var cupcup = "&cupcup;";
-    public var cup = "&cup;";
-    public var cupcap = "&cupcap;";
-    public var cupdot = "&cupdot;";
-    public var cupor = "&cupor;";
     public var cups = "&cups;";
-    public var curarrm = "&curarrm;";
-    public var curarr = "&curarr;";
-    public var curlyeqprec = "&curlyeqprec;";
-    public var curlyeqsucc = "&curlyeqsucc;";
-    public var curlyvee = "&curlyvee;";
-    public var curlywedge = "&curlywedge;";
-    public var curren = "&curren;";
-    public var curvearrowleft = "&curvearrowleft;";
-    public var curvearrowright = "&curvearrowright;";
+    public var cirE = "&cirE;";
+    public var Copf = "&Copf;";
+    public var Cdot = "&Cdot;";
+    public var Cscr = "&Cscr;";
+    public var CHcy = "&CHcy;";
+    public var COPY = "&COPY;";
+    public var check = "&check;";
+    public var cedil = "&cedil;";
+    public var ccirc = "&ccirc;";
+    public var ccaps = "&ccaps;";
+    public var comma = "&comma;";
+    public var caret = "&caret;";
+    public var csube = "&csube;";
+    public var cuesc = "&cuesc;";
+    public var caron = "&caron;";
     public var cuvee = "&cuvee;";
     public var cuwed = "&cuwed;";
-    public var cwconint = "&cwconint;";
+    public var clubs = "&clubs;";
+    public var crarr = "&crarr;";
+    public var colon = "&colon;";
+    public var ccups = "&ccups;";
+    public var ctdot = "&ctdot;";
+    public var cuepr = "&cuepr;";
+    public var csupe = "&csupe;";
+    public var Ccirc = "&Ccirc;";
     public var cwint = "&cwint;";
+    public var cupor = "&cupor;";
+    public var cross = "&cross;";
+    public var Colon = "&Colon;";
+    public var Cross = "&Cross;";
+    public var ccedil = "&ccedil;";
+    public var capand = "&capand;";
+    public var capcap = "&capcap;";
+    public var cacute = "&cacute;";
+    public var ccaron = "&ccaron;";
+    public var circeq = "&circeq;";
+    public var cirmid = "&cirmid;";
+    public var capdot = "&capdot;";
+    public var capcup = "&capcup;";
+    public var cupcap = "&cupcap;";
+    public var colone = "&colone;";
+    public var commat = "&commat;";
+    public var compfn = "&compfn;";
+    public var Ccedil = "&Ccedil;";
+    public var coprod = "&coprod;";
+    public var cularr = "&cularr;";
+    public var conint = "&conint;";
+    public var cupdot = "&cupdot;";
+    public var curren = "&curren;";
+    public var curarr = "&curarr;";
+    public var cupcup = "&cupcup;";
+    public var Cacute = "&Cacute;";
+    public var Ccaron = "&Ccaron;";
     public var cylcty = "&cylcty;";
-    public var dArr = "&dArr;";
+    public var Colone = "&Colone;";
+    public var copysr = "&copysr;";
+    public var Conint = "&Conint;";
+    public var CupCap = "&CupCap;";
+    public var cudarrl = "&cudarrl;";
+    public var Cedilla = "&Cedilla;";
+    public var congdot = "&congdot;";
+    public var cirscir = "&cirscir;";
+    public var coloneq = "&coloneq;";
+    public var cudarrr = "&cudarrr;";
+    public var cularrp = "&cularrp;";
+    public var curarrm = "&curarrm;";
+    public var ccupssm = "&ccupssm;";
+    public var cemptyv = "&cemptyv;";
+    public var Cconint = "&Cconint;";
+    public var Cayleys = "&Cayleys;";
+    public var cupbrcap = "&cupbrcap;";
+    public var capbrcup = "&capbrcup;";
+    public var cirfnint = "&cirfnint;";
+    public var cwconint = "&cwconint;";
+    public var circledR = "&circledR;";
+    public var circledS = "&circledS;";
+    public var clubsuit = "&clubsuit;";
+    public var curlyvee = "&curlyvee;";
+    public var checkmark = "&checkmark;";
+    public var centerdot = "&centerdot;";
+    public var complexes = "&complexes;";
+    public var Coproduct = "&Coproduct;";
+    public var Congruent = "&Congruent;";
+    public var CircleDot = "&CircleDot;";
+    public var CenterDot = "&CenterDot;";
+    public var circledast = "&circledast;";
+    public var complement = "&complement;";
+    public var curlywedge = "&curlywedge;";
+    public var CirclePlus = "&CirclePlus;";
+    public var circleddash = "&circleddash;";
+    public var circledcirc = "&circledcirc;";
+    public var curlyeqprec = "&curlyeqprec;";
+    public var curlyeqsucc = "&curlyeqsucc;";
+    public var CircleTimes = "&CircleTimes;";
+    public var CircleMinus = "&CircleMinus;";
+    public var curvearrowleft = "&curvearrowleft;";
+    public var circlearrowleft = "&circlearrowleft;";
+    public var curvearrowright = "&curvearrowright;";
+    public var ContourIntegral = "&ContourIntegral;";
+    public var CloseCurlyQuote = "&CloseCurlyQuote;";
+    public var circlearrowright = "&circlearrowright;";
+    public var CapitalDifferentialD = "&CapitalDifferentialD;";
+    public var CloseCurlyDoubleQuote = "&CloseCurlyDoubleQuote;";
+    public var ClockwiseContourIntegral = "&ClockwiseContourIntegral;";
+    public var CounterClockwiseContourIntegral = "&CounterClockwiseContourIntegral;";
+    public var dd = "&dd;";
+    public var DD = "&DD;";
+    public var deg = "&deg;";
+    public var die = "&die;";
+    public var dfr = "&dfr;";
+    public var dcy = "&dcy;";
+    public var div = "&div;";
+    public var dot = "&dot;";
+    public var Del = "&Del;";
+    public var Dfr = "&Dfr;";
+    public var Dcy = "&Dcy;";
+    public var Dot = "&Dot;";
+    public var diam = "&diam;";
+    public var dash = "&dash;";
+    public var darr = "&darr;";
+    public var dopf = "&dopf;";
+    public var djcy = "&djcy;";
+    public var dscr = "&dscr;";
+    public var dsol = "&dsol;";
+    public var dtri = "&dtri;";
+    public var dscy = "&dscy;";
+    public var dzcy = "&dzcy;";
     public var dHar = "&dHar;";
+    public var dArr = "&dArr;";
+    public var Darr = "&Darr;";
+    public var Dopf = "&Dopf;";
+    public var Dscr = "&Dscr;";
+    public var DJcy = "&DJcy;";
+    public var DScy = "&DScy;";
+    public var DZcy = "&DZcy;";
+    public var dblac = "&dblac;";
+    public var delta = "&delta;";
+    public var dharl = "&dharl;";
+    public var ddarr = "&ddarr;";
+    public var diams = "&diams;";
+    public var dharr = "&dharr;";
+    public var duhar = "&duhar;";
+    public var dashv = "&dashv;";
+    public var disin = "&disin;";
+    public var dtrif = "&dtrif;";
+    public var doteq = "&doteq;";
+    public var duarr = "&duarr;";
+    public var dtdot = "&dtdot;";
+    public var Delta = "&Delta;";
+    public var Dashv = "&Dashv;";
     public var dagger = "&dagger;";
     public var daleth = "&daleth;";
-    public var darr = "&darr;";
-    public var dashv = "&dashv;";
-    public var dash = "&dash;";
-    public var dbkarow = "&dbkarow;";
-    public var dblac = "&dblac;";
-    public var dcaron = "&dcaron;";
-    public var dcy = "&dcy;";
-    public var dd = "&dd;";
-    public var ddagger = "&ddagger;";
-    public var ddarr = "&ddarr;";
-    public var ddotseq = "&ddotseq;";
-    public var deg = "&deg;";
-    public var delta = "&delta;";
-    public var demptyv = "&demptyv;";
-    public var dfisht = "&dfisht;";
-    public var dfr = "&dfr;";
-    public var dharl = "&dharl;";
-    public var dharr = "&dharr;";
-    public var diamondsuit = "&diamondsuit;";
-    public var diams = "&diams;";
-    public var diam = "&diam;";
-    public var diamond = "&diamond;";
-    public var die = "&die;";
-    public var digamma = "&digamma;";
-    public var disin = "&disin;";
-    public var div = "&div;";
     public var divide = "&divide;";
-    public var divideontimes = "&divideontimes;";
-    public var divonx = "&divonx;";
-    public var djcy = "&djcy;";
-    public var dlcorn = "&dlcorn;";
-    public var dlcrop = "&dlcrop;";
+    public var dcaron = "&dcaron;";
     public var dollar = "&dollar;";
-    public var dopf = "&dopf;";
-    public var doteqdot = "&doteqdot;";
-    public var doteq = "&doteq;";
-    public var dotminus = "&dotminus;";
-    public var dot = "&dot;";
-    public var dotplus = "&dotplus;";
-    public var dotsquare = "&dotsquare;";
-    public var doublebarwedge = "&doublebarwedge;";
-    public var downarrow = "&downarrow;";
-    public var downdownarrows = "&downdownarrows;";
-    public var downharpoonleft = "&downharpoonleft;";
-    public var downharpoonright = "&downharpoonright;";
-    public var drbkarow = "&drbkarow;";
+    public var dlcorn = "&dlcorn;";
+    public var dfisht = "&dfisht;";
+    public var dlcrop = "&dlcrop;";
     public var drcorn = "&drcorn;";
     public var drcrop = "&drcrop;";
-    public var dscr = "&dscr;";
-    public var dscy = "&dscy;";
-    public var dsol = "&dsol;";
+    public var Dagger = "&Dagger;";
     public var dstrok = "&dstrok;";
-    public var dtdot = "&dtdot;";
-    public var dtri = "&dtri;";
-    public var dtrif = "&dtrif;";
-    public var duarr = "&duarr;";
-    public var duhar = "&duhar;";
+    public var Dcaron = "&Dcaron;";
+    public var divonx = "&divonx;";
+    public var Dstrok = "&Dstrok;";
+    public var DotDot = "&DotDot;";
+    public var ddagger = "&ddagger;";
+    public var digamma = "&digamma;";
+    public var diamond = "&diamond;";
     public var dwangle = "&dwangle;";
-    public var dzcy = "&dzcy;";
+    public var dbkarow = "&dbkarow;";
+    public var ddotseq = "&ddotseq;";
+    public var Diamond = "&Diamond;";
+    public var demptyv = "&demptyv;";
+    public var dotplus = "&dotplus;";
+    public var DownTee = "&DownTee;";
+    public var drbkarow = "&drbkarow;";
+    public var doteqdot = "&doteqdot;";
     public var dzigrarr = "&dzigrarr;";
-    public var eDDot = "&eDDot;";
-    public var eDot = "&eDot;";
-    public var eacute = "&eacute;";
-    public var easter = "&easter;";
-    public var ecaron = "&ecaron;";
-    public var ecir = "&ecir;";
-    public var ecirc = "&ecirc;";
-    public var ecolon = "&ecolon;";
-    public var ecy = "&ecy;";
-    public var edot = "&edot;";
+    public var dotminus = "&dotminus;";
+    public var DDotrahd = "&DDotrahd;";
+    public var DotEqual = "&DotEqual;";
+    public var dotsquare = "&dotsquare;";
+    public var downarrow = "&downarrow;";
+    public var DoubleDot = "&DoubleDot;";
+    public var Downarrow = "&Downarrow;";
+    public var DownBreve = "&DownBreve;";
+    public var DownArrow = "&DownArrow;";
+    public var diamondsuit = "&diamondsuit;";
+    public var DownArrowBar = "&DownArrowBar;";
+    public var DownTeeArrow = "&DownTeeArrow;";
+    public var divideontimes = "&divideontimes;";
+    public var DifferentialD = "&DifferentialD;";
+    public var DoubleLeftTee = "&DoubleLeftTee;";
+    public var DoubleUpArrow = "&DoubleUpArrow;";
+    public var doublebarwedge = "&doublebarwedge;";
+    public var DiacriticalDot = "&DiacriticalDot;";
+    public var downdownarrows = "&downdownarrows;";
+    public var DoubleRightTee = "&DoubleRightTee;";
+    public var DownLeftVector = "&DownLeftVector;";
+    public var downharpoonleft = "&downharpoonleft;";
+    public var DoubleLeftArrow = "&DoubleLeftArrow;";
+    public var DoubleDownArrow = "&DoubleDownArrow;";
+    public var DownRightVector = "&DownRightVector;";
+    public var DiacriticalAcute = "&DiacriticalAcute;";
+    public var DiacriticalTilde = "&DiacriticalTilde;";
+    public var downharpoonright = "&downharpoonright;";
+    public var DiacriticalGrave = "&DiacriticalGrave;";
+    public var DoubleRightArrow = "&DoubleRightArrow;";
+    public var DownArrowUpArrow = "&DownArrowUpArrow;";
+    public var DoubleVerticalBar = "&DoubleVerticalBar;";
+    public var DownLeftVectorBar = "&DownLeftVectorBar;";
+    public var DownLeftTeeVector = "&DownLeftTeeVector;";
+    public var DoubleUpDownArrow = "&DoubleUpDownArrow;";
+    public var DownRightVectorBar = "&DownRightVectorBar;";
+    public var DownRightTeeVector = "&DownRightTeeVector;";
+    public var DoubleLongLeftArrow = "&DoubleLongLeftArrow;";
+    public var DownLeftRightVector = "&DownLeftRightVector;";
+    public var DoubleLeftRightArrow = "&DoubleLeftRightArrow;";
+    public var DoubleLongRightArrow = "&DoubleLongRightArrow;";
+    public var DoubleContourIntegral = "&DoubleContourIntegral;";
+    public var DiacriticalDoubleAcute = "&DiacriticalDoubleAcute;";
+    public var DoubleLongLeftRightArrow = "&DoubleLongLeftRightArrow;";
     public var ee = "&ee;";
-    public var efDot = "&efDot;";
-    public var efr = "&efr;";
-    public var egrave = "&egrave;";
-    public var egs = "&egs;";
-    public var egsdot = "&egsdot;";
     public var eg = "&eg;";
-    public var elinters = "&elinters;";
-    public var ell = "&ell;";
-    public var elsdot = "&elsdot;";
     public var el = "&el;";
-    public var els = "&els;";
-    public var emacr = "&emacr;";
-    public var empty = "&empty;";
-    public var emptyset = "&emptyset;";
-    public var emptyv = "&emptyv;";
-    public var emsp14 = "&emsp14;";
-    public var emsp = "&emsp;";
-    public var emsp13 = "&emsp13;";
     public var eng = "&eng;";
-    public var ensp = "&ensp;";
-    public var eogon = "&eogon;";
-    public var eopf = "&eopf;";
+    public var eta = "&eta;";
+    public var efr = "&efr;";
+    public var ell = "&ell;";
+    public var egs = "&egs;";
+    public var ecy = "&ecy;";
+    public var eth = "&eth;";
+    public var els = "&els;";
+    public var Eta = "&Eta;";
+    public var Efr = "&Efr;";
+    public var Ecy = "&Ecy;";
+    public var ENG = "&ENG;";
+    public var ETH = "&ETH;";
+    public var ecir = "&ecir;";
     public var epar = "&epar;";
-    public var eparsl = "&eparsl;";
-    public var eplus = "&eplus;";
+    public var eopf = "&eopf;";
+    public var edot = "&edot;";
+    public var excl = "&excl;";
+    public var escr = "&escr;";
+    public var esim = "&esim;";
     public var epsi = "&epsi;";
-    public var epsilon = "&epsilon;";
-    public var epsiv = "&epsiv;";
-    public var eqcirc = "&eqcirc;";
-    public var eqcolon = "&eqcolon;";
+    public var euml = "&euml;";
+    public var emsp = "&emsp;";
+    public var ensp = "&ensp;";
+    public var euro = "&euro;";
+    public var Eopf = "&Eopf;";
+    public var Edot = "&Edot;";
+    public var eDot = "&eDot;";
+    public var Escr = "&Escr;";
+    public var Esim = "&Esim;";
+    public var Euml = "&Euml;";
+    public var ecirc = "&ecirc;";
+    public var emacr = "&emacr;";
+    public var eogon = "&eogon;";
+    public var erarr = "&erarr;";
+    public var esdot = "&esdot;";
     public var eqsim = "&eqsim;";
-    public var eqslantgtr = "&eqslantgtr;";
-    public var eqslantless = "&eqslantless;";
+    public var Ecirc = "&Ecirc;";
+    public var epsiv = "&epsiv;";
+    public var Emacr = "&Emacr;";
+    public var eplus = "&eplus;";
+    public var equiv = "&equiv;";
+    public var exist = "&exist;";
+    public var empty = "&empty;";
+    public var efDot = "&efDot;";
+    public var Equal = "&Equal;";
+    public var Eogon = "&Eogon;";
+    public var erDot = "&erDot;";
+    public var eDDot = "&eDDot;";
+    public var emsp13 = "&emsp13;";
+    public var emsp14 = "&emsp14;";
+    public var eacute = "&eacute;";
+    public var eqcirc = "&eqcirc;";
+    public var ecaron = "&ecaron;";
+    public var egrave = "&egrave;";
+    public var ecolon = "&ecolon;";
+    public var easter = "&easter;";
+    public var egsdot = "&egsdot;";
+    public var eparsl = "&eparsl;";
+    public var elsdot = "&elsdot;";
     public var equals = "&equals;";
     public var equest = "&equest;";
-    public var equiv = "&equiv;";
+    public var Eacute = "&Eacute;";
+    public var Ecaron = "&Ecaron;";
+    public var Egrave = "&Egrave;";
+    public var emptyv = "&emptyv;";
+    public var Exists = "&Exists;";
+    public var eqcolon = "&eqcolon;";
+    public var epsilon = "&epsilon;";
+    public var Element = "&Element;";
+    public var Epsilon = "&Epsilon;";
     public var equivDD = "&equivDD;";
+    public var elinters = "&elinters;";
     public var eqvparsl = "&eqvparsl;";
-    public var erDot = "&erDot;";
-    public var erarr = "&erarr;";
-    public var escr = "&escr;";
-    public var esdot = "&esdot;";
-    public var esim = "&esim;";
-    public var eta = "&eta;";
-    public var eth = "&eth;";
-    public var euml = "&euml;";
-    public var euro = "&euro;";
-    public var excl = "&excl;";
-    public var exist = "&exist;";
+    public var emptyset = "&emptyset;";
+    public var eqslantgtr = "&eqslantgtr;";
+    public var EqualTilde = "&EqualTilde;";
     public var expectation = "&expectation;";
+    public var eqslantless = "&eqslantless;";
+    public var Equilibrium = "&Equilibrium;";
     public var exponentiale = "&exponentiale;";
-    public var fallingdotseq = "&fallingdotseq;";
-    public var fcy = "&fcy;";
-    public var female = "&female;";
-    public var ffilig = "&ffilig;";
-    public var fflig = "&fflig;";
-    public var ffllig = "&ffllig;";
+    public var ExponentialE = "&ExponentialE;";
+    public var EmptySmallSquare = "&EmptySmallSquare;";
+    public var EmptyVerySmallSquare = "&EmptyVerySmallSquare;";
     public var ffr = "&ffr;";
-    public var filig = "&filig;";
-    public var fjlig = "&fjlig;";
+    public var fcy = "&fcy;";
+    public var Ffr = "&Ffr;";
+    public var Fcy = "&Fcy;";
     public var flat = "&flat;";
-    public var fllig = "&fllig;";
-    public var fltns = "&fltns;";
     public var fnof = "&fnof;";
     public var fopf = "&fopf;";
-    public var forall = "&forall;";
+    public var fscr = "&fscr;";
     public var fork = "&fork;";
+    public var Fopf = "&Fopf;";
+    public var Fscr = "&Fscr;";
+    public var fflig = "&fflig;";
+    public var filig = "&filig;";
+    public var fjlig = "&fjlig;";
+    public var fllig = "&fllig;";
+    public var frasl = "&frasl;";
+    public var fltns = "&fltns;";
     public var forkv = "&forkv;";
-    public var fpartint = "&fpartint;";
+    public var frown = "&frown;";
     public var frac12 = "&frac12;";
     public var frac13 = "&frac13;";
+    public var frac23 = "&frac23;";
     public var frac14 = "&frac14;";
     public var frac15 = "&frac15;";
-    public var frac16 = "&frac16;";
-    public var frac18 = "&frac18;";
-    public var frac23 = "&frac23;";
     public var frac25 = "&frac25;";
     public var frac34 = "&frac34;";
+    public var frac16 = "&frac16;";
     public var frac35 = "&frac35;";
-    public var frac38 = "&frac38;";
+    public var frac18 = "&frac18;";
     public var frac45 = "&frac45;";
     public var frac56 = "&frac56;";
+    public var frac38 = "&frac38;";
     public var frac58 = "&frac58;";
     public var frac78 = "&frac78;";
-    public var frasl = "&frasl;";
-    public var frown = "&frown;";
-    public var fscr = "&fscr;";
-    public var gEl = "&gEl;";
-    public var gE = "&gE;";
-    public var gacute = "&gacute;";
-    public var gamma = "&gamma;";
-    public var gammad = "&gammad;";
-    public var gap = "&gap;";
-    public var gbreve = "&gbreve;";
-    public var gcirc = "&gcirc;";
-    public var gcy = "&gcy;";
-    public var gdot = "&gdot;";
-    public var geqq = "&geqq;";
-    public var geqslant = "&geqslant;";
-    public var geq = "&geq;";
-    public var gesdot = "&gesdot;";
-    public var gesdoto = "&gesdoto;";
+    public var female = "&female;";
+    public var ffilig = "&ffilig;";
+    public var ffllig = "&ffllig;";
+    public var forall = "&forall;";
+    public var ForAll = "&ForAll;";
+    public var fpartint = "&fpartint;";
+    public var Fouriertrf = "&Fouriertrf;";
+    public var fallingdotseq = "&fallingdotseq;";
+    public var FilledSmallSquare = "&FilledSmallSquare;";
+    public var FilledVerySmallSquare = "&FilledVerySmallSquare;";
     public var ge = "&ge;";
-    public var gel = "&gel;";
-    public var gescc = "&gescc;";
-    public var gesdotol = "&gesdotol;";
-    public var gesles = "&gesles;";
-    public var gesl = "&gesl;";
-    public var ges = "&ges;";
-    public var gfr = "&gfr;";
     public var gg = "&gg;";
-    public var ggg = "&ggg;";
-    public var gimel = "&gimel;";
-    public var gjcy = "&gjcy;";
-    public var gla = "&gla;";
     public var gl = "&gl;";
-    public var glE = "&glE;";
+    public var gt = "&gt;";
+    public var gE = "&gE;";
+    public var Gg = "&Gg;";
+    public var Gt = "&Gt;";
+    public var GT = "&GT;";
+    public var gla = "&gla;";
+    public var ggg = "&ggg;";
+    public var gel = "&gel;";
+    public var gap = "&gap;";
+    public var gne = "&gne;";
+    public var geq = "&geq;";
     public var glj = "&glj;";
+    public var gfr = "&gfr;";
+    public var ges = "&ges;";
+    public var gcy = "&gcy;";
+    public var gEl = "&gEl;";
+    public var glE = "&glE;";
     public var gnE = "&gnE;";
-    public var gnapprox = "&gnapprox;";
+    public var Gfr = "&Gfr;";
+    public var Gcy = "&Gcy;";
+    public var gtcc = "&gtcc;";
     public var gnap = "&gnap;";
     public var gneq = "&gneq;";
-    public var gneqq = "&gneqq;";
-    public var gne = "&gne;";
-    public var gnsim = "&gnsim;";
+    public var gesl = "&gesl;";
     public var gopf = "&gopf;";
-    public var grave = "&grave;";
+    public var gjcy = "&gjcy;";
+    public var geqq = "&geqq;";
+    public var gdot = "&gdot;";
     public var gscr = "&gscr;";
-    public var gsime = "&gsime;";
-    public var gsiml = "&gsiml;";
     public var gsim = "&gsim;";
-    public var gt = "&gt;";
-    public var gtcc = "&gtcc;";
+    public var Gopf = "&Gopf;";
+    public var Gdot = "&Gdot;";
+    public var Gscr = "&Gscr;";
+    public var gvnE = "&gvnE;";
+    public var GJcy = "&GJcy;";
+    public var gamma = "&gamma;";
+    public var gescc = "&gescc;";
+    public var gcirc = "&gcirc;";
+    public var gimel = "&gimel;";
+    public var gsime = "&gsime;";
+    public var grave = "&grave;";
     public var gtcir = "&gtcir;";
+    public var gneqq = "&gneqq;";
+    public var gsiml = "&gsiml;";
+    public var gnsim = "&gnsim;";
     public var gtdot = "&gtdot;";
-    public var gtlPar = "&gtlPar;";
-    public var gtquest = "&gtquest;";
-    public var gtrapprox = "&gtrapprox;";
+    public var Gamma = "&Gamma;";
+    public var Gcirc = "&Gcirc;";
+    public var gammad = "&gammad;";
+    public var gacute = "&gacute;";
+    public var gbreve = "&gbreve;";
+    public var gesles = "&gesles;";
+    public var gesdot = "&gesdot;";
+    public var Gammad = "&Gammad;";
+    public var Gcedil = "&Gcedil;";
     public var gtrarr = "&gtrarr;";
     public var gtrdot = "&gtrdot;";
-    public var gtreqless = "&gtreqless;";
-    public var gtreqqless = "&gtreqqless;";
-    public var gtrless = "&gtrless;";
     public var gtrsim = "&gtrsim;";
+    public var Gbreve = "&Gbreve;";
+    public var gtlPar = "&gtlPar;";
+    public var gesdoto = "&gesdoto;";
+    public var gtrless = "&gtrless;";
+    public var gtquest = "&gtquest;";
+    public var geqslant = "&geqslant;";
+    public var gesdotol = "&gesdotol;";
+    public var gnapprox = "&gnapprox;";
+    public var gtreqless = "&gtreqless;";
     public var gvertneqq = "&gvertneqq;";
-    public var gvnE = "&gvnE;";
-    public var hArr = "&hArr;";
-    public var hairsp = "&hairsp;";
-    public var half = "&half;";
-    public var hamilt = "&hamilt;";
-    public var hardcy = "&hardcy;";
-    public var harrcir = "&harrcir;";
-    public var harr = "&harr;";
-    public var harrw = "&harrw;";
-    public var hbar = "&hbar;";
-    public var hcirc = "&hcirc;";
-    public var hearts = "&hearts;";
-    public var heartsuit = "&heartsuit;";
-    public var hellip = "&hellip;";
-    public var hercon = "&hercon;";
+    public var gtrapprox = "&gtrapprox;";
+    public var gtreqqless = "&gtreqqless;";
+    public var GreaterLess = "&GreaterLess;";
+    public var GreaterTilde = "&GreaterTilde;";
+    public var GreaterEqual = "&GreaterEqual;";
+    public var GreaterGreater = "&GreaterGreater;";
+    public var GreaterFullEqual = "&GreaterFullEqual;";
+    public var GreaterEqualLess = "&GreaterEqualLess;";
+    public var GreaterSlantEqual = "&GreaterSlantEqual;";
     public var hfr = "&hfr;";
+    public var Hat = "&Hat;";
+    public var Hfr = "&Hfr;";
+    public var half = "&half;";
+    public var hbar = "&hbar;";
+    public var harr = "&harr;";
+    public var hopf = "&hopf;";
+    public var hscr = "&hscr;";
+    public var hArr = "&hArr;";
+    public var Hopf = "&Hopf;";
+    public var Hscr = "&Hscr;";
+    public var hcirc = "&hcirc;";
+    public var Hacek = "&Hacek;";
+    public var hoarr = "&hoarr;";
+    public var harrw = "&harrw;";
+    public var Hcirc = "&Hcirc;";
+    public var hardcy = "&hardcy;";
+    public var hellip = "&hellip;";
+    public var horbar = "&horbar;";
+    public var hercon = "&hercon;";
+    public var hamilt = "&hamilt;";
+    public var hslash = "&hslash;";
+    public var hearts = "&hearts;";
+    public var hairsp = "&hairsp;";
+    public var hyphen = "&hyphen;";
+    public var hybull = "&hybull;";
+    public var homtht = "&homtht;";
+    public var hstrok = "&hstrok;";
+    public var Hstrok = "&Hstrok;";
+    public var HARDcy = "&HARDcy;";
+    public var harrcir = "&harrcir;";
     public var hksearow = "&hksearow;";
     public var hkswarow = "&hkswarow;";
-    public var hoarr = "&hoarr;";
-    public var homtht = "&homtht;";
+    public var heartsuit = "&heartsuit;";
+    public var HumpEqual = "&HumpEqual;";
+    public var HilbertSpace = "&HilbertSpace;";
+    public var HumpDownHump = "&HumpDownHump;";
     public var hookleftarrow = "&hookleftarrow;";
     public var hookrightarrow = "&hookrightarrow;";
-    public var hopf = "&hopf;";
-    public var horbar = "&horbar;";
-    public var hscr = "&hscr;";
-    public var hslash = "&hslash;";
-    public var hstrok = "&hstrok;";
-    public var hybull = "&hybull;";
-    public var hyphen = "&hyphen;";
-    public var iacute = "&iacute;";
-    public var icy = "&icy;";
+    public var HorizontalLine = "&HorizontalLine;";
     public var ic = "&ic;";
-    public var icirc = "&icirc;";
-    public var iecy = "&iecy;";
-    public var iexcl = "&iexcl;";
+    public var ii = "&ii;";
+    public var In = "&in;";
+    public var it = "&it;";
+    public var Im = "&Im;";
     public var iff = "&iff;";
     public var ifr = "&ifr;";
-    public var igrave = "&igrave;";
-    public var iiiint = "&iiiint;";
-    public var iiota = "&iiota;";
-    public var ii = "&ii;";
-    public var iiint = "&iiint;";
-    public var iinfin = "&iinfin;";
-    public var ijlig = "&ijlig;";
-    public var imacr = "&imacr;";
-    public var image = "&image;";
-    public var imagline = "&imagline;";
-    public var imagpart = "&imagpart;";
-    public var imath = "&imath;";
-    public var imof = "&imof;";
-    public var imped = "&imped;";
-    public var incare = "&incare;";
-    public var infintie = "&infintie;";
-    public var infin = "&infin;";
-    public var inodot = "&inodot;";
-    public var intcal = "&intcal;";
-    public var integers = "&integers;";
+    public var icy = "&icy;";
     public var int = "&int;";
-    public var In = "&in;";
-    public var intercal = "&intercal;";
-    public var intlarhk = "&intlarhk;";
-    public var intprod = "&intprod;";
-    public var iocy = "&iocy;";
-    public var iogon = "&iogon;";
-    public var iopf = "&iopf;";
+    public var Ifr = "&Ifr;";
+    public var Icy = "&Icy;";
+    public var Int = "&Int;";
+    public var iecy = "&iecy;";
+    public var imof = "&imof;";
     public var iota = "&iota;";
-    public var iprod = "&iprod;";
-    public var iquest = "&iquest;";
+    public var iopf = "&iopf;";
     public var iscr = "&iscr;";
     public var isin = "&isin;";
-    public var isinE = "&isinE;";
-    public var isindot = "&isindot;";
-    public var isinsv = "&isinsv;";
+    public var iocy = "&iocy;";
+    public var iuml = "&iuml;";
+    public var Iota = "&Iota;";
+    public var Iopf = "&Iopf;";
+    public var Idot = "&Idot;";
+    public var Iscr = "&Iscr;";
+    public var Iuml = "&Iuml;";
+    public var IEcy = "&IEcy;";
+    public var IOcy = "&IOcy;";
+    public var image = "&image;";
+    public var icirc = "&icirc;";
+    public var imacr = "&imacr;";
+    public var imped = "&imped;";
+    public var ijlig = "&ijlig;";
+    public var imath = "&imath;";
+    public var infin = "&infin;";
+    public var iexcl = "&iexcl;";
+    public var iiota = "&iiota;";
+    public var iogon = "&iogon;";
+    public var iiint = "&iiint;";
+    public var iprod = "&iprod;";
+    public var iukcy = "&iukcy;";
     public var isins = "&isins;";
     public var isinv = "&isinv;";
-    public var it = "&it;";
+    public var Icirc = "&Icirc;";
+    public var Imacr = "&Imacr;";
+    public var isinE = "&isinE;";
+    public var Iogon = "&Iogon;";
+    public var Iukcy = "&Iukcy;";
+    public var IJlig = "&IJlig;";
+    public var incare = "&incare;";
+    public var intcal = "&intcal;";
+    public var iacute = "&iacute;";
     public var itilde = "&itilde;";
-    public var iukcy = "&iukcy;";
-    public var iuml = "&iuml;";
-    public var jcirc = "&jcirc;";
-    public var jcy = "&jcy;";
+    public var iinfin = "&iinfin;";
+    public var igrave = "&igrave;";
+    public var iiiint = "&iiiint;";
+    public var inodot = "&inodot;";
+    public var Itilde = "&Itilde;";
+    public var iquest = "&iquest;";
+    public var Iacute = "&Iacute;";
+    public var isinsv = "&isinsv;";
+    public var Igrave = "&Igrave;";
+    public var isindot = "&isindot;";
+    public var intprod = "&intprod;";
+    public var Implies = "&Implies;";
+    public var imagline = "&imagline;";
+    public var intercal = "&intercal;";
+    public var imagpart = "&imagpart;";
+    public var infintie = "&infintie;";
+    public var intlarhk = "&intlarhk;";
+    public var integers = "&integers;";
+    public var Integral = "&Integral;";
+    public var ImaginaryI = "&ImaginaryI;";
+    public var Intersection = "&Intersection;";
+    public var InvisibleComma = "&InvisibleComma;";
+    public var InvisibleTimes = "&InvisibleTimes;";
     public var jfr = "&jfr;";
-    public var jmath = "&jmath;";
+    public var jcy = "&jcy;";
+    public var Jfr = "&Jfr;";
+    public var Jcy = "&Jcy;";
     public var jopf = "&jopf;";
     public var jscr = "&jscr;";
-    public var jsercy = "&jsercy;";
+    public var Jopf = "&Jopf;";
+    public var Jscr = "&Jscr;";
+    public var jcirc = "&jcirc;";
+    public var jmath = "&jmath;";
     public var jukcy = "&jukcy;";
-    public var kappav = "&kappav;";
-    public var kappa = "&kappa;";
-    public var kcedil = "&kcedil;";
-    public var kcy = "&kcy;";
+    public var Jcirc = "&Jcirc;";
+    public var Jukcy = "&Jukcy;";
+    public var jsercy = "&jsercy;";
+    public var Jsercy = "&Jsercy;";
     public var kfr = "&kfr;";
-    public var kgreen = "&kgreen;";
+    public var kcy = "&kcy;";
+    public var Kfr = "&Kfr;";
+    public var Kcy = "&Kcy;";
     public var khcy = "&khcy;";
-    public var kjcy = "&kjcy;";
     public var kopf = "&kopf;";
+    public var kjcy = "&kjcy;";
     public var kscr = "&kscr;";
-    public var lAarr = "&lAarr;";
-    public var lArr = "&lArr;";
-    public var lAtail = "&lAtail;";
-    public var lBarr = "&lBarr;";
-    public var lEg = "&lEg;";
+    public var Kopf = "&Kopf;";
+    public var Kscr = "&Kscr;";
+    public var KHcy = "&KHcy;";
+    public var KJcy = "&KJcy;";
+    public var kappa = "&kappa;";
+    public var Kappa = "&Kappa;";
+    public var kcedil = "&kcedil;";
+    public var kgreen = "&kgreen;";
+    public var kappav = "&kappav;";
+    public var Kcedil = "&Kcedil;";
+    public var le = "&le;";
+    public var lg = "&lg;";
+    public var ll = "&ll;";
+    public var lt = "&lt;";
     public var lE = "&lE;";
-    public var lHar = "&lHar;";
-    public var lacute = "&lacute;";
-    public var laemptyv = "&laemptyv;";
-    public var lagran = "&lagran;";
-    public var lambda = "&lambda;";
-    public var lang = "&lang;";
-    public var langd = "&langd;";
-    public var langle = "&langle;";
+    public var Ll = "&Ll;";
+    public var Lt = "&Lt;";
+    public var LT = "&LT;";
+    public var leg = "&leg;";
     public var lap = "&lap;";
-    public var laquo = "&laquo;";
-    public var larrb = "&larrb;";
-    public var larrbfs = "&larrbfs;";
-    public var larrfs = "&larrfs;";
-    public var larrlp = "&larrlp;";
-    public var larrtl = "&larrtl;";
-    public var larr = "&larr;";
-    public var larrhk = "&larrhk;";
-    public var larrpl = "&larrpl;";
-    public var larrsim = "&larrsim;";
-    public var latail = "&latail;";
-    public var late = "&late;";
+    public var lne = "&lne;";
     public var lat = "&lat;";
-    public var lates = "&lates;";
-    public var lbarr = "&lbarr;";
-    public var lbbrk = "&lbbrk;";
-    public var lbrace = "&lbrace;";
-    public var lbrack = "&lbrack;";
-    public var lbrke = "&lbrke;";
-    public var lbrksld = "&lbrksld;";
-    public var lbrkslu = "&lbrkslu;";
-    public var lcaron = "&lcaron;";
-    public var lcedil = "&lcedil;";
-    public var lceil = "&lceil;";
-    public var lcub = "&lcub;";
+    public var leq = "&leq;";
+    public var les = "&les;";
+    public var lfr = "&lfr;";
+    public var lsh = "&lsh;";
     public var lcy = "&lcy;";
+    public var lrm = "&lrm;";
+    public var loz = "&loz;";
+    public var lEg = "&lEg;";
+    public var lgE = "&lgE;";
+    public var lnE = "&lnE;";
+    public var Lfr = "&Lfr;";
+    public var Lsh = "&Lsh;";
+    public var Lcy = "&Lcy;";
     public var ldca = "&ldca;";
-    public var ldquor = "&ldquor;";
-    public var ldquo = "&ldquo;";
-    public var ldrdhar = "&ldrdhar;";
-    public var ldrushar = "&ldrushar;";
+    public var lang = "&lang;";
+    public var late = "&late;";
+    public var lcub = "&lcub;";
+    public var ltcc = "&ltcc;";
+    public var lnap = "&lnap;";
     public var ldsh = "&ldsh;";
+    public var lesg = "&lesg;";
+    public var lpar = "&lpar;";
+    public var lneq = "&lneq;";
+    public var lopf = "&lopf;";
+    public var larr = "&larr;";
+    public var lsqb = "&lsqb;";
+    public var ljcy = "&ljcy;";
+    public var leqq = "&leqq;";
+    public var lscr = "&lscr;";
+    public var lsim = "&lsim;";
+    public var ltri = "&ltri;";
+    public var lozf = "&lozf;";
+    public var Lang = "&Lang;";
+    public var lHar = "&lHar;";
+    public var Larr = "&Larr;";
+    public var lArr = "&lArr;";
+    public var Lopf = "&Lopf;";
+    public var Lscr = "&Lscr;";
+    public var lvnE = "&lvnE;";
+    public var LJcy = "&LJcy;";
+    public var langd = "&langd;";
+    public var lceil = "&lceil;";
+    public var lescc = "&lescc;";
+    public var lhard = "&lhard;";
+    public var lbbrk = "&lbbrk;";
+    public var lhblk = "&lhblk;";
+    public var lbrke = "&lbrke;";
+    public var loang = "&loang;";
+    public var lbarr = "&lbarr;";
+    public var larrb = "&larrb;";
+    public var lrhar = "&lrhar;";
+    public var lates = "&lates;";
+    public var lsime = "&lsime;";
+    public var lobrk = "&lobrk;";
+    public var lharu = "&lharu;";
+    public var lsimg = "&lsimg;";
+    public var llarr = "&llarr;";
+    public var lopar = "&lopar;";
+    public var ltcir = "&ltcir;";
+    public var ltrie = "&ltrie;";
+    public var loarr = "&loarr;";
+    public var ltrif = "&ltrif;";
+    public var lneqq = "&lneqq;";
+    public var laquo = "&laquo;";
+    public var lnsim = "&lnsim;";
+    public var lrarr = "&lrarr;";
+    public var ldquo = "&ldquo;";
+    public var ltdot = "&ltdot;";
+    public var lltri = "&lltri;";
+    public var lrtri = "&lrtri;";
+    public var lAarr = "&lAarr;";
+    public var lBarr = "&lBarr;";
+    public var lsquo = "&lsquo;";
+    public var lambda = "&lambda;";
+    public var lbrace = "&lbrace;";
+    public var lcedil = "&lcedil;";
+    public var lbrack = "&lbrack;";
+    public var langle = "&langle;";
+    public var lagran = "&lagran;";
+    public var latail = "&latail;";
+    public var llhard = "&llhard;";
+    public var lrhard = "&lrhard;";
+    public var lacute = "&lacute;";
+    public var lcaron = "&lcaron;";
+    public var Lambda = "&Lambda;";
+    public var lesges = "&lesges;";
+    public var lthree = "&lthree;";
+    public var larrhk = "&larrhk;";
+    public var lowbar = "&lowbar;";
+    public var lharul = "&lharul;";
+    public var lmidot = "&lmidot;";
+    public var lfisht = "&lfisht;";
+    public var larrfs = "&larrfs;";
+    public var lesdot = "&lesdot;";
+    public var larrlp = "&larrlp;";
+    public var larrpl = "&larrpl;";
+    public var Lcedil = "&Lcedil;";
+    public var lfloor = "&lfloor;";
+    public var ltimes = "&ltimes;";
+    public var lparlt = "&lparlt;";
+    public var ltlarr = "&ltlarr;";
+    public var larrtl = "&larrtl;";
+    public var lsaquo = "&lsaquo;";
+    public var ldquor = "&ldquor;";
+    public var lAtail = "&lAtail;";
+    public var lowast = "&lowast;";
+    public var Lacute = "&Lacute;";
+    public var Lcaron = "&Lcaron;";
+    public var lstrok = "&lstrok;";
+    public var loplus = "&loplus;";
+    public var lmoust = "&lmoust;";
+    public var lsquor = "&lsquor;";
+    public var Lmidot = "&Lmidot;";
+    public var ltrPar = "&ltrPar;";
+    public var Lstrok = "&Lstrok;";
+    public var ldrdhar = "&ldrdhar;";
+    public var larrbfs = "&larrbfs;";
+    public var lbrksld = "&lbrksld;";
+    public var lozenge = "&lozenge;";
+    public var lesdoto = "&lesdoto;";
+    public var larrsim = "&larrsim;";
+    public var lotimes = "&lotimes;";
+    public var lessdot = "&lessdot;";
+    public var lbrkslu = "&lbrkslu;";
+    public var lesssim = "&lesssim;";
+    public var luruhar = "&luruhar;";
+    public var lessgtr = "&lessgtr;";
+    public var ltquest = "&ltquest;";
+    public var LeftTee = "&LeftTee;";
+    public var llcorner = "&llcorner;";
+    public var leqslant = "&leqslant;";
+    public var lurdshar = "&lurdshar;";
+    public var ldrushar = "&ldrushar;";
+    public var lrcorner = "&lrcorner;";
+    public var lesdotor = "&lesdotor;";
+    public var laemptyv = "&laemptyv;";
+    public var lnapprox = "&lnapprox;";
+    public var LessLess = "&LessLess;";
     public var leftarrow = "&leftarrow;";
-    public var leftharpoondown = "&leftharpoondown;";
+    public var lesseqgtr = "&lesseqgtr;";
+    public var lvertneqq = "&lvertneqq;";
+    public var Leftarrow = "&Leftarrow;";
+    public var LessTilde = "&LessTilde;";
+    public var LeftFloor = "&LeftFloor;";
+    public var LeftArrow = "&LeftArrow;";
+    public var lmoustache = "&lmoustache;";
+    public var Laplacetrf = "&Laplacetrf;";
+    public var longmapsto = "&longmapsto;";
+    public var lesseqqgtr = "&lesseqqgtr;";
+    public var lessapprox = "&lessapprox;";
+    public var Lleftarrow = "&Lleftarrow;";
+    public var LeftVector = "&LeftVector;";
+    public var LeftCeiling = "&LeftCeiling;";
+    public var LessGreater = "&LessGreater;";
+    public var LeftTriangle = "&LeftTriangle;";
+    public var LeftArrowBar = "&LeftArrowBar;";
+    public var LeftTeeArrow = "&LeftTeeArrow;";
+    public var LeftUpVector = "&LeftUpVector;";
+    public var leftarrowtail = "&leftarrowtail;";
+    public var longleftarrow = "&longleftarrow;";
     public var leftharpoonup = "&leftharpoonup;";
+    public var looparrowleft = "&looparrowleft;";
+    public var Longleftarrow = "&Longleftarrow;";
+    public var LeftVectorBar = "&LeftVectorBar;";
+    public var LeftTeeVector = "&LeftTeeVector;";
+    public var LessFullEqual = "&LessFullEqual;";
+    public var LongLeftArrow = "&LongLeftArrow;";
+    public var leftthreetimes = "&leftthreetimes;";
     public var leftleftarrows = "&leftleftarrows;";
     public var leftrightarrow = "&leftrightarrow;";
-    public var leftrightarrows = "&leftrightarrows;";
-    public var leftrightsquigarrow = "&leftrightsquigarrow;";
-    public var leftthreetimes = "&leftthreetimes;";
-    public var leg = "&leg;";
-    public var leqq = "&leqq;";
-    public var leqslant = "&leqslant;";
-    public var les = "&les;";
-    public var lescc = "&lescc;";
-    public var lesdoto = "&lesdoto;";
-    public var lesdotor = "&lesdotor;";
-    public var lesges = "&lesges;";
-    public var lessdot = "&lessdot;";
-    public var lesseqgtr = "&lesseqgtr;";
-    public var le = "&le;";
-    public var leftarrowtail = "&leftarrowtail;";
-    public var leftrightharpoons = "&leftrightharpoons;";
-    public var leq = "&leq;";
-    public var lesdot = "&lesdot;";
-    public var lesg = "&lesg;";
-    public var lessapprox = "&lessapprox;";
-    public var lesseqqgtr = "&lesseqqgtr;";
-    public var lessgtr = "&lessgtr;";
-    public var lesssim = "&lesssim;";
-    public var lfisht = "&lfisht;";
-    public var lfloor = "&lfloor;";
-    public var lfr = "&lfr;";
-    public var lg = "&lg;";
-    public var lgE = "&lgE;";
-    public var lhard = "&lhard;";
-    public var lharu = "&lharu;";
-    public var lharul = "&lharul;";
-    public var lhblk = "&lhblk;";
-    public var ljcy = "&ljcy;";
-    public var llarr = "&llarr;";
-    public var ll = "&ll;";
-    public var llcorner = "&llcorner;";
-    public var llhard = "&llhard;";
-    public var lltri = "&lltri;";
-    public var lmidot = "&lmidot;";
-    public var lmoustache = "&lmoustache;";
-    public var lmoust = "&lmoust;";
-    public var lnE = "&lnE;";
-    public var lnap = "&lnap;";
-    public var lnapprox = "&lnapprox;";
-    public var lneqq = "&lneqq;";
-    public var lne = "&lne;";
-    public var lneq = "&lneq;";
-    public var lnsim = "&lnsim;";
-    public var loang = "&loang;";
-    public var loarr = "&loarr;";
-    public var lobrk = "&lobrk;";
-    public var longleftarrow = "&longleftarrow;";
-    public var longleftrightarrow = "&longleftrightarrow;";
-    public var longmapsto = "&longmapsto;";
     public var longrightarrow = "&longrightarrow;";
-    public var looparrowleft = "&looparrowleft;";
     public var looparrowright = "&looparrowright;";
-    public var lopar = "&lopar;";
-    public var lopf = "&lopf;";
-    public var loplus = "&loplus;";
-    public var lotimes = "&lotimes;";
-    public var lowast = "&lowast;";
-    public var lowbar = "&lowbar;";
-    public var lozenge = "&lozenge;";
-    public var lozf = "&lozf;";
-    public var loz = "&loz;";
-    public var lparlt = "&lparlt;";
-    public var lpar = "&lpar;";
-    public var lrarr = "&lrarr;";
-    public var lrcorner = "&lrcorner;";
-    public var lrhar = "&lrhar;";
-    public var lrhard = "&lrhard;";
-    public var lrm = "&lrm;";
-    public var lrtri = "&lrtri;";
-    public var lsaquo = "&lsaquo;";
-    public var lscr = "&lscr;";
-    public var lsh = "&lsh;";
-    public var lsim = "&lsim;";
-    public var lsime = "&lsime;";
-    public var lsimg = "&lsimg;";
-    public var lsqb = "&lsqb;";
-    public var lsquor = "&lsquor;";
-    public var lsquo = "&lsquo;";
-    public var lstrok = "&lstrok;";
-    public var ltcc = "&ltcc;";
-    public var ltcir = "&ltcir;";
-    public var ltdot = "&ltdot;";
-    public var lthree = "&lthree;";
-    public var ltlarr = "&ltlarr;";
-    public var lt = "&lt;";
-    public var ltimes = "&ltimes;";
-    public var ltquest = "&ltquest;";
-    public var ltrPar = "&ltrPar;";
-    public var ltrie = "&ltrie;";
-    public var ltrif = "&ltrif;";
-    public var ltri = "&ltri;";
-    public var lurdshar = "&lurdshar;";
-    public var luruhar = "&luruhar;";
-    public var lvertneqq = "&lvertneqq;";
-    public var lvnE = "&lvnE;";
-    public var mDDot = "&mDDot;";
-    public var macr = "&macr;";
-    public var male = "&male;";
-    public var malt = "&malt;";
-    public var maltese = "&maltese;";
-    public var mapsto = "&mapsto;";
-    public var mapstodown = "&mapstodown;";
-    public var mapstoleft = "&mapstoleft;";
-    public var mapstoup = "&mapstoup;";
-    public var map = "&map;";
-    public var marker = "&marker;";
-    public var mcomma = "&mcomma;";
-    public var mcy = "&mcy;";
-    public var mdash = "&mdash;";
-    public var measuredangle = "&measuredangle;";
-    public var mfr = "&mfr;";
-    public var mho = "&mho;";
-    public var micro = "&micro;";
-    public var midast = "&midast;";
-    public var midcir = "&midcir;";
+    public var Leftrightarrow = "&Leftrightarrow;";
+    public var Longrightarrow = "&Longrightarrow;";
+    public var LessSlantEqual = "&LessSlantEqual;";
+    public var LeftRightArrow = "&LeftRightArrow;";
+    public var LeftDownVector = "&LeftDownVector;";
+    public var LongRightArrow = "&LongRightArrow;";
+    public var LowerLeftArrow = "&LowerLeftArrow;";
+    public var leftharpoondown = "&leftharpoondown;";
+    public var leftrightarrows = "&leftrightarrows;";
+    public var LeftTriangleBar = "&LeftTriangleBar;";
+    public var LeftRightVector = "&LeftRightVector;";
+    public var LowerRightArrow = "&LowerRightArrow;";
+    public var LeftUpVectorBar = "&LeftUpVectorBar;";
+    public var LeftUpTeeVector = "&LeftUpTeeVector;";
+    public var LeftAngleBracket = "&LeftAngleBracket;";
+    public var LessEqualGreater = "&LessEqualGreater;";
+    public var LeftUpDownVector = "&LeftUpDownVector;";
+    public var leftrightharpoons = "&leftrightharpoons;";
+    public var LeftDoubleBracket = "&LeftDoubleBracket;";
+    public var LeftTriangleEqual = "&LeftTriangleEqual;";
+    public var LeftDownVectorBar = "&LeftDownVectorBar;";
+    public var LeftDownTeeVector = "&LeftDownTeeVector;";
+    public var longleftrightarrow = "&longleftrightarrow;";
+    public var Longleftrightarrow = "&Longleftrightarrow;";
+    public var LongLeftRightArrow = "&LongLeftRightArrow;";
+    public var leftrightsquigarrow = "&leftrightsquigarrow;";
+    public var LeftArrowRightArrow = "&LeftArrowRightArrow;";
+    public var mp = "&mp;";
+    public var mu = "&mu;";
+    public var Mu = "&Mu;";
     public var mid = "&mid;";
-    public var middot = "&middot;";
+    public var map = "&map;";
+    public var mho = "&mho;";
+    public var mfr = "&mfr;";
+    public var mcy = "&mcy;";
+    public var Map = "&Map;";
+    public var Mfr = "&Mfr;";
+    public var Mcy = "&Mcy;";
+    public var male = "&male;";
+    public var macr = "&macr;";
+    public var mlcp = "&mlcp;";
+    public var malt = "&malt;";
+    public var mldr = "&mldr;";
+    public var mopf = "&mopf;";
+    public var mscr = "&mscr;";
+    public var Mopf = "&Mopf;";
+    public var Mscr = "&Mscr;";
+    public var mdash = "&mdash;";
+    public var micro = "&micro;";
+    public var mumap = "&mumap;";
     public var minus = "&minus;";
+    public var mDDot = "&mDDot;";
+    public var midcir = "&midcir;";
+    public var mcomma = "&mcomma;";
+    public var middot = "&middot;";
+    public var midast = "&midast;";
+    public var marker = "&marker;";
+    public var models = "&models;";
     public var minusb = "&minusb;";
     public var minusd = "&minusd;";
-    public var minusdu = "&minusdu;";
-    public var mlcp = "&mlcp;";
-    public var mldr = "&mldr;";
+    public var mapsto = "&mapsto;";
     public var mnplus = "&mnplus;";
-    public var models = "&models;";
-    public var mopf = "&mopf;";
-    public var mp = "&mp;";
-    public var mscr = "&mscr;";
     public var mstpos = "&mstpos;";
-    public var mu = "&mu;";
+    public var maltese = "&maltese;";
+    public var minusdu = "&minusdu;";
     public var multimap = "&multimap;";
-    public var mumap = "&mumap;";
-    public var nGg = "&nGg;";
-    public var nGt = "&nGt;";
-    public var nGtv = "&nGtv;";
-    public var nLeftarrow = "&nLeftarrow;";
-    public var nLeftrightarrow = "&nLeftrightarrow;";
-    public var nLl = "&nLl;";
-    public var nLtv = "&nLtv;";
-    public var nLt = "&nLt;";
-    public var nRightarrow = "&nRightarrow;";
-    public var nVDash = "&nVDash;";
-    public var nVdash = "&nVdash;";
-    public var nabla = "&nabla;";
-    public var nacute = "&nacute;";
-    public var nang = "&nang;";
-    public var napid = "&napid;";
-    public var nap = "&nap;";
-    public var napE = "&napE;";
-    public var napos = "&napos;";
-    public var napprox = "&napprox;";
-    public var natural = "&natural;";
-    public var natur = "&natur;";
-    public var naturals = "&naturals;";
-    public var nbsp = "&nbsp;";
-    public var nbump = "&nbump;";
-    public var nbumpe = "&nbumpe;";
-    public var ncap = "&ncap;";
-    public var ncaron = "&ncaron;";
-    public var ncedil = "&ncedil;";
-    public var ncongdot = "&ncongdot;";
-    public var ncong = "&ncong;";
-    public var ncup = "&ncup;";
-    public var ncy = "&ncy;";
-    public var ndash = "&ndash;";
-    public var neArr = "&neArr;";
-    public var nearrow = "&nearrow;";
-    public var nearr = "&nearr;";
-    public var nedot = "&nedot;";
-    public var nesear = "&nesear;";
-    public var nexist = "&nexist;";
+    public var mapstoup = "&mapstoup;";
+    public var Mellintrf = "&Mellintrf;";
+    public var MinusPlus = "&MinusPlus;";
+    public var mapstoleft = "&mapstoleft;";
+    public var mapstodown = "&mapstodown;";
+    public var MediumSpace = "&MediumSpace;";
+    public var measuredangle = "&measuredangle;";
     public var ne = "&ne;";
-    public var nearhk = "&nearhk;";
-    public var nequiv = "&nequiv;";
-    public var nesim = "&nesim;";
-    public var nexists = "&nexists;";
-    public var nfr = "&nfr;";
-    public var ngE = "&ngE;";
-    public var ngeq = "&ngeq;";
-    public var ngeqq = "&ngeqq;";
-    public var ngeqslant = "&ngeqslant;";
-    public var nges = "&nges;";
-    public var nge = "&nge;";
-    public var ngsim = "&ngsim;";
-    public var ngt = "&ngt;";
-    public var ngtr = "&ngtr;";
-    public var nhArr = "&nhArr;";
-    public var nharr = "&nharr;";
-    public var nhpar = "&nhpar;";
-    public var nisd = "&nisd;";
-    public var nis = "&nis;";
-    public var niv = "&niv;";
     public var ni = "&ni;";
-    public var njcy = "&njcy;";
-    public var nlArr = "&nlArr;";
-    public var nlE = "&nlE;";
-    public var nlarr = "&nlarr;";
-    public var nldr = "&nldr;";
-    public var nleftarrow = "&nleftarrow;";
-    public var nleftrightarrow = "&nleftrightarrow;";
-    public var nleq = "&nleq;";
-    public var nleqslant = "&nleqslant;";
-    public var nle = "&nle;";
-    public var nleqq = "&nleqq;";
-    public var nles = "&nles;";
-    public var nless = "&nless;";
-    public var nlsim = "&nlsim;";
-    public var nltrie = "&nltrie;";
-    public var nltri = "&nltri;";
-    public var nlt = "&nlt;";
-    public var nmid = "&nmid;";
-    public var nopf = "&nopf;";
-    public var notinE = "&notinE;";
-    public var notindot = "&notindot;";
-    public var notinva = "&notinva;";
-    public var notinvb = "&notinvb;";
-    public var notinvc = "&notinvc;";
-    public var notin = "&notin;";
-    public var notnivc = "&notnivc;";
-    public var notni = "&notni;";
-    public var notnivb = "&notnivb;";
-    public var not = "&not;";
-    public var notniva = "&notniva;";
-    public var nparsl = "&nparsl;";
-    public var npart = "&npart;";
-    public var npar = "&npar;";
-    public var nparallel = "&nparallel;";
-    public var npolint = "&npolint;";
-    public var nprcue = "&nprcue;";
-    public var npre = "&npre;";
-    public var npreceq = "&npreceq;";
-    public var npr = "&npr;";
-    public var nprec = "&nprec;";
-    public var nrArr = "&nrArr;";
-    public var nrarr = "&nrarr;";
-    public var nrarrc = "&nrarrc;";
-    public var nrarrw = "&nrarrw;";
-    public var nrightarrow = "&nrightarrow;";
-    public var nrtrie = "&nrtrie;";
-    public var nrtri = "&nrtri;";
-    public var nsc = "&nsc;";
-    public var nsccue = "&nsccue;";
-    public var nsce = "&nsce;";
-    public var nscr = "&nscr;";
-    public var nshortmid = "&nshortmid;";
-    public var nshortparallel = "&nshortparallel;";
-    public var nsimeq = "&nsimeq;";
-    public var nsim = "&nsim;";
-    public var nsime = "&nsime;";
-    public var nsmid = "&nsmid;";
-    public var nspar = "&nspar;";
-    public var nsqsube = "&nsqsube;";
-    public var nsqsupe = "&nsqsupe;";
-    public var nsubE = "&nsubE;";
-    public var nsube = "&nsube;";
-    public var nsubseteq = "&nsubseteq;";
-    public var nsubset = "&nsubset;";
-    public var nsubseteqq = "&nsubseteqq;";
-    public var nsub = "&nsub;";
-    public var nsucc = "&nsucc;";
-    public var nsucceq = "&nsucceq;";
-    public var nsup = "&nsup;";
-    public var nsupE = "&nsupE;";
-    public var nsupe = "&nsupe;";
-    public var nsupset = "&nsupset;";
-    public var nsupseteq = "&nsupseteq;";
-    public var nsupseteqq = "&nsupseteqq;";
-    public var ntgl = "&ntgl;";
-    public var ntilde = "&ntilde;";
-    public var ntlg = "&ntlg;";
-    public var ntrianglelefteq = "&ntrianglelefteq;";
-    public var ntriangleleft = "&ntriangleleft;";
-    public var ntrianglerighteq = "&ntrianglerighteq;";
-    public var ntriangleright = "&ntriangleright;";
     public var nu = "&nu;";
+    public var Nu = "&Nu;";
+    public var nge = "&nge;";
+    public var nap = "&nap;";
+    public var nle = "&nle;";
+    public var nsc = "&nsc;";
+    public var nfr = "&nfr;";
+    public var ngt = "&ngt;";
+    public var nis = "&nis;";
+    public var ncy = "&ncy;";
+    public var niv = "&niv;";
+    public var nlt = "&nlt;";
+    public var npr = "&npr;";
     public var num = "&num;";
-    public var numero = "&numero;";
-    public var numsp = "&numsp;";
-    public var nvDash = "&nvDash;";
-    public var nvHarr = "&nvHarr;";
-    public var nvap = "&nvap;";
-    public var nvdash = "&nvdash;";
+    public var not = "&not;";
+    public var ngE = "&ngE;";
+    public var nGg = "&nGg;";
+    public var nlE = "&nlE;";
+    public var nLl = "&nLl;";
+    public var Nfr = "&Nfr;";
+    public var nGt = "&nGt;";
+    public var Ncy = "&Ncy;";
+    public var nLt = "&nLt;";
+    public var Not = "&Not;";
+    public var ncap = "&ncap;";
+    public var nang = "&nang;";
+    public var nmid = "&nmid;";
+    public var nsce = "&nsce;";
+    public var ngeq = "&ngeq;";
+    public var nges = "&nges;";
+    public var nisd = "&nisd;";
+    public var nleq = "&nleq;";
+    public var nldr = "&nldr;";
     public var nvge = "&nvge;";
-    public var nvgt = "&nvgt;";
-    public var nvinfin = "&nvinfin;";
-    public var nvlArr = "&nvlArr;";
+    public var npar = "&npar;";
+    public var nles = "&nles;";
+    public var nbsp = "&nbsp;";
+    public var nopf = "&nopf;";
+    public var njcy = "&njcy;";
     public var nvle = "&nvle;";
+    public var npre = "&npre;";
+    public var ntlg = "&ntlg;";
+    public var nvap = "&nvap;";
+    public var ntgl = "&ntgl;";
+    public var nscr = "&nscr;";
+    public var ncup = "&ncup;";
+    public var nsim = "&nsim;";
+    public var nsub = "&nsub;";
+    public var ngtr = "&ngtr;";
+    public var nvgt = "&nvgt;";
     public var nvlt = "&nvlt;";
-    public var nvltrie = "&nvltrie;";
-    public var nvrArr = "&nvrArr;";
-    public var nvrtrie = "&nvrtrie;";
-    public var nvsim = "&nvsim;";
-    public var nwArr = "&nwArr;";
-    public var nwarhk = "&nwarhk;";
-    public var nwarrow = "&nwarrow;";
+    public var napE = "&napE;";
+    public var nsup = "&nsup;";
+    public var Nopf = "&Nopf;";
+    public var Nscr = "&Nscr;";
+    public var nGtv = "&nGtv;";
+    public var nLtv = "&nLtv;";
+    public var NJcy = "&NJcy;";
+    public var nabla = "&nabla;";
+    public var napid = "&napid;";
+    public var ndash = "&ndash;";
+    public var ncong = "&ncong;";
+    public var nearr = "&nearr;";
+    public var nprec = "&nprec;";
+    public var nhpar = "&nhpar;";
+    public var nedot = "&nedot;";
+    public var nharr = "&nharr;";
+    public var nsmid = "&nsmid;";
+    public var nsucc = "&nsucc;";
+    public var nesim = "&nesim;";
+    public var ngeqq = "&ngeqq;";
+    public var nsime = "&nsime;";
+    public var nsube = "&nsube;";
+    public var ngsim = "&ngsim;";
+    public var nlarr = "&nlarr;";
+    public var napos = "&napos;";
+    public var nleqq = "&nleqq;";
+    public var nbump = "&nbump;";
+    public var nlsim = "&nlsim;";
+    public var nspar = "&nspar;";
+    public var npart = "&npart;";
+    public var nrarr = "&nrarr;";
+    public var nless = "&nless;";
+    public var notin = "&notin;";
+    public var notni = "&notni;";
+    public var nltri = "&nltri;";
+    public var natur = "&natur;";
     public var nwarr = "&nwarr;";
+    public var nsupe = "&nsupe;";
+    public var nvsim = "&nvsim;";
+    public var nrtri = "&nrtri;";
+    public var numsp = "&numsp;";
+    public var neArr = "&neArr;";
+    public var nhArr = "&nhArr;";
+    public var nsubE = "&nsubE;";
+    public var nlArr = "&nlArr;";
+    public var nrArr = "&nrArr;";
+    public var nwArr = "&nwArr;";
+    public var nsupE = "&nsupE;";
+    public var ncedil = "&ncedil;";
+    public var nearhk = "&nearhk;";
+    public var nesear = "&nesear;";
+    public var nacute = "&nacute;";
+    public var ntilde = "&ntilde;";
+    public var nsccue = "&nsccue;";
+    public var ncaron = "&ncaron;";
+    public var nvdash = "&nvdash;";
+    public var nbumpe = "&nbumpe;";
+    public var nrarrc = "&nrarrc;";
+    public var nwarhk = "&nwarhk;";
     public var nwnear = "&nwnear;";
-    public var oS = "&oS;";
-    public var oacute = "&oacute;";
-    public var oast = "&oast;";
-    public var ocirc = "&ocirc;";
-    public var ocir = "&ocir;";
-    public var ocy = "&ocy;";
-    public var odash = "&odash;";
-    public var odblac = "&odblac;";
-    public var odiv = "&odiv;";
-    public var odot = "&odot;";
-    public var odsold = "&odsold;";
-    public var oelig = "&oelig;";
-    public var ofcir = "&ofcir;";
-    public var ofr = "&ofr;";
-    public var ogon = "&ogon;";
-    public var ograve = "&ograve;";
-    public var ogt = "&ogt;";
-    public var ohbar = "&ohbar;";
-    public var ohm = "&ohm;";
-    public var oint = "&oint;";
-    public var olarr = "&olarr;";
-    public var olcir = "&olcir;";
-    public var olcross = "&olcross;";
-    public var oline = "&oline;";
-    public var olt = "&olt;";
-    public var omacr = "&omacr;";
-    public var omega = "&omega;";
-    public var omicron = "&omicron;";
-    public var omid = "&omid;";
-    public var ominus = "&ominus;";
-    public var oopf = "&oopf;";
-    public var opar = "&opar;";
-    public var operp = "&operp;";
-    public var oplus = "&oplus;";
-    public var ordm = "&ordm;";
+    public var nsimeq = "&nsimeq;";
+    public var nprcue = "&nprcue;";
+    public var nltrie = "&nltrie;";
+    public var Ncedil = "&Ncedil;";
+    public var nparsl = "&nparsl;";
+    public var nrtrie = "&nrtrie;";
+    public var numero = "&numero;";
+    public var nequiv = "&nequiv;";
+    public var nexist = "&nexist;";
+    public var nrarrw = "&nrarrw;";
+    public var Nacute = "&Nacute;";
+    public var Ntilde = "&Ntilde;";
+    public var Ncaron = "&Ncaron;";
+    public var nvDash = "&nvDash;";
+    public var nVdash = "&nVdash;";
+    public var notinE = "&notinE;";
+    public var nvHarr = "&nvHarr;";
+    public var nvlArr = "&nvlArr;";
+    public var nvrArr = "&nvrArr;";
+    public var nVDash = "&nVDash;";
+    public var npreceq = "&npreceq;";
+    public var nsucceq = "&nsucceq;";
+    public var natural = "&natural;";
+    public var nvinfin = "&nvinfin;";
+    public var nearrow = "&nearrow;";
+    public var notinva = "&notinva;";
+    public var notniva = "&notniva;";
+    public var notinvb = "&notinvb;";
+    public var notnivb = "&notnivb;";
+    public var notinvc = "&notinvc;";
+    public var nsqsube = "&nsqsube;";
+    public var notnivc = "&notnivc;";
+    public var npolint = "&npolint;";
+    public var nsubset = "&nsubset;";
+    public var nvltrie = "&nvltrie;";
+    public var napprox = "&napprox;";
+    public var nvrtrie = "&nvrtrie;";
+    public var nexists = "&nexists;";
+    public var nsqsupe = "&nsqsupe;";
+    public var nwarrow = "&nwarrow;";
+    public var nsupset = "&nsupset;";
+    public var NoBreak = "&NoBreak;";
+    public var NewLine = "&NewLine;";
+    public var NotLess = "&NotLess;";
+    public var ncongdot = "&ncongdot;";
+    public var naturals = "&naturals;";
+    public var notindot = "&notindot;";
+    public var NotTilde = "&NotTilde;";
+    public var NotEqual = "&NotEqual;";
+    public var nparallel = "&nparallel;";
+    public var ngeqslant = "&ngeqslant;";
+    public var nleqslant = "&nleqslant;";
+    public var nshortmid = "&nshortmid;";
+    public var nsubseteq = "&nsubseteq;";
+    public var nsupseteq = "&nsupseteq;";
+    public var NotSubset = "&NotSubset;";
+    public var NotCupCap = "&NotCupCap;";
+    public var NotExists = "&NotExists;";
+    public var nleftarrow = "&nleftarrow;";
+    public var nsubseteqq = "&nsubseteqq;";
+    public var nsupseteqq = "&nsupseteqq;";
+    public var nLeftarrow = "&nLeftarrow;";
+    public var NotGreater = "&NotGreater;";
+    public var NotElement = "&NotElement;";
+    public var nrightarrow = "&nrightarrow;";
+    public var nRightarrow = "&nRightarrow;";
+    public var NotPrecedes = "&NotPrecedes;";
+    public var NotSucceeds = "&NotSucceeds;";
+    public var NotSuperset = "&NotSuperset;";
+    public var NotLessLess = "&NotLessLess;";
+    public var NotCongruent = "&NotCongruent;";
+    public var NotLessTilde = "&NotLessTilde;";
+    public var NotLessEqual = "&NotLessEqual;";
+    public var NotHumpEqual = "&NotHumpEqual;";
+    public var ntriangleleft = "&ntriangleleft;";
+    public var NotTildeTilde = "&NotTildeTilde;";
+    public var NotEqualTilde = "&NotEqualTilde;";
+    public var NotTildeEqual = "&NotTildeEqual;";
+    public var ntriangleright = "&ntriangleright;";
+    public var nshortparallel = "&nshortparallel;";
+    public var NotVerticalBar = "&NotVerticalBar;";
+    public var NestedLessLess = "&NestedLessLess;";
+    public var NotGreaterLess = "&NotGreaterLess;";
+    public var NotLessGreater = "&NotLessGreater;";
+    public var NotSubsetEqual = "&NotSubsetEqual;";
+    public var ntrianglelefteq = "&ntrianglelefteq;";
+    public var nleftrightarrow = "&nleftrightarrow;";
+    public var nLeftrightarrow = "&nLeftrightarrow;";
+    public var NotGreaterTilde = "&NotGreaterTilde;";
+    public var NotLeftTriangle = "&NotLeftTriangle;";
+    public var NotGreaterEqual = "&NotGreaterEqual;";
+    public var NotSquareSubset = "&NotSquareSubset;";
+    public var NotHumpDownHump = "&NotHumpDownHump;";
+    public var ntrianglerighteq = "&ntrianglerighteq;";
+    public var NonBreakingSpace = "&NonBreakingSpace;";
+    public var NotSucceedsTilde = "&NotSucceedsTilde;";
+    public var NotPrecedesEqual = "&NotPrecedesEqual;";
+    public var NotSucceedsEqual = "&NotSucceedsEqual;";
+    public var NotRightTriangle = "&NotRightTriangle;";
+    public var NotSupersetEqual = "&NotSupersetEqual;";
+    public var NegativeThinSpace = "&NegativeThinSpace;";
+    public var NotGreaterGreater = "&NotGreaterGreater;";
+    public var NotReverseElement = "&NotReverseElement;";
+    public var NotTildeFullEqual = "&NotTildeFullEqual;";
+    public var NotSquareSuperset = "&NotSquareSuperset;";
+    public var NotLessSlantEqual = "&NotLessSlantEqual;";
+    public var NotNestedLessLess = "&NotNestedLessLess;";
+    public var NegativeThickSpace = "&NegativeThickSpace;";
+    public var NotLeftTriangleBar = "&NotLeftTriangleBar;";
+    public var NegativeMediumSpace = "&NegativeMediumSpace;";
+    public var NotRightTriangleBar = "&NotRightTriangleBar;";
+    public var NotGreaterFullEqual = "&NotGreaterFullEqual;";
+    public var NestedGreaterGreater = "&NestedGreaterGreater;";
+    public var NotDoubleVerticalBar = "&NotDoubleVerticalBar;";
+    public var NotLeftTriangleEqual = "&NotLeftTriangleEqual;";
+    public var NotGreaterSlantEqual = "&NotGreaterSlantEqual;";
+    public var NotSquareSubsetEqual = "&NotSquareSubsetEqual;";
+    public var NotPrecedesSlantEqual = "&NotPrecedesSlantEqual;";
+    public var NegativeVeryThinSpace = "&NegativeVeryThinSpace;";
+    public var NotSucceedsSlantEqual = "&NotSucceedsSlantEqual;";
+    public var NotRightTriangleEqual = "&NotRightTriangleEqual;";
+    public var NotSquareSupersetEqual = "&NotSquareSupersetEqual;";
+    public var NotNestedGreaterGreater = "&NotNestedGreaterGreater;";
     public var or = "&or;";
-    public var orarr = "&orarr;";
-    public var order = "&order;";
+    public var Or = "&Or;";
+    public var oS = "&oS;";
+    public var ohm = "&ohm;";
     public var ord = "&ord;";
-    public var orderof = "&orderof;";
-    public var ordf = "&ordf;";
-    public var origof = "&origof;";
-    public var oror = "&oror;";
-    public var orslope = "&orslope;";
+    public var ofr = "&ofr;";
+    public var ogt = "&ogt;";
+    public var ocy = "&ocy;";
+    public var olt = "&olt;";
     public var orv = "&orv;";
+    public var Ofr = "&Ofr;";
+    public var Ocy = "&Ocy;";
+    public var omid = "&omid;";
+    public var ordf = "&ordf;";
+    public var ocir = "&ocir;";
+    public var ordm = "&ordm;";
+    public var opar = "&opar;";
+    public var odiv = "&odiv;";
+    public var ogon = "&ogon;";
+    public var oopf = "&oopf;";
+    public var odot = "&odot;";
     public var oscr = "&oscr;";
-    public var oslash = "&oslash;";
-    public var osol = "&osol;";
-    public var otilde = "&otilde;";
-    public var otimes = "&otimes;";
-    public var otimesas = "&otimesas;";
+    public var oast = "&oast;";
+    public var oint = "&oint;";
     public var ouml = "&ouml;";
+    public var osol = "&osol;";
+    public var oror = "&oror;";
+    public var Oopf = "&Oopf;";
+    public var Oscr = "&Oscr;";
+    public var Ouml = "&Ouml;";
+    public var omega = "&omega;";
+    public var ohbar = "&ohbar;";
+    public var odash = "&odash;";
+    public var ocirc = "&ocirc;";
+    public var oelig = "&oelig;";
+    public var omacr = "&omacr;";
+    public var ofcir = "&ofcir;";
+    public var oline = "&oline;";
+    public var olcir = "&olcir;";
     public var ovbar = "&ovbar;";
-    public var parallel = "&parallel;";
-    public var para = "&para;";
-    public var parsim = "&parsim;";
-    public var parsl = "&parsl;";
-    public var part = "&part;";
-    public var par = "&par;";
-    public var pcy = "&pcy;";
-    public var percnt = "&percnt;";
-    public var period = "&period;";
-    public var permil = "&permil;";
-    public var perp = "&perp;";
-    public var pertenk = "&pertenk;";
-    public var pfr = "&pfr;";
-    public var phi = "&phi;";
-    public var phiv = "&phiv;";
-    public var phmmat = "&phmmat;";
-    public var phone = "&phone;";
-    public var pitchfork = "&pitchfork;";
+    public var order = "&order;";
+    public var olarr = "&olarr;";
+    public var operp = "&operp;";
+    public var orarr = "&orarr;";
+    public var Omega = "&Omega;";
+    public var Ocirc = "&Ocirc;";
+    public var Omacr = "&Omacr;";
+    public var oplus = "&oplus;";
+    public var OElig = "&OElig;";
+    public var odblac = "&odblac;";
+    public var otilde = "&otilde;";
+    public var oacute = "&oacute;";
+    public var ograve = "&ograve;";
+    public var odsold = "&odsold;";
+    public var Odblac = "&Odblac;";
+    public var origof = "&origof;";
+    public var oslash = "&oslash;";
+    public var otimes = "&otimes;";
+    public var ominus = "&ominus;";
+    public var Oacute = "&Oacute;";
+    public var Otilde = "&Otilde;";
+    public var Ograve = "&Ograve;";
+    public var Oslash = "&Oslash;";
+    public var Otimes = "&Otimes;";
+    public var orderof = "&orderof;";
+    public var omicron = "&omicron;";
+    public var orslope = "&orslope;";
+    public var olcross = "&olcross;";
+    public var Omicron = "&Omicron;";
+    public var OverBar = "&OverBar;";
+    public var otimesas = "&otimesas;";
+    public var OverBrace = "&OverBrace;";
+    public var OverBracket = "&OverBracket;";
+    public var OpenCurlyQuote = "&OpenCurlyQuote;";
+    public var OverParenthesis = "&OverParenthesis;";
+    public var OpenCurlyDoubleQuote = "&OpenCurlyDoubleQuote;";
     public var pi = "&pi;";
+    public var pm = "&pm;";
+    public var pr = "&pr;";
+    public var Pi = "&Pi;";
+    public var Pr = "&Pr;";
+    public var phi = "&phi;";
+    public var par = "&par;";
+    public var pre = "&pre;";
+    public var pfr = "&pfr;";
+    public var psi = "&psi;";
+    public var pcy = "&pcy;";
     public var piv = "&piv;";
+    public var Phi = "&Phi;";
+    public var prE = "&prE;";
+    public var Pfr = "&Pfr;";
+    public var Psi = "&Psi;";
+    public var Pcy = "&Pcy;";
+    public var para = "&para;";
+    public var prec = "&prec;";
+    public var prap = "&prap;";
+    public var popf = "&popf;";
+    public var prod = "&prod;";
+    public var perp = "&perp;";
+    public var part = "&part;";
+    public var phiv = "&phiv;";
+    public var pscr = "&pscr;";
+    public var prop = "&prop;";
+    public var plus = "&plus;";
+    public var Popf = "&Popf;";
+    public var prnE = "&prnE;";
+    public var Pscr = "&Pscr;";
+    public var phone = "&phone;";
+    public var prime = "&prime;";
+    public var prcue = "&prcue;";
+    public var prnap = "&prnap;";
+    public var parsl = "&parsl;";
+    public var pound = "&pound;";
+    public var plusb = "&plusb;";
+    public var pluse = "&pluse;";
+    public var prsim = "&prsim;";
+    public var Prime = "&Prime;";
     public var planck = "&planck;";
-    public var planckh = "&planckh;";
+    public var preceq = "&preceq;";
+    public var period = "&period;";
+    public var phmmat = "&phmmat;";
+    public var permil = "&permil;";
     public var plankv = "&plankv;";
+    public var percnt = "&percnt;";
+    public var parsim = "&parsim;";
+    public var primes = "&primes;";
+    public var plusdo = "&plusdo;";
+    public var prnsim = "&prnsim;";
+    public var puncsp = "&puncsp;";
+    public var prurel = "&prurel;";
     public var plusdu = "&plusdu;";
     public var plusmn = "&plusmn;";
-    public var plustwo = "&plustwo;";
-    public var plus = "&plus;";
-    public var plusacir = "&plusacir;";
-    public var plusb = "&plusb;";
-    public var pluscir = "&pluscir;";
-    public var plusdo = "&plusdo;";
-    public var pluse = "&pluse;";
-    public var plussim = "&plussim;";
-    public var pm = "&pm;";
-    public var pointint = "&pointint;";
-    public var popf = "&popf;";
-    public var pound = "&pound;";
-    public var prE = "&prE;";
-    public var prap = "&prap;";
-    public var prcue = "&prcue;";
-    public var precapprox = "&precapprox;";
-    public var preccurlyeq = "&preccurlyeq;";
-    public var preceq = "&preceq;";
-    public var precneqq = "&precneqq;";
-    public var prnsim = "&prnsim;";
-    public var pr = "&pr;";
-    public var precnapprox = "&precnapprox;";
-    public var pre = "&pre;";
-    public var precnsim = "&precnsim;";
-    public var precsim = "&precsim;";
-    public var prec = "&prec;";
-    public var primes = "&primes;";
-    public var prime = "&prime;";
-    public var prnE = "&prnE;";
-    public var prnap = "&prnap;";
-    public var prod = "&prod;";
-    public var profalar = "&profalar;";
-    public var profline = "&profline;";
-    public var profsurf = "&profsurf;";
-    public var prop = "&prop;";
     public var propto = "&propto;";
-    public var prsim = "&prsim;";
-    public var prurel = "&prurel;";
-    public var pscr = "&pscr;";
-    public var psi = "&psi;";
-    public var puncsp = "&puncsp;";
+    public var planckh = "&planckh;";
+    public var precsim = "&precsim;";
+    public var pertenk = "&pertenk;";
+    public var pluscir = "&pluscir;";
+    public var plussim = "&plussim;";
+    public var plustwo = "&plustwo;";
+    public var Product = "&Product;";
+    public var parallel = "&parallel;";
+    public var profalar = "&profalar;";
+    public var precneqq = "&precneqq;";
+    public var profline = "&profline;";
+    public var precnsim = "&precnsim;";
+    public var plusacir = "&plusacir;";
+    public var Precedes = "&Precedes;";
+    public var pointint = "&pointint;";
+    public var profsurf = "&profsurf;";
+    public var PartialD = "&PartialD;";
+    public var pitchfork = "&pitchfork;";
+    public var PlusMinus = "&PlusMinus;";
+    public var precapprox = "&precapprox;";
+    public var Proportion = "&Proportion;";
+    public var preccurlyeq = "&preccurlyeq;";
+    public var precnapprox = "&precnapprox;";
+    public var Proportional = "&Proportional;";
+    public var Poincareplane = "&Poincareplane;";
+    public var PrecedesTilde = "&PrecedesTilde;";
+    public var PrecedesEqual = "&PrecedesEqual;";
+    public var PrecedesSlantEqual = "&PrecedesSlantEqual;";
     public var qfr = "&qfr;";
-    public var qint = "&qint;";
+    public var Qfr = "&Qfr;";
     public var qopf = "&qopf;";
-    public var qprime = "&qprime;";
     public var qscr = "&qscr;";
-    public var quaternions = "&quaternions;";
-    public var quatint = "&quatint;";
-    public var quest = "&quest;";
-    public var questeq = "&questeq;";
+    public var qint = "&qint;";
     public var quot = "&quot;";
-    public var rAarr = "&rAarr;";
-    public var rArr = "&rArr;";
-    public var rAtail = "&rAtail;";
-    public var rBarr = "&rBarr;";
-    public var rHar = "&rHar;";
-    public var race = "&race;";
-    public var racute = "&racute;";
-    public var radic = "&radic;";
-    public var raemptyv = "&raemptyv;";
-    public var rangd = "&rangd;";
-    public var rangle = "&rangle;";
-    public var rang = "&rang;";
-    public var range = "&range;";
-    public var raquo = "&raquo;";
-    public var rarrap = "&rarrap;";
-    public var rarrbfs = "&rarrbfs;";
-    public var rarrc = "&rarrc;";
-    public var rarr = "&rarr;";
-    public var rarrb = "&rarrb;";
-    public var rarrfs = "&rarrfs;";
-    public var rarrhk = "&rarrhk;";
-    public var rarrlp = "&rarrlp;";
-    public var rarrpl = "&rarrpl;";
-    public var rarrsim = "&rarrsim;";
-    public var rarrtl = "&rarrtl;";
-    public var rarrw = "&rarrw;";
-    public var ratail = "&ratail;";
-    public var rationals = "&rationals;";
-    public var ratio = "&ratio;";
-    public var rbarr = "&rbarr;";
-    public var rbbrk = "&rbbrk;";
-    public var rbrace = "&rbrace;";
-    public var rbrack = "&rbrack;";
-    public var rbrke = "&rbrke;";
-    public var rbrksld = "&rbrksld;";
-    public var rbrkslu = "&rbrkslu;";
-    public var rcaron = "&rcaron;";
-    public var rcedil = "&rcedil;";
-    public var rceil = "&rceil;";
-    public var rcub = "&rcub;";
-    public var rcy = "&rcy;";
-    public var rdca = "&rdca;";
-    public var rdldhar = "&rdldhar;";
-    public var rdquor = "&rdquor;";
-    public var rdquo = "&rdquo;";
-    public var rdsh = "&rdsh;";
-    public var real = "&real;";
-    public var realine = "&realine;";
-    public var realpart = "&realpart;";
-    public var reals = "&reals;";
-    public var rect = "&rect;";
+    public var Qopf = "&Qopf;";
+    public var Qscr = "&Qscr;";
+    public var QUOT = "&QUOT;";
+    public var quest = "&quest;";
+    public var qprime = "&qprime;";
+    public var quatint = "&quatint;";
+    public var questeq = "&questeq;";
+    public var quaternions = "&quaternions;";
+    public var rx = "&rx;";
+    public var Re = "&Re;";
     public var reg = "&reg;";
-    public var rfisht = "&rfisht;";
-    public var rfloor = "&rfloor;";
-    public var rfr = "&rfr;";
-    public var rhard = "&rhard;";
-    public var rharul = "&rharul;";
-    public var rharu = "&rharu;";
     public var rho = "&rho;";
-    public var rhov = "&rhov;";
-    public var rightarrow = "&rightarrow;";
-    public var rightarrowtail = "&rightarrowtail;";
-    public var rightharpoondown = "&rightharpoondown;";
-    public var rightharpoonup = "&rightharpoonup;";
-    public var rightleftarrows = "&rightleftarrows;";
-    public var rightleftharpoons = "&rightleftharpoons;";
-    public var rightrightarrows = "&rightrightarrows;";
-    public var rightsquigarrow = "&rightsquigarrow;";
-    public var rightthreetimes = "&rightthreetimes;";
-    public var ring = "&ring;";
-    public var risingdotseq = "&risingdotseq;";
-    public var rlarr = "&rlarr;";
-    public var rlhar = "&rlhar;";
+    public var rfr = "&rfr;";
     public var rlm = "&rlm;";
-    public var rmoust = "&rmoust;";
-    public var rmoustache = "&rmoustache;";
-    public var rnmid = "&rnmid;";
-    public var roang = "&roang;";
-    public var roarr = "&roarr;";
-    public var robrk = "&robrk;";
-    public var ropar = "&ropar;";
-    public var ropf = "&ropf;";
-    public var roplus = "&roplus;";
-    public var rotimes = "&rotimes;";
-    public var rpar = "&rpar;";
-    public var rpargt = "&rpargt;";
-    public var rppolint = "&rppolint;";
-    public var rrarr = "&rrarr;";
-    public var rsaquo = "&rsaquo;";
-    public var rscr = "&rscr;";
     public var rsh = "&rsh;";
+    public var rcy = "&rcy;";
+    public var Rho = "&Rho;";
+    public var Rfr = "&Rfr;";
+    public var Rsh = "&Rsh;";
+    public var Rcy = "&Rcy;";
+    public var REG = "&REG;";
+    public var rdca = "&rdca;";
+    public var race = "&race;";
+    public var real = "&real;";
+    public var rang = "&rang;";
+    public var rcub = "&rcub;";
+    public var rect = "&rect;";
+    public var ring = "&ring;";
+    public var rdsh = "&rdsh;";
+    public var rpar = "&rpar;";
+    public var rarr = "&rarr;";
+    public var ropf = "&ropf;";
     public var rsqb = "&rsqb;";
-    public var rsquo = "&rsquo;";
-    public var rsquor = "&rsquor;";
-    public var rthree = "&rthree;";
-    public var rtimes = "&rtimes;";
+    public var rscr = "&rscr;";
+    public var rhov = "&rhov;";
+    public var rtri = "&rtri;";
+    public var Rang = "&Rang;";
+    public var rHar = "&rHar;";
+    public var Rarr = "&Rarr;";
+    public var Ropf = "&Ropf;";
+    public var rArr = "&rArr;";
+    public var Rscr = "&Rscr;";
+    public var radic = "&radic;";
+    public var rangd = "&rangd;";
+    public var range = "&range;";
+    public var rceil = "&rceil;";
+    public var rhard = "&rhard;";
+    public var rbbrk = "&rbbrk;";
+    public var rbrke = "&rbrke;";
+    public var roang = "&roang;";
+    public var reals = "&reals;";
+    public var rbarr = "&rbarr;";
+    public var rlhar = "&rlhar;";
+    public var rarrb = "&rarrb;";
+    public var rarrc = "&rarrc;";
+    public var rnmid = "&rnmid;";
+    public var ratio = "&ratio;";
+    public var robrk = "&robrk;";
+    public var rharu = "&rharu;";
+    public var rlarr = "&rlarr;";
+    public var ropar = "&ropar;";
+    public var roarr = "&roarr;";
     public var rtrie = "&rtrie;";
     public var rtrif = "&rtrif;";
-    public var rtriltri = "&rtriltri;";
-    public var rtri = "&rtri;";
+    public var raquo = "&raquo;";
+    public var rrarr = "&rrarr;";
+    public var rdquo = "&rdquo;";
+    public var rarrw = "&rarrw;";
+    public var rAarr = "&rAarr;";
+    public var rBarr = "&rBarr;";
+    public var rsquo = "&rsquo;";
+    public var RBarr = "&RBarr;";
+    public var rbrace = "&rbrace;";
+    public var rcedil = "&rcedil;";
+    public var rbrack = "&rbrack;";
+    public var rangle = "&rangle;";
+    public var ratail = "&ratail;";
+    public var racute = "&racute;";
+    public var rcaron = "&rcaron;";
+    public var rarrap = "&rarrap;";
+    public var rthree = "&rthree;";
+    public var rarrhk = "&rarrhk;";
+    public var rharul = "&rharul;";
+    public var rarrfs = "&rarrfs;";
+    public var rfisht = "&rfisht;";
+    public var rpargt = "&rpargt;";
+    public var rarrpl = "&rarrpl;";
+    public var Rcedil = "&Rcedil;";
+    public var rarrlp = "&rarrlp;";
+    public var rfloor = "&rfloor;";
+    public var rtimes = "&rtimes;";
+    public var rarrtl = "&rarrtl;";
+    public var rsaquo = "&rsaquo;";
+    public var rdquor = "&rdquor;";
+    public var rAtail = "&rAtail;";
+    public var Racute = "&Racute;";
+    public var roplus = "&roplus;";
+    public var Rcaron = "&Rcaron;";
+    public var rmoust = "&rmoust;";
+    public var rsquor = "&rsquor;";
+    public var Rarrtl = "&Rarrtl;";
+    public var realine = "&realine;";
+    public var rdldhar = "&rdldhar;";
+    public var rarrbfs = "&rarrbfs;";
+    public var rbrksld = "&rbrksld;";
+    public var rarrsim = "&rarrsim;";
     public var ruluhar = "&ruluhar;";
-    public var rx = "&rx;";
-    public var sacute = "&sacute;";
-    public var sbquo = "&sbquo;";
-    public var scE = "&scE;";
-    public var scap = "&scap;";
-    public var scaron = "&scaron;";
-    public var scirc = "&scirc;";
-    public var scnE = "&scnE;";
-    public var scnap = "&scnap;";
+    public var rotimes = "&rotimes;";
+    public var rbrkslu = "&rbrkslu;";
+    public var realpart = "&realpart;";
+    public var raemptyv = "&raemptyv;";
+    public var rppolint = "&rppolint;";
+    public var rtriltri = "&rtriltri;";
+    public var RightTee = "&RightTee;";
+    public var rationals = "&rationals;";
+    public var rmoustache = "&rmoustache;";
+    public var rightarrow = "&rightarrow;";
+    public var Rightarrow = "&Rightarrow;";
+    public var RightFloor = "&RightFloor;";
+    public var RightArrow = "&RightArrow;";
+    public var RuleDelayed = "&RuleDelayed;";
+    public var Rrightarrow = "&Rrightarrow;";
+    public var RightVector = "&RightVector;";
+    public var risingdotseq = "&risingdotseq;";
+    public var RightCeiling = "&RightCeiling;";
+    public var RoundImplies = "&RoundImplies;";
+    public var RightTriangle = "&RightTriangle;";
+    public var RightArrowBar = "&RightArrowBar;";
+    public var RightTeeArrow = "&RightTeeArrow;";
+    public var RightUpVector = "&RightUpVector;";
+    public var rightarrowtail = "&rightarrowtail;";
+    public var rightharpoonup = "&rightharpoonup;";
+    public var ReverseElement = "&ReverseElement;";
+    public var RightVectorBar = "&RightVectorBar;";
+    public var RightTeeVector = "&RightTeeVector;";
+    public var rightthreetimes = "&rightthreetimes;";
+    public var rightleftarrows = "&rightleftarrows;";
+    public var rightsquigarrow = "&rightsquigarrow;";
+    public var RightDownVector = "&RightDownVector;";
+    public var rightharpoondown = "&rightharpoondown;";
+    public var rightrightarrows = "&rightrightarrows;";
+    public var RightTriangleBar = "&RightTriangleBar;";
+    public var RightUpVectorBar = "&RightUpVectorBar;";
+    public var RightUpTeeVector = "&RightUpTeeVector;";
+    public var rightleftharpoons = "&rightleftharpoons;";
+    public var RightAngleBracket = "&RightAngleBracket;";
+    public var RightUpDownVector = "&RightUpDownVector;";
+    public var RightDoubleBracket = "&RightDoubleBracket;";
+    public var ReverseEquilibrium = "&ReverseEquilibrium;";
+    public var RightTriangleEqual = "&RightTriangleEqual;";
+    public var RightDownVectorBar = "&RightDownVectorBar;";
+    public var RightDownTeeVector = "&RightDownTeeVector;";
+    public var RightArrowLeftArrow = "&RightArrowLeftArrow;";
+    public var ReverseUpEquilibrium = "&ReverseUpEquilibrium;";
     public var sc = "&sc;";
-    public var sccue = "&sccue;";
-    public var scedil = "&scedil;";
+    public var Sc = "&Sc;";
     public var sce = "&sce;";
-    public var scnsim = "&scnsim;";
-    public var scpolint = "&scpolint;";
-    public var scsim = "&scsim;";
-    public var scy = "&scy;";
-    public var sdot = "&sdot;";
-    public var sdotb = "&sdotb;";
-    public var sdote = "&sdote;";
-    public var seArr = "&seArr;";
-    public var searhk = "&searhk;";
-    public var searr = "&searr;";
-    public var searrow = "&searrow;";
-    public var sect = "&sect;";
-    public var semi = "&semi;";
-    public var seswar = "&seswar;";
-    public var setminus = "&setminus;";
-    public var setmn = "&setmn;";
-    public var sext = "&sext;";
-    public var sfrown = "&sfrown;";
-    public var sfr = "&sfr;";
-    public var sharp = "&sharp;";
-    public var shchcy = "&shchcy;";
-    public var shcy = "&shcy;";
-    public var shortmid = "&shortmid;";
-    public var shortparallel = "&shortparallel;";
-    public var shy = "&shy;";
-    public var sigmav = "&sigmav;";
-    public var sigma = "&sigma;";
-    public var sigmaf = "&sigmaf;";
     public var sim = "&sim;";
-    public var simdot = "&simdot;";
-    public var simeq = "&simeq;";
-    public var sime = "&sime;";
-    public var simg = "&simg;";
-    public var simgE = "&simgE;";
-    public var siml = "&siml;";
-    public var simlE = "&simlE;";
-    public var simne = "&simne;";
-    public var simplus = "&simplus;";
-    public var simrarr = "&simrarr;";
-    public var slarr = "&slarr;";
-    public var smallsetminus = "&smallsetminus;";
-    public var smashp = "&smashp;";
-    public var smeparsl = "&smeparsl;";
-    public var smid = "&smid;";
-    public var smile = "&smile;";
-    public var smtes = "&smtes;";
-    public var smte = "&smte;";
-    public var smt = "&smt;";
-    public var softcy = "&softcy;";
-    public var sol = "&sol;";
-    public var solbar = "&solbar;";
-    public var solb = "&solb;";
-    public var sopf = "&sopf;";
-    public var spades = "&spades;";
-    public var spadesuit = "&spadesuit;";
-    public var spar = "&spar;";
-    public var sqcap = "&sqcap;";
-    public var sqcaps = "&sqcaps;";
-    public var sqcups = "&sqcups;";
-    public var sqcup = "&sqcup;";
-    public var sqsube = "&sqsube;";
-    public var sqsub = "&sqsub;";
-    public var sqsubset = "&sqsubset;";
-    public var sqsubseteq = "&sqsubseteq;";
-    public var sqsupset = "&sqsupset;";
-    public var sqsup = "&sqsup;";
-    public var sqsupe = "&sqsupe;";
-    public var sqsupseteq = "&sqsupseteq;";
-    public var square = "&square;";
-    public var squarf = "&squarf;";
-    public var squf = "&squf;";
-    public var squ = "&squ;";
-    public var srarr = "&srarr;";
-    public var sscr = "&sscr;";
-    public var ssetmn = "&ssetmn;";
-    public var ssmile = "&ssmile;";
-    public var sstarf = "&sstarf;";
-    public var star = "&star;";
-    public var starf = "&starf;";
-    public var straightepsilon = "&straightepsilon;";
-    public var straightphi = "&straightphi;";
-    public var strns = "&strns;";
-    public var subE = "&subE;";
-    public var subdot = "&subdot;";
-    public var sube = "&sube;";
-    public var subedot = "&subedot;";
-    public var submult = "&submult;";
-    public var subnE = "&subnE;";
-    public var subne = "&subne;";
-    public var subplus = "&subplus;";
-    public var subrarr = "&subrarr;";
-    public var subseteqq = "&subseteqq;";
     public var sub = "&sub;";
-    public var subseteq = "&subseteq;";
-    public var subsetneqq = "&subsetneqq;";
-    public var subset = "&subset;";
-    public var subsetneq = "&subsetneq;";
-    public var subsim = "&subsim;";
-    public var subsub = "&subsub;";
-    public var subsup = "&subsup;";
-    public var succ = "&succ;";
-    public var succapprox = "&succapprox;";
-    public var succcurlyeq = "&succcurlyeq;";
-    public var succeq = "&succeq;";
-    public var succnapprox = "&succnapprox;";
-    public var succneqq = "&succneqq;";
-    public var succnsim = "&succnsim;";
-    public var succsim = "&succsim;";
+    public var sfr = "&sfr;";
+    public var sol = "&sol;";
+    public var scy = "&scy;";
+    public var shy = "&shy;";
+    public var smt = "&smt;";
     public var sum = "&sum;";
-    public var sung = "&sung;";
+    public var sup = "&sup;";
+    public var squ = "&squ;";
+    public var scE = "&scE;";
+    public var Sub = "&Sub;";
+    public var Sfr = "&Sfr;";
+    public var Scy = "&Scy;";
+    public var Sum = "&Sum;";
+    public var Sup = "&Sup;";
+    public var scap = "&scap;";
     public var sup1 = "&sup1;";
     public var sup2 = "&sup2;";
     public var sup3 = "&sup3;";
-    public var supE = "&supE;";
-    public var supdot = "&supdot;";
-    public var supdsub = "&supdsub;";
-    public var supedot = "&supedot;";
+    public var smid = "&smid;";
+    public var succ = "&succ;";
+    public var semi = "&semi;";
+    public var sime = "&sime;";
+    public var sube = "&sube;";
+    public var sect = "&sect;";
+    public var simg = "&simg;";
+    public var solb = "&solb;";
+    public var siml = "&siml;";
+    public var spar = "&spar;";
+    public var shcy = "&shcy;";
+    public var sopf = "&sopf;";
+    public var smte = "&smte;";
+    public var sdot = "&sdot;";
+    public var star = "&star;";
+    public var sscr = "&sscr;";
+    public var sung = "&sung;";
     public var supe = "&supe;";
-    public var suphsol = "&suphsol;";
-    public var suphsub = "&suphsub;";
-    public var suplarr = "&suplarr;";
-    public var supmult = "&supmult;";
-    public var supnE = "&supnE;";
-    public var supne = "&supne;";
-    public var supplus = "&supplus;";
-    public var supseteqq = "&supseteqq;";
-    public var supseteq = "&supseteq;";
-    public var supsetneq = "&supsetneq;";
-    public var supsetneqq = "&supsetneqq;";
-    public var supsub = "&supsub;";
-    public var supsup = "&supsup;";
-    public var sup = "&sup;";
-    public var supset = "&supset;";
-    public var supsim = "&supsim;";
-    public var swArr = "&swArr;";
-    public var swarhk = "&swarhk;";
-    public var swarr = "&swarr;";
-    public var swarrow = "&swarrow;";
-    public var swnwar = "&swnwar;";
+    public var squf = "&squf;";
+    public var sext = "&sext;";
+    public var scnE = "&scnE;";
+    public var subE = "&subE;";
+    public var Sopf = "&Sopf;";
+    public var Star = "&Star;";
+    public var Sscr = "&Sscr;";
+    public var supE = "&supE;";
+    public var Sqrt = "&Sqrt;";
+    public var SHcy = "&SHcy;";
+    public var sigma = "&sigma;";
+    public var sccue = "&sccue;";
+    public var scirc = "&scirc;";
+    public var scnap = "&scnap;";
+    public var sqcap = "&sqcap;";
+    public var smile = "&smile;";
+    public var simne = "&simne;";
+    public var sdotb = "&sdotb;";
+    public var searr = "&searr;";
+    public var subne = "&subne;";
+    public var sharp = "&sharp;";
+    public var simeq = "&simeq;";
+    public var scsim = "&scsim;";
+    public var sdote = "&sdote;";
+    public var starf = "&starf;";
+    public var slarr = "&slarr;";
+    public var setmn = "&setmn;";
     public var szlig = "&szlig;";
-    public var target = "&target;";
+    public var sbquo = "&sbquo;";
+    public var srarr = "&srarr;";
+    public var supne = "&supne;";
+    public var smtes = "&smtes;";
+    public var sqcup = "&sqcup;";
+    public var sqsub = "&sqsub;";
+    public var swarr = "&swarr;";
+    public var Sigma = "&Sigma;";
+    public var Scirc = "&Scirc;";
+    public var simgE = "&simgE;";
+    public var strns = "&strns;";
+    public var simlE = "&simlE;";
+    public var sqsup = "&sqsup;";
+    public var seArr = "&seArr;";
+    public var subnE = "&subnE;";
+    public var supnE = "&supnE;";
+    public var swArr = "&swArr;";
+    public var scedil = "&scedil;";
+    public var sigmaf = "&sigmaf;";
+    public var searhk = "&searhk;";
+    public var spades = "&spades;";
+    public var shchcy = "&shchcy;";
+    public var solbar = "&solbar;";
+    public var succeq = "&succeq;";
+    public var sacute = "&sacute;";
+    public var scaron = "&scaron;";
+    public var sigmav = "&sigmav;";
+    public var sqcaps = "&sqcaps;";
+    public var smashp = "&smashp;";
+    public var ssmile = "&ssmile;";
+    public var scnsim = "&scnsim;";
+    public var swarhk = "&swarhk;";
+    public var simdot = "&simdot;";
+    public var subdot = "&subdot;";
+    public var square = "&square;";
+    public var squarf = "&squarf;";
+    public var sqsube = "&sqsube;";
+    public var subsim = "&subsim;";
+    public var sstarf = "&sstarf;";
+    public var Scedil = "&Scedil;";
+    public var subsub = "&subsub;";
+    public var seswar = "&seswar;";
+    public var subset = "&subset;";
+    public var softcy = "&softcy;";
+    public var ssetmn = "&ssetmn;";
+    public var sqcups = "&sqcups;";
+    public var supdot = "&supdot;";
+    public var sfrown = "&sfrown;";
+    public var sqsupe = "&sqsupe;";
+    public var supsim = "&supsim;";
+    public var swnwar = "&swnwar;";
+    public var supsub = "&supsub;";
+    public var subsup = "&subsup;";
+    public var supset = "&supset;";
+    public var Sacute = "&Sacute;";
+    public var Scaron = "&Scaron;";
+    public var supsup = "&supsup;";
+    public var Square = "&Square;";
+    public var Subset = "&Subset;";
+    public var Supset = "&Supset;";
+    public var SHCHcy = "&SHCHcy;";
+    public var SOFTcy = "&SOFTcy;";
+    public var subedot = "&subedot;";
+    public var succsim = "&succsim;";
+    public var simrarr = "&simrarr;";
+    public var subrarr = "&subrarr;";
+    public var searrow = "&searrow;";
+    public var supedot = "&supedot;";
+    public var supdsub = "&supdsub;";
+    public var suplarr = "&suplarr;";
+    public var suphsub = "&suphsub;";
+    public var submult = "&submult;";
+    public var simplus = "&simplus;";
+    public var suphsol = "&suphsol;";
+    public var subplus = "&subplus;";
+    public var swarrow = "&swarrow;";
+    public var supmult = "&supmult;";
+    public var supplus = "&supplus;";
+    public var succneqq = "&succneqq;";
+    public var succnsim = "&succnsim;";
+    public var smeparsl = "&smeparsl;";
+    public var shortmid = "&shortmid;";
+    public var subseteq = "&subseteq;";
+    public var scpolint = "&scpolint;";
+    public var Succeeds = "&Succeeds;";
+    public var setminus = "&setminus;";
+    public var supseteq = "&supseteq;";
+    public var sqsubset = "&sqsubset;";
+    public var sqsupset = "&sqsupset;";
+    public var Superset = "&Superset;";
+    public var SuchThat = "&SuchThat;";
+    public var spadesuit = "&spadesuit;";
+    public var subsetneq = "&subsetneq;";
+    public var subseteqq = "&subseteqq;";
+    public var supsetneq = "&supsetneq;";
+    public var supseteqq = "&supseteqq;";
+    public var succapprox = "&succapprox;";
+    public var subsetneqq = "&subsetneqq;";
+    public var sqsubseteq = "&sqsubseteq;";
+    public var supsetneqq = "&supsetneqq;";
+    public var sqsupseteq = "&sqsupseteq;";
+    public var straightphi = "&straightphi;";
+    public var succcurlyeq = "&succcurlyeq;";
+    public var succnapprox = "&succnapprox;";
+    public var SmallCircle = "&SmallCircle;";
+    public var SubsetEqual = "&SubsetEqual;";
+    public var SquareUnion = "&SquareUnion;";
+    public var SquareSubset = "&SquareSubset;";
+    public var ShortUpArrow = "&ShortUpArrow;";
+    public var shortparallel = "&shortparallel;";
+    public var smallsetminus = "&smallsetminus;";
+    public var SucceedsTilde = "&SucceedsTilde;";
+    public var SucceedsEqual = "&SucceedsEqual;";
+    public var SupersetEqual = "&SupersetEqual;";
+    public var SquareSuperset = "&SquareSuperset;";
+    public var ShortLeftArrow = "&ShortLeftArrow;";
+    public var ShortDownArrow = "&ShortDownArrow;";
+    public var straightepsilon = "&straightepsilon;";
+    public var ShortRightArrow = "&ShortRightArrow;";
+    public var SquareSubsetEqual = "&SquareSubsetEqual;";
+    public var SquareIntersection = "&SquareIntersection;";
+    public var SucceedsSlantEqual = "&SucceedsSlantEqual;";
+    public var SquareSupersetEqual = "&SquareSupersetEqual;";
     public var tau = "&tau;";
-    public var tbrk = "&tbrk;";
-    public var tcaron = "&tcaron;";
-    public var tcedil = "&tcedil;";
-    public var tcy = "&tcy;";
-    public var tdot = "&tdot;";
-    public var telrec = "&telrec;";
     public var tfr = "&tfr;";
-    public var there4 = "&there4;";
-    public var therefore = "&therefore;";
-    public var theta = "&theta;";
-    public var thetasym = "&thetasym;";
-    public var thetav = "&thetav;";
-    public var thickapprox = "&thickapprox;";
-    public var thicksim = "&thicksim;";
-    public var thinsp = "&thinsp;";
-    public var thkap = "&thkap;";
-    public var thksim = "&thksim;";
-    public var thorn = "&thorn;";
-    public var tilde = "&tilde;";
-    public var times = "&times;";
-    public var timesb = "&timesb;";
-    public var timesbar = "&timesbar;";
-    public var timesd = "&timesd;";
-    public var tint = "&tint;";
-    public var toea = "&toea;";
+    public var tcy = "&tcy;";
     public var top = "&top;";
-    public var topbot = "&topbot;";
-    public var topcir = "&topcir;";
-    public var topfork = "&topfork;";
-    public var topf = "&topf;";
-    public var tosa = "&tosa;";
-    public var tprime = "&tprime;";
-    public var trade = "&trade;";
-    public var trianglelefteq = "&trianglelefteq;";
-    public var triangleleft = "&triangleleft;";
-    public var triangle = "&triangle;";
-    public var triangledown = "&triangledown;";
-    public var triangleq = "&triangleq;";
-    public var trianglerighteq = "&trianglerighteq;";
-    public var triangleright = "&triangleright;";
-    public var tridot = "&tridot;";
+    public var Tab = "&Tab;";
+    public var Tau = "&Tau;";
+    public var Tfr = "&Tfr;";
+    public var Tcy = "&Tcy;";
+    public var toea = "&toea;";
+    public var tbrk = "&tbrk;";
     public var trie = "&trie;";
-    public var triminus = "&triminus;";
-    public var triplus = "&triplus;";
-    public var trisb = "&trisb;";
-    public var tritime = "&tritime;";
-    public var trpezium = "&trpezium;";
+    public var tosa = "&tosa;";
+    public var topf = "&topf;";
+    public var tdot = "&tdot;";
     public var tscr = "&tscr;";
+    public var tint = "&tint;";
     public var tscy = "&tscy;";
+    public var Topf = "&Topf;";
+    public var Tscr = "&Tscr;";
+    public var TScy = "&TScy;";
+    public var trade = "&trade;";
+    public var tilde = "&tilde;";
+    public var theta = "&theta;";
+    public var thkap = "&thkap;";
+    public var times = "&times;";
+    public var trisb = "&trisb;";
+    public var thorn = "&thorn;";
     public var tshcy = "&tshcy;";
-    public var tstrok = "&tstrok;";
+    public var Tilde = "&Tilde;";
+    public var Theta = "&Theta;";
     public var twixt = "&twixt;";
+    public var TSHcy = "&TSHcy;";
+    public var TRADE = "&TRADE;";
+    public var THORN = "&THORN;";
+    public var there4 = "&there4;";
+    public var tcedil = "&tcedil;";
+    public var telrec = "&telrec;";
+    public var timesb = "&timesb;";
+    public var timesd = "&timesd;";
+    public var target = "&target;";
+    public var tcaron = "&tcaron;";
+    public var thetav = "&thetav;";
+    public var thksim = "&thksim;";
+    public var tprime = "&tprime;";
+    public var topcir = "&topcir;";
+    public var Tcedil = "&Tcedil;";
+    public var thinsp = "&thinsp;";
+    public var tridot = "&tridot;";
+    public var topbot = "&topbot;";
+    public var Tcaron = "&Tcaron;";
+    public var tstrok = "&tstrok;";
+    public var Tstrok = "&Tstrok;";
+    public var tritime = "&tritime;";
+    public var topfork = "&topfork;";
+    public var triplus = "&triplus;";
+    public var triangle = "&triangle;";
+    public var timesbar = "&timesbar;";
+    public var thicksim = "&thicksim;";
+    public var thetasym = "&thetasym;";
+    public var triminus = "&triminus;";
+    public var trpezium = "&trpezium;";
+    public var therefore = "&therefore;";
+    public var triangleq = "&triangleq;";
+    public var Therefore = "&Therefore;";
+    public var ThinSpace = "&ThinSpace;";
+    public var TripleDot = "&TripleDot;";
+    public var ThickSpace = "&ThickSpace;";
+    public var TildeTilde = "&TildeTilde;";
+    public var TildeEqual = "&TildeEqual;";
+    public var thickapprox = "&thickapprox;";
+    public var triangleleft = "&triangleleft;";
+    public var triangledown = "&triangledown;";
+    public var triangleright = "&triangleright;";
+    public var trianglelefteq = "&trianglelefteq;";
+    public var TildeFullEqual = "&TildeFullEqual;";
+    public var trianglerighteq = "&trianglerighteq;";
     public var twoheadleftarrow = "&twoheadleftarrow;";
     public var twoheadrightarrow = "&twoheadrightarrow;";
-    public var uArr = "&uArr;";
-    public var uHar = "&uHar;";
-    public var uacute = "&uacute;";
-    public var uarr = "&uarr;";
-    public var ubrcy = "&ubrcy;";
-    public var ubreve = "&ubreve;";
-    public var ucirc = "&ucirc;";
-    public var ucy = "&ucy;";
-    public var udarr = "&udarr;";
-    public var udblac = "&udblac;";
-    public var udhar = "&udhar;";
-    public var ufisht = "&ufisht;";
     public var ufr = "&ufr;";
-    public var ugrave = "&ugrave;";
-    public var uharl = "&uharl;";
-    public var uharr = "&uharr;";
+    public var uml = "&uml;";
+    public var ucy = "&ucy;";
+    public var Ufr = "&Ufr;";
+    public var Ucy = "&Ucy;";
+    public var uopf = "&uopf;";
+    public var uarr = "&uarr;";
+    public var uscr = "&uscr;";
+    public var upsi = "&upsi;";
+    public var uuml = "&uuml;";
+    public var utri = "&utri;";
+    public var uHar = "&uHar;";
+    public var Uopf = "&Uopf;";
+    public var uArr = "&uArr;";
+    public var Uarr = "&Uarr;";
+    public var Uscr = "&Uscr;";
+    public var Upsi = "&Upsi;";
+    public var Uuml = "&Uuml;";
+    public var udhar = "&udhar;";
     public var uhblk = "&uhblk;";
-    public var ulcorner = "&ulcorner;";
+    public var ucirc = "&ucirc;";
+    public var umacr = "&umacr;";
+    public var uharl = "&uharl;";
+    public var udarr = "&udarr;";
+    public var uharr = "&uharr;";
+    public var uring = "&uring;";
+    public var ubrcy = "&ubrcy;";
+    public var uogon = "&uogon;";
+    public var upsih = "&upsih;";
+    public var utrif = "&utrif;";
+    public var uuarr = "&uuarr;";
+    public var utdot = "&utdot;";
+    public var ultri = "&ultri;";
+    public var Ucirc = "&Ucirc;";
+    public var urtri = "&urtri;";
+    public var Umacr = "&Umacr;";
+    public var uplus = "&uplus;";
+    public var Uring = "&Uring;";
+    public var Ubrcy = "&Ubrcy;";
+    public var Uogon = "&Uogon;";
+    public var Union = "&Union;";
+    public var UpTee = "&UpTee;";
+    public var udblac = "&udblac;";
+    public var utilde = "&utilde;";
+    public var uacute = "&uacute;";
+    public var ubreve = "&ubreve;";
+    public var ugrave = "&ugrave;";
+    public var Udblac = "&Udblac;";
+    public var ufisht = "&ufisht;";
     public var ulcorn = "&ulcorn;";
     public var ulcrop = "&ulcrop;";
-    public var ultri = "&ultri;";
-    public var umacr = "&umacr;";
-    public var uml = "&uml;";
-    public var uogon = "&uogon;";
-    public var uopf = "&uopf;";
-    public var uparrow = "&uparrow;";
-    public var updownarrow = "&updownarrow;";
-    public var upharpoonleft = "&upharpoonleft;";
-    public var upharpoonright = "&upharpoonright;";
-    public var uplus = "&uplus;";
-    public var upsi = "&upsi;";
-    public var upsih = "&upsih;";
-    public var upsilon = "&upsilon;";
-    public var upuparrows = "&upuparrows;";
     public var urcorn = "&urcorn;";
-    public var urcorner = "&urcorner;";
     public var urcrop = "&urcrop;";
-    public var uring = "&uring;";
-    public var urtri = "&urtri;";
-    public var uscr = "&uscr;";
-    public var utdot = "&utdot;";
-    public var utilde = "&utilde;";
-    public var utrif = "&utrif;";
-    public var utri = "&utri;";
-    public var uuarr = "&uuarr;";
-    public var uuml = "&uuml;";
+    public var Uacute = "&Uacute;";
+    public var Utilde = "&Utilde;";
+    public var Ubreve = "&Ubreve;";
+    public var Ugrave = "&Ugrave;";
     public var uwangle = "&uwangle;";
-    public var vArr = "&vArr;";
-    public var vBarv = "&vBarv;";
-    public var vBar = "&vBar;";
-    public var vDash = "&vDash;";
-    public var vangrt = "&vangrt;";
-    public var varepsilon = "&varepsilon;";
-    public var varkappa = "&varkappa;";
-    public var varnothing = "&varnothing;";
-    public var varphi = "&varphi;";
-    public var varpi = "&varpi;";
-    public var varpropto = "&varpropto;";
-    public var varrho = "&varrho;";
-    public var varr = "&varr;";
-    public var varsigma = "&varsigma;";
-    public var varsubsetneqq = "&varsubsetneqq;";
-    public var varsubsetneq = "&varsubsetneq;";
-    public var varsupsetneqq = "&varsupsetneqq;";
-    public var varsupsetneq = "&varsupsetneq;";
-    public var vartheta = "&vartheta;";
-    public var vartriangleleft = "&vartriangleleft;";
-    public var vartriangleright = "&vartriangleright;";
-    public var vcy = "&vcy;";
-    public var vdash = "&vdash;";
+    public var upsilon = "&upsilon;";
+    public var uparrow = "&uparrow;";
+    public var Upsilon = "&Upsilon;";
+    public var Uparrow = "&Uparrow;";
+    public var UpArrow = "&UpArrow;";
+    public var ulcorner = "&ulcorner;";
+    public var urcorner = "&urcorner;";
+    public var Uarrocir = "&Uarrocir;";
+    public var UnderBar = "&UnderBar;";
+    public var UnionPlus = "&UnionPlus;";
+    public var UnderBrace = "&UnderBrace;";
+    public var upuparrows = "&upuparrows;";
+    public var UpArrowBar = "&UpArrowBar;";
+    public var UpTeeArrow = "&UpTeeArrow;";
+    public var updownarrow = "&updownarrow;";
+    public var Updownarrow = "&Updownarrow;";
+    public var UpDownArrow = "&UpDownArrow;";
+    public var UnderBracket = "&UnderBracket;";
+    public var upharpoonleft = "&upharpoonleft;";
+    public var UpEquilibrium = "&UpEquilibrium;";
+    public var upharpoonright = "&upharpoonright;";
+    public var UpperLeftArrow = "&UpperLeftArrow;";
+    public var UpperRightArrow = "&UpperRightArrow;";
+    public var UnderParenthesis = "&UnderParenthesis;";
+    public var UpArrowDownArrow = "&UpArrowDownArrow;";
     public var vee = "&vee;";
-    public var veebar = "&veebar;";
-    public var veeeq = "&veeeq;";
-    public var vellip = "&vellip;";
-    public var verbar = "&verbar;";
-    public var vert = "&vert;";
     public var vfr = "&vfr;";
-    public var vltri = "&vltri;";
-    public var vnsub = "&vnsub;";
-    public var vnsup = "&vnsup;";
+    public var vcy = "&vcy;";
+    public var Vee = "&Vee;";
+    public var Vfr = "&Vfr;";
+    public var Vcy = "&Vcy;";
     public var vopf = "&vopf;";
+    public var varr = "&varr;";
+    public var vscr = "&vscr;";
+    public var vert = "&vert;";
+    public var Vbar = "&Vbar;";
+    public var vBar = "&vBar;";
+    public var Vopf = "&Vopf;";
+    public var vArr = "&vArr;";
+    public var Vscr = "&Vscr;";
+    public var Vert = "&Vert;";
+    public var veeeq = "&veeeq;";
+    public var vdash = "&vdash;";
+    public var varpi = "&varpi;";
+    public var vnsub = "&vnsub;";
+    public var vltri = "&vltri;";
+    public var vDash = "&vDash;";
+    public var Vdash = "&Vdash;";
     public var vprop = "&vprop;";
     public var vrtri = "&vrtri;";
-    public var vscr = "&vscr;";
-    public var vsubnE = "&vsubnE;";
+    public var vnsup = "&vnsup;";
+    public var vBarv = "&vBarv;";
+    public var VDash = "&VDash;";
+    public var veebar = "&veebar;";
+    public var verbar = "&verbar;";
+    public var varphi = "&varphi;";
+    public var vellip = "&vellip;";
+    public var varrho = "&varrho;";
+    public var vangrt = "&vangrt;";
     public var vsubne = "&vsubne;";
-    public var vsupnE = "&vsupnE;";
     public var vsupne = "&vsupne;";
+    public var Vdashl = "&Vdashl;";
+    public var Verbar = "&Verbar;";
+    public var Vvdash = "&Vvdash;";
+    public var vsubnE = "&vsubnE;";
+    public var vsupnE = "&vsupnE;";
     public var vzigzag = "&vzigzag;";
-    public var wcirc = "&wcirc;";
-    public var wedbar = "&wedbar;";
-    public var wedge = "&wedge;";
-    public var wedgeq = "&wedgeq;";
-    public var weierp = "&weierp;";
-    public var wfr = "&wfr;";
-    public var wopf = "&wopf;";
+    public var varkappa = "&varkappa;";
+    public var varsigma = "&varsigma;";
+    public var vartheta = "&vartheta;";
+    public var varpropto = "&varpropto;";
+    public var varnothing = "&varnothing;";
+    public var varepsilon = "&varepsilon;";
+    public var VerticalBar = "&VerticalBar;";
+    public var varsubsetneq = "&varsubsetneq;";
+    public var varsupsetneq = "&varsupsetneq;";
+    public var VerticalLine = "&VerticalLine;";
+    public var varsubsetneqq = "&varsubsetneqq;";
+    public var varsupsetneqq = "&varsupsetneqq;";
+    public var VerticalTilde = "&VerticalTilde;";
+    public var VeryThinSpace = "&VeryThinSpace;";
+    public var vartriangleleft = "&vartriangleleft;";
+    public var vartriangleright = "&vartriangleright;";
+    public var VerticalSeparator = "&VerticalSeparator;";
     public var wp = "&wp;";
-    public var wreath = "&wreath;";
     public var wr = "&wr;";
+    public var wfr = "&wfr;";
+    public var Wfr = "&Wfr;";
+    public var wopf = "&wopf;";
     public var wscr = "&wscr;";
-    public var xcap = "&xcap;";
-    public var xcirc = "&xcirc;";
-    public var xcup = "&xcup;";
-    public var xdtri = "&xdtri;";
-    public var xfr = "&xfr;";
-    public var xhArr = "&xhArr;";
-    public var xharr = "&xharr;";
+    public var Wopf = "&Wopf;";
+    public var Wscr = "&Wscr;";
+    public var wedge = "&wedge;";
+    public var wcirc = "&wcirc;";
+    public var Wedge = "&Wedge;";
+    public var Wcirc = "&Wcirc;";
+    public var wedbar = "&wedbar;";
+    public var wedgeq = "&wedgeq;";
+    public var wreath = "&wreath;";
+    public var weierp = "&weierp;";
     public var xi = "&xi;";
-    public var xlArr = "&xlArr;";
-    public var xlarr = "&xlarr;";
+    public var Xi = "&Xi;";
+    public var xfr = "&xfr;";
+    public var Xfr = "&Xfr;";
+    public var xcap = "&xcap;";
     public var xmap = "&xmap;";
-    public var xnis = "&xnis;";
-    public var xodot = "&xodot;";
-    public var xopf = "&xopf;";
-    public var xoplus = "&xoplus;";
-    public var xotime = "&xotime;";
-    public var xrArr = "&xrArr;";
-    public var xrarr = "&xrarr;";
-    public var xscr = "&xscr;";
-    public var xsqcup = "&xsqcup;";
-    public var xuplus = "&xuplus;";
-    public var xutri = "&xutri;";
     public var xvee = "&xvee;";
+    public var xopf = "&xopf;";
+    public var xcup = "&xcup;";
+    public var xscr = "&xscr;";
+    public var xnis = "&xnis;";
+    public var Xopf = "&Xopf;";
+    public var Xscr = "&Xscr;";
+    public var xcirc = "&xcirc;";
+    public var xharr = "&xharr;";
+    public var xlarr = "&xlarr;";
+    public var xdtri = "&xdtri;";
+    public var xodot = "&xodot;";
+    public var xrarr = "&xrarr;";
+    public var xutri = "&xutri;";
+    public var xhArr = "&xhArr;";
+    public var xlArr = "&xlArr;";
+    public var xrArr = "&xrArr;";
     public var xwedge = "&xwedge;";
-    public var yacute = "&yacute;";
-    public var yacy = "&yacy;";
-    public var ycirc = "&ycirc;";
-    public var ycy = "&ycy;";
+    public var xotime = "&xotime;";
+    public var xsqcup = "&xsqcup;";
+    public var xoplus = "&xoplus;";
+    public var xuplus = "&xuplus;";
     public var yen = "&yen;";
     public var yfr = "&yfr;";
-    public var yicy = "&yicy;";
+    public var ycy = "&ycy;";
+    public var Yfr = "&Yfr;";
+    public var Ycy = "&Ycy;";
+    public var yacy = "&yacy;";
     public var yopf = "&yopf;";
+    public var yicy = "&yicy;";
     public var yscr = "&yscr;";
-    public var yucy = "&yucy;";
     public var yuml = "&yuml;";
+    public var yucy = "&yucy;";
+    public var Yopf = "&Yopf;";
+    public var Yscr = "&Yscr;";
+    public var Yuml = "&Yuml;";
+    public var YAcy = "&YAcy;";
+    public var YIcy = "&YIcy;";
+    public var YUcy = "&YUcy;";
+    public var ycirc = "&ycirc;";
+    public var Ycirc = "&Ycirc;";
+    public var yacute = "&yacute;";
+    public var Yacute = "&Yacute;";
+    public var zfr = "&zfr;";
+    public var zcy = "&zcy;";
+    public var zwj = "&zwj;";
+    public var Zfr = "&Zfr;";
+    public var Zcy = "&Zcy;";
+    public var zeta = "&zeta;";
+    public var zhcy = "&zhcy;";
+    public var zopf = "&zopf;";
+    public var zdot = "&zdot;";
+    public var zscr = "&zscr;";
+    public var zwnj = "&zwnj;";
+    public var Zeta = "&Zeta;";
+    public var Zopf = "&Zopf;";
+    public var Zdot = "&Zdot;";
+    public var Zscr = "&Zscr;";
+    public var ZHcy = "&ZHcy;";
     public var zacute = "&zacute;";
     public var zcaron = "&zcaron;";
-    public var zcy = "&zcy;";
-    public var zdot = "&zdot;";
     public var zeetrf = "&zeetrf;";
-    public var zeta = "&zeta;";
-    public var zfr = "&zfr;";
-    public var zhcy = "&zhcy;";
+    public var Zacute = "&Zacute;";
+    public var Zcaron = "&Zcaron;";
     public var zigrarr = "&zigrarr;";
-    public var zopf = "&zopf;";
-    public var zscr = "&zscr;";
-    public var zwj = "&zwj;";
-    public var zwnj = "&zwnj;";
+    public var ZeroWidthSpace = "&ZeroWidthSpace;";
     
 
     public static function all():Array<HtmlEntity> return [
-        AElig,
-        AMP,
-        Aacute,
-        Abreve,
-        Acirc,
-        Acy,
-        Afr,
-        Agrave,
-        Alpha,
-        Amacr,
+        ac,
+        af,
+        ap,
+        acd,
+        and,
+        ang,
+        ape,
+        afr,
+        acy,
+        amp,
+        ast,
+        acE,
         And,
-        Aogon,
+        apE,
+        Afr,
+        Acy,
+        AMP,
+        andd,
+        ange,
+        apid,
+        aopf,
+        ascr,
+        andv,
+        auml,
+        apos,
         Aopf,
-        ApplyFunction,
-        Aring,
         Ascr,
-        Assign,
-        Atilde,
         Auml,
-        Backslash,
-        Barv,
-        Barwed,
-        Bcy,
-        Because,
-        Bernoullis,
-        Beta,
-        Bfr,
-        Bopf,
-        Breve,
-        Bscr,
-        Bumpeq,
-        CHcy,
-        COPY,
-        Cacute,
-        Cap,
-        CapitalDifferentialD,
-        Cayleys,
-        Ccaron,
-        Ccedil,
-        Ccirc,
-        Cconint,
-        Cdot,
-        Cedilla,
-        CenterDot,
-        Cfr,
-        Chi,
-        CircleDot,
-        CircleMinus,
-        CirclePlus,
-        CircleTimes,
-        ClockwiseContourIntegral,
-        CloseCurlyDoubleQuote,
-        CloseCurlyQuote,
-        Colone,
-        Colon,
-        Congruent,
-        Conint,
-        ContourIntegral,
-        Copf,
-        Coproduct,
-        CounterClockwiseContourIntegral,
-        Cross,
-        Cscr,
-        Cup,
-        CupCap,
-        DDotrahd,
-        DD,
-        DJcy,
-        DScy,
-        DZcy,
-        Dagger,
-        Darr,
-        Dashv,
-        Dcaron,
-        Dcy,
-        Delta,
-        Del,
-        Dfr,
-        DiacriticalAcute,
-        DiacriticalDot,
-        DiacriticalDoubleAcute,
-        DiacriticalGrave,
-        DiacriticalTilde,
-        Diamond,
-        DifferentialD,
-        Dopf,
-        Dot,
-        DotDot,
-        DotEqual,
-        DoubleContourIntegral,
-        DoubleDot,
-        DoubleDownArrow,
-        DoubleLeftArrow,
-        DoubleLeftRightArrow,
-        DoubleLeftTee,
-        DoubleLongLeftArrow,
-        DoubleLongLeftRightArrow,
-        DoubleLongRightArrow,
-        DoubleRightArrow,
-        DoubleRightTee,
-        DoubleUpArrow,
-        DoubleUpDownArrow,
-        DoubleVerticalBar,
-        DownArrowBar,
-        DownArrowUpArrow,
-        DownArrow,
-        DownBreve,
-        DownLeftRightVector,
-        DownLeftTeeVector,
-        DownLeftVector,
-        DownLeftVectorBar,
-        DownRightTeeVector,
-        DownRightVectorBar,
-        DownRightVector,
-        DownTeeArrow,
-        DownTee,
-        Downarrow,
-        Dscr,
-        Dstrok,
-        ENG,
-        ETH,
-        Eacute,
-        Ecaron,
-        Ecirc,
-        Ecy,
-        Edot,
-        Efr,
-        Egrave,
-        Element,
-        Emacr,
-        EmptySmallSquare,
-        EmptyVerySmallSquare,
-        Eogon,
-        Eopf,
-        Epsilon,
-        Equal,
-        EqualTilde,
-        Equilibrium,
-        Escr,
-        Esim,
-        Eta,
-        Euml,
-        Exists,
-        ExponentialE,
-        Fcy,
-        Ffr,
-        FilledSmallSquare,
-        FilledVerySmallSquare,
-        Fopf,
-        ForAll,
-        Fouriertrf,
-        Fscr,
-        GJcy,
-        GT,
-        Gamma,
-        Gammad,
-        Gbreve,
-        Gcedil,
-        Gcirc,
-        Gcy,
-        Gdot,
-        Gfr,
-        Gg,
-        Gopf,
-        GreaterEqualLess,
-        GreaterEqual,
-        GreaterFullEqual,
-        GreaterGreater,
-        GreaterLess,
-        GreaterSlantEqual,
-        GreaterTilde,
-        Gscr,
-        Gt,
-        HARDcy,
-        Hacek,
-        Hat,
-        Hcirc,
-        Hfr,
-        HilbertSpace,
-        Hopf,
-        HorizontalLine,
-        Hscr,
-        Hstrok,
-        HumpDownHump,
-        HumpEqual,
-        IEcy,
-        IJlig,
-        IOcy,
-        Iacute,
-        Icirc,
-        Icy,
-        Idot,
-        Ifr,
-        Igrave,
-        Imacr,
-        ImaginaryI,
-        Implies,
-        Im,
-        Integral,
-        Intersection,
-        Int,
-        InvisibleComma,
-        InvisibleTimes,
-        Iogon,
-        Iopf,
-        Iota,
-        Iscr,
-        Itilde,
-        Iukcy,
-        Iuml,
-        Jcirc,
-        Jcy,
-        Jfr,
-        Jopf,
-        Jscr,
-        Jsercy,
-        Jukcy,
-        KHcy,
-        KJcy,
-        Kappa,
-        Kcedil,
-        Kcy,
-        Kfr,
-        Kopf,
-        Kscr,
-        LJcy,
-        LT,
-        Lacute,
-        Lambda,
-        Lang,
-        Laplacetrf,
-        Larr,
-        Lcaron,
-        Lcedil,
-        Lcy,
-        LeftAngleBracket,
-        LeftArrow,
-        LeftArrowBar,
-        LeftArrowRightArrow,
-        LeftCeiling,
-        LeftDoubleBracket,
-        LeftDownTeeVector,
-        LeftDownVectorBar,
-        LeftDownVector,
-        LeftFloor,
-        LeftRightArrow,
-        LeftRightVector,
-        LeftTee,
-        LeftTeeArrow,
-        LeftTeeVector,
-        LeftTriangleEqual,
-        LeftTriangle,
-        LeftTriangleBar,
-        LeftUpDownVector,
-        LeftUpTeeVector,
-        LeftUpVectorBar,
-        LeftUpVector,
-        LeftVector,
-        LeftVectorBar,
-        Leftarrow,
-        Leftrightarrow,
-        LessEqualGreater,
-        LessFullEqual,
-        LessGreater,
-        LessLess,
-        LessSlantEqual,
-        LessTilde,
-        Lfr,
-        Ll,
-        Lleftarrow,
-        Lmidot,
-        LongLeftArrow,
-        LongLeftRightArrow,
-        LongRightArrow,
-        Longleftarrow,
-        Longleftrightarrow,
-        Longrightarrow,
-        Lopf,
-        LowerLeftArrow,
-        LowerRightArrow,
-        Lscr,
-        Lsh,
-        Lstrok,
-        Lt,
-        Map,
-        Mcy,
-        MediumSpace,
-        Mellintrf,
-        Mfr,
-        MinusPlus,
-        Mopf,
-        Mscr,
-        Mu,
-        NJcy,
-        Nacute,
-        Ncaron,
-        Ncedil,
-        Ncy,
-        NegativeMediumSpace,
-        NegativeThickSpace,
-        NegativeThinSpace,
-        NegativeVeryThinSpace,
-        NestedGreaterGreater,
-        NestedLessLess,
-        NewLine,
-        Nfr,
-        NoBreak,
-        NonBreakingSpace,
-        Nopf,
-        NotCongruent,
-        NotCupCap,
-        NotDoubleVerticalBar,
-        NotElement,
-        NotEqual,
-        NotEqualTilde,
-        NotExists,
-        NotGreaterEqual,
-        NotGreaterLess,
-        NotGreaterSlantEqual,
-        NotGreater,
-        NotGreaterFullEqual,
-        NotGreaterGreater,
-        NotGreaterTilde,
-        NotHumpDownHump,
-        NotHumpEqual,
-        NotLeftTriangle,
-        NotLeftTriangleBar,
-        NotLeftTriangleEqual,
-        NotLess,
-        NotLessEqual,
-        NotLessGreater,
-        NotLessLess,
-        NotLessSlantEqual,
-        NotLessTilde,
-        NotNestedGreaterGreater,
-        NotNestedLessLess,
-        NotPrecedes,
-        NotPrecedesEqual,
-        NotPrecedesSlantEqual,
-        NotReverseElement,
-        NotRightTriangle,
-        NotRightTriangleBar,
-        NotRightTriangleEqual,
-        NotSquareSubset,
-        NotSquareSubsetEqual,
-        NotSquareSupersetEqual,
-        NotSquareSuperset,
-        NotSubsetEqual,
-        NotSubset,
-        NotSucceeds,
-        NotSucceedsEqual,
-        NotSucceedsSlantEqual,
-        NotSucceedsTilde,
-        NotSuperset,
-        NotSupersetEqual,
-        NotTildeTilde,
-        NotTilde,
-        NotTildeEqual,
-        NotVerticalBar,
-        Not,
-        NotTildeFullEqual,
-        Nscr,
-        Ntilde,
-        Nu,
-        OElig,
-        Oacute,
-        Ocirc,
-        Ocy,
-        Odblac,
-        Ofr,
-        Ograve,
-        Omacr,
-        Omega,
-        Omicron,
-        Oopf,
-        OpenCurlyDoubleQuote,
-        OpenCurlyQuote,
-        Or,
-        Oscr,
-        Oslash,
-        Otilde,
-        Otimes,
-        Ouml,
-        OverBar,
-        OverBrace,
-        OverBracket,
-        OverParenthesis,
-        PartialD,
-        Pcy,
-        Pfr,
-        Phi,
-        Pi,
-        PlusMinus,
-        Poincareplane,
-        Popf,
-        PrecedesEqual,
-        PrecedesSlantEqual,
-        Precedes,
-        PrecedesTilde,
-        Prime,
-        Proportion,
-        Pr,
-        Product,
-        Proportional,
-        Pscr,
-        Psi,
-        QUOT,
-        Qfr,
-        Qopf,
-        Qscr,
-        RBarr,
-        REG,
-        Racute,
-        Rang,
-        Rarr,
-        Rarrtl,
-        Rcaron,
-        Rcedil,
-        Rcy,
-        Re,
-        ReverseElement,
-        ReverseEquilibrium,
-        ReverseUpEquilibrium,
-        Rfr,
-        Rho,
-        RightAngleBracket,
-        RightArrowBar,
-        RightArrowLeftArrow,
-        RightArrow,
-        RightCeiling,
-        RightDoubleBracket,
-        RightDownTeeVector,
-        RightDownVector,
-        RightDownVectorBar,
-        RightFloor,
-        RightTeeArrow,
-        RightTeeVector,
-        RightTee,
-        RightTriangle,
-        RightTriangleBar,
-        RightTriangleEqual,
-        RightUpDownVector,
-        RightUpTeeVector,
-        RightUpVector,
-        RightUpVectorBar,
-        RightVectorBar,
-        RightVector,
-        Rightarrow,
-        Ropf,
-        RoundImplies,
-        Rrightarrow,
-        Rscr,
-        Rsh,
-        RuleDelayed,
-        SHCHcy,
-        SHcy,
-        SOFTcy,
-        Sacute,
-        Scaron,
-        Scedil,
-        Sc,
-        Scirc,
-        Scy,
-        Sfr,
-        ShortDownArrow,
-        ShortLeftArrow,
-        ShortRightArrow,
-        ShortUpArrow,
-        Sigma,
-        SmallCircle,
-        Sopf,
-        Sqrt,
-        SquareIntersection,
-        SquareSubsetEqual,
-        Square,
-        SquareSubset,
-        SquareSupersetEqual,
-        SquareSuperset,
-        SquareUnion,
-        Sscr,
-        Star,
-        SubsetEqual,
-        Sub,
-        Subset,
-        SucceedsEqual,
-        SucceedsSlantEqual,
-        SucceedsTilde,
-        Succeeds,
-        SuchThat,
-        Sum,
-        SupersetEqual,
-        Sup,
-        Superset,
-        Supset,
-        THORN,
-        TRADE,
-        TSHcy,
-        TScy,
-        Tab,
-        Tau,
-        Tcaron,
-        Tcedil,
-        Tcy,
-        Tfr,
-        Therefore,
-        Theta,
-        ThickSpace,
-        ThinSpace,
-        TildeEqual,
-        TildeFullEqual,
-        Tilde,
-        TildeTilde,
-        Topf,
-        TripleDot,
-        Tscr,
-        Tstrok,
-        Uacute,
-        Uarrocir,
-        Uarr,
-        Ubrcy,
-        Ubreve,
-        Ucirc,
-        Ucy,
-        Udblac,
-        Ufr,
-        Ugrave,
-        Umacr,
-        UnderBar,
-        UnderBrace,
-        UnderBracket,
-        UnderParenthesis,
-        Union,
-        UnionPlus,
-        Uogon,
-        Uopf,
-        UpArrow,
-        UpArrowBar,
-        UpArrowDownArrow,
-        UpDownArrow,
-        UpEquilibrium,
-        UpTee,
-        UpTeeArrow,
-        Uparrow,
-        Updownarrow,
-        UpperLeftArrow,
-        UpperRightArrow,
-        Upsilon,
-        Upsi,
-        Uring,
-        Uscr,
-        Utilde,
-        Uuml,
-        VDash,
-        Vbar,
-        Vcy,
-        Vdashl,
-        Vdash,
-        Vee,
-        Verbar,
-        VerticalBar,
-        VerticalLine,
-        VerticalSeparator,
-        Vert,
-        VerticalTilde,
-        VeryThinSpace,
-        Vfr,
-        Vopf,
-        Vscr,
-        Vvdash,
-        Wcirc,
-        Wedge,
-        Wfr,
-        Wopf,
-        Wscr,
-        Xfr,
-        Xi,
-        Xopf,
-        Xscr,
-        YAcy,
-        YIcy,
-        YUcy,
-        Yacute,
-        Ycirc,
-        Ycy,
-        Yfr,
-        Yopf,
-        Yscr,
-        Yuml,
-        ZHcy,
-        Zacute,
-        Zcaron,
-        Zcy,
-        Zdot,
-        ZeroWidthSpace,
-        Zeta,
-        Zfr,
-        Zopf,
-        Zscr,
+        amalg,
+        acirc,
+        aelig,
+        amacr,
+        alpha,
+        angle,
+        aleph,
+        aring,
+        acute,
+        aogon,
+        angrt,
+        angst,
+        Acirc,
+        awint,
+        Amacr,
+        Alpha,
+        asymp,
+        Aring,
+        Aogon,
+        AElig,
+        andand,
+        apacir,
+        atilde,
         aacute,
         abreve,
-        ac,
-        acE,
-        acd,
-        acirc,
-        acute,
-        acy,
-        aelig,
-        afr,
-        af,
         agrave,
-        alefsym,
-        aleph,
-        alpha,
-        amacr,
-        amalg,
-        amp,
-        and,
-        andand,
-        andd,
-        andslope,
-        andv,
-        ange,
-        angle,
-        angmsdab,
+        angmsd,
         angsph,
-        ang,
+        Aacute,
+        Atilde,
+        Abreve,
+        Agrave,
+        approx,
+        Assign,
+        alefsym,
+        angrtvb,
+        angzarr,
+        asympeq,
         angmsdaa,
+        angmsdab,
         angmsdac,
         angmsdad,
-        angmsd,
         angmsdae,
         angmsdaf,
         angmsdag,
         angmsdah,
+        andslope,
         angrtvbd,
-        angrtvb,
-        angrt,
-        angst,
-        angzarr,
-        aogon,
-        aopf,
-        ap,
-        apE,
-        apacir,
-        ape,
-        apid,
-        apos,
-        approxeq,
-        approx,
-        aring,
-        ascr,
-        ast,
-        asymp,
-        asympeq,
-        atilde,
-        auml,
         awconint,
-        awint,
-        bNot,
-        backcong,
-        backepsilon,
-        backprime,
-        backsim,
-        backsimeq,
-        barvee,
-        barwedge,
-        barwed,
-        bbrktbrk,
-        bbrk,
-        bcong,
-        bcy,
-        bdquo,
-        because,
-        becaus,
-        bemptyv,
-        bepsi,
-        bernou,
-        beta,
-        beth,
-        between,
+        approxeq,
+        ApplyFunction,
+        bne,
         bfr,
-        bigcap,
-        bigcirc,
-        bigcup,
-        bigodot,
-        bigoplus,
-        bigotimes,
-        bigsqcup,
-        bigstar,
-        bigtriangledown,
-        bigtriangleup,
-        biguplus,
-        bigvee,
-        bigwedge,
-        bkarow,
-        blacklozenge,
-        blacksquare,
-        blacktriangle,
-        blacktriangledown,
-        blacktriangleleft,
-        blacktriangleright,
-        blank,
+        bcy,
+        bot,
+        Bfr,
+        Bcy,
+        beta,
+        bbrk,
+        beth,
+        bopf,
+        bscr,
+        bsim,
+        bull,
+        bsol,
+        boxh,
+        bnot,
+        bump,
+        Beta,
+        boxv,
+        Bopf,
+        Bscr,
+        Barv,
+        boxH,
+        bNot,
+        boxV,
         blk12,
         blk14,
         blk34,
+        blank,
+        bcong,
         block,
-        bnequiv,
-        bne,
-        bnot,
-        bopf,
-        bot,
-        bottom,
-        bowtie,
-        boxDL,
-        boxDR,
-        boxDl,
-        boxDr,
-        boxHD,
-        boxHU,
+        bsime,
+        bsemi,
+        bsolb,
+        bepsi,
+        breve,
+        boxhd,
+        boxdl,
+        bumpe,
+        bdquo,
+        boxdr,
+        boxhu,
+        boxvh,
+        boxul,
+        boxvl,
+        boxur,
+        boxvr,
+        Breve,
         boxHd,
-        boxHu,
-        boxH,
-        boxUL,
-        boxUR,
-        boxUl,
-        boxUr,
-        boxVH,
-        boxVL,
-        boxVl,
-        boxV,
-        boxVR,
-        boxVh,
-        boxVr,
-        boxbox,
+        boxhD,
+        boxDl,
+        bumpE,
         boxdL,
         boxdR,
-        boxdl,
-        boxdr,
-        boxhD,
+        boxDr,
+        boxHu,
         boxhU,
-        boxhu,
-        boxh,
-        boxhd,
-        boxminus,
-        boxplus,
-        boxtimes,
-        boxuL,
-        boxuR,
-        boxul,
-        boxur,
         boxvH,
+        boxVh,
+        boxUl,
+        boxuL,
+        boxVl,
         boxvL,
+        boxuR,
+        boxUr,
+        boxVr,
         boxvR,
-        boxvh,
-        boxvl,
-        boxvr,
-        boxv,
-        bprime,
-        breve,
+        boxHD,
+        boxDL,
+        boxDR,
+        boxHU,
+        boxVH,
+        boxUL,
+        boxVL,
+        boxUR,
+        boxVR,
+        bigcap,
+        bigvee,
+        becaus,
+        barvee,
+        barwed,
+        bigcup,
         brvbar,
-        bscr,
-        bsemi,
-        bsime,
-        bsim,
-        bsol,
-        bsolb,
-        bsolhsub,
-        bull,
+        bprime,
+        bkarow,
         bullet,
-        bumpE,
+        bowtie,
         bumpeq,
-        bump,
-        bumpe,
-        cacute,
-        capcup,
+        bernou,
+        boxbox,
+        bottom,
+        Barwed,
+        Bumpeq,
+        bigcirc,
+        because,
+        backsim,
+        bigodot,
+        between,
+        bigstar,
+        Because,
+        bnequiv,
+        bemptyv,
+        boxplus,
+        backcong,
+        bigwedge,
+        barwedge,
+        bbrktbrk,
+        bigsqcup,
+        bsolhsub,
+        bigoplus,
+        biguplus,
+        boxtimes,
+        boxminus,
+        backprime,
+        backsimeq,
+        bigotimes,
+        Backslash,
+        Bernoullis,
+        backepsilon,
+        blacksquare,
+        blacklozenge,
+        blacktriangle,
+        bigtriangleup,
+        bigtriangledown,
+        blacktriangleleft,
+        blacktriangledown,
+        blacktriangleright,
         cap,
-        capand,
-        capbrcup,
-        capcap,
-        capdot,
-        caps,
-        caret,
-        caron,
-        ccaps,
-        ccaron,
-        ccedil,
-        ccirc,
-        ccups,
-        ccupssm,
-        cdot,
-        cedil,
-        cemptyv,
-        centerdot,
-        cent,
-        cfr,
-        chcy,
-        checkmark,
-        check,
         chi,
-        cirE,
-        circlearrowright,
-        circledR,
-        circledS,
-        circ,
-        circledast,
-        circledcirc,
-        circleddash,
-        cirmid,
-        cirscir,
+        cfr,
         cir,
-        circeq,
-        circlearrowleft,
+        cup,
+        Cap,
+        Chi,
+        Cfr,
+        Cup,
+        circ,
         cire,
-        cirfnint,
-        clubs,
-        clubsuit,
-        colone,
-        coloneq,
-        colon,
-        commat,
-        comma,
-        comp,
-        compfn,
-        complement,
-        complexes,
+        caps,
         cong,
-        congdot,
-        conint,
+        chcy,
         copf,
-        coprod,
-        copy,
-        copysr,
-        crarr,
-        cross,
+        cdot,
+        cent,
         cscr,
         csub,
-        csube,
+        comp,
+        copy,
         csup,
-        csupe,
-        ctdot,
-        cudarrl,
-        cudarrr,
-        cuepr,
-        cuesc,
-        cularr,
-        cularrp,
-        cupbrcap,
-        cupcup,
-        cup,
-        cupcap,
-        cupdot,
-        cupor,
         cups,
-        curarrm,
-        curarr,
-        curlyeqprec,
-        curlyeqsucc,
-        curlyvee,
-        curlywedge,
-        curren,
-        curvearrowleft,
-        curvearrowright,
+        cirE,
+        Copf,
+        Cdot,
+        Cscr,
+        CHcy,
+        COPY,
+        check,
+        cedil,
+        ccirc,
+        ccaps,
+        comma,
+        caret,
+        csube,
+        cuesc,
+        caron,
         cuvee,
         cuwed,
-        cwconint,
+        clubs,
+        crarr,
+        colon,
+        ccups,
+        ctdot,
+        cuepr,
+        csupe,
+        Ccirc,
         cwint,
+        cupor,
+        cross,
+        Colon,
+        Cross,
+        ccedil,
+        capand,
+        capcap,
+        cacute,
+        ccaron,
+        circeq,
+        cirmid,
+        capdot,
+        capcup,
+        cupcap,
+        colone,
+        commat,
+        compfn,
+        Ccedil,
+        coprod,
+        cularr,
+        conint,
+        cupdot,
+        curren,
+        curarr,
+        cupcup,
+        Cacute,
+        Ccaron,
         cylcty,
-        dArr,
+        Colone,
+        copysr,
+        Conint,
+        CupCap,
+        cudarrl,
+        Cedilla,
+        congdot,
+        cirscir,
+        coloneq,
+        cudarrr,
+        cularrp,
+        curarrm,
+        ccupssm,
+        cemptyv,
+        Cconint,
+        Cayleys,
+        cupbrcap,
+        capbrcup,
+        cirfnint,
+        cwconint,
+        circledR,
+        circledS,
+        clubsuit,
+        curlyvee,
+        checkmark,
+        centerdot,
+        complexes,
+        Coproduct,
+        Congruent,
+        CircleDot,
+        CenterDot,
+        circledast,
+        complement,
+        curlywedge,
+        CirclePlus,
+        circleddash,
+        circledcirc,
+        curlyeqprec,
+        curlyeqsucc,
+        CircleTimes,
+        CircleMinus,
+        curvearrowleft,
+        circlearrowleft,
+        curvearrowright,
+        ContourIntegral,
+        CloseCurlyQuote,
+        circlearrowright,
+        CapitalDifferentialD,
+        CloseCurlyDoubleQuote,
+        ClockwiseContourIntegral,
+        CounterClockwiseContourIntegral,
+        dd,
+        DD,
+        deg,
+        die,
+        dfr,
+        dcy,
+        div,
+        dot,
+        Del,
+        Dfr,
+        Dcy,
+        Dot,
+        diam,
+        dash,
+        darr,
+        dopf,
+        djcy,
+        dscr,
+        dsol,
+        dtri,
+        dscy,
+        dzcy,
         dHar,
+        dArr,
+        Darr,
+        Dopf,
+        Dscr,
+        DJcy,
+        DScy,
+        DZcy,
+        dblac,
+        delta,
+        dharl,
+        ddarr,
+        diams,
+        dharr,
+        duhar,
+        dashv,
+        disin,
+        dtrif,
+        doteq,
+        duarr,
+        dtdot,
+        Delta,
+        Dashv,
         dagger,
         daleth,
-        darr,
-        dashv,
-        dash,
-        dbkarow,
-        dblac,
-        dcaron,
-        dcy,
-        dd,
-        ddagger,
-        ddarr,
-        ddotseq,
-        deg,
-        delta,
-        demptyv,
-        dfisht,
-        dfr,
-        dharl,
-        dharr,
-        diamondsuit,
-        diams,
-        diam,
-        diamond,
-        die,
-        digamma,
-        disin,
-        div,
         divide,
-        divideontimes,
-        divonx,
-        djcy,
-        dlcorn,
-        dlcrop,
+        dcaron,
         dollar,
-        dopf,
-        doteqdot,
-        doteq,
-        dotminus,
-        dot,
-        dotplus,
-        dotsquare,
-        doublebarwedge,
-        downarrow,
-        downdownarrows,
-        downharpoonleft,
-        downharpoonright,
-        drbkarow,
+        dlcorn,
+        dfisht,
+        dlcrop,
         drcorn,
         drcrop,
-        dscr,
-        dscy,
-        dsol,
+        Dagger,
         dstrok,
-        dtdot,
-        dtri,
-        dtrif,
-        duarr,
-        duhar,
+        Dcaron,
+        divonx,
+        Dstrok,
+        DotDot,
+        ddagger,
+        digamma,
+        diamond,
         dwangle,
-        dzcy,
+        dbkarow,
+        ddotseq,
+        Diamond,
+        demptyv,
+        dotplus,
+        DownTee,
+        drbkarow,
+        doteqdot,
         dzigrarr,
-        eDDot,
-        eDot,
-        eacute,
-        easter,
-        ecaron,
-        ecir,
-        ecirc,
-        ecolon,
-        ecy,
-        edot,
+        dotminus,
+        DDotrahd,
+        DotEqual,
+        dotsquare,
+        downarrow,
+        DoubleDot,
+        Downarrow,
+        DownBreve,
+        DownArrow,
+        diamondsuit,
+        DownArrowBar,
+        DownTeeArrow,
+        divideontimes,
+        DifferentialD,
+        DoubleLeftTee,
+        DoubleUpArrow,
+        doublebarwedge,
+        DiacriticalDot,
+        downdownarrows,
+        DoubleRightTee,
+        DownLeftVector,
+        downharpoonleft,
+        DoubleLeftArrow,
+        DoubleDownArrow,
+        DownRightVector,
+        DiacriticalAcute,
+        DiacriticalTilde,
+        downharpoonright,
+        DiacriticalGrave,
+        DoubleRightArrow,
+        DownArrowUpArrow,
+        DoubleVerticalBar,
+        DownLeftVectorBar,
+        DownLeftTeeVector,
+        DoubleUpDownArrow,
+        DownRightVectorBar,
+        DownRightTeeVector,
+        DoubleLongLeftArrow,
+        DownLeftRightVector,
+        DoubleLeftRightArrow,
+        DoubleLongRightArrow,
+        DoubleContourIntegral,
+        DiacriticalDoubleAcute,
+        DoubleLongLeftRightArrow,
         ee,
-        efDot,
-        efr,
-        egrave,
-        egs,
-        egsdot,
         eg,
-        elinters,
-        ell,
-        elsdot,
         el,
-        els,
-        emacr,
-        empty,
-        emptyset,
-        emptyv,
-        emsp14,
-        emsp,
-        emsp13,
         eng,
-        ensp,
-        eogon,
-        eopf,
+        eta,
+        efr,
+        ell,
+        egs,
+        ecy,
+        eth,
+        els,
+        Eta,
+        Efr,
+        Ecy,
+        ENG,
+        ETH,
+        ecir,
         epar,
-        eparsl,
-        eplus,
+        eopf,
+        edot,
+        excl,
+        escr,
+        esim,
         epsi,
-        epsilon,
-        epsiv,
-        eqcirc,
-        eqcolon,
+        euml,
+        emsp,
+        ensp,
+        euro,
+        Eopf,
+        Edot,
+        eDot,
+        Escr,
+        Esim,
+        Euml,
+        ecirc,
+        emacr,
+        eogon,
+        erarr,
+        esdot,
         eqsim,
-        eqslantgtr,
-        eqslantless,
+        Ecirc,
+        epsiv,
+        Emacr,
+        eplus,
+        equiv,
+        exist,
+        empty,
+        efDot,
+        Equal,
+        Eogon,
+        erDot,
+        eDDot,
+        emsp13,
+        emsp14,
+        eacute,
+        eqcirc,
+        ecaron,
+        egrave,
+        ecolon,
+        easter,
+        egsdot,
+        eparsl,
+        elsdot,
         equals,
         equest,
-        equiv,
+        Eacute,
+        Ecaron,
+        Egrave,
+        emptyv,
+        Exists,
+        eqcolon,
+        epsilon,
+        Element,
+        Epsilon,
         equivDD,
+        elinters,
         eqvparsl,
-        erDot,
-        erarr,
-        escr,
-        esdot,
-        esim,
-        eta,
-        eth,
-        euml,
-        euro,
-        excl,
-        exist,
+        emptyset,
+        eqslantgtr,
+        EqualTilde,
         expectation,
+        eqslantless,
+        Equilibrium,
         exponentiale,
-        fallingdotseq,
-        fcy,
-        female,
-        ffilig,
-        fflig,
-        ffllig,
+        ExponentialE,
+        EmptySmallSquare,
+        EmptyVerySmallSquare,
         ffr,
-        filig,
-        fjlig,
+        fcy,
+        Ffr,
+        Fcy,
         flat,
-        fllig,
-        fltns,
         fnof,
         fopf,
-        forall,
+        fscr,
         fork,
+        Fopf,
+        Fscr,
+        fflig,
+        filig,
+        fjlig,
+        fllig,
+        frasl,
+        fltns,
         forkv,
-        fpartint,
+        frown,
         frac12,
         frac13,
+        frac23,
         frac14,
         frac15,
-        frac16,
-        frac18,
-        frac23,
         frac25,
         frac34,
+        frac16,
         frac35,
-        frac38,
+        frac18,
         frac45,
         frac56,
+        frac38,
         frac58,
         frac78,
-        frasl,
-        frown,
-        fscr,
-        gEl,
-        gE,
-        gacute,
-        gamma,
-        gammad,
-        gap,
-        gbreve,
-        gcirc,
-        gcy,
-        gdot,
-        geqq,
-        geqslant,
-        geq,
-        gesdot,
-        gesdoto,
+        female,
+        ffilig,
+        ffllig,
+        forall,
+        ForAll,
+        fpartint,
+        Fouriertrf,
+        fallingdotseq,
+        FilledSmallSquare,
+        FilledVerySmallSquare,
         ge,
-        gel,
-        gescc,
-        gesdotol,
-        gesles,
-        gesl,
-        ges,
-        gfr,
         gg,
-        ggg,
-        gimel,
-        gjcy,
-        gla,
         gl,
-        glE,
+        gt,
+        gE,
+        Gg,
+        Gt,
+        GT,
+        gla,
+        ggg,
+        gel,
+        gap,
+        gne,
+        geq,
         glj,
+        gfr,
+        ges,
+        gcy,
+        gEl,
+        glE,
         gnE,
-        gnapprox,
+        Gfr,
+        Gcy,
+        gtcc,
         gnap,
         gneq,
-        gneqq,
-        gne,
-        gnsim,
+        gesl,
         gopf,
-        grave,
+        gjcy,
+        geqq,
+        gdot,
         gscr,
-        gsime,
-        gsiml,
         gsim,
-        gt,
-        gtcc,
+        Gopf,
+        Gdot,
+        Gscr,
+        gvnE,
+        GJcy,
+        gamma,
+        gescc,
+        gcirc,
+        gimel,
+        gsime,
+        grave,
         gtcir,
+        gneqq,
+        gsiml,
+        gnsim,
         gtdot,
-        gtlPar,
-        gtquest,
-        gtrapprox,
+        Gamma,
+        Gcirc,
+        gammad,
+        gacute,
+        gbreve,
+        gesles,
+        gesdot,
+        Gammad,
+        Gcedil,
         gtrarr,
         gtrdot,
-        gtreqless,
-        gtreqqless,
-        gtrless,
         gtrsim,
+        Gbreve,
+        gtlPar,
+        gesdoto,
+        gtrless,
+        gtquest,
+        geqslant,
+        gesdotol,
+        gnapprox,
+        gtreqless,
         gvertneqq,
-        gvnE,
-        hArr,
-        hairsp,
-        half,
-        hamilt,
-        hardcy,
-        harrcir,
-        harr,
-        harrw,
-        hbar,
-        hcirc,
-        hearts,
-        heartsuit,
-        hellip,
-        hercon,
+        gtrapprox,
+        gtreqqless,
+        GreaterLess,
+        GreaterTilde,
+        GreaterEqual,
+        GreaterGreater,
+        GreaterFullEqual,
+        GreaterEqualLess,
+        GreaterSlantEqual,
         hfr,
+        Hat,
+        Hfr,
+        half,
+        hbar,
+        harr,
+        hopf,
+        hscr,
+        hArr,
+        Hopf,
+        Hscr,
+        hcirc,
+        Hacek,
+        hoarr,
+        harrw,
+        Hcirc,
+        hardcy,
+        hellip,
+        horbar,
+        hercon,
+        hamilt,
+        hslash,
+        hearts,
+        hairsp,
+        hyphen,
+        hybull,
+        homtht,
+        hstrok,
+        Hstrok,
+        HARDcy,
+        harrcir,
         hksearow,
         hkswarow,
-        hoarr,
-        homtht,
+        heartsuit,
+        HumpEqual,
+        HilbertSpace,
+        HumpDownHump,
         hookleftarrow,
         hookrightarrow,
-        hopf,
-        horbar,
-        hscr,
-        hslash,
-        hstrok,
-        hybull,
-        hyphen,
-        iacute,
-        icy,
+        HorizontalLine,
         ic,
-        icirc,
-        iecy,
-        iexcl,
+        ii,
+        In,
+        it,
+        Im,
         iff,
         ifr,
-        igrave,
-        iiiint,
-        iiota,
-        ii,
-        iiint,
-        iinfin,
-        ijlig,
-        imacr,
-        image,
-        imagline,
-        imagpart,
-        imath,
-        imof,
-        imped,
-        incare,
-        infintie,
-        infin,
-        inodot,
-        intcal,
-        integers,
+        icy,
         int,
-        In,
-        intercal,
-        intlarhk,
-        intprod,
-        iocy,
-        iogon,
-        iopf,
+        Ifr,
+        Icy,
+        Int,
+        iecy,
+        imof,
         iota,
-        iprod,
-        iquest,
+        iopf,
         iscr,
         isin,
-        isinE,
-        isindot,
-        isinsv,
+        iocy,
+        iuml,
+        Iota,
+        Iopf,
+        Idot,
+        Iscr,
+        Iuml,
+        IEcy,
+        IOcy,
+        image,
+        icirc,
+        imacr,
+        imped,
+        ijlig,
+        imath,
+        infin,
+        iexcl,
+        iiota,
+        iogon,
+        iiint,
+        iprod,
+        iukcy,
         isins,
         isinv,
-        it,
+        Icirc,
+        Imacr,
+        isinE,
+        Iogon,
+        Iukcy,
+        IJlig,
+        incare,
+        intcal,
+        iacute,
         itilde,
-        iukcy,
-        iuml,
-        jcirc,
-        jcy,
+        iinfin,
+        igrave,
+        iiiint,
+        inodot,
+        Itilde,
+        iquest,
+        Iacute,
+        isinsv,
+        Igrave,
+        isindot,
+        intprod,
+        Implies,
+        imagline,
+        intercal,
+        imagpart,
+        infintie,
+        intlarhk,
+        integers,
+        Integral,
+        ImaginaryI,
+        Intersection,
+        InvisibleComma,
+        InvisibleTimes,
         jfr,
-        jmath,
+        jcy,
+        Jfr,
+        Jcy,
         jopf,
         jscr,
-        jsercy,
+        Jopf,
+        Jscr,
+        jcirc,
+        jmath,
         jukcy,
-        kappav,
-        kappa,
-        kcedil,
-        kcy,
+        Jcirc,
+        Jukcy,
+        jsercy,
+        Jsercy,
         kfr,
-        kgreen,
+        kcy,
+        Kfr,
+        Kcy,
         khcy,
-        kjcy,
         kopf,
+        kjcy,
         kscr,
-        lAarr,
-        lArr,
-        lAtail,
-        lBarr,
-        lEg,
+        Kopf,
+        Kscr,
+        KHcy,
+        KJcy,
+        kappa,
+        Kappa,
+        kcedil,
+        kgreen,
+        kappav,
+        Kcedil,
+        le,
+        lg,
+        ll,
+        lt,
         lE,
-        lHar,
-        lacute,
-        laemptyv,
-        lagran,
-        lambda,
-        lang,
-        langd,
-        langle,
+        Ll,
+        Lt,
+        LT,
+        leg,
         lap,
-        laquo,
-        larrb,
-        larrbfs,
-        larrfs,
-        larrlp,
-        larrtl,
-        larr,
-        larrhk,
-        larrpl,
-        larrsim,
-        latail,
-        late,
+        lne,
         lat,
-        lates,
-        lbarr,
-        lbbrk,
-        lbrace,
-        lbrack,
-        lbrke,
-        lbrksld,
-        lbrkslu,
-        lcaron,
-        lcedil,
-        lceil,
-        lcub,
+        leq,
+        les,
+        lfr,
+        lsh,
         lcy,
+        lrm,
+        loz,
+        lEg,
+        lgE,
+        lnE,
+        Lfr,
+        Lsh,
+        Lcy,
         ldca,
-        ldquor,
-        ldquo,
-        ldrdhar,
-        ldrushar,
+        lang,
+        late,
+        lcub,
+        ltcc,
+        lnap,
         ldsh,
+        lesg,
+        lpar,
+        lneq,
+        lopf,
+        larr,
+        lsqb,
+        ljcy,
+        leqq,
+        lscr,
+        lsim,
+        ltri,
+        lozf,
+        Lang,
+        lHar,
+        Larr,
+        lArr,
+        Lopf,
+        Lscr,
+        lvnE,
+        LJcy,
+        langd,
+        lceil,
+        lescc,
+        lhard,
+        lbbrk,
+        lhblk,
+        lbrke,
+        loang,
+        lbarr,
+        larrb,
+        lrhar,
+        lates,
+        lsime,
+        lobrk,
+        lharu,
+        lsimg,
+        llarr,
+        lopar,
+        ltcir,
+        ltrie,
+        loarr,
+        ltrif,
+        lneqq,
+        laquo,
+        lnsim,
+        lrarr,
+        ldquo,
+        ltdot,
+        lltri,
+        lrtri,
+        lAarr,
+        lBarr,
+        lsquo,
+        lambda,
+        lbrace,
+        lcedil,
+        lbrack,
+        langle,
+        lagran,
+        latail,
+        llhard,
+        lrhard,
+        lacute,
+        lcaron,
+        Lambda,
+        lesges,
+        lthree,
+        larrhk,
+        lowbar,
+        lharul,
+        lmidot,
+        lfisht,
+        larrfs,
+        lesdot,
+        larrlp,
+        larrpl,
+        Lcedil,
+        lfloor,
+        ltimes,
+        lparlt,
+        ltlarr,
+        larrtl,
+        lsaquo,
+        ldquor,
+        lAtail,
+        lowast,
+        Lacute,
+        Lcaron,
+        lstrok,
+        loplus,
+        lmoust,
+        lsquor,
+        Lmidot,
+        ltrPar,
+        Lstrok,
+        ldrdhar,
+        larrbfs,
+        lbrksld,
+        lozenge,
+        lesdoto,
+        larrsim,
+        lotimes,
+        lessdot,
+        lbrkslu,
+        lesssim,
+        luruhar,
+        lessgtr,
+        ltquest,
+        LeftTee,
+        llcorner,
+        leqslant,
+        lurdshar,
+        ldrushar,
+        lrcorner,
+        lesdotor,
+        laemptyv,
+        lnapprox,
+        LessLess,
         leftarrow,
-        leftharpoondown,
+        lesseqgtr,
+        lvertneqq,
+        Leftarrow,
+        LessTilde,
+        LeftFloor,
+        LeftArrow,
+        lmoustache,
+        Laplacetrf,
+        longmapsto,
+        lesseqqgtr,
+        lessapprox,
+        Lleftarrow,
+        LeftVector,
+        LeftCeiling,
+        LessGreater,
+        LeftTriangle,
+        LeftArrowBar,
+        LeftTeeArrow,
+        LeftUpVector,
+        leftarrowtail,
+        longleftarrow,
         leftharpoonup,
+        looparrowleft,
+        Longleftarrow,
+        LeftVectorBar,
+        LeftTeeVector,
+        LessFullEqual,
+        LongLeftArrow,
+        leftthreetimes,
         leftleftarrows,
         leftrightarrow,
-        leftrightarrows,
-        leftrightsquigarrow,
-        leftthreetimes,
-        leg,
-        leqq,
-        leqslant,
-        les,
-        lescc,
-        lesdoto,
-        lesdotor,
-        lesges,
-        lessdot,
-        lesseqgtr,
-        le,
-        leftarrowtail,
-        leftrightharpoons,
-        leq,
-        lesdot,
-        lesg,
-        lessapprox,
-        lesseqqgtr,
-        lessgtr,
-        lesssim,
-        lfisht,
-        lfloor,
-        lfr,
-        lg,
-        lgE,
-        lhard,
-        lharu,
-        lharul,
-        lhblk,
-        ljcy,
-        llarr,
-        ll,
-        llcorner,
-        llhard,
-        lltri,
-        lmidot,
-        lmoustache,
-        lmoust,
-        lnE,
-        lnap,
-        lnapprox,
-        lneqq,
-        lne,
-        lneq,
-        lnsim,
-        loang,
-        loarr,
-        lobrk,
-        longleftarrow,
-        longleftrightarrow,
-        longmapsto,
         longrightarrow,
-        looparrowleft,
         looparrowright,
-        lopar,
-        lopf,
-        loplus,
-        lotimes,
-        lowast,
-        lowbar,
-        lozenge,
-        lozf,
-        loz,
-        lparlt,
-        lpar,
-        lrarr,
-        lrcorner,
-        lrhar,
-        lrhard,
-        lrm,
-        lrtri,
-        lsaquo,
-        lscr,
-        lsh,
-        lsim,
-        lsime,
-        lsimg,
-        lsqb,
-        lsquor,
-        lsquo,
-        lstrok,
-        ltcc,
-        ltcir,
-        ltdot,
-        lthree,
-        ltlarr,
-        lt,
-        ltimes,
-        ltquest,
-        ltrPar,
-        ltrie,
-        ltrif,
-        ltri,
-        lurdshar,
-        luruhar,
-        lvertneqq,
-        lvnE,
-        mDDot,
-        macr,
-        male,
-        malt,
-        maltese,
-        mapsto,
-        mapstodown,
-        mapstoleft,
-        mapstoup,
-        map,
-        marker,
-        mcomma,
-        mcy,
-        mdash,
-        measuredangle,
-        mfr,
-        mho,
-        micro,
-        midast,
-        midcir,
+        Leftrightarrow,
+        Longrightarrow,
+        LessSlantEqual,
+        LeftRightArrow,
+        LeftDownVector,
+        LongRightArrow,
+        LowerLeftArrow,
+        leftharpoondown,
+        leftrightarrows,
+        LeftTriangleBar,
+        LeftRightVector,
+        LowerRightArrow,
+        LeftUpVectorBar,
+        LeftUpTeeVector,
+        LeftAngleBracket,
+        LessEqualGreater,
+        LeftUpDownVector,
+        leftrightharpoons,
+        LeftDoubleBracket,
+        LeftTriangleEqual,
+        LeftDownVectorBar,
+        LeftDownTeeVector,
+        longleftrightarrow,
+        Longleftrightarrow,
+        LongLeftRightArrow,
+        leftrightsquigarrow,
+        LeftArrowRightArrow,
+        mp,
+        mu,
+        Mu,
         mid,
-        middot,
+        map,
+        mho,
+        mfr,
+        mcy,
+        Map,
+        Mfr,
+        Mcy,
+        male,
+        macr,
+        mlcp,
+        malt,
+        mldr,
+        mopf,
+        mscr,
+        Mopf,
+        Mscr,
+        mdash,
+        micro,
+        mumap,
         minus,
+        mDDot,
+        midcir,
+        mcomma,
+        middot,
+        midast,
+        marker,
+        models,
         minusb,
         minusd,
-        minusdu,
-        mlcp,
-        mldr,
+        mapsto,
         mnplus,
-        models,
-        mopf,
-        mp,
-        mscr,
         mstpos,
-        mu,
+        maltese,
+        minusdu,
         multimap,
-        mumap,
-        nGg,
-        nGt,
-        nGtv,
-        nLeftarrow,
-        nLeftrightarrow,
-        nLl,
-        nLtv,
-        nLt,
-        nRightarrow,
-        nVDash,
-        nVdash,
-        nabla,
-        nacute,
-        nang,
-        napid,
-        nap,
-        napE,
-        napos,
-        napprox,
-        natural,
-        natur,
-        naturals,
-        nbsp,
-        nbump,
-        nbumpe,
-        ncap,
-        ncaron,
-        ncedil,
-        ncongdot,
-        ncong,
-        ncup,
-        ncy,
-        ndash,
-        neArr,
-        nearrow,
-        nearr,
-        nedot,
-        nesear,
-        nexist,
+        mapstoup,
+        Mellintrf,
+        MinusPlus,
+        mapstoleft,
+        mapstodown,
+        MediumSpace,
+        measuredangle,
         ne,
-        nearhk,
-        nequiv,
-        nesim,
-        nexists,
-        nfr,
-        ngE,
-        ngeq,
-        ngeqq,
-        ngeqslant,
-        nges,
-        nge,
-        ngsim,
-        ngt,
-        ngtr,
-        nhArr,
-        nharr,
-        nhpar,
-        nisd,
-        nis,
-        niv,
         ni,
-        njcy,
-        nlArr,
-        nlE,
-        nlarr,
-        nldr,
-        nleftarrow,
-        nleftrightarrow,
-        nleq,
-        nleqslant,
-        nle,
-        nleqq,
-        nles,
-        nless,
-        nlsim,
-        nltrie,
-        nltri,
-        nlt,
-        nmid,
-        nopf,
-        notinE,
-        notindot,
-        notinva,
-        notinvb,
-        notinvc,
-        notin,
-        notnivc,
-        notni,
-        notnivb,
-        not,
-        notniva,
-        nparsl,
-        npart,
-        npar,
-        nparallel,
-        npolint,
-        nprcue,
-        npre,
-        npreceq,
-        npr,
-        nprec,
-        nrArr,
-        nrarr,
-        nrarrc,
-        nrarrw,
-        nrightarrow,
-        nrtrie,
-        nrtri,
-        nsc,
-        nsccue,
-        nsce,
-        nscr,
-        nshortmid,
-        nshortparallel,
-        nsimeq,
-        nsim,
-        nsime,
-        nsmid,
-        nspar,
-        nsqsube,
-        nsqsupe,
-        nsubE,
-        nsube,
-        nsubseteq,
-        nsubset,
-        nsubseteqq,
-        nsub,
-        nsucc,
-        nsucceq,
-        nsup,
-        nsupE,
-        nsupe,
-        nsupset,
-        nsupseteq,
-        nsupseteqq,
-        ntgl,
-        ntilde,
-        ntlg,
-        ntrianglelefteq,
-        ntriangleleft,
-        ntrianglerighteq,
-        ntriangleright,
         nu,
+        Nu,
+        nge,
+        nap,
+        nle,
+        nsc,
+        nfr,
+        ngt,
+        nis,
+        ncy,
+        niv,
+        nlt,
+        npr,
         num,
-        numero,
-        numsp,
-        nvDash,
-        nvHarr,
-        nvap,
-        nvdash,
+        not,
+        ngE,
+        nGg,
+        nlE,
+        nLl,
+        Nfr,
+        nGt,
+        Ncy,
+        nLt,
+        Not,
+        ncap,
+        nang,
+        nmid,
+        nsce,
+        ngeq,
+        nges,
+        nisd,
+        nleq,
+        nldr,
         nvge,
-        nvgt,
-        nvinfin,
-        nvlArr,
+        npar,
+        nles,
+        nbsp,
+        nopf,
+        njcy,
         nvle,
+        npre,
+        ntlg,
+        nvap,
+        ntgl,
+        nscr,
+        ncup,
+        nsim,
+        nsub,
+        ngtr,
+        nvgt,
         nvlt,
-        nvltrie,
-        nvrArr,
-        nvrtrie,
-        nvsim,
-        nwArr,
-        nwarhk,
-        nwarrow,
+        napE,
+        nsup,
+        Nopf,
+        Nscr,
+        nGtv,
+        nLtv,
+        NJcy,
+        nabla,
+        napid,
+        ndash,
+        ncong,
+        nearr,
+        nprec,
+        nhpar,
+        nedot,
+        nharr,
+        nsmid,
+        nsucc,
+        nesim,
+        ngeqq,
+        nsime,
+        nsube,
+        ngsim,
+        nlarr,
+        napos,
+        nleqq,
+        nbump,
+        nlsim,
+        nspar,
+        npart,
+        nrarr,
+        nless,
+        notin,
+        notni,
+        nltri,
+        natur,
         nwarr,
+        nsupe,
+        nvsim,
+        nrtri,
+        numsp,
+        neArr,
+        nhArr,
+        nsubE,
+        nlArr,
+        nrArr,
+        nwArr,
+        nsupE,
+        ncedil,
+        nearhk,
+        nesear,
+        nacute,
+        ntilde,
+        nsccue,
+        ncaron,
+        nvdash,
+        nbumpe,
+        nrarrc,
+        nwarhk,
         nwnear,
-        oS,
-        oacute,
-        oast,
-        ocirc,
-        ocir,
-        ocy,
-        odash,
-        odblac,
-        odiv,
-        odot,
-        odsold,
-        oelig,
-        ofcir,
-        ofr,
-        ogon,
-        ograve,
-        ogt,
-        ohbar,
-        ohm,
-        oint,
-        olarr,
-        olcir,
-        olcross,
-        oline,
-        olt,
-        omacr,
-        omega,
-        omicron,
-        omid,
-        ominus,
-        oopf,
-        opar,
-        operp,
-        oplus,
-        ordm,
+        nsimeq,
+        nprcue,
+        nltrie,
+        Ncedil,
+        nparsl,
+        nrtrie,
+        numero,
+        nequiv,
+        nexist,
+        nrarrw,
+        Nacute,
+        Ntilde,
+        Ncaron,
+        nvDash,
+        nVdash,
+        notinE,
+        nvHarr,
+        nvlArr,
+        nvrArr,
+        nVDash,
+        npreceq,
+        nsucceq,
+        natural,
+        nvinfin,
+        nearrow,
+        notinva,
+        notniva,
+        notinvb,
+        notnivb,
+        notinvc,
+        nsqsube,
+        notnivc,
+        npolint,
+        nsubset,
+        nvltrie,
+        napprox,
+        nvrtrie,
+        nexists,
+        nsqsupe,
+        nwarrow,
+        nsupset,
+        NoBreak,
+        NewLine,
+        NotLess,
+        ncongdot,
+        naturals,
+        notindot,
+        NotTilde,
+        NotEqual,
+        nparallel,
+        ngeqslant,
+        nleqslant,
+        nshortmid,
+        nsubseteq,
+        nsupseteq,
+        NotSubset,
+        NotCupCap,
+        NotExists,
+        nleftarrow,
+        nsubseteqq,
+        nsupseteqq,
+        nLeftarrow,
+        NotGreater,
+        NotElement,
+        nrightarrow,
+        nRightarrow,
+        NotPrecedes,
+        NotSucceeds,
+        NotSuperset,
+        NotLessLess,
+        NotCongruent,
+        NotLessTilde,
+        NotLessEqual,
+        NotHumpEqual,
+        ntriangleleft,
+        NotTildeTilde,
+        NotEqualTilde,
+        NotTildeEqual,
+        ntriangleright,
+        nshortparallel,
+        NotVerticalBar,
+        NestedLessLess,
+        NotGreaterLess,
+        NotLessGreater,
+        NotSubsetEqual,
+        ntrianglelefteq,
+        nleftrightarrow,
+        nLeftrightarrow,
+        NotGreaterTilde,
+        NotLeftTriangle,
+        NotGreaterEqual,
+        NotSquareSubset,
+        NotHumpDownHump,
+        ntrianglerighteq,
+        NonBreakingSpace,
+        NotSucceedsTilde,
+        NotPrecedesEqual,
+        NotSucceedsEqual,
+        NotRightTriangle,
+        NotSupersetEqual,
+        NegativeThinSpace,
+        NotGreaterGreater,
+        NotReverseElement,
+        NotTildeFullEqual,
+        NotSquareSuperset,
+        NotLessSlantEqual,
+        NotNestedLessLess,
+        NegativeThickSpace,
+        NotLeftTriangleBar,
+        NegativeMediumSpace,
+        NotRightTriangleBar,
+        NotGreaterFullEqual,
+        NestedGreaterGreater,
+        NotDoubleVerticalBar,
+        NotLeftTriangleEqual,
+        NotGreaterSlantEqual,
+        NotSquareSubsetEqual,
+        NotPrecedesSlantEqual,
+        NegativeVeryThinSpace,
+        NotSucceedsSlantEqual,
+        NotRightTriangleEqual,
+        NotSquareSupersetEqual,
+        NotNestedGreaterGreater,
         or,
-        orarr,
-        order,
+        Or,
+        oS,
+        ohm,
         ord,
-        orderof,
-        ordf,
-        origof,
-        oror,
-        orslope,
+        ofr,
+        ogt,
+        ocy,
+        olt,
         orv,
+        Ofr,
+        Ocy,
+        omid,
+        ordf,
+        ocir,
+        ordm,
+        opar,
+        odiv,
+        ogon,
+        oopf,
+        odot,
         oscr,
-        oslash,
-        osol,
-        otilde,
-        otimes,
-        otimesas,
+        oast,
+        oint,
         ouml,
+        osol,
+        oror,
+        Oopf,
+        Oscr,
+        Ouml,
+        omega,
+        ohbar,
+        odash,
+        ocirc,
+        oelig,
+        omacr,
+        ofcir,
+        oline,
+        olcir,
         ovbar,
-        parallel,
-        para,
-        parsim,
-        parsl,
-        part,
-        par,
-        pcy,
-        percnt,
-        period,
-        permil,
-        perp,
-        pertenk,
-        pfr,
-        phi,
-        phiv,
-        phmmat,
-        phone,
-        pitchfork,
+        order,
+        olarr,
+        operp,
+        orarr,
+        Omega,
+        Ocirc,
+        Omacr,
+        oplus,
+        OElig,
+        odblac,
+        otilde,
+        oacute,
+        ograve,
+        odsold,
+        Odblac,
+        origof,
+        oslash,
+        otimes,
+        ominus,
+        Oacute,
+        Otilde,
+        Ograve,
+        Oslash,
+        Otimes,
+        orderof,
+        omicron,
+        orslope,
+        olcross,
+        Omicron,
+        OverBar,
+        otimesas,
+        OverBrace,
+        OverBracket,
+        OpenCurlyQuote,
+        OverParenthesis,
+        OpenCurlyDoubleQuote,
         pi,
+        pm,
+        pr,
+        Pi,
+        Pr,
+        phi,
+        par,
+        pre,
+        pfr,
+        psi,
+        pcy,
         piv,
+        Phi,
+        prE,
+        Pfr,
+        Psi,
+        Pcy,
+        para,
+        prec,
+        prap,
+        popf,
+        prod,
+        perp,
+        part,
+        phiv,
+        pscr,
+        prop,
+        plus,
+        Popf,
+        prnE,
+        Pscr,
+        phone,
+        prime,
+        prcue,
+        prnap,
+        parsl,
+        pound,
+        plusb,
+        pluse,
+        prsim,
+        Prime,
         planck,
-        planckh,
+        preceq,
+        period,
+        phmmat,
+        permil,
         plankv,
+        percnt,
+        parsim,
+        primes,
+        plusdo,
+        prnsim,
+        puncsp,
+        prurel,
         plusdu,
         plusmn,
-        plustwo,
-        plus,
-        plusacir,
-        plusb,
-        pluscir,
-        plusdo,
-        pluse,
-        plussim,
-        pm,
-        pointint,
-        popf,
-        pound,
-        prE,
-        prap,
-        prcue,
-        precapprox,
-        preccurlyeq,
-        preceq,
-        precneqq,
-        prnsim,
-        pr,
-        precnapprox,
-        pre,
-        precnsim,
-        precsim,
-        prec,
-        primes,
-        prime,
-        prnE,
-        prnap,
-        prod,
-        profalar,
-        profline,
-        profsurf,
-        prop,
         propto,
-        prsim,
-        prurel,
-        pscr,
-        psi,
-        puncsp,
+        planckh,
+        precsim,
+        pertenk,
+        pluscir,
+        plussim,
+        plustwo,
+        Product,
+        parallel,
+        profalar,
+        precneqq,
+        profline,
+        precnsim,
+        plusacir,
+        Precedes,
+        pointint,
+        profsurf,
+        PartialD,
+        pitchfork,
+        PlusMinus,
+        precapprox,
+        Proportion,
+        preccurlyeq,
+        precnapprox,
+        Proportional,
+        Poincareplane,
+        PrecedesTilde,
+        PrecedesEqual,
+        PrecedesSlantEqual,
         qfr,
-        qint,
+        Qfr,
         qopf,
-        qprime,
         qscr,
-        quaternions,
-        quatint,
-        quest,
-        questeq,
+        qint,
         quot,
-        rAarr,
-        rArr,
-        rAtail,
-        rBarr,
-        rHar,
-        race,
-        racute,
-        radic,
-        raemptyv,
-        rangd,
-        rangle,
-        rang,
-        range,
-        raquo,
-        rarrap,
-        rarrbfs,
-        rarrc,
-        rarr,
-        rarrb,
-        rarrfs,
-        rarrhk,
-        rarrlp,
-        rarrpl,
-        rarrsim,
-        rarrtl,
-        rarrw,
-        ratail,
-        rationals,
-        ratio,
-        rbarr,
-        rbbrk,
-        rbrace,
-        rbrack,
-        rbrke,
-        rbrksld,
-        rbrkslu,
-        rcaron,
-        rcedil,
-        rceil,
-        rcub,
-        rcy,
-        rdca,
-        rdldhar,
-        rdquor,
-        rdquo,
-        rdsh,
-        real,
-        realine,
-        realpart,
-        reals,
-        rect,
+        Qopf,
+        Qscr,
+        QUOT,
+        quest,
+        qprime,
+        quatint,
+        questeq,
+        quaternions,
+        rx,
+        Re,
         reg,
-        rfisht,
-        rfloor,
-        rfr,
-        rhard,
-        rharul,
-        rharu,
         rho,
-        rhov,
-        rightarrow,
-        rightarrowtail,
-        rightharpoondown,
-        rightharpoonup,
-        rightleftarrows,
-        rightleftharpoons,
-        rightrightarrows,
-        rightsquigarrow,
-        rightthreetimes,
-        ring,
-        risingdotseq,
-        rlarr,
-        rlhar,
+        rfr,
         rlm,
-        rmoust,
-        rmoustache,
-        rnmid,
-        roang,
-        roarr,
-        robrk,
-        ropar,
-        ropf,
-        roplus,
-        rotimes,
-        rpar,
-        rpargt,
-        rppolint,
-        rrarr,
-        rsaquo,
-        rscr,
         rsh,
+        rcy,
+        Rho,
+        Rfr,
+        Rsh,
+        Rcy,
+        REG,
+        rdca,
+        race,
+        real,
+        rang,
+        rcub,
+        rect,
+        ring,
+        rdsh,
+        rpar,
+        rarr,
+        ropf,
         rsqb,
-        rsquo,
-        rsquor,
-        rthree,
-        rtimes,
+        rscr,
+        rhov,
+        rtri,
+        Rang,
+        rHar,
+        Rarr,
+        Ropf,
+        rArr,
+        Rscr,
+        radic,
+        rangd,
+        range,
+        rceil,
+        rhard,
+        rbbrk,
+        rbrke,
+        roang,
+        reals,
+        rbarr,
+        rlhar,
+        rarrb,
+        rarrc,
+        rnmid,
+        ratio,
+        robrk,
+        rharu,
+        rlarr,
+        ropar,
+        roarr,
         rtrie,
         rtrif,
-        rtriltri,
-        rtri,
+        raquo,
+        rrarr,
+        rdquo,
+        rarrw,
+        rAarr,
+        rBarr,
+        rsquo,
+        RBarr,
+        rbrace,
+        rcedil,
+        rbrack,
+        rangle,
+        ratail,
+        racute,
+        rcaron,
+        rarrap,
+        rthree,
+        rarrhk,
+        rharul,
+        rarrfs,
+        rfisht,
+        rpargt,
+        rarrpl,
+        Rcedil,
+        rarrlp,
+        rfloor,
+        rtimes,
+        rarrtl,
+        rsaquo,
+        rdquor,
+        rAtail,
+        Racute,
+        roplus,
+        Rcaron,
+        rmoust,
+        rsquor,
+        Rarrtl,
+        realine,
+        rdldhar,
+        rarrbfs,
+        rbrksld,
+        rarrsim,
         ruluhar,
-        rx,
-        sacute,
-        sbquo,
-        scE,
-        scap,
-        scaron,
-        scirc,
-        scnE,
-        scnap,
+        rotimes,
+        rbrkslu,
+        realpart,
+        raemptyv,
+        rppolint,
+        rtriltri,
+        RightTee,
+        rationals,
+        rmoustache,
+        rightarrow,
+        Rightarrow,
+        RightFloor,
+        RightArrow,
+        RuleDelayed,
+        Rrightarrow,
+        RightVector,
+        risingdotseq,
+        RightCeiling,
+        RoundImplies,
+        RightTriangle,
+        RightArrowBar,
+        RightTeeArrow,
+        RightUpVector,
+        rightarrowtail,
+        rightharpoonup,
+        ReverseElement,
+        RightVectorBar,
+        RightTeeVector,
+        rightthreetimes,
+        rightleftarrows,
+        rightsquigarrow,
+        RightDownVector,
+        rightharpoondown,
+        rightrightarrows,
+        RightTriangleBar,
+        RightUpVectorBar,
+        RightUpTeeVector,
+        rightleftharpoons,
+        RightAngleBracket,
+        RightUpDownVector,
+        RightDoubleBracket,
+        ReverseEquilibrium,
+        RightTriangleEqual,
+        RightDownVectorBar,
+        RightDownTeeVector,
+        RightArrowLeftArrow,
+        ReverseUpEquilibrium,
         sc,
-        sccue,
-        scedil,
+        Sc,
         sce,
-        scnsim,
-        scpolint,
-        scsim,
-        scy,
-        sdot,
-        sdotb,
-        sdote,
-        seArr,
-        searhk,
-        searr,
-        searrow,
-        sect,
-        semi,
-        seswar,
-        setminus,
-        setmn,
-        sext,
-        sfrown,
-        sfr,
-        sharp,
-        shchcy,
-        shcy,
-        shortmid,
-        shortparallel,
-        shy,
-        sigmav,
-        sigma,
-        sigmaf,
         sim,
-        simdot,
-        simeq,
-        sime,
-        simg,
-        simgE,
-        siml,
-        simlE,
-        simne,
-        simplus,
-        simrarr,
-        slarr,
-        smallsetminus,
-        smashp,
-        smeparsl,
-        smid,
-        smile,
-        smtes,
-        smte,
-        smt,
-        softcy,
-        sol,
-        solbar,
-        solb,
-        sopf,
-        spades,
-        spadesuit,
-        spar,
-        sqcap,
-        sqcaps,
-        sqcups,
-        sqcup,
-        sqsube,
-        sqsub,
-        sqsubset,
-        sqsubseteq,
-        sqsupset,
-        sqsup,
-        sqsupe,
-        sqsupseteq,
-        square,
-        squarf,
-        squf,
-        squ,
-        srarr,
-        sscr,
-        ssetmn,
-        ssmile,
-        sstarf,
-        star,
-        starf,
-        straightepsilon,
-        straightphi,
-        strns,
-        subE,
-        subdot,
-        sube,
-        subedot,
-        submult,
-        subnE,
-        subne,
-        subplus,
-        subrarr,
-        subseteqq,
         sub,
-        subseteq,
-        subsetneqq,
-        subset,
-        subsetneq,
-        subsim,
-        subsub,
-        subsup,
-        succ,
-        succapprox,
-        succcurlyeq,
-        succeq,
-        succnapprox,
-        succneqq,
-        succnsim,
-        succsim,
+        sfr,
+        sol,
+        scy,
+        shy,
+        smt,
         sum,
-        sung,
+        sup,
+        squ,
+        scE,
+        Sub,
+        Sfr,
+        Scy,
+        Sum,
+        Sup,
+        scap,
         sup1,
         sup2,
         sup3,
-        supE,
-        supdot,
-        supdsub,
-        supedot,
+        smid,
+        succ,
+        semi,
+        sime,
+        sube,
+        sect,
+        simg,
+        solb,
+        siml,
+        spar,
+        shcy,
+        sopf,
+        smte,
+        sdot,
+        star,
+        sscr,
+        sung,
         supe,
-        suphsol,
-        suphsub,
-        suplarr,
-        supmult,
-        supnE,
-        supne,
-        supplus,
-        supseteqq,
-        supseteq,
-        supsetneq,
-        supsetneqq,
-        supsub,
-        supsup,
-        sup,
-        supset,
-        supsim,
-        swArr,
-        swarhk,
-        swarr,
-        swarrow,
-        swnwar,
+        squf,
+        sext,
+        scnE,
+        subE,
+        Sopf,
+        Star,
+        Sscr,
+        supE,
+        Sqrt,
+        SHcy,
+        sigma,
+        sccue,
+        scirc,
+        scnap,
+        sqcap,
+        smile,
+        simne,
+        sdotb,
+        searr,
+        subne,
+        sharp,
+        simeq,
+        scsim,
+        sdote,
+        starf,
+        slarr,
+        setmn,
         szlig,
-        target,
+        sbquo,
+        srarr,
+        supne,
+        smtes,
+        sqcup,
+        sqsub,
+        swarr,
+        Sigma,
+        Scirc,
+        simgE,
+        strns,
+        simlE,
+        sqsup,
+        seArr,
+        subnE,
+        supnE,
+        swArr,
+        scedil,
+        sigmaf,
+        searhk,
+        spades,
+        shchcy,
+        solbar,
+        succeq,
+        sacute,
+        scaron,
+        sigmav,
+        sqcaps,
+        smashp,
+        ssmile,
+        scnsim,
+        swarhk,
+        simdot,
+        subdot,
+        square,
+        squarf,
+        sqsube,
+        subsim,
+        sstarf,
+        Scedil,
+        subsub,
+        seswar,
+        subset,
+        softcy,
+        ssetmn,
+        sqcups,
+        supdot,
+        sfrown,
+        sqsupe,
+        supsim,
+        swnwar,
+        supsub,
+        subsup,
+        supset,
+        Sacute,
+        Scaron,
+        supsup,
+        Square,
+        Subset,
+        Supset,
+        SHCHcy,
+        SOFTcy,
+        subedot,
+        succsim,
+        simrarr,
+        subrarr,
+        searrow,
+        supedot,
+        supdsub,
+        suplarr,
+        suphsub,
+        submult,
+        simplus,
+        suphsol,
+        subplus,
+        swarrow,
+        supmult,
+        supplus,
+        succneqq,
+        succnsim,
+        smeparsl,
+        shortmid,
+        subseteq,
+        scpolint,
+        Succeeds,
+        setminus,
+        supseteq,
+        sqsubset,
+        sqsupset,
+        Superset,
+        SuchThat,
+        spadesuit,
+        subsetneq,
+        subseteqq,
+        supsetneq,
+        supseteqq,
+        succapprox,
+        subsetneqq,
+        sqsubseteq,
+        supsetneqq,
+        sqsupseteq,
+        straightphi,
+        succcurlyeq,
+        succnapprox,
+        SmallCircle,
+        SubsetEqual,
+        SquareUnion,
+        SquareSubset,
+        ShortUpArrow,
+        shortparallel,
+        smallsetminus,
+        SucceedsTilde,
+        SucceedsEqual,
+        SupersetEqual,
+        SquareSuperset,
+        ShortLeftArrow,
+        ShortDownArrow,
+        straightepsilon,
+        ShortRightArrow,
+        SquareSubsetEqual,
+        SquareIntersection,
+        SucceedsSlantEqual,
+        SquareSupersetEqual,
         tau,
-        tbrk,
-        tcaron,
-        tcedil,
-        tcy,
-        tdot,
-        telrec,
         tfr,
-        there4,
-        therefore,
-        theta,
-        thetasym,
-        thetav,
-        thickapprox,
-        thicksim,
-        thinsp,
-        thkap,
-        thksim,
-        thorn,
-        tilde,
-        times,
-        timesb,
-        timesbar,
-        timesd,
-        tint,
-        toea,
+        tcy,
         top,
-        topbot,
-        topcir,
-        topfork,
-        topf,
-        tosa,
-        tprime,
-        trade,
-        trianglelefteq,
-        triangleleft,
-        triangle,
-        triangledown,
-        triangleq,
-        trianglerighteq,
-        triangleright,
-        tridot,
+        Tab,
+        Tau,
+        Tfr,
+        Tcy,
+        toea,
+        tbrk,
         trie,
-        triminus,
-        triplus,
-        trisb,
-        tritime,
-        trpezium,
+        tosa,
+        topf,
+        tdot,
         tscr,
+        tint,
         tscy,
+        Topf,
+        Tscr,
+        TScy,
+        trade,
+        tilde,
+        theta,
+        thkap,
+        times,
+        trisb,
+        thorn,
         tshcy,
-        tstrok,
+        Tilde,
+        Theta,
         twixt,
+        TSHcy,
+        TRADE,
+        THORN,
+        there4,
+        tcedil,
+        telrec,
+        timesb,
+        timesd,
+        target,
+        tcaron,
+        thetav,
+        thksim,
+        tprime,
+        topcir,
+        Tcedil,
+        thinsp,
+        tridot,
+        topbot,
+        Tcaron,
+        tstrok,
+        Tstrok,
+        tritime,
+        topfork,
+        triplus,
+        triangle,
+        timesbar,
+        thicksim,
+        thetasym,
+        triminus,
+        trpezium,
+        therefore,
+        triangleq,
+        Therefore,
+        ThinSpace,
+        TripleDot,
+        ThickSpace,
+        TildeTilde,
+        TildeEqual,
+        thickapprox,
+        triangleleft,
+        triangledown,
+        triangleright,
+        trianglelefteq,
+        TildeFullEqual,
+        trianglerighteq,
         twoheadleftarrow,
         twoheadrightarrow,
-        uArr,
-        uHar,
-        uacute,
-        uarr,
-        ubrcy,
-        ubreve,
-        ucirc,
-        ucy,
-        udarr,
-        udblac,
-        udhar,
-        ufisht,
         ufr,
-        ugrave,
-        uharl,
-        uharr,
+        uml,
+        ucy,
+        Ufr,
+        Ucy,
+        uopf,
+        uarr,
+        uscr,
+        upsi,
+        uuml,
+        utri,
+        uHar,
+        Uopf,
+        uArr,
+        Uarr,
+        Uscr,
+        Upsi,
+        Uuml,
+        udhar,
         uhblk,
-        ulcorner,
+        ucirc,
+        umacr,
+        uharl,
+        udarr,
+        uharr,
+        uring,
+        ubrcy,
+        uogon,
+        upsih,
+        utrif,
+        uuarr,
+        utdot,
+        ultri,
+        Ucirc,
+        urtri,
+        Umacr,
+        uplus,
+        Uring,
+        Ubrcy,
+        Uogon,
+        Union,
+        UpTee,
+        udblac,
+        utilde,
+        uacute,
+        ubreve,
+        ugrave,
+        Udblac,
+        ufisht,
         ulcorn,
         ulcrop,
-        ultri,
-        umacr,
-        uml,
-        uogon,
-        uopf,
-        uparrow,
-        updownarrow,
-        upharpoonleft,
-        upharpoonright,
-        uplus,
-        upsi,
-        upsih,
-        upsilon,
-        upuparrows,
         urcorn,
-        urcorner,
         urcrop,
-        uring,
-        urtri,
-        uscr,
-        utdot,
-        utilde,
-        utrif,
-        utri,
-        uuarr,
-        uuml,
+        Uacute,
+        Utilde,
+        Ubreve,
+        Ugrave,
         uwangle,
-        vArr,
-        vBarv,
-        vBar,
-        vDash,
-        vangrt,
-        varepsilon,
-        varkappa,
-        varnothing,
-        varphi,
-        varpi,
-        varpropto,
-        varrho,
-        varr,
-        varsigma,
-        varsubsetneqq,
-        varsubsetneq,
-        varsupsetneqq,
-        varsupsetneq,
-        vartheta,
-        vartriangleleft,
-        vartriangleright,
-        vcy,
-        vdash,
+        upsilon,
+        uparrow,
+        Upsilon,
+        Uparrow,
+        UpArrow,
+        ulcorner,
+        urcorner,
+        Uarrocir,
+        UnderBar,
+        UnionPlus,
+        UnderBrace,
+        upuparrows,
+        UpArrowBar,
+        UpTeeArrow,
+        updownarrow,
+        Updownarrow,
+        UpDownArrow,
+        UnderBracket,
+        upharpoonleft,
+        UpEquilibrium,
+        upharpoonright,
+        UpperLeftArrow,
+        UpperRightArrow,
+        UnderParenthesis,
+        UpArrowDownArrow,
         vee,
-        veebar,
-        veeeq,
-        vellip,
-        verbar,
-        vert,
         vfr,
-        vltri,
-        vnsub,
-        vnsup,
+        vcy,
+        Vee,
+        Vfr,
+        Vcy,
         vopf,
+        varr,
+        vscr,
+        vert,
+        Vbar,
+        vBar,
+        Vopf,
+        vArr,
+        Vscr,
+        Vert,
+        veeeq,
+        vdash,
+        varpi,
+        vnsub,
+        vltri,
+        vDash,
+        Vdash,
         vprop,
         vrtri,
-        vscr,
-        vsubnE,
+        vnsup,
+        vBarv,
+        VDash,
+        veebar,
+        verbar,
+        varphi,
+        vellip,
+        varrho,
+        vangrt,
         vsubne,
-        vsupnE,
         vsupne,
+        Vdashl,
+        Verbar,
+        Vvdash,
+        vsubnE,
+        vsupnE,
         vzigzag,
-        wcirc,
-        wedbar,
-        wedge,
-        wedgeq,
-        weierp,
-        wfr,
-        wopf,
+        varkappa,
+        varsigma,
+        vartheta,
+        varpropto,
+        varnothing,
+        varepsilon,
+        VerticalBar,
+        varsubsetneq,
+        varsupsetneq,
+        VerticalLine,
+        varsubsetneqq,
+        varsupsetneqq,
+        VerticalTilde,
+        VeryThinSpace,
+        vartriangleleft,
+        vartriangleright,
+        VerticalSeparator,
         wp,
-        wreath,
         wr,
+        wfr,
+        Wfr,
+        wopf,
         wscr,
-        xcap,
-        xcirc,
-        xcup,
-        xdtri,
-        xfr,
-        xhArr,
-        xharr,
+        Wopf,
+        Wscr,
+        wedge,
+        wcirc,
+        Wedge,
+        Wcirc,
+        wedbar,
+        wedgeq,
+        wreath,
+        weierp,
         xi,
-        xlArr,
-        xlarr,
+        Xi,
+        xfr,
+        Xfr,
+        xcap,
         xmap,
-        xnis,
-        xodot,
-        xopf,
-        xoplus,
-        xotime,
-        xrArr,
-        xrarr,
-        xscr,
-        xsqcup,
-        xuplus,
-        xutri,
         xvee,
+        xopf,
+        xcup,
+        xscr,
+        xnis,
+        Xopf,
+        Xscr,
+        xcirc,
+        xharr,
+        xlarr,
+        xdtri,
+        xodot,
+        xrarr,
+        xutri,
+        xhArr,
+        xlArr,
+        xrArr,
         xwedge,
-        yacute,
-        yacy,
-        ycirc,
-        ycy,
+        xotime,
+        xsqcup,
+        xoplus,
+        xuplus,
         yen,
         yfr,
-        yicy,
+        ycy,
+        Yfr,
+        Ycy,
+        yacy,
         yopf,
+        yicy,
         yscr,
-        yucy,
         yuml,
+        yucy,
+        Yopf,
+        Yscr,
+        Yuml,
+        YAcy,
+        YIcy,
+        YUcy,
+        ycirc,
+        Ycirc,
+        yacute,
+        Yacute,
+        zfr,
+        zcy,
+        zwj,
+        Zfr,
+        Zcy,
+        zeta,
+        zhcy,
+        zopf,
+        zdot,
+        zscr,
+        zwnj,
+        Zeta,
+        Zopf,
+        Zdot,
+        Zscr,
+        ZHcy,
         zacute,
         zcaron,
-        zcy,
-        zdot,
         zeetrf,
-        zeta,
-        zfr,
-        zhcy,
+        Zacute,
+        Zcaron,
         zigrarr,
-        zopf,
-        zscr,
-        zwj,
-        zwnj,
+        ZeroWidthSpace,
         
     ];
 
     @:to public function asCodePoints():Array<Int> {
         return switch this {
-            case AElig: [198];
-            case AMP: [38];
-            case Aacute: [193];
-            case Abreve: [258];
-            case Acirc: [194];
-            case Acy: [1040];
-            case Afr: [120068];
-            case Agrave: [192];
-            case Alpha: [913];
-            case Amacr: [256];
+            case ac: [8766];
+            case af: [8289];
+            case ap: [8776];
+            case acd: [8767];
+            case and: [8743];
+            case ang: [8736];
+            case ape: [8778];
+            case afr: [120094];
+            case acy: [1072];
+            case amp: [38];
+            case ast: [42];
+            case acE: [8766,819];
             case And: [10835];
-            case Aogon: [260];
+            case apE: [10864];
+            case Afr: [120068];
+            case Acy: [1040];
+            case AMP: [38];
+            case andd: [10844];
+            case ange: [10660];
+            case apid: [8779];
+            case aopf: [120146];
+            case ascr: [119990];
+            case andv: [10842];
+            case auml: [228];
+            case apos: [39];
             case Aopf: [120120];
-            case ApplyFunction: [8289];
-            case Aring: [197];
             case Ascr: [119964];
-            case Assign: [8788];
-            case Atilde: [195];
             case Auml: [196];
-            case Backslash: [8726];
-            case Barv: [10983];
-            case Barwed: [8966];
-            case Bcy: [1041];
-            case Because: [8757];
-            case Bernoullis: [8492];
-            case Beta: [914];
-            case Bfr: [120069];
-            case Bopf: [120121];
-            case Breve: [728];
-            case Bscr: [8492];
-            case Bumpeq: [8782];
-            case CHcy: [1063];
-            case COPY: [169];
-            case Cacute: [262];
-            case Cap: [8914];
-            case CapitalDifferentialD: [8517];
-            case Cayleys: [8493];
-            case Ccaron: [268];
-            case Ccedil: [199];
-            case Ccirc: [264];
-            case Cconint: [8752];
-            case Cdot: [266];
-            case Cedilla: [184];
-            case CenterDot: [183];
-            case Cfr: [8493];
-            case Chi: [935];
-            case CircleDot: [8857];
-            case CircleMinus: [8854];
-            case CirclePlus: [8853];
-            case CircleTimes: [8855];
-            case ClockwiseContourIntegral: [8754];
-            case CloseCurlyDoubleQuote: [8221];
-            case CloseCurlyQuote: [8217];
-            case Colone: [10868];
-            case Colon: [8759];
-            case Congruent: [8801];
-            case Conint: [8751];
-            case ContourIntegral: [8750];
-            case Copf: [8450];
-            case Coproduct: [8720];
-            case CounterClockwiseContourIntegral: [8755];
-            case Cross: [10799];
-            case Cscr: [119966];
-            case Cup: [8915];
-            case CupCap: [8781];
-            case DDotrahd: [10513];
-            case DD: [8517];
-            case DJcy: [1026];
-            case DScy: [1029];
-            case DZcy: [1039];
-            case Dagger: [8225];
-            case Darr: [8609];
-            case Dashv: [10980];
-            case Dcaron: [270];
-            case Dcy: [1044];
-            case Delta: [916];
-            case Del: [8711];
-            case Dfr: [120071];
-            case DiacriticalAcute: [180];
-            case DiacriticalDot: [729];
-            case DiacriticalDoubleAcute: [733];
-            case DiacriticalGrave: [96];
-            case DiacriticalTilde: [732];
-            case Diamond: [8900];
-            case DifferentialD: [8518];
-            case Dopf: [120123];
-            case Dot: [168];
-            case DotDot: [8412];
-            case DotEqual: [8784];
-            case DoubleContourIntegral: [8751];
-            case DoubleDot: [168];
-            case DoubleDownArrow: [8659];
-            case DoubleLeftArrow: [8656];
-            case DoubleLeftRightArrow: [8660];
-            case DoubleLeftTee: [10980];
-            case DoubleLongLeftArrow: [10232];
-            case DoubleLongLeftRightArrow: [10234];
-            case DoubleLongRightArrow: [10233];
-            case DoubleRightArrow: [8658];
-            case DoubleRightTee: [8872];
-            case DoubleUpArrow: [8657];
-            case DoubleUpDownArrow: [8661];
-            case DoubleVerticalBar: [8741];
-            case DownArrowBar: [10515];
-            case DownArrowUpArrow: [8693];
-            case DownArrow: [8595];
-            case DownBreve: [785];
-            case DownLeftRightVector: [10576];
-            case DownLeftTeeVector: [10590];
-            case DownLeftVector: [8637];
-            case DownLeftVectorBar: [10582];
-            case DownRightTeeVector: [10591];
-            case DownRightVectorBar: [10583];
-            case DownRightVector: [8641];
-            case DownTeeArrow: [8615];
-            case DownTee: [8868];
-            case Downarrow: [8659];
-            case Dscr: [119967];
-            case Dstrok: [272];
-            case ENG: [330];
-            case ETH: [208];
-            case Eacute: [201];
-            case Ecaron: [282];
-            case Ecirc: [202];
-            case Ecy: [1069];
-            case Edot: [278];
-            case Efr: [120072];
-            case Egrave: [200];
-            case Element: [8712];
-            case Emacr: [274];
-            case EmptySmallSquare: [9723];
-            case EmptyVerySmallSquare: [9643];
-            case Eogon: [280];
-            case Eopf: [120124];
-            case Epsilon: [917];
-            case Equal: [10869];
-            case EqualTilde: [8770];
-            case Equilibrium: [8652];
-            case Escr: [8496];
-            case Esim: [10867];
-            case Eta: [919];
-            case Euml: [203];
-            case Exists: [8707];
-            case ExponentialE: [8519];
-            case Fcy: [1060];
-            case Ffr: [120073];
-            case FilledSmallSquare: [9724];
-            case FilledVerySmallSquare: [9642];
-            case Fopf: [120125];
-            case ForAll: [8704];
-            case Fouriertrf: [8497];
-            case Fscr: [8497];
-            case GJcy: [1027];
-            case GT: [62];
-            case Gamma: [915];
-            case Gammad: [988];
-            case Gbreve: [286];
-            case Gcedil: [290];
-            case Gcirc: [284];
-            case Gcy: [1043];
-            case Gdot: [288];
-            case Gfr: [120074];
-            case Gg: [8921];
-            case Gopf: [120126];
-            case GreaterEqualLess: [8923];
-            case GreaterEqual: [8805];
-            case GreaterFullEqual: [8807];
-            case GreaterGreater: [10914];
-            case GreaterLess: [8823];
-            case GreaterSlantEqual: [10878];
-            case GreaterTilde: [8819];
-            case Gscr: [119970];
-            case Gt: [8811];
-            case HARDcy: [1066];
-            case Hacek: [711];
-            case Hat: [94];
-            case Hcirc: [292];
-            case Hfr: [8460];
-            case HilbertSpace: [8459];
-            case Hopf: [8461];
-            case HorizontalLine: [9472];
-            case Hscr: [8459];
-            case Hstrok: [294];
-            case HumpDownHump: [8782];
-            case HumpEqual: [8783];
-            case IEcy: [1045];
-            case IJlig: [306];
-            case IOcy: [1025];
-            case Iacute: [205];
-            case Icirc: [206];
-            case Icy: [1048];
-            case Idot: [304];
-            case Ifr: [8465];
-            case Igrave: [204];
-            case Imacr: [298];
-            case ImaginaryI: [8520];
-            case Implies: [8658];
-            case Im: [8465];
-            case Integral: [8747];
-            case Intersection: [8898];
-            case Int: [8748];
-            case InvisibleComma: [8291];
-            case InvisibleTimes: [8290];
-            case Iogon: [302];
-            case Iopf: [120128];
-            case Iota: [921];
-            case Iscr: [8464];
-            case Itilde: [296];
-            case Iukcy: [1030];
-            case Iuml: [207];
-            case Jcirc: [308];
-            case Jcy: [1049];
-            case Jfr: [120077];
-            case Jopf: [120129];
-            case Jscr: [119973];
-            case Jsercy: [1032];
-            case Jukcy: [1028];
-            case KHcy: [1061];
-            case KJcy: [1036];
-            case Kappa: [922];
-            case Kcedil: [310];
-            case Kcy: [1050];
-            case Kfr: [120078];
-            case Kopf: [120130];
-            case Kscr: [119974];
-            case LJcy: [1033];
-            case LT: [60];
-            case Lacute: [313];
-            case Lambda: [923];
-            case Lang: [10218];
-            case Laplacetrf: [8466];
-            case Larr: [8606];
-            case Lcaron: [317];
-            case Lcedil: [315];
-            case Lcy: [1051];
-            case LeftAngleBracket: [10216];
-            case LeftArrow: [8592];
-            case LeftArrowBar: [8676];
-            case LeftArrowRightArrow: [8646];
-            case LeftCeiling: [8968];
-            case LeftDoubleBracket: [10214];
-            case LeftDownTeeVector: [10593];
-            case LeftDownVectorBar: [10585];
-            case LeftDownVector: [8643];
-            case LeftFloor: [8970];
-            case LeftRightArrow: [8596];
-            case LeftRightVector: [10574];
-            case LeftTee: [8867];
-            case LeftTeeArrow: [8612];
-            case LeftTeeVector: [10586];
-            case LeftTriangleEqual: [8884];
-            case LeftTriangle: [8882];
-            case LeftTriangleBar: [10703];
-            case LeftUpDownVector: [10577];
-            case LeftUpTeeVector: [10592];
-            case LeftUpVectorBar: [10584];
-            case LeftUpVector: [8639];
-            case LeftVector: [8636];
-            case LeftVectorBar: [10578];
-            case Leftarrow: [8656];
-            case Leftrightarrow: [8660];
-            case LessEqualGreater: [8922];
-            case LessFullEqual: [8806];
-            case LessGreater: [8822];
-            case LessLess: [10913];
-            case LessSlantEqual: [10877];
-            case LessTilde: [8818];
-            case Lfr: [120079];
-            case Ll: [8920];
-            case Lleftarrow: [8666];
-            case Lmidot: [319];
-            case LongLeftArrow: [10229];
-            case LongLeftRightArrow: [10231];
-            case LongRightArrow: [10230];
-            case Longleftarrow: [10232];
-            case Longleftrightarrow: [10234];
-            case Longrightarrow: [10233];
-            case Lopf: [120131];
-            case LowerLeftArrow: [8601];
-            case LowerRightArrow: [8600];
-            case Lscr: [8466];
-            case Lsh: [8624];
-            case Lstrok: [321];
-            case Lt: [8810];
-            case Map: [10501];
-            case Mcy: [1052];
-            case MediumSpace: [8287];
-            case Mellintrf: [8499];
-            case Mfr: [120080];
-            case MinusPlus: [8723];
-            case Mopf: [120132];
-            case Mscr: [8499];
-            case Mu: [924];
-            case NJcy: [1034];
-            case Nacute: [323];
-            case Ncaron: [327];
-            case Ncedil: [325];
-            case Ncy: [1053];
-            case NegativeMediumSpace: [8203];
-            case NegativeThickSpace: [8203];
-            case NegativeThinSpace: [8203];
-            case NegativeVeryThinSpace: [8203];
-            case NestedGreaterGreater: [8811];
-            case NestedLessLess: [8810];
-            case NewLine: [10];
-            case Nfr: [120081];
-            case NoBreak: [8288];
-            case NonBreakingSpace: [160];
-            case Nopf: [8469];
-            case NotCongruent: [8802];
-            case NotCupCap: [8813];
-            case NotDoubleVerticalBar: [8742];
-            case NotElement: [8713];
-            case NotEqual: [8800];
-            case NotEqualTilde: [8770,824];
-            case NotExists: [8708];
-            case NotGreaterEqual: [8817];
-            case NotGreaterLess: [8825];
-            case NotGreaterSlantEqual: [10878,824];
-            case NotGreater: [8815];
-            case NotGreaterFullEqual: [8807,824];
-            case NotGreaterGreater: [8811,824];
-            case NotGreaterTilde: [8821];
-            case NotHumpDownHump: [8782,824];
-            case NotHumpEqual: [8783,824];
-            case NotLeftTriangle: [8938];
-            case NotLeftTriangleBar: [10703,824];
-            case NotLeftTriangleEqual: [8940];
-            case NotLess: [8814];
-            case NotLessEqual: [8816];
-            case NotLessGreater: [8824];
-            case NotLessLess: [8810,824];
-            case NotLessSlantEqual: [10877,824];
-            case NotLessTilde: [8820];
-            case NotNestedGreaterGreater: [10914,824];
-            case NotNestedLessLess: [10913,824];
-            case NotPrecedes: [8832];
-            case NotPrecedesEqual: [10927,824];
-            case NotPrecedesSlantEqual: [8928];
-            case NotReverseElement: [8716];
-            case NotRightTriangle: [8939];
-            case NotRightTriangleBar: [10704,824];
-            case NotRightTriangleEqual: [8941];
-            case NotSquareSubset: [8847,824];
-            case NotSquareSubsetEqual: [8930];
-            case NotSquareSupersetEqual: [8931];
-            case NotSquareSuperset: [8848,824];
-            case NotSubsetEqual: [8840];
-            case NotSubset: [8834,8402];
-            case NotSucceeds: [8833];
-            case NotSucceedsEqual: [10928,824];
-            case NotSucceedsSlantEqual: [8929];
-            case NotSucceedsTilde: [8831,824];
-            case NotSuperset: [8835,8402];
-            case NotSupersetEqual: [8841];
-            case NotTildeTilde: [8777];
-            case NotTilde: [8769];
-            case NotTildeEqual: [8772];
-            case NotVerticalBar: [8740];
-            case Not: [10988];
-            case NotTildeFullEqual: [8775];
-            case Nscr: [119977];
-            case Ntilde: [209];
-            case Nu: [925];
-            case OElig: [338];
-            case Oacute: [211];
-            case Ocirc: [212];
-            case Ocy: [1054];
-            case Odblac: [336];
-            case Ofr: [120082];
-            case Ograve: [210];
-            case Omacr: [332];
-            case Omega: [937];
-            case Omicron: [927];
-            case Oopf: [120134];
-            case OpenCurlyDoubleQuote: [8220];
-            case OpenCurlyQuote: [8216];
-            case Or: [10836];
-            case Oscr: [119978];
-            case Oslash: [216];
-            case Otilde: [213];
-            case Otimes: [10807];
-            case Ouml: [214];
-            case OverBar: [8254];
-            case OverBrace: [9182];
-            case OverBracket: [9140];
-            case OverParenthesis: [9180];
-            case PartialD: [8706];
-            case Pcy: [1055];
-            case Pfr: [120083];
-            case Phi: [934];
-            case Pi: [928];
-            case PlusMinus: [177];
-            case Poincareplane: [8460];
-            case Popf: [8473];
-            case PrecedesEqual: [10927];
-            case PrecedesSlantEqual: [8828];
-            case Precedes: [8826];
-            case PrecedesTilde: [8830];
-            case Prime: [8243];
-            case Proportion: [8759];
-            case Pr: [10939];
-            case Product: [8719];
-            case Proportional: [8733];
-            case Pscr: [119979];
-            case Psi: [936];
-            case QUOT: [34];
-            case Qfr: [120084];
-            case Qopf: [8474];
-            case Qscr: [119980];
-            case RBarr: [10512];
-            case REG: [174];
-            case Racute: [340];
-            case Rang: [10219];
-            case Rarr: [8608];
-            case Rarrtl: [10518];
-            case Rcaron: [344];
-            case Rcedil: [342];
-            case Rcy: [1056];
-            case Re: [8476];
-            case ReverseElement: [8715];
-            case ReverseEquilibrium: [8651];
-            case ReverseUpEquilibrium: [10607];
-            case Rfr: [8476];
-            case Rho: [929];
-            case RightAngleBracket: [10217];
-            case RightArrowBar: [8677];
-            case RightArrowLeftArrow: [8644];
-            case RightArrow: [8594];
-            case RightCeiling: [8969];
-            case RightDoubleBracket: [10215];
-            case RightDownTeeVector: [10589];
-            case RightDownVector: [8642];
-            case RightDownVectorBar: [10581];
-            case RightFloor: [8971];
-            case RightTeeArrow: [8614];
-            case RightTeeVector: [10587];
-            case RightTee: [8866];
-            case RightTriangle: [8883];
-            case RightTriangleBar: [10704];
-            case RightTriangleEqual: [8885];
-            case RightUpDownVector: [10575];
-            case RightUpTeeVector: [10588];
-            case RightUpVector: [8638];
-            case RightUpVectorBar: [10580];
-            case RightVectorBar: [10579];
-            case RightVector: [8640];
-            case Rightarrow: [8658];
-            case Ropf: [8477];
-            case RoundImplies: [10608];
-            case Rrightarrow: [8667];
-            case Rscr: [8475];
-            case Rsh: [8625];
-            case RuleDelayed: [10740];
-            case SHCHcy: [1065];
-            case SHcy: [1064];
-            case SOFTcy: [1068];
-            case Sacute: [346];
-            case Scaron: [352];
-            case Scedil: [350];
-            case Sc: [10940];
-            case Scirc: [348];
-            case Scy: [1057];
-            case Sfr: [120086];
-            case ShortDownArrow: [8595];
-            case ShortLeftArrow: [8592];
-            case ShortRightArrow: [8594];
-            case ShortUpArrow: [8593];
-            case Sigma: [931];
-            case SmallCircle: [8728];
-            case Sopf: [120138];
-            case Sqrt: [8730];
-            case SquareIntersection: [8851];
-            case SquareSubsetEqual: [8849];
-            case Square: [9633];
-            case SquareSubset: [8847];
-            case SquareSupersetEqual: [8850];
-            case SquareSuperset: [8848];
-            case SquareUnion: [8852];
-            case Sscr: [119982];
-            case Star: [8902];
-            case SubsetEqual: [8838];
-            case Sub: [8912];
-            case Subset: [8912];
-            case SucceedsEqual: [10928];
-            case SucceedsSlantEqual: [8829];
-            case SucceedsTilde: [8831];
-            case Succeeds: [8827];
-            case SuchThat: [8715];
-            case Sum: [8721];
-            case SupersetEqual: [8839];
-            case Sup: [8913];
-            case Superset: [8835];
-            case Supset: [8913];
-            case THORN: [222];
-            case TRADE: [8482];
-            case TSHcy: [1035];
-            case TScy: [1062];
-            case Tab: [9];
-            case Tau: [932];
-            case Tcaron: [356];
-            case Tcedil: [354];
-            case Tcy: [1058];
-            case Tfr: [120087];
-            case Therefore: [8756];
-            case Theta: [920];
-            case ThickSpace: [8287,8202];
-            case ThinSpace: [8201];
-            case TildeEqual: [8771];
-            case TildeFullEqual: [8773];
-            case Tilde: [8764];
-            case TildeTilde: [8776];
-            case Topf: [120139];
-            case TripleDot: [8411];
-            case Tscr: [119983];
-            case Tstrok: [358];
-            case Uacute: [218];
-            case Uarrocir: [10569];
-            case Uarr: [8607];
-            case Ubrcy: [1038];
-            case Ubreve: [364];
-            case Ucirc: [219];
-            case Ucy: [1059];
-            case Udblac: [368];
-            case Ufr: [120088];
-            case Ugrave: [217];
-            case Umacr: [362];
-            case UnderBar: [95];
-            case UnderBrace: [9183];
-            case UnderBracket: [9141];
-            case UnderParenthesis: [9181];
-            case Union: [8899];
-            case UnionPlus: [8846];
-            case Uogon: [370];
-            case Uopf: [120140];
-            case UpArrow: [8593];
-            case UpArrowBar: [10514];
-            case UpArrowDownArrow: [8645];
-            case UpDownArrow: [8597];
-            case UpEquilibrium: [10606];
-            case UpTee: [8869];
-            case UpTeeArrow: [8613];
-            case Uparrow: [8657];
-            case Updownarrow: [8661];
-            case UpperLeftArrow: [8598];
-            case UpperRightArrow: [8599];
-            case Upsilon: [933];
-            case Upsi: [978];
-            case Uring: [366];
-            case Uscr: [119984];
-            case Utilde: [360];
-            case Uuml: [220];
-            case VDash: [8875];
-            case Vbar: [10987];
-            case Vcy: [1042];
-            case Vdashl: [10982];
-            case Vdash: [8873];
-            case Vee: [8897];
-            case Verbar: [8214];
-            case VerticalBar: [8739];
-            case VerticalLine: [124];
-            case VerticalSeparator: [10072];
-            case Vert: [8214];
-            case VerticalTilde: [8768];
-            case VeryThinSpace: [8202];
-            case Vfr: [120089];
-            case Vopf: [120141];
-            case Vscr: [119985];
-            case Vvdash: [8874];
-            case Wcirc: [372];
-            case Wedge: [8896];
-            case Wfr: [120090];
-            case Wopf: [120142];
-            case Wscr: [119986];
-            case Xfr: [120091];
-            case Xi: [926];
-            case Xopf: [120143];
-            case Xscr: [119987];
-            case YAcy: [1071];
-            case YIcy: [1031];
-            case YUcy: [1070];
-            case Yacute: [221];
-            case Ycirc: [374];
-            case Ycy: [1067];
-            case Yfr: [120092];
-            case Yopf: [120144];
-            case Yscr: [119988];
-            case Yuml: [376];
-            case ZHcy: [1046];
-            case Zacute: [377];
-            case Zcaron: [381];
-            case Zcy: [1047];
-            case Zdot: [379];
-            case ZeroWidthSpace: [8203];
-            case Zeta: [918];
-            case Zfr: [8488];
-            case Zopf: [8484];
-            case Zscr: [119989];
+            case amalg: [10815];
+            case acirc: [226];
+            case aelig: [230];
+            case amacr: [257];
+            case alpha: [945];
+            case angle: [8736];
+            case aleph: [8501];
+            case aring: [229];
+            case acute: [180];
+            case aogon: [261];
+            case angrt: [8735];
+            case angst: [197];
+            case Acirc: [194];
+            case awint: [10769];
+            case Amacr: [256];
+            case Alpha: [913];
+            case asymp: [8776];
+            case Aring: [197];
+            case Aogon: [260];
+            case AElig: [198];
+            case andand: [10837];
+            case apacir: [10863];
+            case atilde: [227];
             case aacute: [225];
             case abreve: [259];
-            case ac: [8766];
-            case acE: [8766,819];
-            case acd: [8767];
-            case acirc: [226];
-            case acute: [180];
-            case acy: [1072];
-            case aelig: [230];
-            case afr: [120094];
-            case af: [8289];
             case agrave: [224];
-            case alefsym: [8501];
-            case aleph: [8501];
-            case alpha: [945];
-            case amacr: [257];
-            case amalg: [10815];
-            case amp: [38];
-            case and: [8743];
-            case andand: [10837];
-            case andd: [10844];
-            case andslope: [10840];
-            case andv: [10842];
-            case ange: [10660];
-            case angle: [8736];
-            case angmsdab: [10665];
+            case angmsd: [8737];
             case angsph: [8738];
-            case ang: [8736];
+            case Aacute: [193];
+            case Atilde: [195];
+            case Abreve: [258];
+            case Agrave: [192];
+            case approx: [8776];
+            case Assign: [8788];
+            case alefsym: [8501];
+            case angrtvb: [8894];
+            case angzarr: [9084];
+            case asympeq: [8781];
             case angmsdaa: [10664];
+            case angmsdab: [10665];
             case angmsdac: [10666];
             case angmsdad: [10667];
-            case angmsd: [8737];
             case angmsdae: [10668];
             case angmsdaf: [10669];
             case angmsdag: [10670];
             case angmsdah: [10671];
+            case andslope: [10840];
             case angrtvbd: [10653];
-            case angrtvb: [8894];
-            case angrt: [8735];
-            case angst: [197];
-            case angzarr: [9084];
-            case aogon: [261];
-            case aopf: [120146];
-            case ap: [8776];
-            case apE: [10864];
-            case apacir: [10863];
-            case ape: [8778];
-            case apid: [8779];
-            case apos: [39];
-            case approxeq: [8778];
-            case approx: [8776];
-            case aring: [229];
-            case ascr: [119990];
-            case ast: [42];
-            case asymp: [8776];
-            case asympeq: [8781];
-            case atilde: [227];
-            case auml: [228];
             case awconint: [8755];
-            case awint: [10769];
-            case bNot: [10989];
-            case backcong: [8780];
-            case backepsilon: [1014];
-            case backprime: [8245];
-            case backsim: [8765];
-            case backsimeq: [8909];
-            case barvee: [8893];
-            case barwedge: [8965];
-            case barwed: [8965];
-            case bbrktbrk: [9142];
-            case bbrk: [9141];
-            case bcong: [8780];
-            case bcy: [1073];
-            case bdquo: [8222];
-            case because: [8757];
-            case becaus: [8757];
-            case bemptyv: [10672];
-            case bepsi: [1014];
-            case bernou: [8492];
-            case beta: [946];
-            case beth: [8502];
-            case between: [8812];
+            case approxeq: [8778];
+            case ApplyFunction: [8289];
+            case bne: [61,8421];
             case bfr: [120095];
-            case bigcap: [8898];
-            case bigcirc: [9711];
-            case bigcup: [8899];
-            case bigodot: [10752];
-            case bigoplus: [10753];
-            case bigotimes: [10754];
-            case bigsqcup: [10758];
-            case bigstar: [9733];
-            case bigtriangledown: [9661];
-            case bigtriangleup: [9651];
-            case biguplus: [10756];
-            case bigvee: [8897];
-            case bigwedge: [8896];
-            case bkarow: [10509];
-            case blacklozenge: [10731];
-            case blacksquare: [9642];
-            case blacktriangle: [9652];
-            case blacktriangledown: [9662];
-            case blacktriangleleft: [9666];
-            case blacktriangleright: [9656];
-            case blank: [9251];
+            case bcy: [1073];
+            case bot: [8869];
+            case Bfr: [120069];
+            case Bcy: [1041];
+            case beta: [946];
+            case bbrk: [9141];
+            case beth: [8502];
+            case bopf: [120147];
+            case bscr: [119991];
+            case bsim: [8765];
+            case bull: [8226];
+            case bsol: [92];
+            case boxh: [9472];
+            case bnot: [8976];
+            case bump: [8782];
+            case Beta: [914];
+            case boxv: [9474];
+            case Bopf: [120121];
+            case Bscr: [8492];
+            case Barv: [10983];
+            case boxH: [9552];
+            case bNot: [10989];
+            case boxV: [9553];
             case blk12: [9618];
             case blk14: [9617];
             case blk34: [9619];
+            case blank: [9251];
+            case bcong: [8780];
             case block: [9608];
-            case bnequiv: [8801,8421];
-            case bne: [61,8421];
-            case bnot: [8976];
-            case bopf: [120147];
-            case bot: [8869];
-            case bottom: [8869];
-            case bowtie: [8904];
-            case boxDL: [9559];
-            case boxDR: [9556];
-            case boxDl: [9558];
-            case boxDr: [9555];
-            case boxHD: [9574];
-            case boxHU: [9577];
+            case bsime: [8909];
+            case bsemi: [8271];
+            case bsolb: [10693];
+            case bepsi: [1014];
+            case breve: [728];
+            case boxhd: [9516];
+            case boxdl: [9488];
+            case bumpe: [8783];
+            case bdquo: [8222];
+            case boxdr: [9484];
+            case boxhu: [9524];
+            case boxvh: [9532];
+            case boxul: [9496];
+            case boxvl: [9508];
+            case boxur: [9492];
+            case boxvr: [9500];
+            case Breve: [728];
             case boxHd: [9572];
-            case boxHu: [9575];
-            case boxH: [9552];
-            case boxUL: [9565];
-            case boxUR: [9562];
-            case boxUl: [9564];
-            case boxUr: [9561];
-            case boxVH: [9580];
-            case boxVL: [9571];
-            case boxVl: [9570];
-            case boxV: [9553];
-            case boxVR: [9568];
-            case boxVh: [9579];
-            case boxVr: [9567];
-            case boxbox: [10697];
+            case boxhD: [9573];
+            case boxDl: [9558];
+            case bumpE: [10926];
             case boxdL: [9557];
             case boxdR: [9554];
-            case boxdl: [9488];
-            case boxdr: [9484];
-            case boxhD: [9573];
+            case boxDr: [9555];
+            case boxHu: [9575];
             case boxhU: [9576];
-            case boxhu: [9524];
-            case boxh: [9472];
-            case boxhd: [9516];
-            case boxminus: [8863];
-            case boxplus: [8862];
-            case boxtimes: [8864];
-            case boxuL: [9563];
-            case boxuR: [9560];
-            case boxul: [9496];
-            case boxur: [9492];
             case boxvH: [9578];
+            case boxVh: [9579];
+            case boxUl: [9564];
+            case boxuL: [9563];
+            case boxVl: [9570];
             case boxvL: [9569];
+            case boxuR: [9560];
+            case boxUr: [9561];
+            case boxVr: [9567];
             case boxvR: [9566];
-            case boxvh: [9532];
-            case boxvl: [9508];
-            case boxvr: [9500];
-            case boxv: [9474];
-            case bprime: [8245];
-            case breve: [728];
+            case boxHD: [9574];
+            case boxDL: [9559];
+            case boxDR: [9556];
+            case boxHU: [9577];
+            case boxVH: [9580];
+            case boxUL: [9565];
+            case boxVL: [9571];
+            case boxUR: [9562];
+            case boxVR: [9568];
+            case bigcap: [8898];
+            case bigvee: [8897];
+            case becaus: [8757];
+            case barvee: [8893];
+            case barwed: [8965];
+            case bigcup: [8899];
             case brvbar: [166];
-            case bscr: [119991];
-            case bsemi: [8271];
-            case bsime: [8909];
-            case bsim: [8765];
-            case bsol: [92];
-            case bsolb: [10693];
-            case bsolhsub: [10184];
-            case bull: [8226];
+            case bprime: [8245];
+            case bkarow: [10509];
             case bullet: [8226];
-            case bumpE: [10926];
+            case bowtie: [8904];
             case bumpeq: [8783];
-            case bump: [8782];
-            case bumpe: [8783];
-            case cacute: [263];
-            case capcup: [10823];
+            case bernou: [8492];
+            case boxbox: [10697];
+            case bottom: [8869];
+            case Barwed: [8966];
+            case Bumpeq: [8782];
+            case bigcirc: [9711];
+            case because: [8757];
+            case backsim: [8765];
+            case bigodot: [10752];
+            case between: [8812];
+            case bigstar: [9733];
+            case Because: [8757];
+            case bnequiv: [8801,8421];
+            case bemptyv: [10672];
+            case boxplus: [8862];
+            case backcong: [8780];
+            case bigwedge: [8896];
+            case barwedge: [8965];
+            case bbrktbrk: [9142];
+            case bigsqcup: [10758];
+            case bsolhsub: [10184];
+            case bigoplus: [10753];
+            case biguplus: [10756];
+            case boxtimes: [8864];
+            case boxminus: [8863];
+            case backprime: [8245];
+            case backsimeq: [8909];
+            case bigotimes: [10754];
+            case Backslash: [8726];
+            case Bernoullis: [8492];
+            case backepsilon: [1014];
+            case blacksquare: [9642];
+            case blacklozenge: [10731];
+            case blacktriangle: [9652];
+            case bigtriangleup: [9651];
+            case bigtriangledown: [9661];
+            case blacktriangleleft: [9666];
+            case blacktriangledown: [9662];
+            case blacktriangleright: [9656];
             case cap: [8745];
-            case capand: [10820];
-            case capbrcup: [10825];
-            case capcap: [10827];
-            case capdot: [10816];
-            case caps: [8745,65024];
-            case caret: [8257];
-            case caron: [711];
-            case ccaps: [10829];
-            case ccaron: [269];
-            case ccedil: [231];
-            case ccirc: [265];
-            case ccups: [10828];
-            case ccupssm: [10832];
-            case cdot: [267];
-            case cedil: [184];
-            case cemptyv: [10674];
-            case centerdot: [183];
-            case cent: [162];
-            case cfr: [120096];
-            case chcy: [1095];
-            case checkmark: [10003];
-            case check: [10003];
             case chi: [967];
-            case cirE: [10691];
-            case circlearrowright: [8635];
-            case circledR: [174];
-            case circledS: [9416];
-            case circ: [710];
-            case circledast: [8859];
-            case circledcirc: [8858];
-            case circleddash: [8861];
-            case cirmid: [10991];
-            case cirscir: [10690];
+            case cfr: [120096];
             case cir: [9675];
-            case circeq: [8791];
-            case circlearrowleft: [8634];
+            case cup: [8746];
+            case Cap: [8914];
+            case Chi: [935];
+            case Cfr: [8493];
+            case Cup: [8915];
+            case circ: [710];
             case cire: [8791];
-            case cirfnint: [10768];
-            case clubs: [9827];
-            case clubsuit: [9827];
-            case colone: [8788];
-            case coloneq: [8788];
-            case colon: [58];
-            case commat: [64];
-            case comma: [44];
-            case comp: [8705];
-            case compfn: [8728];
-            case complement: [8705];
-            case complexes: [8450];
+            case caps: [8745,65024];
             case cong: [8773];
-            case congdot: [10861];
-            case conint: [8750];
+            case chcy: [1095];
             case copf: [120148];
-            case coprod: [8720];
-            case copy: [169];
-            case copysr: [8471];
-            case crarr: [8629];
-            case cross: [10007];
+            case cdot: [267];
+            case cent: [162];
             case cscr: [119992];
             case csub: [10959];
-            case csube: [10961];
+            case comp: [8705];
+            case copy: [169];
             case csup: [10960];
-            case csupe: [10962];
-            case ctdot: [8943];
-            case cudarrl: [10552];
-            case cudarrr: [10549];
-            case cuepr: [8926];
-            case cuesc: [8927];
-            case cularr: [8630];
-            case cularrp: [10557];
-            case cupbrcap: [10824];
-            case cupcup: [10826];
-            case cup: [8746];
-            case cupcap: [10822];
-            case cupdot: [8845];
-            case cupor: [10821];
             case cups: [8746,65024];
-            case curarrm: [10556];
-            case curarr: [8631];
-            case curlyeqprec: [8926];
-            case curlyeqsucc: [8927];
-            case curlyvee: [8910];
-            case curlywedge: [8911];
-            case curren: [164];
-            case curvearrowleft: [8630];
-            case curvearrowright: [8631];
+            case cirE: [10691];
+            case Copf: [8450];
+            case Cdot: [266];
+            case Cscr: [119966];
+            case CHcy: [1063];
+            case COPY: [169];
+            case check: [10003];
+            case cedil: [184];
+            case ccirc: [265];
+            case ccaps: [10829];
+            case comma: [44];
+            case caret: [8257];
+            case csube: [10961];
+            case cuesc: [8927];
+            case caron: [711];
             case cuvee: [8910];
             case cuwed: [8911];
-            case cwconint: [8754];
+            case clubs: [9827];
+            case crarr: [8629];
+            case colon: [58];
+            case ccups: [10828];
+            case ctdot: [8943];
+            case cuepr: [8926];
+            case csupe: [10962];
+            case Ccirc: [264];
             case cwint: [8753];
+            case cupor: [10821];
+            case cross: [10007];
+            case Colon: [8759];
+            case Cross: [10799];
+            case ccedil: [231];
+            case capand: [10820];
+            case capcap: [10827];
+            case cacute: [263];
+            case ccaron: [269];
+            case circeq: [8791];
+            case cirmid: [10991];
+            case capdot: [10816];
+            case capcup: [10823];
+            case cupcap: [10822];
+            case colone: [8788];
+            case commat: [64];
+            case compfn: [8728];
+            case Ccedil: [199];
+            case coprod: [8720];
+            case cularr: [8630];
+            case conint: [8750];
+            case cupdot: [8845];
+            case curren: [164];
+            case curarr: [8631];
+            case cupcup: [10826];
+            case Cacute: [262];
+            case Ccaron: [268];
             case cylcty: [9005];
-            case dArr: [8659];
+            case Colone: [10868];
+            case copysr: [8471];
+            case Conint: [8751];
+            case CupCap: [8781];
+            case cudarrl: [10552];
+            case Cedilla: [184];
+            case congdot: [10861];
+            case cirscir: [10690];
+            case coloneq: [8788];
+            case cudarrr: [10549];
+            case cularrp: [10557];
+            case curarrm: [10556];
+            case ccupssm: [10832];
+            case cemptyv: [10674];
+            case Cconint: [8752];
+            case Cayleys: [8493];
+            case cupbrcap: [10824];
+            case capbrcup: [10825];
+            case cirfnint: [10768];
+            case cwconint: [8754];
+            case circledR: [174];
+            case circledS: [9416];
+            case clubsuit: [9827];
+            case curlyvee: [8910];
+            case checkmark: [10003];
+            case centerdot: [183];
+            case complexes: [8450];
+            case Coproduct: [8720];
+            case Congruent: [8801];
+            case CircleDot: [8857];
+            case CenterDot: [183];
+            case circledast: [8859];
+            case complement: [8705];
+            case curlywedge: [8911];
+            case CirclePlus: [8853];
+            case circleddash: [8861];
+            case circledcirc: [8858];
+            case curlyeqprec: [8926];
+            case curlyeqsucc: [8927];
+            case CircleTimes: [8855];
+            case CircleMinus: [8854];
+            case curvearrowleft: [8630];
+            case circlearrowleft: [8634];
+            case curvearrowright: [8631];
+            case ContourIntegral: [8750];
+            case CloseCurlyQuote: [8217];
+            case circlearrowright: [8635];
+            case CapitalDifferentialD: [8517];
+            case CloseCurlyDoubleQuote: [8221];
+            case ClockwiseContourIntegral: [8754];
+            case CounterClockwiseContourIntegral: [8755];
+            case dd: [8518];
+            case DD: [8517];
+            case deg: [176];
+            case die: [168];
+            case dfr: [120097];
+            case dcy: [1076];
+            case div: [247];
+            case dot: [729];
+            case Del: [8711];
+            case Dfr: [120071];
+            case Dcy: [1044];
+            case Dot: [168];
+            case diam: [8900];
+            case dash: [8208];
+            case darr: [8595];
+            case dopf: [120149];
+            case djcy: [1106];
+            case dscr: [119993];
+            case dsol: [10742];
+            case dtri: [9663];
+            case dscy: [1109];
+            case dzcy: [1119];
             case dHar: [10597];
+            case dArr: [8659];
+            case Darr: [8609];
+            case Dopf: [120123];
+            case Dscr: [119967];
+            case DJcy: [1026];
+            case DScy: [1029];
+            case DZcy: [1039];
+            case dblac: [733];
+            case delta: [948];
+            case dharl: [8643];
+            case ddarr: [8650];
+            case diams: [9830];
+            case dharr: [8642];
+            case duhar: [10607];
+            case dashv: [8867];
+            case disin: [8946];
+            case dtrif: [9662];
+            case doteq: [8784];
+            case duarr: [8693];
+            case dtdot: [8945];
+            case Delta: [916];
+            case Dashv: [10980];
             case dagger: [8224];
             case daleth: [8504];
-            case darr: [8595];
-            case dashv: [8867];
-            case dash: [8208];
-            case dbkarow: [10511];
-            case dblac: [733];
-            case dcaron: [271];
-            case dcy: [1076];
-            case dd: [8518];
-            case ddagger: [8225];
-            case ddarr: [8650];
-            case ddotseq: [10871];
-            case deg: [176];
-            case delta: [948];
-            case demptyv: [10673];
-            case dfisht: [10623];
-            case dfr: [120097];
-            case dharl: [8643];
-            case dharr: [8642];
-            case diamondsuit: [9830];
-            case diams: [9830];
-            case diam: [8900];
-            case diamond: [8900];
-            case die: [168];
-            case digamma: [989];
-            case disin: [8946];
-            case div: [247];
             case divide: [247];
-            case divideontimes: [8903];
-            case divonx: [8903];
-            case djcy: [1106];
-            case dlcorn: [8990];
-            case dlcrop: [8973];
+            case dcaron: [271];
             case dollar: [36];
-            case dopf: [120149];
-            case doteqdot: [8785];
-            case doteq: [8784];
-            case dotminus: [8760];
-            case dot: [729];
-            case dotplus: [8724];
-            case dotsquare: [8865];
-            case doublebarwedge: [8966];
-            case downarrow: [8595];
-            case downdownarrows: [8650];
-            case downharpoonleft: [8643];
-            case downharpoonright: [8642];
-            case drbkarow: [10512];
+            case dlcorn: [8990];
+            case dfisht: [10623];
+            case dlcrop: [8973];
             case drcorn: [8991];
             case drcrop: [8972];
-            case dscr: [119993];
-            case dscy: [1109];
-            case dsol: [10742];
+            case Dagger: [8225];
             case dstrok: [273];
-            case dtdot: [8945];
-            case dtri: [9663];
-            case dtrif: [9662];
-            case duarr: [8693];
-            case duhar: [10607];
+            case Dcaron: [270];
+            case divonx: [8903];
+            case Dstrok: [272];
+            case DotDot: [8412];
+            case ddagger: [8225];
+            case digamma: [989];
+            case diamond: [8900];
             case dwangle: [10662];
-            case dzcy: [1119];
+            case dbkarow: [10511];
+            case ddotseq: [10871];
+            case Diamond: [8900];
+            case demptyv: [10673];
+            case dotplus: [8724];
+            case DownTee: [8868];
+            case drbkarow: [10512];
+            case doteqdot: [8785];
             case dzigrarr: [10239];
-            case eDDot: [10871];
-            case eDot: [8785];
-            case eacute: [233];
-            case easter: [10862];
-            case ecaron: [283];
-            case ecir: [8790];
-            case ecirc: [234];
-            case ecolon: [8789];
-            case ecy: [1101];
-            case edot: [279];
+            case dotminus: [8760];
+            case DDotrahd: [10513];
+            case DotEqual: [8784];
+            case dotsquare: [8865];
+            case downarrow: [8595];
+            case DoubleDot: [168];
+            case Downarrow: [8659];
+            case DownBreve: [785];
+            case DownArrow: [8595];
+            case diamondsuit: [9830];
+            case DownArrowBar: [10515];
+            case DownTeeArrow: [8615];
+            case divideontimes: [8903];
+            case DifferentialD: [8518];
+            case DoubleLeftTee: [10980];
+            case DoubleUpArrow: [8657];
+            case doublebarwedge: [8966];
+            case DiacriticalDot: [729];
+            case downdownarrows: [8650];
+            case DoubleRightTee: [8872];
+            case DownLeftVector: [8637];
+            case downharpoonleft: [8643];
+            case DoubleLeftArrow: [8656];
+            case DoubleDownArrow: [8659];
+            case DownRightVector: [8641];
+            case DiacriticalAcute: [180];
+            case DiacriticalTilde: [732];
+            case downharpoonright: [8642];
+            case DiacriticalGrave: [96];
+            case DoubleRightArrow: [8658];
+            case DownArrowUpArrow: [8693];
+            case DoubleVerticalBar: [8741];
+            case DownLeftVectorBar: [10582];
+            case DownLeftTeeVector: [10590];
+            case DoubleUpDownArrow: [8661];
+            case DownRightVectorBar: [10583];
+            case DownRightTeeVector: [10591];
+            case DoubleLongLeftArrow: [10232];
+            case DownLeftRightVector: [10576];
+            case DoubleLeftRightArrow: [8660];
+            case DoubleLongRightArrow: [10233];
+            case DoubleContourIntegral: [8751];
+            case DiacriticalDoubleAcute: [733];
+            case DoubleLongLeftRightArrow: [10234];
             case ee: [8519];
-            case efDot: [8786];
-            case efr: [120098];
-            case egrave: [232];
-            case egs: [10902];
-            case egsdot: [10904];
             case eg: [10906];
-            case elinters: [9191];
-            case ell: [8467];
-            case elsdot: [10903];
             case el: [10905];
-            case els: [10901];
-            case emacr: [275];
-            case empty: [8709];
-            case emptyset: [8709];
-            case emptyv: [8709];
-            case emsp14: [8197];
-            case emsp: [8195];
-            case emsp13: [8196];
             case eng: [331];
-            case ensp: [8194];
-            case eogon: [281];
-            case eopf: [120150];
+            case eta: [951];
+            case efr: [120098];
+            case ell: [8467];
+            case egs: [10902];
+            case ecy: [1101];
+            case eth: [240];
+            case els: [10901];
+            case Eta: [919];
+            case Efr: [120072];
+            case Ecy: [1069];
+            case ENG: [330];
+            case ETH: [208];
+            case ecir: [8790];
             case epar: [8917];
-            case eparsl: [10723];
-            case eplus: [10865];
+            case eopf: [120150];
+            case edot: [279];
+            case excl: [33];
+            case escr: [8495];
+            case esim: [8770];
             case epsi: [949];
-            case epsilon: [949];
-            case epsiv: [1013];
-            case eqcirc: [8790];
-            case eqcolon: [8789];
+            case euml: [235];
+            case emsp: [8195];
+            case ensp: [8194];
+            case euro: [8364];
+            case Eopf: [120124];
+            case Edot: [278];
+            case eDot: [8785];
+            case Escr: [8496];
+            case Esim: [10867];
+            case Euml: [203];
+            case ecirc: [234];
+            case emacr: [275];
+            case eogon: [281];
+            case erarr: [10609];
+            case esdot: [8784];
             case eqsim: [8770];
-            case eqslantgtr: [10902];
-            case eqslantless: [10901];
+            case Ecirc: [202];
+            case epsiv: [1013];
+            case Emacr: [274];
+            case eplus: [10865];
+            case equiv: [8801];
+            case exist: [8707];
+            case empty: [8709];
+            case efDot: [8786];
+            case Equal: [10869];
+            case Eogon: [280];
+            case erDot: [8787];
+            case eDDot: [10871];
+            case emsp13: [8196];
+            case emsp14: [8197];
+            case eacute: [233];
+            case eqcirc: [8790];
+            case ecaron: [283];
+            case egrave: [232];
+            case ecolon: [8789];
+            case easter: [10862];
+            case egsdot: [10904];
+            case eparsl: [10723];
+            case elsdot: [10903];
             case equals: [61];
             case equest: [8799];
-            case equiv: [8801];
+            case Eacute: [201];
+            case Ecaron: [282];
+            case Egrave: [200];
+            case emptyv: [8709];
+            case Exists: [8707];
+            case eqcolon: [8789];
+            case epsilon: [949];
+            case Element: [8712];
+            case Epsilon: [917];
             case equivDD: [10872];
+            case elinters: [9191];
             case eqvparsl: [10725];
-            case erDot: [8787];
-            case erarr: [10609];
-            case escr: [8495];
-            case esdot: [8784];
-            case esim: [8770];
-            case eta: [951];
-            case eth: [240];
-            case euml: [235];
-            case euro: [8364];
-            case excl: [33];
-            case exist: [8707];
+            case emptyset: [8709];
+            case eqslantgtr: [10902];
+            case EqualTilde: [8770];
             case expectation: [8496];
+            case eqslantless: [10901];
+            case Equilibrium: [8652];
             case exponentiale: [8519];
-            case fallingdotseq: [8786];
-            case fcy: [1092];
-            case female: [9792];
-            case ffilig: [64259];
-            case fflig: [64256];
-            case ffllig: [64260];
+            case ExponentialE: [8519];
+            case EmptySmallSquare: [9723];
+            case EmptyVerySmallSquare: [9643];
             case ffr: [120099];
-            case filig: [64257];
-            case fjlig: [102,106];
+            case fcy: [1092];
+            case Ffr: [120073];
+            case Fcy: [1060];
             case flat: [9837];
-            case fllig: [64258];
-            case fltns: [9649];
             case fnof: [402];
             case fopf: [120151];
-            case forall: [8704];
+            case fscr: [119995];
             case fork: [8916];
+            case Fopf: [120125];
+            case Fscr: [8497];
+            case fflig: [64256];
+            case filig: [64257];
+            case fjlig: [102,106];
+            case fllig: [64258];
+            case frasl: [8260];
+            case fltns: [9649];
             case forkv: [10969];
-            case fpartint: [10765];
+            case frown: [8994];
             case frac12: [189];
             case frac13: [8531];
+            case frac23: [8532];
             case frac14: [188];
             case frac15: [8533];
-            case frac16: [8537];
-            case frac18: [8539];
-            case frac23: [8532];
             case frac25: [8534];
             case frac34: [190];
+            case frac16: [8537];
             case frac35: [8535];
-            case frac38: [8540];
+            case frac18: [8539];
             case frac45: [8536];
             case frac56: [8538];
+            case frac38: [8540];
             case frac58: [8541];
             case frac78: [8542];
-            case frasl: [8260];
-            case frown: [8994];
-            case fscr: [119995];
-            case gEl: [10892];
-            case gE: [8807];
-            case gacute: [501];
-            case gamma: [947];
-            case gammad: [989];
-            case gap: [10886];
-            case gbreve: [287];
-            case gcirc: [285];
-            case gcy: [1075];
-            case gdot: [289];
-            case geqq: [8807];
-            case geqslant: [10878];
-            case geq: [8805];
-            case gesdot: [10880];
-            case gesdoto: [10882];
+            case female: [9792];
+            case ffilig: [64259];
+            case ffllig: [64260];
+            case forall: [8704];
+            case ForAll: [8704];
+            case fpartint: [10765];
+            case Fouriertrf: [8497];
+            case fallingdotseq: [8786];
+            case FilledSmallSquare: [9724];
+            case FilledVerySmallSquare: [9642];
             case ge: [8805];
-            case gel: [8923];
-            case gescc: [10921];
-            case gesdotol: [10884];
-            case gesles: [10900];
-            case gesl: [8923,65024];
-            case ges: [10878];
-            case gfr: [120100];
             case gg: [8811];
-            case ggg: [8921];
-            case gimel: [8503];
-            case gjcy: [1107];
-            case gla: [10917];
             case gl: [8823];
-            case glE: [10898];
+            case gt: [62];
+            case gE: [8807];
+            case Gg: [8921];
+            case Gt: [8811];
+            case GT: [62];
+            case gla: [10917];
+            case ggg: [8921];
+            case gel: [8923];
+            case gap: [10886];
+            case gne: [10888];
+            case geq: [8805];
             case glj: [10916];
+            case gfr: [120100];
+            case ges: [10878];
+            case gcy: [1075];
+            case gEl: [10892];
+            case glE: [10898];
             case gnE: [8809];
-            case gnapprox: [10890];
+            case Gfr: [120074];
+            case Gcy: [1043];
+            case gtcc: [10919];
             case gnap: [10890];
             case gneq: [10888];
-            case gneqq: [8809];
-            case gne: [10888];
-            case gnsim: [8935];
+            case gesl: [8923,65024];
             case gopf: [120152];
-            case grave: [96];
+            case gjcy: [1107];
+            case geqq: [8807];
+            case gdot: [289];
             case gscr: [8458];
-            case gsime: [10894];
-            case gsiml: [10896];
             case gsim: [8819];
-            case gt: [62];
-            case gtcc: [10919];
+            case Gopf: [120126];
+            case Gdot: [288];
+            case Gscr: [119970];
+            case gvnE: [8809,65024];
+            case GJcy: [1027];
+            case gamma: [947];
+            case gescc: [10921];
+            case gcirc: [285];
+            case gimel: [8503];
+            case gsime: [10894];
+            case grave: [96];
             case gtcir: [10874];
+            case gneqq: [8809];
+            case gsiml: [10896];
+            case gnsim: [8935];
             case gtdot: [8919];
-            case gtlPar: [10645];
-            case gtquest: [10876];
-            case gtrapprox: [10886];
+            case Gamma: [915];
+            case Gcirc: [284];
+            case gammad: [989];
+            case gacute: [501];
+            case gbreve: [287];
+            case gesles: [10900];
+            case gesdot: [10880];
+            case Gammad: [988];
+            case Gcedil: [290];
             case gtrarr: [10616];
             case gtrdot: [8919];
-            case gtreqless: [8923];
-            case gtreqqless: [10892];
-            case gtrless: [8823];
             case gtrsim: [8819];
+            case Gbreve: [286];
+            case gtlPar: [10645];
+            case gesdoto: [10882];
+            case gtrless: [8823];
+            case gtquest: [10876];
+            case geqslant: [10878];
+            case gesdotol: [10884];
+            case gnapprox: [10890];
+            case gtreqless: [8923];
             case gvertneqq: [8809,65024];
-            case gvnE: [8809,65024];
-            case hArr: [8660];
-            case hairsp: [8202];
-            case half: [189];
-            case hamilt: [8459];
-            case hardcy: [1098];
-            case harrcir: [10568];
-            case harr: [8596];
-            case harrw: [8621];
-            case hbar: [8463];
-            case hcirc: [293];
-            case hearts: [9829];
-            case heartsuit: [9829];
-            case hellip: [8230];
-            case hercon: [8889];
+            case gtrapprox: [10886];
+            case gtreqqless: [10892];
+            case GreaterLess: [8823];
+            case GreaterTilde: [8819];
+            case GreaterEqual: [8805];
+            case GreaterGreater: [10914];
+            case GreaterFullEqual: [8807];
+            case GreaterEqualLess: [8923];
+            case GreaterSlantEqual: [10878];
             case hfr: [120101];
+            case Hat: [94];
+            case Hfr: [8460];
+            case half: [189];
+            case hbar: [8463];
+            case harr: [8596];
+            case hopf: [120153];
+            case hscr: [119997];
+            case hArr: [8660];
+            case Hopf: [8461];
+            case Hscr: [8459];
+            case hcirc: [293];
+            case Hacek: [711];
+            case hoarr: [8703];
+            case harrw: [8621];
+            case Hcirc: [292];
+            case hardcy: [1098];
+            case hellip: [8230];
+            case horbar: [8213];
+            case hercon: [8889];
+            case hamilt: [8459];
+            case hslash: [8463];
+            case hearts: [9829];
+            case hairsp: [8202];
+            case hyphen: [8208];
+            case hybull: [8259];
+            case homtht: [8763];
+            case hstrok: [295];
+            case Hstrok: [294];
+            case HARDcy: [1066];
+            case harrcir: [10568];
             case hksearow: [10533];
             case hkswarow: [10534];
-            case hoarr: [8703];
-            case homtht: [8763];
+            case heartsuit: [9829];
+            case HumpEqual: [8783];
+            case HilbertSpace: [8459];
+            case HumpDownHump: [8782];
             case hookleftarrow: [8617];
             case hookrightarrow: [8618];
-            case hopf: [120153];
-            case horbar: [8213];
-            case hscr: [119997];
-            case hslash: [8463];
-            case hstrok: [295];
-            case hybull: [8259];
-            case hyphen: [8208];
-            case iacute: [237];
-            case icy: [1080];
+            case HorizontalLine: [9472];
             case ic: [8291];
-            case icirc: [238];
-            case iecy: [1077];
-            case iexcl: [161];
+            case ii: [8520];
+            case In: [8712];
+            case it: [8290];
+            case Im: [8465];
             case iff: [8660];
             case ifr: [120102];
-            case igrave: [236];
-            case iiiint: [10764];
-            case iiota: [8489];
-            case ii: [8520];
-            case iiint: [8749];
-            case iinfin: [10716];
-            case ijlig: [307];
-            case imacr: [299];
-            case image: [8465];
-            case imagline: [8464];
-            case imagpart: [8465];
-            case imath: [305];
-            case imof: [8887];
-            case imped: [437];
-            case incare: [8453];
-            case infintie: [10717];
-            case infin: [8734];
-            case inodot: [305];
-            case intcal: [8890];
-            case integers: [8484];
+            case icy: [1080];
             case int: [8747];
-            case In: [8712];
-            case intercal: [8890];
-            case intlarhk: [10775];
-            case intprod: [10812];
-            case iocy: [1105];
-            case iogon: [303];
-            case iopf: [120154];
+            case Ifr: [8465];
+            case Icy: [1048];
+            case Int: [8748];
+            case iecy: [1077];
+            case imof: [8887];
             case iota: [953];
-            case iprod: [10812];
-            case iquest: [191];
+            case iopf: [120154];
             case iscr: [119998];
             case isin: [8712];
-            case isinE: [8953];
-            case isindot: [8949];
-            case isinsv: [8947];
+            case iocy: [1105];
+            case iuml: [239];
+            case Iota: [921];
+            case Iopf: [120128];
+            case Idot: [304];
+            case Iscr: [8464];
+            case Iuml: [207];
+            case IEcy: [1045];
+            case IOcy: [1025];
+            case image: [8465];
+            case icirc: [238];
+            case imacr: [299];
+            case imped: [437];
+            case ijlig: [307];
+            case imath: [305];
+            case infin: [8734];
+            case iexcl: [161];
+            case iiota: [8489];
+            case iogon: [303];
+            case iiint: [8749];
+            case iprod: [10812];
+            case iukcy: [1110];
             case isins: [8948];
             case isinv: [8712];
-            case it: [8290];
+            case Icirc: [206];
+            case Imacr: [298];
+            case isinE: [8953];
+            case Iogon: [302];
+            case Iukcy: [1030];
+            case IJlig: [306];
+            case incare: [8453];
+            case intcal: [8890];
+            case iacute: [237];
             case itilde: [297];
-            case iukcy: [1110];
-            case iuml: [239];
-            case jcirc: [309];
-            case jcy: [1081];
+            case iinfin: [10716];
+            case igrave: [236];
+            case iiiint: [10764];
+            case inodot: [305];
+            case Itilde: [296];
+            case iquest: [191];
+            case Iacute: [205];
+            case isinsv: [8947];
+            case Igrave: [204];
+            case isindot: [8949];
+            case intprod: [10812];
+            case Implies: [8658];
+            case imagline: [8464];
+            case intercal: [8890];
+            case imagpart: [8465];
+            case infintie: [10717];
+            case intlarhk: [10775];
+            case integers: [8484];
+            case Integral: [8747];
+            case ImaginaryI: [8520];
+            case Intersection: [8898];
+            case InvisibleComma: [8291];
+            case InvisibleTimes: [8290];
             case jfr: [120103];
-            case jmath: [567];
+            case jcy: [1081];
+            case Jfr: [120077];
+            case Jcy: [1049];
             case jopf: [120155];
             case jscr: [119999];
-            case jsercy: [1112];
+            case Jopf: [120129];
+            case Jscr: [119973];
+            case jcirc: [309];
+            case jmath: [567];
             case jukcy: [1108];
-            case kappav: [1008];
-            case kappa: [954];
-            case kcedil: [311];
-            case kcy: [1082];
+            case Jcirc: [308];
+            case Jukcy: [1028];
+            case jsercy: [1112];
+            case Jsercy: [1032];
             case kfr: [120104];
-            case kgreen: [312];
+            case kcy: [1082];
+            case Kfr: [120078];
+            case Kcy: [1050];
             case khcy: [1093];
-            case kjcy: [1116];
             case kopf: [120156];
+            case kjcy: [1116];
             case kscr: [120000];
-            case lAarr: [8666];
-            case lArr: [8656];
-            case lAtail: [10523];
-            case lBarr: [10510];
-            case lEg: [10891];
+            case Kopf: [120130];
+            case Kscr: [119974];
+            case KHcy: [1061];
+            case KJcy: [1036];
+            case kappa: [954];
+            case Kappa: [922];
+            case kcedil: [311];
+            case kgreen: [312];
+            case kappav: [1008];
+            case Kcedil: [310];
+            case le: [8804];
+            case lg: [8822];
+            case ll: [8810];
+            case lt: [60];
             case lE: [8806];
-            case lHar: [10594];
-            case lacute: [314];
-            case laemptyv: [10676];
-            case lagran: [8466];
-            case lambda: [955];
-            case lang: [10216];
-            case langd: [10641];
-            case langle: [10216];
+            case Ll: [8920];
+            case Lt: [8810];
+            case LT: [60];
+            case leg: [8922];
             case lap: [10885];
-            case laquo: [171];
-            case larrb: [8676];
-            case larrbfs: [10527];
-            case larrfs: [10525];
-            case larrlp: [8619];
-            case larrtl: [8610];
-            case larr: [8592];
-            case larrhk: [8617];
-            case larrpl: [10553];
-            case larrsim: [10611];
-            case latail: [10521];
-            case late: [10925];
+            case lne: [10887];
             case lat: [10923];
-            case lates: [10925,65024];
-            case lbarr: [10508];
-            case lbbrk: [10098];
-            case lbrace: [123];
-            case lbrack: [91];
-            case lbrke: [10635];
-            case lbrksld: [10639];
-            case lbrkslu: [10637];
-            case lcaron: [318];
-            case lcedil: [316];
-            case lceil: [8968];
-            case lcub: [123];
+            case leq: [8804];
+            case les: [10877];
+            case lfr: [120105];
+            case lsh: [8624];
             case lcy: [1083];
+            case lrm: [8206];
+            case loz: [9674];
+            case lEg: [10891];
+            case lgE: [10897];
+            case lnE: [8808];
+            case Lfr: [120079];
+            case Lsh: [8624];
+            case Lcy: [1051];
             case ldca: [10550];
-            case ldquor: [8222];
-            case ldquo: [8220];
-            case ldrdhar: [10599];
-            case ldrushar: [10571];
+            case lang: [10216];
+            case late: [10925];
+            case lcub: [123];
+            case ltcc: [10918];
+            case lnap: [10889];
             case ldsh: [8626];
+            case lesg: [8922,65024];
+            case lpar: [40];
+            case lneq: [10887];
+            case lopf: [120157];
+            case larr: [8592];
+            case lsqb: [91];
+            case ljcy: [1113];
+            case leqq: [8806];
+            case lscr: [120001];
+            case lsim: [8818];
+            case ltri: [9667];
+            case lozf: [10731];
+            case Lang: [10218];
+            case lHar: [10594];
+            case Larr: [8606];
+            case lArr: [8656];
+            case Lopf: [120131];
+            case Lscr: [8466];
+            case lvnE: [8808,65024];
+            case LJcy: [1033];
+            case langd: [10641];
+            case lceil: [8968];
+            case lescc: [10920];
+            case lhard: [8637];
+            case lbbrk: [10098];
+            case lhblk: [9604];
+            case lbrke: [10635];
+            case loang: [10220];
+            case lbarr: [10508];
+            case larrb: [8676];
+            case lrhar: [8651];
+            case lates: [10925,65024];
+            case lsime: [10893];
+            case lobrk: [10214];
+            case lharu: [8636];
+            case lsimg: [10895];
+            case llarr: [8647];
+            case lopar: [10629];
+            case ltcir: [10873];
+            case ltrie: [8884];
+            case loarr: [8701];
+            case ltrif: [9666];
+            case lneqq: [8808];
+            case laquo: [171];
+            case lnsim: [8934];
+            case lrarr: [8646];
+            case ldquo: [8220];
+            case ltdot: [8918];
+            case lltri: [9722];
+            case lrtri: [8895];
+            case lAarr: [8666];
+            case lBarr: [10510];
+            case lsquo: [8216];
+            case lambda: [955];
+            case lbrace: [123];
+            case lcedil: [316];
+            case lbrack: [91];
+            case langle: [10216];
+            case lagran: [8466];
+            case latail: [10521];
+            case llhard: [10603];
+            case lrhard: [10605];
+            case lacute: [314];
+            case lcaron: [318];
+            case Lambda: [923];
+            case lesges: [10899];
+            case lthree: [8907];
+            case larrhk: [8617];
+            case lowbar: [95];
+            case lharul: [10602];
+            case lmidot: [320];
+            case lfisht: [10620];
+            case larrfs: [10525];
+            case lesdot: [10879];
+            case larrlp: [8619];
+            case larrpl: [10553];
+            case Lcedil: [315];
+            case lfloor: [8970];
+            case ltimes: [8905];
+            case lparlt: [10643];
+            case ltlarr: [10614];
+            case larrtl: [8610];
+            case lsaquo: [8249];
+            case ldquor: [8222];
+            case lAtail: [10523];
+            case lowast: [8727];
+            case Lacute: [313];
+            case Lcaron: [317];
+            case lstrok: [322];
+            case loplus: [10797];
+            case lmoust: [9136];
+            case lsquor: [8218];
+            case Lmidot: [319];
+            case ltrPar: [10646];
+            case Lstrok: [321];
+            case ldrdhar: [10599];
+            case larrbfs: [10527];
+            case lbrksld: [10639];
+            case lozenge: [9674];
+            case lesdoto: [10881];
+            case larrsim: [10611];
+            case lotimes: [10804];
+            case lessdot: [8918];
+            case lbrkslu: [10637];
+            case lesssim: [8818];
+            case luruhar: [10598];
+            case lessgtr: [8822];
+            case ltquest: [10875];
+            case LeftTee: [8867];
+            case llcorner: [8990];
+            case leqslant: [10877];
+            case lurdshar: [10570];
+            case ldrushar: [10571];
+            case lrcorner: [8991];
+            case lesdotor: [10883];
+            case laemptyv: [10676];
+            case lnapprox: [10889];
+            case LessLess: [10913];
             case leftarrow: [8592];
-            case leftharpoondown: [8637];
+            case lesseqgtr: [8922];
+            case lvertneqq: [8808,65024];
+            case Leftarrow: [8656];
+            case LessTilde: [8818];
+            case LeftFloor: [8970];
+            case LeftArrow: [8592];
+            case lmoustache: [9136];
+            case Laplacetrf: [8466];
+            case longmapsto: [10236];
+            case lesseqqgtr: [10891];
+            case lessapprox: [10885];
+            case Lleftarrow: [8666];
+            case LeftVector: [8636];
+            case LeftCeiling: [8968];
+            case LessGreater: [8822];
+            case LeftTriangle: [8882];
+            case LeftArrowBar: [8676];
+            case LeftTeeArrow: [8612];
+            case LeftUpVector: [8639];
+            case leftarrowtail: [8610];
+            case longleftarrow: [10229];
             case leftharpoonup: [8636];
+            case looparrowleft: [8619];
+            case Longleftarrow: [10232];
+            case LeftVectorBar: [10578];
+            case LeftTeeVector: [10586];
+            case LessFullEqual: [8806];
+            case LongLeftArrow: [10229];
+            case leftthreetimes: [8907];
             case leftleftarrows: [8647];
             case leftrightarrow: [8596];
-            case leftrightarrows: [8646];
-            case leftrightsquigarrow: [8621];
-            case leftthreetimes: [8907];
-            case leg: [8922];
-            case leqq: [8806];
-            case leqslant: [10877];
-            case les: [10877];
-            case lescc: [10920];
-            case lesdoto: [10881];
-            case lesdotor: [10883];
-            case lesges: [10899];
-            case lessdot: [8918];
-            case lesseqgtr: [8922];
-            case le: [8804];
-            case leftarrowtail: [8610];
-            case leftrightharpoons: [8651];
-            case leq: [8804];
-            case lesdot: [10879];
-            case lesg: [8922,65024];
-            case lessapprox: [10885];
-            case lesseqqgtr: [10891];
-            case lessgtr: [8822];
-            case lesssim: [8818];
-            case lfisht: [10620];
-            case lfloor: [8970];
-            case lfr: [120105];
-            case lg: [8822];
-            case lgE: [10897];
-            case lhard: [8637];
-            case lharu: [8636];
-            case lharul: [10602];
-            case lhblk: [9604];
-            case ljcy: [1113];
-            case llarr: [8647];
-            case ll: [8810];
-            case llcorner: [8990];
-            case llhard: [10603];
-            case lltri: [9722];
-            case lmidot: [320];
-            case lmoustache: [9136];
-            case lmoust: [9136];
-            case lnE: [8808];
-            case lnap: [10889];
-            case lnapprox: [10889];
-            case lneqq: [8808];
-            case lne: [10887];
-            case lneq: [10887];
-            case lnsim: [8934];
-            case loang: [10220];
-            case loarr: [8701];
-            case lobrk: [10214];
-            case longleftarrow: [10229];
-            case longleftrightarrow: [10231];
-            case longmapsto: [10236];
             case longrightarrow: [10230];
-            case looparrowleft: [8619];
             case looparrowright: [8620];
-            case lopar: [10629];
-            case lopf: [120157];
-            case loplus: [10797];
-            case lotimes: [10804];
-            case lowast: [8727];
-            case lowbar: [95];
-            case lozenge: [9674];
-            case lozf: [10731];
-            case loz: [9674];
-            case lparlt: [10643];
-            case lpar: [40];
-            case lrarr: [8646];
-            case lrcorner: [8991];
-            case lrhar: [8651];
-            case lrhard: [10605];
-            case lrm: [8206];
-            case lrtri: [8895];
-            case lsaquo: [8249];
-            case lscr: [120001];
-            case lsh: [8624];
-            case lsim: [8818];
-            case lsime: [10893];
-            case lsimg: [10895];
-            case lsqb: [91];
-            case lsquor: [8218];
-            case lsquo: [8216];
-            case lstrok: [322];
-            case ltcc: [10918];
-            case ltcir: [10873];
-            case ltdot: [8918];
-            case lthree: [8907];
-            case ltlarr: [10614];
-            case lt: [60];
-            case ltimes: [8905];
-            case ltquest: [10875];
-            case ltrPar: [10646];
-            case ltrie: [8884];
-            case ltrif: [9666];
-            case ltri: [9667];
-            case lurdshar: [10570];
-            case luruhar: [10598];
-            case lvertneqq: [8808,65024];
-            case lvnE: [8808,65024];
-            case mDDot: [8762];
-            case macr: [175];
-            case male: [9794];
-            case malt: [10016];
-            case maltese: [10016];
-            case mapsto: [8614];
-            case mapstodown: [8615];
-            case mapstoleft: [8612];
-            case mapstoup: [8613];
-            case map: [8614];
-            case marker: [9646];
-            case mcomma: [10793];
-            case mcy: [1084];
-            case mdash: [8212];
-            case measuredangle: [8737];
-            case mfr: [120106];
-            case mho: [8487];
-            case micro: [181];
-            case midast: [42];
-            case midcir: [10992];
+            case Leftrightarrow: [8660];
+            case Longrightarrow: [10233];
+            case LessSlantEqual: [10877];
+            case LeftRightArrow: [8596];
+            case LeftDownVector: [8643];
+            case LongRightArrow: [10230];
+            case LowerLeftArrow: [8601];
+            case leftharpoondown: [8637];
+            case leftrightarrows: [8646];
+            case LeftTriangleBar: [10703];
+            case LeftRightVector: [10574];
+            case LowerRightArrow: [8600];
+            case LeftUpVectorBar: [10584];
+            case LeftUpTeeVector: [10592];
+            case LeftAngleBracket: [10216];
+            case LessEqualGreater: [8922];
+            case LeftUpDownVector: [10577];
+            case leftrightharpoons: [8651];
+            case LeftDoubleBracket: [10214];
+            case LeftTriangleEqual: [8884];
+            case LeftDownVectorBar: [10585];
+            case LeftDownTeeVector: [10593];
+            case longleftrightarrow: [10231];
+            case Longleftrightarrow: [10234];
+            case LongLeftRightArrow: [10231];
+            case leftrightsquigarrow: [8621];
+            case LeftArrowRightArrow: [8646];
+            case mp: [8723];
+            case mu: [956];
+            case Mu: [924];
             case mid: [8739];
-            case middot: [183];
+            case map: [8614];
+            case mho: [8487];
+            case mfr: [120106];
+            case mcy: [1084];
+            case Map: [10501];
+            case Mfr: [120080];
+            case Mcy: [1052];
+            case male: [9794];
+            case macr: [175];
+            case mlcp: [10971];
+            case malt: [10016];
+            case mldr: [8230];
+            case mopf: [120158];
+            case mscr: [120002];
+            case Mopf: [120132];
+            case Mscr: [8499];
+            case mdash: [8212];
+            case micro: [181];
+            case mumap: [8888];
             case minus: [8722];
+            case mDDot: [8762];
+            case midcir: [10992];
+            case mcomma: [10793];
+            case middot: [183];
+            case midast: [42];
+            case marker: [9646];
+            case models: [8871];
             case minusb: [8863];
             case minusd: [8760];
-            case minusdu: [10794];
-            case mlcp: [10971];
-            case mldr: [8230];
+            case mapsto: [8614];
             case mnplus: [8723];
-            case models: [8871];
-            case mopf: [120158];
-            case mp: [8723];
-            case mscr: [120002];
             case mstpos: [8766];
-            case mu: [956];
+            case maltese: [10016];
+            case minusdu: [10794];
             case multimap: [8888];
-            case mumap: [8888];
-            case nGg: [8921,824];
-            case nGt: [8811,8402];
-            case nGtv: [8811,824];
-            case nLeftarrow: [8653];
-            case nLeftrightarrow: [8654];
-            case nLl: [8920,824];
-            case nLtv: [8810,824];
-            case nLt: [8810,8402];
-            case nRightarrow: [8655];
-            case nVDash: [8879];
-            case nVdash: [8878];
-            case nabla: [8711];
-            case nacute: [324];
-            case nang: [8736,8402];
-            case napid: [8779,824];
-            case nap: [8777];
-            case napE: [10864,824];
-            case napos: [329];
-            case napprox: [8777];
-            case natural: [9838];
-            case natur: [9838];
-            case naturals: [8469];
-            case nbsp: [160];
-            case nbump: [8782,824];
-            case nbumpe: [8783,824];
-            case ncap: [10819];
-            case ncaron: [328];
-            case ncedil: [326];
-            case ncongdot: [10861,824];
-            case ncong: [8775];
-            case ncup: [10818];
-            case ncy: [1085];
-            case ndash: [8211];
-            case neArr: [8663];
-            case nearrow: [8599];
-            case nearr: [8599];
-            case nedot: [8784,824];
-            case nesear: [10536];
-            case nexist: [8708];
+            case mapstoup: [8613];
+            case Mellintrf: [8499];
+            case MinusPlus: [8723];
+            case mapstoleft: [8612];
+            case mapstodown: [8615];
+            case MediumSpace: [8287];
+            case measuredangle: [8737];
             case ne: [8800];
-            case nearhk: [10532];
-            case nequiv: [8802];
-            case nesim: [8770,824];
-            case nexists: [8708];
-            case nfr: [120107];
-            case ngE: [8807,824];
-            case ngeq: [8817];
-            case ngeqq: [8807,824];
-            case ngeqslant: [10878,824];
-            case nges: [10878,824];
-            case nge: [8817];
-            case ngsim: [8821];
-            case ngt: [8815];
-            case ngtr: [8815];
-            case nhArr: [8654];
-            case nharr: [8622];
-            case nhpar: [10994];
-            case nisd: [8954];
-            case nis: [8956];
-            case niv: [8715];
             case ni: [8715];
-            case njcy: [1114];
-            case nlArr: [8653];
-            case nlE: [8806,824];
-            case nlarr: [8602];
-            case nldr: [8229];
-            case nleftarrow: [8602];
-            case nleftrightarrow: [8622];
-            case nleq: [8816];
-            case nleqslant: [10877,824];
-            case nle: [8816];
-            case nleqq: [8806,824];
-            case nles: [10877,824];
-            case nless: [8814];
-            case nlsim: [8820];
-            case nltrie: [8940];
-            case nltri: [8938];
-            case nlt: [8814];
-            case nmid: [8740];
-            case nopf: [120159];
-            case notinE: [8953,824];
-            case notindot: [8949,824];
-            case notinva: [8713];
-            case notinvb: [8951];
-            case notinvc: [8950];
-            case notin: [8713];
-            case notnivc: [8957];
-            case notni: [8716];
-            case notnivb: [8958];
-            case not: [172];
-            case notniva: [8716];
-            case nparsl: [11005,8421];
-            case npart: [8706,824];
-            case npar: [8742];
-            case nparallel: [8742];
-            case npolint: [10772];
-            case nprcue: [8928];
-            case npre: [10927,824];
-            case npreceq: [10927,824];
-            case npr: [8832];
-            case nprec: [8832];
-            case nrArr: [8655];
-            case nrarr: [8603];
-            case nrarrc: [10547,824];
-            case nrarrw: [8605,824];
-            case nrightarrow: [8603];
-            case nrtrie: [8941];
-            case nrtri: [8939];
-            case nsc: [8833];
-            case nsccue: [8929];
-            case nsce: [10928,824];
-            case nscr: [120003];
-            case nshortmid: [8740];
-            case nshortparallel: [8742];
-            case nsimeq: [8772];
-            case nsim: [8769];
-            case nsime: [8772];
-            case nsmid: [8740];
-            case nspar: [8742];
-            case nsqsube: [8930];
-            case nsqsupe: [8931];
-            case nsubE: [10949,824];
-            case nsube: [8840];
-            case nsubseteq: [8840];
-            case nsubset: [8834,8402];
-            case nsubseteqq: [10949,824];
-            case nsub: [8836];
-            case nsucc: [8833];
-            case nsucceq: [10928,824];
-            case nsup: [8837];
-            case nsupE: [10950,824];
-            case nsupe: [8841];
-            case nsupset: [8835,8402];
-            case nsupseteq: [8841];
-            case nsupseteqq: [10950,824];
-            case ntgl: [8825];
-            case ntilde: [241];
-            case ntlg: [8824];
-            case ntrianglelefteq: [8940];
-            case ntriangleleft: [8938];
-            case ntrianglerighteq: [8941];
-            case ntriangleright: [8939];
             case nu: [957];
+            case Nu: [925];
+            case nge: [8817];
+            case nap: [8777];
+            case nle: [8816];
+            case nsc: [8833];
+            case nfr: [120107];
+            case ngt: [8815];
+            case nis: [8956];
+            case ncy: [1085];
+            case niv: [8715];
+            case nlt: [8814];
+            case npr: [8832];
             case num: [35];
-            case numero: [8470];
-            case numsp: [8199];
-            case nvDash: [8877];
-            case nvHarr: [10500];
-            case nvap: [8781,8402];
-            case nvdash: [8876];
+            case not: [172];
+            case ngE: [8807,824];
+            case nGg: [8921,824];
+            case nlE: [8806,824];
+            case nLl: [8920,824];
+            case Nfr: [120081];
+            case nGt: [8811,8402];
+            case Ncy: [1053];
+            case nLt: [8810,8402];
+            case Not: [10988];
+            case ncap: [10819];
+            case nang: [8736,8402];
+            case nmid: [8740];
+            case nsce: [10928,824];
+            case ngeq: [8817];
+            case nges: [10878,824];
+            case nisd: [8954];
+            case nleq: [8816];
+            case nldr: [8229];
             case nvge: [8805,8402];
-            case nvgt: [62,8402];
-            case nvinfin: [10718];
-            case nvlArr: [10498];
+            case npar: [8742];
+            case nles: [10877,824];
+            case nbsp: [160];
+            case nopf: [120159];
+            case njcy: [1114];
             case nvle: [8804,8402];
+            case npre: [10927,824];
+            case ntlg: [8824];
+            case nvap: [8781,8402];
+            case ntgl: [8825];
+            case nscr: [120003];
+            case ncup: [10818];
+            case nsim: [8769];
+            case nsub: [8836];
+            case ngtr: [8815];
+            case nvgt: [62,8402];
             case nvlt: [60,8402];
-            case nvltrie: [8884,8402];
-            case nvrArr: [10499];
-            case nvrtrie: [8885,8402];
-            case nvsim: [8764,8402];
-            case nwArr: [8662];
-            case nwarhk: [10531];
-            case nwarrow: [8598];
+            case napE: [10864,824];
+            case nsup: [8837];
+            case Nopf: [8469];
+            case Nscr: [119977];
+            case nGtv: [8811,824];
+            case nLtv: [8810,824];
+            case NJcy: [1034];
+            case nabla: [8711];
+            case napid: [8779,824];
+            case ndash: [8211];
+            case ncong: [8775];
+            case nearr: [8599];
+            case nprec: [8832];
+            case nhpar: [10994];
+            case nedot: [8784,824];
+            case nharr: [8622];
+            case nsmid: [8740];
+            case nsucc: [8833];
+            case nesim: [8770,824];
+            case ngeqq: [8807,824];
+            case nsime: [8772];
+            case nsube: [8840];
+            case ngsim: [8821];
+            case nlarr: [8602];
+            case napos: [329];
+            case nleqq: [8806,824];
+            case nbump: [8782,824];
+            case nlsim: [8820];
+            case nspar: [8742];
+            case npart: [8706,824];
+            case nrarr: [8603];
+            case nless: [8814];
+            case notin: [8713];
+            case notni: [8716];
+            case nltri: [8938];
+            case natur: [9838];
             case nwarr: [8598];
+            case nsupe: [8841];
+            case nvsim: [8764,8402];
+            case nrtri: [8939];
+            case numsp: [8199];
+            case neArr: [8663];
+            case nhArr: [8654];
+            case nsubE: [10949,824];
+            case nlArr: [8653];
+            case nrArr: [8655];
+            case nwArr: [8662];
+            case nsupE: [10950,824];
+            case ncedil: [326];
+            case nearhk: [10532];
+            case nesear: [10536];
+            case nacute: [324];
+            case ntilde: [241];
+            case nsccue: [8929];
+            case ncaron: [328];
+            case nvdash: [8876];
+            case nbumpe: [8783,824];
+            case nrarrc: [10547,824];
+            case nwarhk: [10531];
             case nwnear: [10535];
-            case oS: [9416];
-            case oacute: [243];
-            case oast: [8859];
-            case ocirc: [244];
-            case ocir: [8858];
-            case ocy: [1086];
-            case odash: [8861];
-            case odblac: [337];
-            case odiv: [10808];
-            case odot: [8857];
-            case odsold: [10684];
-            case oelig: [339];
-            case ofcir: [10687];
-            case ofr: [120108];
-            case ogon: [731];
-            case ograve: [242];
-            case ogt: [10689];
-            case ohbar: [10677];
-            case ohm: [937];
-            case oint: [8750];
-            case olarr: [8634];
-            case olcir: [10686];
-            case olcross: [10683];
-            case oline: [8254];
-            case olt: [10688];
-            case omacr: [333];
-            case omega: [969];
-            case omicron: [959];
-            case omid: [10678];
-            case ominus: [8854];
-            case oopf: [120160];
-            case opar: [10679];
-            case operp: [10681];
-            case oplus: [8853];
-            case ordm: [186];
+            case nsimeq: [8772];
+            case nprcue: [8928];
+            case nltrie: [8940];
+            case Ncedil: [325];
+            case nparsl: [11005,8421];
+            case nrtrie: [8941];
+            case numero: [8470];
+            case nequiv: [8802];
+            case nexist: [8708];
+            case nrarrw: [8605,824];
+            case Nacute: [323];
+            case Ntilde: [209];
+            case Ncaron: [327];
+            case nvDash: [8877];
+            case nVdash: [8878];
+            case notinE: [8953,824];
+            case nvHarr: [10500];
+            case nvlArr: [10498];
+            case nvrArr: [10499];
+            case nVDash: [8879];
+            case npreceq: [10927,824];
+            case nsucceq: [10928,824];
+            case natural: [9838];
+            case nvinfin: [10718];
+            case nearrow: [8599];
+            case notinva: [8713];
+            case notniva: [8716];
+            case notinvb: [8951];
+            case notnivb: [8958];
+            case notinvc: [8950];
+            case nsqsube: [8930];
+            case notnivc: [8957];
+            case npolint: [10772];
+            case nsubset: [8834,8402];
+            case nvltrie: [8884,8402];
+            case napprox: [8777];
+            case nvrtrie: [8885,8402];
+            case nexists: [8708];
+            case nsqsupe: [8931];
+            case nwarrow: [8598];
+            case nsupset: [8835,8402];
+            case NoBreak: [8288];
+            case NewLine: [10];
+            case NotLess: [8814];
+            case ncongdot: [10861,824];
+            case naturals: [8469];
+            case notindot: [8949,824];
+            case NotTilde: [8769];
+            case NotEqual: [8800];
+            case nparallel: [8742];
+            case ngeqslant: [10878,824];
+            case nleqslant: [10877,824];
+            case nshortmid: [8740];
+            case nsubseteq: [8840];
+            case nsupseteq: [8841];
+            case NotSubset: [8834,8402];
+            case NotCupCap: [8813];
+            case NotExists: [8708];
+            case nleftarrow: [8602];
+            case nsubseteqq: [10949,824];
+            case nsupseteqq: [10950,824];
+            case nLeftarrow: [8653];
+            case NotGreater: [8815];
+            case NotElement: [8713];
+            case nrightarrow: [8603];
+            case nRightarrow: [8655];
+            case NotPrecedes: [8832];
+            case NotSucceeds: [8833];
+            case NotSuperset: [8835,8402];
+            case NotLessLess: [8810,824];
+            case NotCongruent: [8802];
+            case NotLessTilde: [8820];
+            case NotLessEqual: [8816];
+            case NotHumpEqual: [8783,824];
+            case ntriangleleft: [8938];
+            case NotTildeTilde: [8777];
+            case NotEqualTilde: [8770,824];
+            case NotTildeEqual: [8772];
+            case ntriangleright: [8939];
+            case nshortparallel: [8742];
+            case NotVerticalBar: [8740];
+            case NestedLessLess: [8810];
+            case NotGreaterLess: [8825];
+            case NotLessGreater: [8824];
+            case NotSubsetEqual: [8840];
+            case ntrianglelefteq: [8940];
+            case nleftrightarrow: [8622];
+            case nLeftrightarrow: [8654];
+            case NotGreaterTilde: [8821];
+            case NotLeftTriangle: [8938];
+            case NotGreaterEqual: [8817];
+            case NotSquareSubset: [8847,824];
+            case NotHumpDownHump: [8782,824];
+            case ntrianglerighteq: [8941];
+            case NonBreakingSpace: [160];
+            case NotSucceedsTilde: [8831,824];
+            case NotPrecedesEqual: [10927,824];
+            case NotSucceedsEqual: [10928,824];
+            case NotRightTriangle: [8939];
+            case NotSupersetEqual: [8841];
+            case NegativeThinSpace: [8203];
+            case NotGreaterGreater: [8811,824];
+            case NotReverseElement: [8716];
+            case NotTildeFullEqual: [8775];
+            case NotSquareSuperset: [8848,824];
+            case NotLessSlantEqual: [10877,824];
+            case NotNestedLessLess: [10913,824];
+            case NegativeThickSpace: [8203];
+            case NotLeftTriangleBar: [10703,824];
+            case NegativeMediumSpace: [8203];
+            case NotRightTriangleBar: [10704,824];
+            case NotGreaterFullEqual: [8807,824];
+            case NestedGreaterGreater: [8811];
+            case NotDoubleVerticalBar: [8742];
+            case NotLeftTriangleEqual: [8940];
+            case NotGreaterSlantEqual: [10878,824];
+            case NotSquareSubsetEqual: [8930];
+            case NotPrecedesSlantEqual: [8928];
+            case NegativeVeryThinSpace: [8203];
+            case NotSucceedsSlantEqual: [8929];
+            case NotRightTriangleEqual: [8941];
+            case NotSquareSupersetEqual: [8931];
+            case NotNestedGreaterGreater: [10914,824];
             case or: [8744];
-            case orarr: [8635];
-            case order: [8500];
+            case Or: [10836];
+            case oS: [9416];
+            case ohm: [937];
             case ord: [10845];
-            case orderof: [8500];
-            case ordf: [170];
-            case origof: [8886];
-            case oror: [10838];
-            case orslope: [10839];
+            case ofr: [120108];
+            case ogt: [10689];
+            case ocy: [1086];
+            case olt: [10688];
             case orv: [10843];
+            case Ofr: [120082];
+            case Ocy: [1054];
+            case omid: [10678];
+            case ordf: [170];
+            case ocir: [8858];
+            case ordm: [186];
+            case opar: [10679];
+            case odiv: [10808];
+            case ogon: [731];
+            case oopf: [120160];
+            case odot: [8857];
             case oscr: [8500];
-            case oslash: [248];
-            case osol: [8856];
-            case otilde: [245];
-            case otimes: [8855];
-            case otimesas: [10806];
+            case oast: [8859];
+            case oint: [8750];
             case ouml: [246];
+            case osol: [8856];
+            case oror: [10838];
+            case Oopf: [120134];
+            case Oscr: [119978];
+            case Ouml: [214];
+            case omega: [969];
+            case ohbar: [10677];
+            case odash: [8861];
+            case ocirc: [244];
+            case oelig: [339];
+            case omacr: [333];
+            case ofcir: [10687];
+            case oline: [8254];
+            case olcir: [10686];
             case ovbar: [9021];
-            case parallel: [8741];
-            case para: [182];
-            case parsim: [10995];
-            case parsl: [11005];
-            case part: [8706];
-            case par: [8741];
-            case pcy: [1087];
-            case percnt: [37];
-            case period: [46];
-            case permil: [8240];
-            case perp: [8869];
-            case pertenk: [8241];
-            case pfr: [120109];
-            case phi: [966];
-            case phiv: [981];
-            case phmmat: [8499];
-            case phone: [9742];
-            case pitchfork: [8916];
+            case order: [8500];
+            case olarr: [8634];
+            case operp: [10681];
+            case orarr: [8635];
+            case Omega: [937];
+            case Ocirc: [212];
+            case Omacr: [332];
+            case oplus: [8853];
+            case OElig: [338];
+            case odblac: [337];
+            case otilde: [245];
+            case oacute: [243];
+            case ograve: [242];
+            case odsold: [10684];
+            case Odblac: [336];
+            case origof: [8886];
+            case oslash: [248];
+            case otimes: [8855];
+            case ominus: [8854];
+            case Oacute: [211];
+            case Otilde: [213];
+            case Ograve: [210];
+            case Oslash: [216];
+            case Otimes: [10807];
+            case orderof: [8500];
+            case omicron: [959];
+            case orslope: [10839];
+            case olcross: [10683];
+            case Omicron: [927];
+            case OverBar: [8254];
+            case otimesas: [10806];
+            case OverBrace: [9182];
+            case OverBracket: [9140];
+            case OpenCurlyQuote: [8216];
+            case OverParenthesis: [9180];
+            case OpenCurlyDoubleQuote: [8220];
             case pi: [960];
+            case pm: [177];
+            case pr: [8826];
+            case Pi: [928];
+            case Pr: [10939];
+            case phi: [966];
+            case par: [8741];
+            case pre: [10927];
+            case pfr: [120109];
+            case psi: [968];
+            case pcy: [1087];
             case piv: [982];
+            case Phi: [934];
+            case prE: [10931];
+            case Pfr: [120083];
+            case Psi: [936];
+            case Pcy: [1055];
+            case para: [182];
+            case prec: [8826];
+            case prap: [10935];
+            case popf: [120161];
+            case prod: [8719];
+            case perp: [8869];
+            case part: [8706];
+            case phiv: [981];
+            case pscr: [120005];
+            case prop: [8733];
+            case plus: [43];
+            case Popf: [8473];
+            case prnE: [10933];
+            case Pscr: [119979];
+            case phone: [9742];
+            case prime: [8242];
+            case prcue: [8828];
+            case prnap: [10937];
+            case parsl: [11005];
+            case pound: [163];
+            case plusb: [8862];
+            case pluse: [10866];
+            case prsim: [8830];
+            case Prime: [8243];
             case planck: [8463];
-            case planckh: [8462];
+            case preceq: [10927];
+            case period: [46];
+            case phmmat: [8499];
+            case permil: [8240];
             case plankv: [8463];
+            case percnt: [37];
+            case parsim: [10995];
+            case primes: [8473];
+            case plusdo: [8724];
+            case prnsim: [8936];
+            case puncsp: [8200];
+            case prurel: [8880];
             case plusdu: [10789];
             case plusmn: [177];
-            case plustwo: [10791];
-            case plus: [43];
-            case plusacir: [10787];
-            case plusb: [8862];
-            case pluscir: [10786];
-            case plusdo: [8724];
-            case pluse: [10866];
-            case plussim: [10790];
-            case pm: [177];
-            case pointint: [10773];
-            case popf: [120161];
-            case pound: [163];
-            case prE: [10931];
-            case prap: [10935];
-            case prcue: [8828];
-            case precapprox: [10935];
-            case preccurlyeq: [8828];
-            case preceq: [10927];
-            case precneqq: [10933];
-            case prnsim: [8936];
-            case pr: [8826];
-            case precnapprox: [10937];
-            case pre: [10927];
-            case precnsim: [8936];
-            case precsim: [8830];
-            case prec: [8826];
-            case primes: [8473];
-            case prime: [8242];
-            case prnE: [10933];
-            case prnap: [10937];
-            case prod: [8719];
-            case profalar: [9006];
-            case profline: [8978];
-            case profsurf: [8979];
-            case prop: [8733];
             case propto: [8733];
-            case prsim: [8830];
-            case prurel: [8880];
-            case pscr: [120005];
-            case psi: [968];
-            case puncsp: [8200];
+            case planckh: [8462];
+            case precsim: [8830];
+            case pertenk: [8241];
+            case pluscir: [10786];
+            case plussim: [10790];
+            case plustwo: [10791];
+            case Product: [8719];
+            case parallel: [8741];
+            case profalar: [9006];
+            case precneqq: [10933];
+            case profline: [8978];
+            case precnsim: [8936];
+            case plusacir: [10787];
+            case Precedes: [8826];
+            case pointint: [10773];
+            case profsurf: [8979];
+            case PartialD: [8706];
+            case pitchfork: [8916];
+            case PlusMinus: [177];
+            case precapprox: [10935];
+            case Proportion: [8759];
+            case preccurlyeq: [8828];
+            case precnapprox: [10937];
+            case Proportional: [8733];
+            case Poincareplane: [8460];
+            case PrecedesTilde: [8830];
+            case PrecedesEqual: [10927];
+            case PrecedesSlantEqual: [8828];
             case qfr: [120110];
-            case qint: [10764];
+            case Qfr: [120084];
             case qopf: [120162];
-            case qprime: [8279];
             case qscr: [120006];
-            case quaternions: [8461];
-            case quatint: [10774];
-            case quest: [63];
-            case questeq: [8799];
+            case qint: [10764];
             case quot: [34];
-            case rAarr: [8667];
-            case rArr: [8658];
-            case rAtail: [10524];
-            case rBarr: [10511];
-            case rHar: [10596];
-            case race: [8765,817];
-            case racute: [341];
-            case radic: [8730];
-            case raemptyv: [10675];
-            case rangd: [10642];
-            case rangle: [10217];
-            case rang: [10217];
-            case range: [10661];
-            case raquo: [187];
-            case rarrap: [10613];
-            case rarrbfs: [10528];
-            case rarrc: [10547];
-            case rarr: [8594];
-            case rarrb: [8677];
-            case rarrfs: [10526];
-            case rarrhk: [8618];
-            case rarrlp: [8620];
-            case rarrpl: [10565];
-            case rarrsim: [10612];
-            case rarrtl: [8611];
-            case rarrw: [8605];
-            case ratail: [10522];
-            case rationals: [8474];
-            case ratio: [8758];
-            case rbarr: [10509];
-            case rbbrk: [10099];
-            case rbrace: [125];
-            case rbrack: [93];
-            case rbrke: [10636];
-            case rbrksld: [10638];
-            case rbrkslu: [10640];
-            case rcaron: [345];
-            case rcedil: [343];
-            case rceil: [8969];
-            case rcub: [125];
-            case rcy: [1088];
-            case rdca: [10551];
-            case rdldhar: [10601];
-            case rdquor: [8221];
-            case rdquo: [8221];
-            case rdsh: [8627];
-            case real: [8476];
-            case realine: [8475];
-            case realpart: [8476];
-            case reals: [8477];
-            case rect: [9645];
+            case Qopf: [8474];
+            case Qscr: [119980];
+            case QUOT: [34];
+            case quest: [63];
+            case qprime: [8279];
+            case quatint: [10774];
+            case questeq: [8799];
+            case quaternions: [8461];
+            case rx: [8478];
+            case Re: [8476];
             case reg: [174];
-            case rfisht: [10621];
-            case rfloor: [8971];
-            case rfr: [120111];
-            case rhard: [8641];
-            case rharul: [10604];
-            case rharu: [8640];
             case rho: [961];
-            case rhov: [1009];
-            case rightarrow: [8594];
-            case rightarrowtail: [8611];
-            case rightharpoondown: [8641];
-            case rightharpoonup: [8640];
-            case rightleftarrows: [8644];
-            case rightleftharpoons: [8652];
-            case rightrightarrows: [8649];
-            case rightsquigarrow: [8605];
-            case rightthreetimes: [8908];
-            case ring: [730];
-            case risingdotseq: [8787];
-            case rlarr: [8644];
-            case rlhar: [8652];
+            case rfr: [120111];
             case rlm: [8207];
-            case rmoust: [9137];
-            case rmoustache: [9137];
-            case rnmid: [10990];
-            case roang: [10221];
-            case roarr: [8702];
-            case robrk: [10215];
-            case ropar: [10630];
-            case ropf: [120163];
-            case roplus: [10798];
-            case rotimes: [10805];
-            case rpar: [41];
-            case rpargt: [10644];
-            case rppolint: [10770];
-            case rrarr: [8649];
-            case rsaquo: [8250];
-            case rscr: [120007];
             case rsh: [8625];
+            case rcy: [1088];
+            case Rho: [929];
+            case Rfr: [8476];
+            case Rsh: [8625];
+            case Rcy: [1056];
+            case REG: [174];
+            case rdca: [10551];
+            case race: [8765,817];
+            case real: [8476];
+            case rang: [10217];
+            case rcub: [125];
+            case rect: [9645];
+            case ring: [730];
+            case rdsh: [8627];
+            case rpar: [41];
+            case rarr: [8594];
+            case ropf: [120163];
             case rsqb: [93];
-            case rsquo: [8217];
-            case rsquor: [8217];
-            case rthree: [8908];
-            case rtimes: [8906];
+            case rscr: [120007];
+            case rhov: [1009];
+            case rtri: [9657];
+            case Rang: [10219];
+            case rHar: [10596];
+            case Rarr: [8608];
+            case Ropf: [8477];
+            case rArr: [8658];
+            case Rscr: [8475];
+            case radic: [8730];
+            case rangd: [10642];
+            case range: [10661];
+            case rceil: [8969];
+            case rhard: [8641];
+            case rbbrk: [10099];
+            case rbrke: [10636];
+            case roang: [10221];
+            case reals: [8477];
+            case rbarr: [10509];
+            case rlhar: [8652];
+            case rarrb: [8677];
+            case rarrc: [10547];
+            case rnmid: [10990];
+            case ratio: [8758];
+            case robrk: [10215];
+            case rharu: [8640];
+            case rlarr: [8644];
+            case ropar: [10630];
+            case roarr: [8702];
             case rtrie: [8885];
             case rtrif: [9656];
-            case rtriltri: [10702];
-            case rtri: [9657];
+            case raquo: [187];
+            case rrarr: [8649];
+            case rdquo: [8221];
+            case rarrw: [8605];
+            case rAarr: [8667];
+            case rBarr: [10511];
+            case rsquo: [8217];
+            case RBarr: [10512];
+            case rbrace: [125];
+            case rcedil: [343];
+            case rbrack: [93];
+            case rangle: [10217];
+            case ratail: [10522];
+            case racute: [341];
+            case rcaron: [345];
+            case rarrap: [10613];
+            case rthree: [8908];
+            case rarrhk: [8618];
+            case rharul: [10604];
+            case rarrfs: [10526];
+            case rfisht: [10621];
+            case rpargt: [10644];
+            case rarrpl: [10565];
+            case Rcedil: [342];
+            case rarrlp: [8620];
+            case rfloor: [8971];
+            case rtimes: [8906];
+            case rarrtl: [8611];
+            case rsaquo: [8250];
+            case rdquor: [8221];
+            case rAtail: [10524];
+            case Racute: [340];
+            case roplus: [10798];
+            case Rcaron: [344];
+            case rmoust: [9137];
+            case rsquor: [8217];
+            case Rarrtl: [10518];
+            case realine: [8475];
+            case rdldhar: [10601];
+            case rarrbfs: [10528];
+            case rbrksld: [10638];
+            case rarrsim: [10612];
             case ruluhar: [10600];
-            case rx: [8478];
-            case sacute: [347];
-            case sbquo: [8218];
-            case scE: [10932];
-            case scap: [10936];
-            case scaron: [353];
-            case scirc: [349];
-            case scnE: [10934];
-            case scnap: [10938];
+            case rotimes: [10805];
+            case rbrkslu: [10640];
+            case realpart: [8476];
+            case raemptyv: [10675];
+            case rppolint: [10770];
+            case rtriltri: [10702];
+            case RightTee: [8866];
+            case rationals: [8474];
+            case rmoustache: [9137];
+            case rightarrow: [8594];
+            case Rightarrow: [8658];
+            case RightFloor: [8971];
+            case RightArrow: [8594];
+            case RuleDelayed: [10740];
+            case Rrightarrow: [8667];
+            case RightVector: [8640];
+            case risingdotseq: [8787];
+            case RightCeiling: [8969];
+            case RoundImplies: [10608];
+            case RightTriangle: [8883];
+            case RightArrowBar: [8677];
+            case RightTeeArrow: [8614];
+            case RightUpVector: [8638];
+            case rightarrowtail: [8611];
+            case rightharpoonup: [8640];
+            case ReverseElement: [8715];
+            case RightVectorBar: [10579];
+            case RightTeeVector: [10587];
+            case rightthreetimes: [8908];
+            case rightleftarrows: [8644];
+            case rightsquigarrow: [8605];
+            case RightDownVector: [8642];
+            case rightharpoondown: [8641];
+            case rightrightarrows: [8649];
+            case RightTriangleBar: [10704];
+            case RightUpVectorBar: [10580];
+            case RightUpTeeVector: [10588];
+            case rightleftharpoons: [8652];
+            case RightAngleBracket: [10217];
+            case RightUpDownVector: [10575];
+            case RightDoubleBracket: [10215];
+            case ReverseEquilibrium: [8651];
+            case RightTriangleEqual: [8885];
+            case RightDownVectorBar: [10581];
+            case RightDownTeeVector: [10589];
+            case RightArrowLeftArrow: [8644];
+            case ReverseUpEquilibrium: [10607];
             case sc: [8827];
-            case sccue: [8829];
-            case scedil: [351];
+            case Sc: [10940];
             case sce: [10928];
-            case scnsim: [8937];
-            case scpolint: [10771];
-            case scsim: [8831];
-            case scy: [1089];
-            case sdot: [8901];
-            case sdotb: [8865];
-            case sdote: [10854];
-            case seArr: [8664];
-            case searhk: [10533];
-            case searr: [8600];
-            case searrow: [8600];
-            case sect: [167];
-            case semi: [59];
-            case seswar: [10537];
-            case setminus: [8726];
-            case setmn: [8726];
-            case sext: [10038];
-            case sfrown: [8994];
-            case sfr: [120112];
-            case sharp: [9839];
-            case shchcy: [1097];
-            case shcy: [1096];
-            case shortmid: [8739];
-            case shortparallel: [8741];
-            case shy: [173];
-            case sigmav: [962];
-            case sigma: [963];
-            case sigmaf: [962];
             case sim: [8764];
-            case simdot: [10858];
-            case simeq: [8771];
-            case sime: [8771];
-            case simg: [10910];
-            case simgE: [10912];
-            case siml: [10909];
-            case simlE: [10911];
-            case simne: [8774];
-            case simplus: [10788];
-            case simrarr: [10610];
-            case slarr: [8592];
-            case smallsetminus: [8726];
-            case smashp: [10803];
-            case smeparsl: [10724];
-            case smid: [8739];
-            case smile: [8995];
-            case smtes: [10924,65024];
-            case smte: [10924];
-            case smt: [10922];
-            case softcy: [1100];
-            case sol: [47];
-            case solbar: [9023];
-            case solb: [10692];
-            case sopf: [120164];
-            case spades: [9824];
-            case spadesuit: [9824];
-            case spar: [8741];
-            case sqcap: [8851];
-            case sqcaps: [8851,65024];
-            case sqcups: [8852,65024];
-            case sqcup: [8852];
-            case sqsube: [8849];
-            case sqsub: [8847];
-            case sqsubset: [8847];
-            case sqsubseteq: [8849];
-            case sqsupset: [8848];
-            case sqsup: [8848];
-            case sqsupe: [8850];
-            case sqsupseteq: [8850];
-            case square: [9633];
-            case squarf: [9642];
-            case squf: [9642];
-            case squ: [9633];
-            case srarr: [8594];
-            case sscr: [120008];
-            case ssetmn: [8726];
-            case ssmile: [8995];
-            case sstarf: [8902];
-            case star: [9734];
-            case starf: [9733];
-            case straightepsilon: [1013];
-            case straightphi: [981];
-            case strns: [175];
-            case subE: [10949];
-            case subdot: [10941];
-            case sube: [8838];
-            case subedot: [10947];
-            case submult: [10945];
-            case subnE: [10955];
-            case subne: [8842];
-            case subplus: [10943];
-            case subrarr: [10617];
-            case subseteqq: [10949];
             case sub: [8834];
-            case subseteq: [8838];
-            case subsetneqq: [10955];
-            case subset: [8834];
-            case subsetneq: [8842];
-            case subsim: [10951];
-            case subsub: [10965];
-            case subsup: [10963];
-            case succ: [8827];
-            case succapprox: [10936];
-            case succcurlyeq: [8829];
-            case succeq: [10928];
-            case succnapprox: [10938];
-            case succneqq: [10934];
-            case succnsim: [8937];
-            case succsim: [8831];
+            case sfr: [120112];
+            case sol: [47];
+            case scy: [1089];
+            case shy: [173];
+            case smt: [10922];
             case sum: [8721];
-            case sung: [9834];
+            case sup: [8835];
+            case squ: [9633];
+            case scE: [10932];
+            case Sub: [8912];
+            case Sfr: [120086];
+            case Scy: [1057];
+            case Sum: [8721];
+            case Sup: [8913];
+            case scap: [10936];
             case sup1: [185];
             case sup2: [178];
             case sup3: [179];
-            case supE: [10950];
-            case supdot: [10942];
-            case supdsub: [10968];
-            case supedot: [10948];
+            case smid: [8739];
+            case succ: [8827];
+            case semi: [59];
+            case sime: [8771];
+            case sube: [8838];
+            case sect: [167];
+            case simg: [10910];
+            case solb: [10692];
+            case siml: [10909];
+            case spar: [8741];
+            case shcy: [1096];
+            case sopf: [120164];
+            case smte: [10924];
+            case sdot: [8901];
+            case star: [9734];
+            case sscr: [120008];
+            case sung: [9834];
             case supe: [8839];
-            case suphsol: [10185];
-            case suphsub: [10967];
-            case suplarr: [10619];
-            case supmult: [10946];
-            case supnE: [10956];
-            case supne: [8843];
-            case supplus: [10944];
-            case supseteqq: [10950];
-            case supseteq: [8839];
-            case supsetneq: [8843];
-            case supsetneqq: [10956];
-            case supsub: [10964];
-            case supsup: [10966];
-            case sup: [8835];
-            case supset: [8835];
-            case supsim: [10952];
-            case swArr: [8665];
-            case swarhk: [10534];
-            case swarr: [8601];
-            case swarrow: [8601];
-            case swnwar: [10538];
+            case squf: [9642];
+            case sext: [10038];
+            case scnE: [10934];
+            case subE: [10949];
+            case Sopf: [120138];
+            case Star: [8902];
+            case Sscr: [119982];
+            case supE: [10950];
+            case Sqrt: [8730];
+            case SHcy: [1064];
+            case sigma: [963];
+            case sccue: [8829];
+            case scirc: [349];
+            case scnap: [10938];
+            case sqcap: [8851];
+            case smile: [8995];
+            case simne: [8774];
+            case sdotb: [8865];
+            case searr: [8600];
+            case subne: [8842];
+            case sharp: [9839];
+            case simeq: [8771];
+            case scsim: [8831];
+            case sdote: [10854];
+            case starf: [9733];
+            case slarr: [8592];
+            case setmn: [8726];
             case szlig: [223];
-            case target: [8982];
+            case sbquo: [8218];
+            case srarr: [8594];
+            case supne: [8843];
+            case smtes: [10924,65024];
+            case sqcup: [8852];
+            case sqsub: [8847];
+            case swarr: [8601];
+            case Sigma: [931];
+            case Scirc: [348];
+            case simgE: [10912];
+            case strns: [175];
+            case simlE: [10911];
+            case sqsup: [8848];
+            case seArr: [8664];
+            case subnE: [10955];
+            case supnE: [10956];
+            case swArr: [8665];
+            case scedil: [351];
+            case sigmaf: [962];
+            case searhk: [10533];
+            case spades: [9824];
+            case shchcy: [1097];
+            case solbar: [9023];
+            case succeq: [10928];
+            case sacute: [347];
+            case scaron: [353];
+            case sigmav: [962];
+            case sqcaps: [8851,65024];
+            case smashp: [10803];
+            case ssmile: [8995];
+            case scnsim: [8937];
+            case swarhk: [10534];
+            case simdot: [10858];
+            case subdot: [10941];
+            case square: [9633];
+            case squarf: [9642];
+            case sqsube: [8849];
+            case subsim: [10951];
+            case sstarf: [8902];
+            case Scedil: [350];
+            case subsub: [10965];
+            case seswar: [10537];
+            case subset: [8834];
+            case softcy: [1100];
+            case ssetmn: [8726];
+            case sqcups: [8852,65024];
+            case supdot: [10942];
+            case sfrown: [8994];
+            case sqsupe: [8850];
+            case supsim: [10952];
+            case swnwar: [10538];
+            case supsub: [10964];
+            case subsup: [10963];
+            case supset: [8835];
+            case Sacute: [346];
+            case Scaron: [352];
+            case supsup: [10966];
+            case Square: [9633];
+            case Subset: [8912];
+            case Supset: [8913];
+            case SHCHcy: [1065];
+            case SOFTcy: [1068];
+            case subedot: [10947];
+            case succsim: [8831];
+            case simrarr: [10610];
+            case subrarr: [10617];
+            case searrow: [8600];
+            case supedot: [10948];
+            case supdsub: [10968];
+            case suplarr: [10619];
+            case suphsub: [10967];
+            case submult: [10945];
+            case simplus: [10788];
+            case suphsol: [10185];
+            case subplus: [10943];
+            case swarrow: [8601];
+            case supmult: [10946];
+            case supplus: [10944];
+            case succneqq: [10934];
+            case succnsim: [8937];
+            case smeparsl: [10724];
+            case shortmid: [8739];
+            case subseteq: [8838];
+            case scpolint: [10771];
+            case Succeeds: [8827];
+            case setminus: [8726];
+            case supseteq: [8839];
+            case sqsubset: [8847];
+            case sqsupset: [8848];
+            case Superset: [8835];
+            case SuchThat: [8715];
+            case spadesuit: [9824];
+            case subsetneq: [8842];
+            case subseteqq: [10949];
+            case supsetneq: [8843];
+            case supseteqq: [10950];
+            case succapprox: [10936];
+            case subsetneqq: [10955];
+            case sqsubseteq: [8849];
+            case supsetneqq: [10956];
+            case sqsupseteq: [8850];
+            case straightphi: [981];
+            case succcurlyeq: [8829];
+            case succnapprox: [10938];
+            case SmallCircle: [8728];
+            case SubsetEqual: [8838];
+            case SquareUnion: [8852];
+            case SquareSubset: [8847];
+            case ShortUpArrow: [8593];
+            case shortparallel: [8741];
+            case smallsetminus: [8726];
+            case SucceedsTilde: [8831];
+            case SucceedsEqual: [10928];
+            case SupersetEqual: [8839];
+            case SquareSuperset: [8848];
+            case ShortLeftArrow: [8592];
+            case ShortDownArrow: [8595];
+            case straightepsilon: [1013];
+            case ShortRightArrow: [8594];
+            case SquareSubsetEqual: [8849];
+            case SquareIntersection: [8851];
+            case SucceedsSlantEqual: [8829];
+            case SquareSupersetEqual: [8850];
             case tau: [964];
-            case tbrk: [9140];
-            case tcaron: [357];
-            case tcedil: [355];
-            case tcy: [1090];
-            case tdot: [8411];
-            case telrec: [8981];
             case tfr: [120113];
-            case there4: [8756];
-            case therefore: [8756];
-            case theta: [952];
-            case thetasym: [977];
-            case thetav: [977];
-            case thickapprox: [8776];
-            case thicksim: [8764];
-            case thinsp: [8201];
-            case thkap: [8776];
-            case thksim: [8764];
-            case thorn: [254];
-            case tilde: [732];
-            case times: [215];
-            case timesb: [8864];
-            case timesbar: [10801];
-            case timesd: [10800];
-            case tint: [8749];
-            case toea: [10536];
+            case tcy: [1090];
             case top: [8868];
-            case topbot: [9014];
-            case topcir: [10993];
-            case topfork: [10970];
-            case topf: [120165];
-            case tosa: [10537];
-            case tprime: [8244];
-            case trade: [8482];
-            case trianglelefteq: [8884];
-            case triangleleft: [9667];
-            case triangle: [9653];
-            case triangledown: [9663];
-            case triangleq: [8796];
-            case trianglerighteq: [8885];
-            case triangleright: [9657];
-            case tridot: [9708];
+            case Tab: [9];
+            case Tau: [932];
+            case Tfr: [120087];
+            case Tcy: [1058];
+            case toea: [10536];
+            case tbrk: [9140];
             case trie: [8796];
-            case triminus: [10810];
-            case triplus: [10809];
-            case trisb: [10701];
-            case tritime: [10811];
-            case trpezium: [9186];
+            case tosa: [10537];
+            case topf: [120165];
+            case tdot: [8411];
             case tscr: [120009];
+            case tint: [8749];
             case tscy: [1094];
+            case Topf: [120139];
+            case Tscr: [119983];
+            case TScy: [1062];
+            case trade: [8482];
+            case tilde: [732];
+            case theta: [952];
+            case thkap: [8776];
+            case times: [215];
+            case trisb: [10701];
+            case thorn: [254];
             case tshcy: [1115];
-            case tstrok: [359];
+            case Tilde: [8764];
+            case Theta: [920];
             case twixt: [8812];
+            case TSHcy: [1035];
+            case TRADE: [8482];
+            case THORN: [222];
+            case there4: [8756];
+            case tcedil: [355];
+            case telrec: [8981];
+            case timesb: [8864];
+            case timesd: [10800];
+            case target: [8982];
+            case tcaron: [357];
+            case thetav: [977];
+            case thksim: [8764];
+            case tprime: [8244];
+            case topcir: [10993];
+            case Tcedil: [354];
+            case thinsp: [8201];
+            case tridot: [9708];
+            case topbot: [9014];
+            case Tcaron: [356];
+            case tstrok: [359];
+            case Tstrok: [358];
+            case tritime: [10811];
+            case topfork: [10970];
+            case triplus: [10809];
+            case triangle: [9653];
+            case timesbar: [10801];
+            case thicksim: [8764];
+            case thetasym: [977];
+            case triminus: [10810];
+            case trpezium: [9186];
+            case therefore: [8756];
+            case triangleq: [8796];
+            case Therefore: [8756];
+            case ThinSpace: [8201];
+            case TripleDot: [8411];
+            case ThickSpace: [8287,8202];
+            case TildeTilde: [8776];
+            case TildeEqual: [8771];
+            case thickapprox: [8776];
+            case triangleleft: [9667];
+            case triangledown: [9663];
+            case triangleright: [9657];
+            case trianglelefteq: [8884];
+            case TildeFullEqual: [8773];
+            case trianglerighteq: [8885];
             case twoheadleftarrow: [8606];
             case twoheadrightarrow: [8608];
-            case uArr: [8657];
-            case uHar: [10595];
-            case uacute: [250];
-            case uarr: [8593];
-            case ubrcy: [1118];
-            case ubreve: [365];
-            case ucirc: [251];
-            case ucy: [1091];
-            case udarr: [8645];
-            case udblac: [369];
-            case udhar: [10606];
-            case ufisht: [10622];
             case ufr: [120114];
-            case ugrave: [249];
-            case uharl: [8639];
-            case uharr: [8638];
+            case uml: [168];
+            case ucy: [1091];
+            case Ufr: [120088];
+            case Ucy: [1059];
+            case uopf: [120166];
+            case uarr: [8593];
+            case uscr: [120010];
+            case upsi: [965];
+            case uuml: [252];
+            case utri: [9653];
+            case uHar: [10595];
+            case Uopf: [120140];
+            case uArr: [8657];
+            case Uarr: [8607];
+            case Uscr: [119984];
+            case Upsi: [978];
+            case Uuml: [220];
+            case udhar: [10606];
             case uhblk: [9600];
-            case ulcorner: [8988];
+            case ucirc: [251];
+            case umacr: [363];
+            case uharl: [8639];
+            case udarr: [8645];
+            case uharr: [8638];
+            case uring: [367];
+            case ubrcy: [1118];
+            case uogon: [371];
+            case upsih: [978];
+            case utrif: [9652];
+            case uuarr: [8648];
+            case utdot: [8944];
+            case ultri: [9720];
+            case Ucirc: [219];
+            case urtri: [9721];
+            case Umacr: [362];
+            case uplus: [8846];
+            case Uring: [366];
+            case Ubrcy: [1038];
+            case Uogon: [370];
+            case Union: [8899];
+            case UpTee: [8869];
+            case udblac: [369];
+            case utilde: [361];
+            case uacute: [250];
+            case ubreve: [365];
+            case ugrave: [249];
+            case Udblac: [368];
+            case ufisht: [10622];
             case ulcorn: [8988];
             case ulcrop: [8975];
-            case ultri: [9720];
-            case umacr: [363];
-            case uml: [168];
-            case uogon: [371];
-            case uopf: [120166];
-            case uparrow: [8593];
-            case updownarrow: [8597];
-            case upharpoonleft: [8639];
-            case upharpoonright: [8638];
-            case uplus: [8846];
-            case upsi: [965];
-            case upsih: [978];
-            case upsilon: [965];
-            case upuparrows: [8648];
             case urcorn: [8989];
-            case urcorner: [8989];
             case urcrop: [8974];
-            case uring: [367];
-            case urtri: [9721];
-            case uscr: [120010];
-            case utdot: [8944];
-            case utilde: [361];
-            case utrif: [9652];
-            case utri: [9653];
-            case uuarr: [8648];
-            case uuml: [252];
+            case Uacute: [218];
+            case Utilde: [360];
+            case Ubreve: [364];
+            case Ugrave: [217];
             case uwangle: [10663];
-            case vArr: [8661];
-            case vBarv: [10985];
-            case vBar: [10984];
-            case vDash: [8872];
-            case vangrt: [10652];
-            case varepsilon: [1013];
-            case varkappa: [1008];
-            case varnothing: [8709];
-            case varphi: [981];
-            case varpi: [982];
-            case varpropto: [8733];
-            case varrho: [1009];
-            case varr: [8597];
-            case varsigma: [962];
-            case varsubsetneqq: [10955,65024];
-            case varsubsetneq: [8842,65024];
-            case varsupsetneqq: [10956,65024];
-            case varsupsetneq: [8843,65024];
-            case vartheta: [977];
-            case vartriangleleft: [8882];
-            case vartriangleright: [8883];
-            case vcy: [1074];
-            case vdash: [8866];
+            case upsilon: [965];
+            case uparrow: [8593];
+            case Upsilon: [933];
+            case Uparrow: [8657];
+            case UpArrow: [8593];
+            case ulcorner: [8988];
+            case urcorner: [8989];
+            case Uarrocir: [10569];
+            case UnderBar: [95];
+            case UnionPlus: [8846];
+            case UnderBrace: [9183];
+            case upuparrows: [8648];
+            case UpArrowBar: [10514];
+            case UpTeeArrow: [8613];
+            case updownarrow: [8597];
+            case Updownarrow: [8661];
+            case UpDownArrow: [8597];
+            case UnderBracket: [9141];
+            case upharpoonleft: [8639];
+            case UpEquilibrium: [10606];
+            case upharpoonright: [8638];
+            case UpperLeftArrow: [8598];
+            case UpperRightArrow: [8599];
+            case UnderParenthesis: [9181];
+            case UpArrowDownArrow: [8645];
             case vee: [8744];
-            case veebar: [8891];
-            case veeeq: [8794];
-            case vellip: [8942];
-            case verbar: [124];
-            case vert: [124];
             case vfr: [120115];
-            case vltri: [8882];
-            case vnsub: [8834,8402];
-            case vnsup: [8835,8402];
+            case vcy: [1074];
+            case Vee: [8897];
+            case Vfr: [120089];
+            case Vcy: [1042];
             case vopf: [120167];
+            case varr: [8597];
+            case vscr: [120011];
+            case vert: [124];
+            case Vbar: [10987];
+            case vBar: [10984];
+            case Vopf: [120141];
+            case vArr: [8661];
+            case Vscr: [119985];
+            case Vert: [8214];
+            case veeeq: [8794];
+            case vdash: [8866];
+            case varpi: [982];
+            case vnsub: [8834,8402];
+            case vltri: [8882];
+            case vDash: [8872];
+            case Vdash: [8873];
             case vprop: [8733];
             case vrtri: [8883];
-            case vscr: [120011];
-            case vsubnE: [10955,65024];
+            case vnsup: [8835,8402];
+            case vBarv: [10985];
+            case VDash: [8875];
+            case veebar: [8891];
+            case verbar: [124];
+            case varphi: [981];
+            case vellip: [8942];
+            case varrho: [1009];
+            case vangrt: [10652];
             case vsubne: [8842,65024];
-            case vsupnE: [10956,65024];
             case vsupne: [8843,65024];
+            case Vdashl: [10982];
+            case Verbar: [8214];
+            case Vvdash: [8874];
+            case vsubnE: [10955,65024];
+            case vsupnE: [10956,65024];
             case vzigzag: [10650];
-            case wcirc: [373];
-            case wedbar: [10847];
-            case wedge: [8743];
-            case wedgeq: [8793];
-            case weierp: [8472];
-            case wfr: [120116];
-            case wopf: [120168];
+            case varkappa: [1008];
+            case varsigma: [962];
+            case vartheta: [977];
+            case varpropto: [8733];
+            case varnothing: [8709];
+            case varepsilon: [1013];
+            case VerticalBar: [8739];
+            case varsubsetneq: [8842,65024];
+            case varsupsetneq: [8843,65024];
+            case VerticalLine: [124];
+            case varsubsetneqq: [10955,65024];
+            case varsupsetneqq: [10956,65024];
+            case VerticalTilde: [8768];
+            case VeryThinSpace: [8202];
+            case vartriangleleft: [8882];
+            case vartriangleright: [8883];
+            case VerticalSeparator: [10072];
             case wp: [8472];
-            case wreath: [8768];
             case wr: [8768];
+            case wfr: [120116];
+            case Wfr: [120090];
+            case wopf: [120168];
             case wscr: [120012];
-            case xcap: [8898];
-            case xcirc: [9711];
-            case xcup: [8899];
-            case xdtri: [9661];
-            case xfr: [120117];
-            case xhArr: [10234];
-            case xharr: [10231];
+            case Wopf: [120142];
+            case Wscr: [119986];
+            case wedge: [8743];
+            case wcirc: [373];
+            case Wedge: [8896];
+            case Wcirc: [372];
+            case wedbar: [10847];
+            case wedgeq: [8793];
+            case wreath: [8768];
+            case weierp: [8472];
             case xi: [958];
-            case xlArr: [10232];
-            case xlarr: [10229];
+            case Xi: [926];
+            case xfr: [120117];
+            case Xfr: [120091];
+            case xcap: [8898];
             case xmap: [10236];
-            case xnis: [8955];
-            case xodot: [10752];
-            case xopf: [120169];
-            case xoplus: [10753];
-            case xotime: [10754];
-            case xrArr: [10233];
-            case xrarr: [10230];
-            case xscr: [120013];
-            case xsqcup: [10758];
-            case xuplus: [10756];
-            case xutri: [9651];
             case xvee: [8897];
+            case xopf: [120169];
+            case xcup: [8899];
+            case xscr: [120013];
+            case xnis: [8955];
+            case Xopf: [120143];
+            case Xscr: [119987];
+            case xcirc: [9711];
+            case xharr: [10231];
+            case xlarr: [10229];
+            case xdtri: [9661];
+            case xodot: [10752];
+            case xrarr: [10230];
+            case xutri: [9651];
+            case xhArr: [10234];
+            case xlArr: [10232];
+            case xrArr: [10233];
             case xwedge: [8896];
-            case yacute: [253];
-            case yacy: [1103];
-            case ycirc: [375];
-            case ycy: [1099];
+            case xotime: [10754];
+            case xsqcup: [10758];
+            case xoplus: [10753];
+            case xuplus: [10756];
             case yen: [165];
             case yfr: [120118];
-            case yicy: [1111];
+            case ycy: [1099];
+            case Yfr: [120092];
+            case Ycy: [1067];
+            case yacy: [1103];
             case yopf: [120170];
+            case yicy: [1111];
             case yscr: [120014];
-            case yucy: [1102];
             case yuml: [255];
+            case yucy: [1102];
+            case Yopf: [120144];
+            case Yscr: [119988];
+            case Yuml: [376];
+            case YAcy: [1071];
+            case YIcy: [1031];
+            case YUcy: [1070];
+            case ycirc: [375];
+            case Ycirc: [374];
+            case yacute: [253];
+            case Yacute: [221];
+            case zfr: [120119];
+            case zcy: [1079];
+            case zwj: [8205];
+            case Zfr: [8488];
+            case Zcy: [1047];
+            case zeta: [950];
+            case zhcy: [1078];
+            case zopf: [120171];
+            case zdot: [380];
+            case zscr: [120015];
+            case zwnj: [8204];
+            case Zeta: [918];
+            case Zopf: [8484];
+            case Zdot: [379];
+            case Zscr: [119989];
+            case ZHcy: [1046];
             case zacute: [378];
             case zcaron: [382];
-            case zcy: [1079];
-            case zdot: [380];
             case zeetrf: [8488];
-            case zeta: [950];
-            case zfr: [120119];
-            case zhcy: [1078];
+            case Zacute: [377];
+            case Zcaron: [381];
             case zigrarr: [8669];
-            case zopf: [120171];
-            case zscr: [120015];
-            case zwj: [8205];
-            case zwnj: [8204];
+            case ZeroWidthSpace: [8203];
             case _: [];
         }
     }
