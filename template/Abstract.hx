@@ -31,13 +31,18 @@ enum abstract ::typeName::(String) {
     ::end::
 
     public static function all():Array<::typeName::> return [
+        #if !display
         ::foreach fields::::ident::,
         ::end::
+        #end
     ];
 
     @:to public function asCodePoints():Array<Int> {
-        return switch this {::foreach fields::
-            case ::ident::: ::codepoints::;::end::
+        return switch this {
+            #if !display
+            ::foreach fields::
+            case "::value::": ::codepoints::;::end::
+            #end
             case _: [];
         }
     }

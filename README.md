@@ -45,6 +45,10 @@ This is because `in` is a Haxe keyword.
 
 All other entity names are available in the their original case.
 
+## Rebuilding
+
+Run `haxe build.template.hxml` with `-D dryrun` to test everything compiles without overwriting anything. Then `-D save` to save the output.
+
 [l1]: https://html.spec.whatwg.org/multipage/entities.json
 [l2]: https://github.com/skial/html-entities/blob/master/src/uhx/sys/HtmlEntity.hx
 [l4]: https://github.com/skial/html-entities/blob/master/resources/entities.json
