@@ -31,10 +31,10 @@ typedef TemplateCtx = JsonData & {
 	var value:String;
 }
 
-@:nullSafety(Strict) class Build {
+class Build {
 	
 	private static var keywords = ['in' => 'In'];
-	
+	public static function main() extract();
 	public static function extract() {
 		var cwd = Sys.getCwd();
 		var template = '$cwd/template/Abstract.hx'.normalize();
