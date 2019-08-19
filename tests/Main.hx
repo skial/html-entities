@@ -9,11 +9,11 @@ class Main {
         var codepoints:Array<Int> = Aacute;
         trace( raw );
         trace( codepoints );
-        trace( HtmlEntity.exists('quote') );
-        trace( HtmlEntity.exists('&csup;') );
+        trace( HtmlEntity.has('quote') );
+        trace( HtmlEntity.has('&csup;') );
         var value:String = "csup";
         codepoints = csup;
-        trace( HtmlEntity.exists( '&' + value + ';' ), value, '\u2AD0', unifill.InternalEncoding.fromCodePoints(codepoints) );
+        trace( HtmlEntity.has( '&' + value + ';' ), value, '\u2AD0', unifill.InternalEncoding.fromCodePoints(codepoints) );
     }
 
 }

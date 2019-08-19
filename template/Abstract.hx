@@ -1,10 +1,8 @@
-package uhx.sys;
+package uhx.sys.html.std;
 
 #if (macro || eval)
 import haxe.macro.Expr;
 #end
-
-
 
 /**
     ------
@@ -18,7 +16,7 @@ enum abstract ::typeName::(String) {
 
     @:to public inline function asString():String return this;
 
-    public static macro function exists(name:ExprOf<String>):ExprOf<Bool> {
+    public static macro function has(name:ExprOf<String>):ExprOf<Bool> {
         var all = ::typeName::.all();
         switch name.expr {
             case EConst(CString(v)): return (all.indexOf(cast v) > -1) ? (macro true) : (macro false);

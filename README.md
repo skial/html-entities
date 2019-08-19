@@ -20,12 +20,12 @@ class Main {
         var codepoints:Array<Int> = Aacute;
         trace( raw );   // &Aacute;
         trace( codepoints );    // [193]
-        trace( HtmlEntity.exists('quote') );    // false
-        trace( HtmlEntity.exists('&csup;') );   // true
+        trace( HtmlEntity.has('quote') );    // false
+        trace( HtmlEntity.has('&csup;') );   // true
         var value:String = "csup";
         codepoints = csup;
         trace( 
-            HtmlEntity.exists( '&' + value + ';' ), // true
+            HtmlEntity.has( '&' + value + ';' ), // true
             value, // csup
             '\u2AD0', // ⫐
             unifill.InternalEncoding.fromCodePoints(codepoints) // ⫐
