@@ -55,31 +55,23 @@ class HtmlEntityHelper {
     }
 
     public static inline function has(key:String):Bool {
-        var start = key.indexOf('&');
-        var end = key.lastIndexOf(';');
-        if (start != -1) start++;
-        if (end == -1) end = key.length;
-        var _key = key.substring(start, end);
-        return properties.getProperty(_key) != null;
+        return properties.getProperty(checkKey(key)) != null;
     }
 
     public static inline function get(key:String):String {
-        var start = key.indexOf('&');
-        var end = key.lastIndexOf(';');
-        if (start != -1) start++;
-        if (end == -1) end = key.length;
-        var _key = key.substring(start, end);
-        return properties.getProperty(_key);
+        return properties.getProperty(checkKey(key));
     }
 
     public static inline function getCodePoints(key:String):Array<Int> {
+        return properties.getProperty('${checkKey(key)}_codepoints').split(',').map( s -> Std.parseInt(s) );
+    }
+
+    private static function checkKey(key:String):String {
         var start = key.indexOf('&');
         var end = key.lastIndexOf(';');
         if (start != -1) start++;
         if (end == -1) end = key.length;
-        var _key = key.substring(start, end);
-        trace( key, _key, has(key), properties.getProperty('${_key}_codepoints') );
-        return properties.getProperty('${_key}_codepoints').split(',').map( s -> Std.parseInt(s) );
+        return key.substring(start, end);
     }
 
 }
