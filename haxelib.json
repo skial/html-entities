@@ -9,6 +9,6 @@
   "version": "0.0.1-alpha",
   "url": "https://github.com/skial/html-entities",
   "dependencies": {
-    "seri":""
+    "seri":"git:https://github.com/skial/seri#b969bfe5fd5ef4a3ca1646dae6ff09ca907d0f2f"
   }
 }
