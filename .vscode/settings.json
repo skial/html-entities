@@ -3,5 +3,10 @@
         ["html-entities.hxml"],
         ["build.template.hxml"]
     ],
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#322F05",
+        "titleBar.activeBackground": "#464107",
+        "titleBar.activeForeground": "#FCFBE5"
+    }
 }

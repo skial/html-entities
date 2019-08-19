@@ -3,6 +3,7 @@
 -cp src
 -cp tests
 
+-debug
 -dce full
 -D analyzer-optimize
 
@@ -14,8 +15,34 @@
 
 --next 
 
+-lib hxnodejs
 -js bin/he.js
 
 --next
 
 -hl bin/he.hl
+
+--next
+
+-python bin/he.py
+
+--next
+
+-java bin/java
+
+--next
+
+-D jvm
+-java bin/jvm
+
+--next
+
+-cs bin/cs
+
+--next
+
+-php bin/php
+
+--next
+
+--interp

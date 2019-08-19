@@ -38,6 +38,8 @@ typedef TemplateCtx = JsonData & {
 	public static function extract() {
 		var cwd = Sys.getCwd();
 		var template = '$cwd/template/Abstract.hx'.normalize();
+		var javaProperties = '$cwd/template/JavaTpl.properties'.normalize();
+		var javaTpl = '$cwd/template/JavaAbstract.hx'.normalize();
 		var json = '$cwd/resources/entities.json'.normalize();
 		
 		if (template.exists() && json.exists()) {
@@ -60,15 +62,33 @@ typedef TemplateCtx = JsonData & {
 				};
 			}];
 
+			// Generate the Haxe abstract type.
 			var abs = template.getContent();
 			var tpl = new Template(abs);
 			var out = tpl.execute({fields:fields, typeName:'HtmlEntity'});
+			// Generate the Java properties file.
+			var abs = javaProperties.getContent();
+			var tpl = new Template(abs);
+			var javaProps = tpl.execute({
+				fields:fields
+					.map( f -> {ident:f.ident, value:f.value, characters:f.characters, codepoints:f.codepoints.join(',')}), 
+				typeName:'HtmlEntity'
+			});
+			var abs = javaTpl.getContent();
+			var tpl = new Template(abs);
+			var javaAbs = tpl.execute({fields:fields, typeName:'HtmlEntity'});
 
 			if (DryRun) {
 				trace( out );
+				trace( javaAbs );
+				trace( javaProps );
 			} else if (Save) {
-				var output = '$cwd/src/uhx/sys/HtmlEntity.hx'.normalize();
+				var output = '$cwd/src/uhx/sys/html/std/HtmlEntity.hx'.normalize();
+				var javaout = '$cwd/src/uhx/sys/html/java/HtmlEntity.hx'.normalize();
+				var javaprops = '$cwd/src/uhx/sys/html/java/HtmlEntity.properties'.normalize();
 				output.saveContent( out );
+				javaout.saveContent( javaAbs );
+				javaprops.saveContent( javaProps );
 
 			}
 			
