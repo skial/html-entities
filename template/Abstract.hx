@@ -17,12 +17,12 @@ enum abstract ::typeName::(String) {
     @:to public inline function asString():String return this;
 
     public static macro function has(name:ExprOf<String>):ExprOf<Bool> {
-        var all = ::typeName::.all();
+        var all = uhx.sys.::typeName::.all();
         switch name.expr {
             case EConst(CString(v)): return (all.indexOf(cast v) > -1) ? (macro true) : (macro false);
             case _:
         }
-        return macro ::typeName::.all().indexOf(cast $name) > -1;
+        return macro uhx.sys.::typeName::.all().indexOf(cast $name) > -1;
     }
 
     ::foreach fields::public var ::ident:: = "::value::";

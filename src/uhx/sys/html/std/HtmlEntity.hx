@@ -17,12 +17,12 @@ enum abstract HtmlEntity(String) {
     @:to public inline function asString():String return this;
 
     public static macro function has(name:ExprOf<String>):ExprOf<Bool> {
-        var all = HtmlEntity.all();
+        var all = uhx.sys.HtmlEntity.all();
         switch name.expr {
             case EConst(CString(v)): return (all.indexOf(cast v) > -1) ? (macro true) : (macro false);
             case _:
         }
-        return macro HtmlEntity.all().indexOf(cast $name) > -1;
+        return macro uhx.sys.HtmlEntity.all().indexOf(cast $name) > -1;
     }
 
     public var ac = "&ac;";
