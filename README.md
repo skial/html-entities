@@ -50,7 +50,7 @@ All other entity names are available in the their original case.
 
 #### Platform notes
 
-The Java target loads from an embedded resource all the values.
+The Java target loads all the values from an embedded resource.
 
 ## Rebuilding
 

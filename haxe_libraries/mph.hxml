@@ -1,0 +1,3 @@
+-D mph=0.0.1-alpha
+# @install: lix --silent download "gh://github.com/skial/mph#a95a1e435f19fcf3bbc534699f49bf595ee728aa" into mph/0.0.1-alpha/github/a95a1e435f19fcf3bbc534699f49bf595ee728aa
+-cp ${HAXE_LIBCACHE}/mph/0.0.1-alpha/github/a95a1e435f19fcf3bbc534699f49bf595ee728aa/src
