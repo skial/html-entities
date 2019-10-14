@@ -95,7 +95,6 @@ class Build {
 		}
 
 	}
-
 	private static function alphaSort(a:String, b:String) {
         var aCode = a.charCodeAt(0);
         var bCode = b.charCodeAt(0);

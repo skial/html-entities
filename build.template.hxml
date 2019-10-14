@@ -6,6 +6,6 @@
 -debug
 -dce full
 -D eval-stack
--D analyzer-optimize
+#-D analyzer-optimize
 
 --macro uhx.sys.html.internal.Build2.extract()

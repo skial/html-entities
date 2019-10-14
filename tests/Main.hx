@@ -9,6 +9,7 @@ class Main {
         var codepoints:Array<Int> = Aacute;
         trace( raw );
         trace( codepoints );
+        #if !(java || jvm) trace( HtmlEntity.getEntity(unifill.InternalEncoding.fromCodePoints(codepoints)) ); #end
         trace( HtmlEntity.has('quote') );
         trace( HtmlEntity.has('&csup;') );
         var value:String = "csup";
