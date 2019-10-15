@@ -10,6 +10,6 @@
   "url": "https://github.com/skial/html-entities",
   "dependencies": {
     "seri":"git:https://github.com/skial/seri#b969bfe5fd5ef4a3ca1646dae6ff09ca907d0f2f",
-    "mph":"git:https://github.com/skial/mph#a95a1e435f19fcf3bbc534699f49bf595ee728aa"
+    "mph":"git:https://github.com/skial/mph#823ac0d2a7f39d7999430932ce2df6805c4e5064"
   }
 }
