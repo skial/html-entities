@@ -60,7 +60,7 @@ class Build2 {
 
                 } else {
                     var value = reverse.get(_char);
-                    if (_char.length < value.length) {
+                    if (_key.length < value.length) {
                         reverse.set( _char, _key );
                     }
 
