@@ -15,29 +15,30 @@ using StringTools;
 
 enum abstract ::typeName::(String) {
 
-    @:to public inline function asString():String return this;
+    @:to public inline function toString():String return '&$this;';
 
     public static function has(name:String):Bool {
         return HtmlEntityHelper.has(name);
     }
 
-    ::foreach fields::public var ::ident:: = "::value::";
-    ::end::
-
     public static function all():Array<::typeName::> {
-        var values:java.util.Enumeration<String> = cast HtmlEntityHelper.properties.propertyNames();
-        var results:Array<::typeName::> = [];
-        while (values.hasMoreElements()) {
-            var name:String = values.nextElement();
-            if (!name.endsWith('_codepoints')) results.push(cast name);
-        }
-        return results;
+       return HtmlEntityHelper.all();
+    }
+
+    public static inline function getCodePoints(value:String):Null<Array<Int>> {
+        return HtmlEntityHelper.getCodePoints(value);
+    }
+
+	public static inline function getEntity(value:String):Null<HtmlEntity> {
+        return cast HtmlEntityHelper.getEntity(value);
     }
 
     @:to public function asCodePoints():Array<Int> {
         return HtmlEntityHelper.getCodePoints(this);
     }
 
+    ::foreach fields::public var ::ident:: = "::value::";
+    ::end::
 }
 
 class HtmlEntityHelper {
@@ -54,6 +55,21 @@ class HtmlEntityHelper {
         return properties;
     }
 
+    @:isVar private static var allValues:Array<::typeName::> = null;
+
+    public static function all():Array<::typeName::> {
+        if (allValues == null) {
+            var values:java.util.Enumeration<String> = cast HtmlEntityHelper.properties.propertyNames();
+            while (values.hasMoreElements()) {
+                var name:String = values.nextElement();
+                if (!name.endsWith('_codepoints')) allValues.push(cast name);
+            }
+
+        }
+
+        return allValues;
+    }
+
     public static inline function has(key:String):Bool {
         return properties.getProperty(checkKey(key)) != null;
     }
@@ -64,6 +80,10 @@ class HtmlEntityHelper {
 
     public static inline function getCodePoints(key:String):Array<Int> {
         return properties.getProperty('${checkKey(key)}_codepoints').split(',').map( s -> Std.parseInt(s) );
+    }
+
+    public static inline function getEntity(value:String):Null<String> {
+        return properties.getProperty(value);
     }
 
     private static function checkKey(key:String):String {

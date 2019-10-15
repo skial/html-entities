@@ -147,7 +147,7 @@ class Build2 {
                 }
 
                 // Get an html entity for a valid character.
-                public static function getEntity(character:String):Null<String> {
+                public static function getEntity(character:String):Null<HtmlEntity> {
                     var result = try {
                         knownNames[mph.get(reverse, character, hash.Mph.HashString)];
 
@@ -156,7 +156,7 @@ class Build2 {
 
                     }
 
-                    return result;
+                    return cast result;
                 }
             }
 
@@ -166,8 +166,8 @@ class Build2 {
             var javaProperties = '$cwd/template/JavaTpl.properties'.normalize();
             var javaTpl = '$cwd/template/JavaAbstract.hx'.normalize();
             var fields:Array<TemplateCtx> = [for (name in names) {
-                var value = '&${name};';
-                var info = data.get(value);
+                var value = name;
+                var info = data.get('&$value;');
                 if (keywords.exists(name)) name = keywords.get(name);
 
                 // There appears to be an issue printing `info.characters` in eval mode.
@@ -181,6 +181,20 @@ class Build2 {
 
             if (DryRun) {
                 trace( printer.printTypeDefinition(tmp) );
+                /**
+                    Run Java/JVM templates.
+                **/
+                var abs = javaProperties.getContent();
+                var tpl = new Template(abs);
+                var javaProps = tpl.execute({
+                    fields:fields
+                        .map( f -> {ident:f.ident, value:f.value, characters:f.characters, codepoints:f.codepoints.join(',')}), 
+                    typeName:'HtmlEntity',
+                    entities: [for (key => value in reverse) {key:key, value:value}],
+                });
+                var abs = javaTpl.getContent();
+                var tpl = new Template(abs);
+                var javaAbs = tpl.execute({fields:fields, typeName:'HtmlEntity'});
 
             } else if (Save) {
                 var buffer = new StringBuf();
@@ -207,8 +221,9 @@ class Build2 {
                 buffer.add( '\t\treturn r != null ? r : [];\n' );
                 buffer.add( '\t}\n' );
                 for (name in names) {
-                    if (name == 'in') name = 'In';
-                    buffer.add( '\tpublic var $name = "$name";\n' );
+                    var id = name;
+                    if (keywords.exists(name)) id = keywords.get(name);
+                    buffer.add( '\tpublic var $id = "$name";\n' );
                 }
                 buffer.add( '}\n' );
                 buffer.add( '\n' );
@@ -225,7 +240,8 @@ class Build2 {
                 var javaProps = tpl.execute({
                     fields:fields
                         .map( f -> {ident:f.ident, value:f.value, characters:f.characters, codepoints:f.codepoints.join(',')}), 
-                    typeName:'HtmlEntity'
+                    typeName:'HtmlEntity',
+                    entities: [for (key => value in reverse) {key:key, value:value}],
                 });
                 var abs = javaTpl.getContent();
                 var tpl = new Template(abs);

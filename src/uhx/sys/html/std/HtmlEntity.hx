@@ -537,7 +537,7 @@ enum abstract HtmlEntity(String) {
 	public var hookrightarrow = "hookrightarrow";
 	public var ic = "ic";
 	public var ii = "ii";
-	public var In = "In";
+	public var In = "in";
 	public var it = "it";
 	public var iff = "iff";
 	public var ifr = "ifr";
@@ -2170,12 +2170,12 @@ class HtmlEntityImpl {
 		};
 		return result;
 	}
-	public static function getEntity(character:String):Null<String> {
+	public static function getEntity(character:String):Null<HtmlEntity> {
 		var result = try {
 			knownNames[mph.get(reverse, character, hash.Mph.HashString)];
 		} catch(e:Any) {
 			null;
 		};
-		return result;
+		return cast result;
 	}
 }
