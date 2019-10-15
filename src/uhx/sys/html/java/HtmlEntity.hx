@@ -30,7 +30,7 @@ enum abstract HtmlEntity(String) {
     }
 
 	public static inline function getEntity(value:String):Null<HtmlEntity> {
-        return cast HtmlEntityHelper.getEntity(value);
+        return HtmlEntityHelper.getEntity(value);
     }
 
     @:to public function asCodePoints():Array<Int> {
@@ -2206,8 +2206,8 @@ class HtmlEntityHelper {
         return properties.getProperty('${checkKey(key)}_codepoints').split(',').map( s -> Std.parseInt(s) );
     }
 
-    public static inline function getEntity(value:String):Null<String> {
-        return properties.getProperty(value);
+    public static inline function getEntity(value:String):Null<HtmlEntity> {
+        return cast properties.getProperty(value);
     }
 
     private static function checkKey(key:String):String {

@@ -12,7 +12,7 @@ enum abstract HtmlEntity(String) {
 	public static inline function all():Array<String> return @:privateAccess HtmlEntityImpl.knownNames;
 	public static inline function has(value:String):Bool return HtmlEntityImpl.has(value);
 	public static inline function getCodePoints(value:String):Null<Array<Int>> return HtmlEntityImpl.getCodePoints(value);
-	public static inline function getEntity(value:String):Null<String> return HtmlEntityImpl.getEntity(value);
+	public static inline function getEntity(value:String):Null<HtmlEntity> return HtmlEntityImpl.getEntity(value);
 	@:to public inline function asCodePoints():Array<Int> {
 		var r = HtmlEntityImpl.getCodePoints(this);
 		return r != null ? r : [];

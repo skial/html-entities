@@ -215,7 +215,7 @@ class Build2 {
                 buffer.add( '\tpublic static inline function all():Array<String> return @:privateAccess HtmlEntityImpl.knownNames;\n' );
                 buffer.add( '\tpublic static inline function has(value:String):Bool return HtmlEntityImpl.has(value);\n' );
                 buffer.add( '\tpublic static inline function getCodePoints(value:String):Null<Array<Int>> return HtmlEntityImpl.getCodePoints(value);\n' );
-                buffer.add( '\tpublic static inline function getEntity(value:String):Null<String> return HtmlEntityImpl.getEntity(value);\n' );
+                buffer.add( '\tpublic static inline function getEntity(value:String):Null<HtmlEntity> return HtmlEntityImpl.getEntity(value);\n' );
                 buffer.add( '\t@:to public inline function asCodePoints():Array<Int> {\n' );
                 buffer.add( '\t\tvar r = HtmlEntityImpl.getCodePoints(this);\n' );
                 buffer.add( '\t\treturn r != null ? r : [];\n' );
